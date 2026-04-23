@@ -12,10 +12,10 @@ function App() {
   const [tab, setTab] = useState<Tab>('quiz')
 
   const tabs: { id: Tab; label: string }[] = [
-    { id: 'quiz', label: 'Quiz' },
-    { id: 'calc', label: 'Calc Training' },
-    { id: 'subjectb', label: 'Subject B' },
-    { id: 'progress', label: 'Progress' },
+    { id: 'quiz', label: '問題集' },
+    { id: 'calc', label: '計算トレーニング' },
+    { id: 'subjectb', label: '科目Bトレーニング' },
+    { id: 'progress', label: '進捗' },
   ]
 
   return (
@@ -23,7 +23,7 @@ function App() {
       <header className="sticky top-0 z-50 bg-[#1a1a3e]/95 backdrop-blur border-b border-[#3498db]/20">
         <div className="max-w-4xl mx-auto px-4 py-3">
           <h1 className="text-xl font-bold text-center text-[#3498db]">
-            Boki 2 Study - Level 2 Bookkeeping
+            Boki 2 Study - 日商簿記2級
           </h1>
           <nav className="flex mt-2 gap-1">
             {tabs.map((t) => (

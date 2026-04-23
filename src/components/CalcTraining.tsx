@@ -11,6 +11,15 @@ type CalcQ = {
   steps?: string
 }
 
+const categoryNames: Record<string, string> = {
+  'Depreciation Methods': '減価償却法',
+  'Cost of Goods Manufactured': '製造原価計算',
+  'Process Costing': '工程別原価計算',
+  'Corporate Accounting': '株式会社会計',
+  'Partnership': '組合会計',
+  'Financial Ratios': '財務比率分析',
+}
+
 const allCalcQ: CalcQ[] = [...deprQ, ...cogmQ, ...extraQ]
 
 function shuffleOptions(q: CalcQ): CalcQ {
@@ -44,6 +53,8 @@ export default function CalcTraining() {
   const [showResult, setShowResult] = useState(false)
   const [results, setResults] = useState<boolean[]>([])
   const [stats, setStats] = useState(loadStats)
+
+  const catLabel = (cat: string) => categoryNames[cat] || cat
 
   const catList = useMemo(() => {
     return ['all', ...Array.from(new Set(allCalcQ.map((q) => q.category)))]
@@ -101,14 +112,14 @@ export default function CalcTraining() {
     return (
       <div className="space-y-6">
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <h2 className="text-lg font-bold text-white mb-1">Calculation Training</h2>
+          <h2 className="text-lg font-bold text-white mb-1">計算トレーニング</h2>
           <p className="text-sm text-[#a0a0c0]">
-            Practice step-by-step calculations with cheatsheets
+            チートシート付きのステップバイステップ計算練習
           </p>
         </div>
 
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <label className="text-sm text-[#a0a0c0] mb-2 block">Category</label>
+          <label className="text-sm text-[#a0a0c0] mb-2 block">カテゴリ</label>
           <div className="flex flex-wrap gap-2">
             {catList.map((cat) => (
               <button
@@ -120,11 +131,11 @@ export default function CalcTraining() {
                     : 'bg-[#0f0f23] text-[#a0a0c0] hover:bg-[#3498db]/10'
                 }`}
               >
-                {cat === 'all' ? 'All' : cat}
+                {cat === 'all' ? '全カテゴリ' : catLabel(cat)}
               </button>
             ))}
           </div>
-          <div className="text-sm text-[#a0a0c0] mt-2">{filtered.length} questions</div>
+          <div className="text-sm text-[#a0a0c0] mt-2">{filtered.length} 問</div>
         </div>
 
         <div className="grid grid-cols-3 gap-3">
@@ -133,26 +144,26 @@ export default function CalcTraining() {
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors"
           >
             <div className="text-lg">5</div>
-            <div className="text-xs opacity-80">Quick</div>
+            <div className="text-xs opacity-80">クイック</div>
           </button>
           <button
             onClick={() => startDrill(10)}
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors"
           >
             <div className="text-lg">10</div>
-            <div className="text-xs opacity-80">Medium</div>
+            <div className="text-xs opacity-80">中期</div>
           </button>
           <button
             onClick={() => startDrill(filtered.length)}
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors"
           >
-            <div className="text-lg">All</div>
+            <div className="text-lg">全問</div>
             <div className="text-xs opacity-80">{filtered.length}</div>
           </button>
         </div>
 
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <h3 className="text-sm font-medium text-white mb-3">Category Stats</h3>
+          <h3 className="text-sm font-medium text-white mb-3">カテゴリ別統計</h3>
           <div className="space-y-2">
             {catList.filter((c) => c !== 'all').map((cat) => {
               const s = stats[cat]
@@ -160,7 +171,7 @@ export default function CalcTraining() {
               const pct = Math.round((s.correct / s.answered) * 100)
               return (
                 <div key={cat} className="flex items-center justify-between text-sm">
-                  <span className="text-[#a0a0c0] truncate flex-1">{cat}</span>
+                  <span className="text-[#a0a0c0] truncate flex-1">{catLabel(cat)}</span>
                   <span className="text-[#3498db] ml-2">
                     {s.correct}/{s.answered} ({pct}%)
                   </span>
@@ -168,7 +179,7 @@ export default function CalcTraining() {
               )
             })}
             {!Object.keys(stats).length && (
-              <p className="text-sm text-[#a0a0c0]">No stats yet</p>
+              <p className="text-sm text-[#a0a0c0]">データなし</p>
             )}
           </div>
         </div>
@@ -183,10 +194,10 @@ export default function CalcTraining() {
       <div className="space-y-4">
         <div className="flex items-center justify-between">
           <button onClick={() => setMode('menu')} className="text-[#a0a0c0] hover:text-white text-sm">
-            &larr; Back
+            &larr; 戻る
           </button>
           <div className="text-sm text-[#a0a0c0]">{currentIndex + 1} / {questions.length}</div>
-          <div className="text-xs text-[#a0a0c0] bg-[#1a1a3e] px-2 py-1 rounded">{q.category}</div>
+          <div className="text-xs text-[#a0a0c0] bg-[#1a1a3e] px-2 py-1 rounded">{catLabel(q.category)}</div>
         </div>
 
         <div className="w-full bg-[#1a1a3e] rounded-full h-1.5">
@@ -228,7 +239,7 @@ export default function CalcTraining() {
                 ? 'bg-[#27ae60]/10 border border-[#27ae60]/20'
                 : 'bg-[#e74c3c]/10 border border-[#e74c3c]/20'
             }`}>
-              <div className="font-medium text-sm mb-2">{q.options[selectedAnswer!]?.correct ? 'Correct!' : 'Incorrect'}</div>
+              <div className="font-medium text-sm mb-2">{q.options[selectedAnswer!]?.correct ? '正解!' : '不正解'}</div>
               <p className="text-sm text-[#a0a0c0]">{q.explanation}</p>
               {q.steps && (
                 <p className="text-sm text-[#3498db] mt-2 whitespace-pre-line">{q.steps}</p>
@@ -236,11 +247,11 @@ export default function CalcTraining() {
             </div>
             {currentIndex < questions.length - 1 ? (
               <button onClick={next} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">
-                Next
+                次へ
               </button>
             ) : (
               <button onClick={() => setMode('review')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">
-                Results
+                結果を見る
               </button>
             )}
           </div>
@@ -258,10 +269,10 @@ export default function CalcTraining() {
           <div className={`text-5xl font-bold ${correct / total >= 0.7 ? 'text-[#27ae60]' : 'text-[#e74c3c]'}`}>
             {Math.round((correct / total) * 100)}%
           </div>
-          <div className="text-[#a0a0c0] mt-2">{correct} / {total} correct</div>
+          <div className="text-[#a0a0c0] mt-2">{correct} / {total} 正解</div>
         </div>
         <button onClick={() => setMode('menu')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">
-          Back to Menu
+          メニューに戻る
         </button>
       </div>
     )

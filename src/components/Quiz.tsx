@@ -6,6 +6,19 @@ interface QuizProps {
   categories: readonly string[]
 }
 
+const categoryNames: Record<string, string> = {
+  'Advanced Journal Entries': '上級仕訳',
+  'Corporation Accounting': '株式会社会計',
+  'Depreciation & Fixed Assets': '減価償却・固定資産',
+  'Error Correction': '誤謬訂正',
+  'Financial Statements': '財務諸表',
+  'Cost Accounting - Labor': '原価計算 - 労務費',
+  'Cost Accounting - Materials': '原価計算 - 材料費',
+  'Cost Accounting - Overhead': '原価計算 - 製造間接費',
+  'Partnership': '組合会計',
+  'Product Costing': '製品原価計算',
+}
+
 type Mode = 'menu' | 'drill' | 'exam' | 'review'
 
 interface Stats {
@@ -66,6 +79,8 @@ export default function Quiz({ questions, categories }: QuizProps) {
   const [examResults, setExamResults] = useState<boolean[]>([])
   const [stats, setStats] = useState<Stats>(loadStats)
   const [wrongMode, setWrongMode] = useState(false)
+
+  const catLabel = (cat: string) => categoryNames[cat] || cat
 
   const filteredQuestions = useMemo(() => {
     if (wrongMode) {
@@ -190,20 +205,20 @@ export default function Quiz({ questions, categories }: QuizProps) {
         <div className="grid grid-cols-3 gap-3">
           <div className="bg-[#1a1a3e] rounded-xl p-4 text-center">
             <div className="text-2xl font-bold text-[#3498db]">{questions.length}</div>
-            <div className="text-xs text-[#a0a0c0] mt-1">Total Qs</div>
+            <div className="text-xs text-[#a0a0c0] mt-1">合計問題数</div>
           </div>
           <div className="bg-[#1a1a3e] rounded-xl p-4 text-center">
             <div className="text-2xl font-bold text-[#3498db]">{accuracy}%</div>
-            <div className="text-xs text-[#a0a0c0] mt-1">Accuracy</div>
+            <div className="text-xs text-[#a0a0c0] mt-1">正答率</div>
           </div>
           <div className="bg-[#1a1a3e] rounded-xl p-4 text-center">
             <div className="text-2xl font-bold text-[#e74c3c]">{wrongCount}</div>
-            <div className="text-xs text-[#a0a0c0] mt-1">Wrong Qs</div>
+            <div className="text-xs text-[#a0a0c0] mt-1">不正解数</div>
           </div>
         </div>
 
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <label className="text-sm text-[#a0a0c0] mb-2 block">Category</label>
+          <label className="text-sm text-[#a0a0c0] mb-2 block">カテゴリ</label>
           <div className="flex flex-wrap gap-2">
             {categories.map((cat) => (
               <button
@@ -215,12 +230,12 @@ export default function Quiz({ questions, categories }: QuizProps) {
                     : 'bg-[#0f0f23] text-[#a0a0c0] hover:bg-[#3498db]/10'
                 }`}
               >
-                {cat === 'all' ? 'All' : cat}
+                {cat === 'all' ? '全カテゴリ' : catLabel(cat)}
               </button>
             ))}
           </div>
           <div className="text-sm text-[#a0a0c0] mt-2">
-            {filteredQuestions.length} questions available
+            {filteredQuestions.length} 問あります
           </div>
         </div>
 
@@ -230,31 +245,31 @@ export default function Quiz({ questions, categories }: QuizProps) {
             disabled={filteredQuestions.length === 0}
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors disabled:opacity-50"
           >
-            <div className="text-lg">Drill 10</div>
-            <div className="text-xs opacity-80">Quick practice</div>
+            <div className="text-lg">ドリル 10問</div>
+            <div className="text-xs opacity-80">クイック練習</div>
           </button>
           <button
             onClick={() => startDrill(20)}
             disabled={filteredQuestions.length === 0}
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors disabled:opacity-50"
           >
-            <div className="text-lg">Drill 20</div>
-            <div className="text-xs opacity-80">Medium session</div>
+            <div className="text-lg">ドリル 20問</div>
+            <div className="text-xs opacity-80">中期セッション</div>
           </button>
           <button
             onClick={() => startDrill(filteredQuestions.length)}
             disabled={filteredQuestions.length === 0}
             className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors disabled:opacity-50"
           >
-            <div className="text-lg">Drill All</div>
-            <div className="text-xs opacity-80">{filteredQuestions.length} questions</div>
+            <div className="text-lg">全問ドリル</div>
+            <div className="text-xs opacity-80">{filteredQuestions.length} 問</div>
           </button>
           <button
             onClick={startExam}
             className="bg-[#8e44ad] hover:bg-[#9b59b6] text-white py-4 rounded-xl font-medium transition-colors"
           >
-            <div className="text-lg">Mock Exam</div>
-            <div className="text-xs opacity-80">60 questions</div>
+            <div className="text-lg">模擬試験</div>
+            <div className="text-xs opacity-80">60問</div>
           </button>
         </div>
 
@@ -263,13 +278,13 @@ export default function Quiz({ questions, categories }: QuizProps) {
             onClick={startWrongReview}
             className="w-full bg-[#e74c3c]/20 hover:bg-[#e74c3c]/30 text-[#e74c3c] py-3 rounded-xl font-medium transition-colors border border-[#e74c3c]/30"
           >
-            Review {wrongCount} Wrong Answers
+            {wrongCount} 問を復習
           </button>
         )}
 
         <button
           onClick={() => {
-            if (confirm('Clear all quiz progress? This cannot be undone.')) {
+            if (confirm('問題集の進捗データを全て消去しますか？元に戻せません。')) {
               localStorage.removeItem('boki2-quiz-stats')
               localStorage.removeItem('boki2-quiz-wrong')
               setStats({ totalAnswered: 0, totalCorrect: 0, categoryStats: {} })
@@ -277,7 +292,7 @@ export default function Quiz({ questions, categories }: QuizProps) {
           }}
           className="w-full text-[#a0a0c0] py-2 text-xs hover:text-[#e74c3c] transition-colors"
         >
-          Reset Progress
+          進捗リセット
         </button>
       </div>
     )
@@ -294,13 +309,13 @@ export default function Quiz({ questions, categories }: QuizProps) {
             onClick={goMenu}
             className="text-[#a0a0c0] hover:text-white text-sm"
           >
-            &larr; Back
+            &larr; 戻る
           </button>
           <div className="text-sm text-[#a0a0c0]">
             {currentIndex + 1} / {currentQuestions.length}
           </div>
           <div className="text-xs text-[#a0a0c0] bg-[#1a1a3e] px-2 py-1 rounded">
-            {q.category}
+            {catLabel(q.category)}
           </div>
         </div>
 
@@ -361,7 +376,7 @@ export default function Quiz({ questions, categories }: QuizProps) {
               }`}
             >
               <div className="font-medium text-sm mb-2">
-                {q.options[selectedAnswer!]?.correct ? 'Correct!' : 'Incorrect'}
+                {q.options[selectedAnswer!]?.correct ? '正解!' : '不正解'}
               </div>
               <p className="text-sm text-[#a0a0c0]">{q.explanation}</p>
             </div>
@@ -371,14 +386,14 @@ export default function Quiz({ questions, categories }: QuizProps) {
                 onClick={nextQuestion}
                 className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium"
               >
-                Next Question
+                次の問題
               </button>
             ) : (
               <button
                 onClick={finishDrill}
                 className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium"
               >
-                View Results
+                結果を見る
               </button>
             )}
           </div>
@@ -406,18 +421,14 @@ export default function Quiz({ questions, categories }: QuizProps) {
             {pct}%
           </div>
           <div className="text-[#a0a0c0] mt-2">
-            {correct} / {total} correct
-          </div>
-          {/* exam pass indicator */}
-          <div className={`text-sm mt-2 ${pct >= 70 ? 'text-[#27ae60]' : 'text-[#e74c3c]'}`} style={{ display: 'none' }}>
-            {pct >= 70 ? 'PASS' : 'NEED MORE STUDY'}
+            {correct} / {total} 正解
           </div>
         </div>
 
         {wrongIndices.length > 0 && (
           <div className="space-y-3">
             <h3 className="text-sm font-medium text-[#e74c3c]">
-              Questions to Review ({wrongIndices.length})
+              復習問題 ({wrongIndices.length})
             </h3>
             {wrongIndices.slice(0, 20).map((idx) => {
               const q = currentQuestions[idx]
@@ -426,7 +437,7 @@ export default function Quiz({ questions, categories }: QuizProps) {
                 <div key={idx} className="bg-[#1a1a3e] rounded-xl p-4">
                   <p className="text-sm text-white mb-2">{q.question}</p>
                   <p className="text-xs text-[#27ae60]">
-                    Answer: {correctOpt?.text}
+                    正解: {correctOpt?.text}
                   </p>
                   <p className="text-xs text-[#a0a0c0] mt-1">{q.explanation}</p>
                 </div>
@@ -440,13 +451,13 @@ export default function Quiz({ questions, categories }: QuizProps) {
             onClick={goMenu}
             className="bg-[#1a1a3e] hover:bg-[#3498db]/10 text-white py-3 rounded-xl font-medium transition-colors"
           >
-            Back to Menu
+            メニューに戻る
           </button>
           <button
             onClick={goMenu}
             className="bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium transition-colors"
           >
-            Study More
+            続けて勉強
           </button>
         </div>
       </div>

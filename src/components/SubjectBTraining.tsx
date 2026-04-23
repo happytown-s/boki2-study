@@ -9,6 +9,14 @@ type SBQuestion = {
   steps?: string
 }
 
+const categoryNames: Record<string, string> = {
+  'Complete Accounting Cycle': '完全な会計循環',
+  'Manufacturing Cost Flow': '製造原価の流れ',
+  'Statement Preparation': '財務諸表の作成',
+  'Error Analysis': '誤謬分析',
+  'Complex Journal Entries': '複合仕訳',
+}
+
 function shuffle(q: SBQuestion): SBQuestion {
   const s = [...q.options]
   for (let i = s.length - 1; i > 0; i--) {
@@ -40,6 +48,8 @@ export default function SubjectBTraining() {
   const [showRes, setShowRes] = useState(false)
   const [results, setResults] = useState<boolean[]>([])
   const [stats, setStats] = useState(loadStats)
+
+  const catLabel = (cat: string) => categoryNames[cat] || cat
 
   const catList = useMemo(
     () => ['all', ...Array.from(new Set(subjectBQ.map((q) => q.category)))],
@@ -94,12 +104,12 @@ export default function SubjectBTraining() {
     return (
       <div className="space-y-6">
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <h2 className="text-lg font-bold text-white mb-1">Subject B Training</h2>
-          <p className="text-sm text-[#a0a0c0]">Practical problems with step-by-step solutions</p>
+          <h2 className="text-lg font-bold text-white mb-1">科目Bトレーニング</h2>
+          <p className="text-sm text-[#a0a0c0]">ステップバイステップ解法付き実践問題</p>
         </div>
 
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <label className="text-sm text-[#a0a0c0] mb-2 block">Category</label>
+          <label className="text-sm text-[#a0a0c0] mb-2 block">カテゴリ</label>
           <div className="flex flex-wrap gap-2">
             {catList.map((cat) => (
               <button
@@ -109,34 +119,34 @@ export default function SubjectBTraining() {
                   selectedCat === cat ? 'bg-[#3498db] text-white' : 'bg-[#0f0f23] text-[#a0a0c0] hover:bg-[#3498db]/10'
                 }`}
               >
-                {cat === 'all' ? 'All' : cat}
+                {cat === 'all' ? '全カテゴリ' : catLabel(cat)}
               </button>
             ))}
           </div>
-          <div className="text-sm text-[#a0a0c0] mt-2">{filtered.length} questions</div>
+          <div className="text-sm text-[#a0a0c0] mt-2">{filtered.length} 問</div>
         </div>
 
         <div className="grid grid-cols-3 gap-3">
           <button onClick={() => start(5)} className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors">
-            <div className="text-lg">5</div><div className="text-xs opacity-80">Quick</div>
+            <div className="text-lg">5</div><div className="text-xs opacity-80">クイック</div>
           </button>
           <button onClick={() => start(10)} className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors">
-            <div className="text-lg">10</div><div className="text-xs opacity-80">Medium</div>
+            <div className="text-lg">10</div><div className="text-xs opacity-80">中期</div>
           </button>
           <button onClick={() => start(filtered.length)} className="bg-[#2980b9] hover:bg-[#3498db] text-white py-4 rounded-xl font-medium transition-colors">
-            <div className="text-lg">All</div><div className="text-xs opacity-80">{filtered.length}</div>
+            <div className="text-lg">全問</div><div className="text-xs opacity-80">{filtered.length}</div>
           </button>
         </div>
 
         <div className="bg-[#1a1a3e] rounded-xl p-4">
-          <h3 className="text-sm font-medium text-white mb-3">Category Stats</h3>
+          <h3 className="text-sm font-medium text-white mb-3">カテゴリ別統計</h3>
           <div className="space-y-2">
             {catList.filter((c) => c !== 'all').map((cat) => {
               const s = stats[cat]
               if (!s) return null
               return (
                 <div key={cat} className="flex items-center justify-between text-sm">
-                  <span className="text-[#a0a0c0] truncate flex-1">{cat}</span>
+                  <span className="text-[#a0a0c0] truncate flex-1">{catLabel(cat)}</span>
                   <span className="text-[#3498db] ml-2">{s.correct}/{s.answered} ({Math.round((s.correct / s.answered) * 100)}%)</span>
                 </div>
               )
@@ -153,9 +163,9 @@ export default function SubjectBTraining() {
     return (
       <div className="space-y-4">
         <div className="flex items-center justify-between">
-          <button onClick={() => setMode('menu')} className="text-[#a0a0c0] hover:text-white text-sm">&larr; Back</button>
+          <button onClick={() => setMode('menu')} className="text-[#a0a0c0] hover:text-white text-sm">&larr; 戻る</button>
           <div className="text-sm text-[#a0a0c0]">{idx + 1} / {questions.length}</div>
-          <div className="text-xs text-[#a0a0c0] bg-[#1a1a3e] px-2 py-1 rounded">{q.category}</div>
+          <div className="text-xs text-[#a0a0c0] bg-[#1a1a3e] px-2 py-1 rounded">{catLabel(q.category)}</div>
         </div>
         <div className="w-full bg-[#1a1a3e] rounded-full h-1.5">
           <div className="bg-[#3498db] h-1.5 rounded-full transition-all" style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
@@ -182,14 +192,14 @@ export default function SubjectBTraining() {
         {showRes && (
           <div className="space-y-3">
             <div className={`rounded-xl p-4 ${q.options[answer!]?.correct ? 'bg-[#27ae60]/10 border border-[#27ae60]/20' : 'bg-[#e74c3c]/10 border border-[#e74c3c]/20'}`}>
-              <div className="font-medium text-sm mb-2">{q.options[answer!]?.correct ? 'Correct!' : 'Incorrect'}</div>
+              <div className="font-medium text-sm mb-2">{q.options[answer!]?.correct ? '正解!' : '不正解'}</div>
               <p className="text-sm text-[#a0a0c0]">{q.explanation}</p>
               {q.steps && <p className="text-sm text-[#3498db] mt-2 whitespace-pre-line">{q.steps}</p>}
             </div>
             {idx < questions.length - 1 ? (
-              <button onClick={next} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">Next</button>
+              <button onClick={next} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">次へ</button>
             ) : (
-              <button onClick={() => setMode('review')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">Results</button>
+              <button onClick={() => setMode('review')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">結果を見る</button>
             )}
           </div>
         )}
@@ -205,9 +215,9 @@ export default function SubjectBTraining() {
           <div className={`text-5xl font-bold ${correct / results.length >= 0.7 ? 'text-[#27ae60]' : 'text-[#e74c3c]'}`}>
             {Math.round((correct / results.length) * 100)}%
           </div>
-          <div className="text-[#a0a0c0] mt-2">{correct} / {results.length} correct</div>
+          <div className="text-[#a0a0c0] mt-2">{correct} / {results.length} 正解</div>
         </div>
-        <button onClick={() => setMode('menu')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">Back to Menu</button>
+        <button onClick={() => setMode('menu')} className="w-full bg-[#3498db] hover:bg-[#2980b9] text-white py-3 rounded-xl font-medium">メニューに戻る</button>
       </div>
     )
   }
