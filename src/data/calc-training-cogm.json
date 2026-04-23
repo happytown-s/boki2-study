@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Direct materials used: 500,000. Direct labor: 300,000. Factory overhead: 200,000. Beginning WIP: 80,000. Ending WIP: 60,000. COGM is:",
+    "options": [
+      {"text": "1,020,000 yen", "correct": true},
+      {"text": "1,000,000 yen", "correct": false},
+      {"text": "1,080,000 yen", "correct": false},
+      {"text": "940,000 yen", "correct": false}
+    ],
+    "explanation": "COGM = Beginning WIP (80,000) + DM (500,000) + DL (300,000) + FOH (200,000) - Ending WIP (60,000) = 1,020,000 yen.",
+    "steps": "Step 1: Total Manufacturing Costs = 500,000 + 300,000 + 200,000 = 1,000,000. Step 2: COGM = 80,000 + 1,000,000 - 60,000 = 1,020,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning raw materials: 100,000. Purchases: 400,000. Ending raw materials: 80,000. Direct materials used is:",
+    "options": [
+      {"text": "420,000 yen", "correct": true},
+      {"text": "400,000 yen", "correct": false},
+      {"text": "380,000 yen", "correct": false},
+      {"text": "500,000 yen", "correct": false}
+    ],
+    "explanation": "DM used = Beginning RM (100,000) + Purchases (400,000) - Ending RM (80,000) = 420,000 yen.",
+    "steps": "Step 1: Materials available = 100,000 + 400,000 = 500,000. Step 2: DM used = 500,000 - 80,000 = 420,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning finished goods: 200,000. COGM: 800,000. Ending finished goods: 150,000. COGS is:",
+    "options": [
+      {"text": "850,000 yen", "correct": true},
+      {"text": "800,000 yen", "correct": false},
+      {"text": "750,000 yen", "correct": false},
+      {"text": "1,150,000 yen", "correct": false}
+    ],
+    "explanation": "COGS = Beginning FG (200,000) + COGM (800,000) - Ending FG (150,000) = 850,000 yen.",
+    "steps": "Step 1: Goods available = 200,000 + 800,000 = 1,000,000. Step 2: COGS = 1,000,000 - 150,000 = 850,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Factory overhead applied: 350,000. Actual overhead: 360,000. The overhead is:",
+    "options": [
+      {"text": "Underapplied by 10,000 yen", "correct": true},
+      {"text": "Overapplied by 10,000 yen", "correct": false},
+      {"text": "Underapplied by 20,000 yen", "correct": false},
+      {"text": "Exactly applied", "correct": false}
+    ],
+    "explanation": "Actual (360,000) > Applied (350,000) = Underapplied by 10,000 yen. This means actual costs exceeded what was allocated to products.",
+    "steps": "Step 1: Compare: Actual OH (360,000) vs Applied OH (350,000). Step 2: Difference = 360,000 - 350,000 = 10,000. Step 3: Since actual > applied = underapplied."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Total manufacturing costs of 600,000, beginning WIP of 100,000, and COGM of 650,000. Ending WIP is:",
+    "options": [
+      {"text": "50,000 yen", "correct": true},
+      {"text": "150,000 yen", "correct": false},
+      {"text": "0 yen", "correct": false},
+      {"text": "100,000 yen", "correct": false}
+    ],
+    "explanation": "COGM = Beg WIP + Total Mfg Costs - End WIP. 650,000 = 100,000 + 600,000 - End WIP. End WIP = 700,000 - 650,000 = 50,000 yen.",
+    "steps": "Step 1: COGM = Beg WIP + Total Mfg - End WIP. Step 2: 650,000 = 100,000 + 600,000 - End WIP. Step 3: End WIP = 50,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "A company's direct materials purchases: 350,000. Direct materials used: 380,000. Beginning raw materials must have been:",
+    "options": [
+      {"text": "Cannot be determined without knowing ending raw materials", "correct": true},
+      {"text": "380,000 yen", "correct": false},
+      {"text": "30,000 yen", "correct": false},
+      {"text": "350,000 yen", "correct": false}
+    ],
+    "explanation": "DM used = Beg RM + Purchases - End RM. 380,000 = Beg + 350,000 - End. Without ending RM, beginning RM cannot be determined.",
+    "steps": "Step 1: Formula: DM used = Beg RM + Purchases - End RM. Step 2: 380,000 = ? + 350,000 - ?. Step 3: Need ending RM to solve for beginning RM."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Prime costs = 700,000. Direct materials = 400,000. Direct labor is:",
+    "options": [
+      {"text": "300,000 yen", "correct": true},
+      {"text": "400,000 yen", "correct": false},
+      {"text": "700,000 yen", "correct": false},
+      {"text": "200,000 yen", "correct": false}
+    ],
+    "explanation": "Prime costs = Direct Materials + Direct Labor. DL = 700,000 - 400,000 = 300,000 yen.",
+    "steps": "Step 1: Prime costs = DM + DL. Step 2: 700,000 = 400,000 + DL. Step 3: DL = 300,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Conversion costs = 500,000. Factory overhead = 200,000. Direct labor is:",
+    "options": [
+      {"text": "300,000 yen", "correct": true},
+      {"text": "200,000 yen", "correct": false},
+      {"text": "500,000 yen", "correct": false},
+      {"text": "700,000 yen", "correct": false}
+    ],
+    "explanation": "Conversion costs = Direct Labor + Factory Overhead. DL = 500,000 - 200,000 = 300,000 yen.",
+    "steps": "Step 1: Conversion costs = DL + FOH. Step 2: 500,000 = DL + 200,000. Step 3: DL = 300,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Total manufacturing costs = 900,000. COGM = 950,000. Ending WIP = 0. Beginning WIP is:",
+    "options": [
+      {"text": "50,000 yen", "correct": true},
+      {"text": "0 yen", "correct": false},
+      {"text": "100,000 yen", "correct": false},
+      {"text": "950,000 yen", "correct": false}
+    ],
+    "explanation": "COGM = Beg WIP + Total Mfg - End WIP. 950,000 = Beg WIP + 900,000 - 0. Beg WIP = 50,000 yen.",
+    "steps": "Step 1: 950,000 = Beg WIP + 900,000 - 0. Step 2: Beg WIP = 50,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning RM: 50,000, Purchases: 300,000, Purchase returns: 10,000, Freight in: 5,000, Ending RM: 40,000. DM used is:",
+    "options": [
+      {"text": "305,000 yen", "correct": true},
+      {"text": "295,000 yen", "correct": false},
+      {"text": "310,000 yen", "correct": false},
+      {"text": "305,000 yen", "correct": false}
+    ],
+    "explanation": "Net purchases = 300,000 - 10,000 + 5,000 = 295,000. DM used = 50,000 + 295,000 - 40,000 = 305,000 yen.",
+    "steps": "Step 1: Net purchases = 300,000 - 10,000 (returns) + 5,000 (freight) = 295,000. Step 2: Available = 50,000 + 295,000 = 345,000. Step 3: DM used = 345,000 - 40,000 = 305,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "A company has sales of 1,500,000, gross profit rate of 40%, and beginning FG of 100,000. If COGS is 900,000, ending FG is:",
+    "options": [
+      {"text": "Cannot be determined without COGM", "correct": true},
+      {"text": "100,000 yen", "correct": false},
+      {"text": "200,000 yen", "correct": false},
+      {"text": "0 yen", "correct": false}
+    ],
+    "explanation": "COGS = Beg FG + COGM - End FG. 900,000 = 100,000 + COGM - End FG. With two unknowns (COGM and End FG), we cannot determine ending FG from this information alone.",
+    "steps": "Step 1: COGS = 900,000 (given, also verified: 1,500,000 x 60% = 900,000). Step 2: Formula needs COGM to find End FG. Step 3: Insufficient information."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Direct materials used: 300,000. Direct labor: 200,000. Overhead applied: 150,000. Overhead is 75% of direct labor. Actual overhead: 155,000. The underapplied overhead is:",
+    "options": [
+      {"text": "5,000 yen", "correct": true},
+      {"text": "50,000 yen", "correct": false},
+      {"text": "3,000 yen", "correct": false},
+      {"text": "0 yen", "correct": false}
+    ],
+    "explanation": "Applied OH = 200,000 x 75% = 150,000. Actual OH = 155,000. Underapplied = 155,000 - 150,000 = 5,000 yen.",
+    "steps": "Step 1: Applied OH = 200,000 x 75% = 150,000. Step 2: Actual OH = 155,000. Step 3: Underapplied = 5,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Cost of goods available for sale is:",
+    "options": [
+      {"text": "Beginning finished goods + Cost of goods manufactured", "correct": true},
+      {"text": "Purchases + Beginning inventory", "correct": false},
+      {"text": "Sales - Gross profit", "correct": false},
+      {"text": "Ending finished goods + COGS", "correct": false}
+    ],
+    "explanation": "Cost of goods available = Beginning FG + COGM (for manufacturer) or Beginning Inventory + Net Purchases (for merchandiser). This is the total cost available to be either sold or kept in ending inventory.",
+    "steps": "Formula: Cost of Goods Available = Beginning FG + COGM = Ending FG + COGS. Both sides must equal."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "If COGM is 500,000, Beginning FG is 80,000, and COGS is 520,000, Ending FG is:",
+    "options": [
+      {"text": "60,000 yen", "correct": true},
+      {"text": "100,000 yen", "correct": false},
+      {"text": "40,000 yen", "correct": false},
+      {"text": "80,000 yen", "correct": false}
+    ],
+    "explanation": "COGS = Beg FG + COGM - End FG. 520,000 = 80,000 + 500,000 - End FG. End FG = 580,000 - 520,000 = 60,000 yen.",
+    "steps": "Step 1: 520,000 = 80,000 + 500,000 - End FG. Step 2: 520,000 = 580,000 - End FG. Step 3: End FG = 60,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Total manufacturing costs = DM used + DL + FOH. If DM used = 350,000, DL = 250,000, and FOH = 200,000, what is the relationship between prime costs and conversion costs?",
+    "options": [
+      {"text": "Prime costs (600,000) + Conversion costs (450,000) - DL (250,000) = Total mfg costs (800,000)", "correct": true},
+      {"text": "Prime costs equal conversion costs", "correct": false},
+      {"text": "Prime costs + Conversion costs = Total mfg costs", "correct": false},
+      {"text": "No relationship exists", "correct": false}
+    ],
+    "explanation": "Prime costs = 350,000 + 250,000 = 600,000. Conversion = 250,000 + 200,000 = 450,000. Total = Prime + Conversion - DL = 600,000 + 450,000 - 250,000 = 800,000. DL is counted in both prime and conversion.",
+    "steps": "Step 1: Prime = 350,000 + 250,000 = 600,000. Step 2: Conversion = 250,000 + 200,000 = 450,000. Step 3: Total = Prime + Conversion - DL (since DL is in both) = 800,000."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning WIP: 150,000. DM used: 400,000. DL: 250,000. FOH applied: 180,000. Ending WIP: 80,000. COGM is:",
+    "options": [
+      {"text": "900,000 yen", "correct": true},
+      {"text": "830,000 yen", "correct": false},
+      {"text": "980,000 yen", "correct": false},
+      {"text": "750,000 yen", "correct": false}
+    ],
+    "explanation": "COGM = 150,000 + 400,000 + 250,000 + 180,000 - 80,000 = 900,000 yen.",
+    "steps": "Step 1: Total mfg costs = 400,000 + 250,000 + 180,000 = 830,000. Step 2: COGM = 150,000 + 830,000 - 80,000 = 900,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Overapplied overhead of 8,000 yen. If immaterial, the closing entry is:",
+    "options": [
+      {"text": "(Debit) Factory Overhead 8,000 / (Credit) COGS 8,000", "correct": true},
+      {"text": "(Debit) COGS 8,000 / (Credit) Factory Overhead 8,000", "correct": false},
+      {"text": "(Debit) Retained Earnings 8,000 / (Credit) Factory Overhead 8,000", "correct": false},
+      {"text": "No entry needed for immaterial amounts", "correct": false}
+    ],
+    "explanation": "Overapplied means too much cost was charged. Closing to COGS reduces it: (Dr) Factory Overhead 8,000 / (Cr) COGS 8,000. This corrects the overstatement of product costs.",
+    "steps": "Step 1: Overapplied = Factory Overhead has a credit balance. Step 2: Close by debiting Factory Overhead. Step 3: Credit COGS to reduce expense."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "A manufacturer reports: Sales 2,000,000, COGS 1,200,000, Operating expenses 500,000. Gross profit percentage is:",
+    "options": [
+      {"text": "40%", "correct": true},
+      {"text": "60%", "correct": false},
+      {"text": "25%", "correct": false},
+      {"text": "75%", "correct": false}
+    ],
+    "explanation": "Gross profit = 2,000,000 - 1,200,000 = 800,000. Gross profit % = 800,000 / 2,000,000 = 40%.",
+    "steps": "Step 1: Gross profit = Sales - COGS = 800,000. Step 2: Gross profit % = 800,000 / 2,000,000 = 40%."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning inventory of raw materials is 0. Purchases: 500,000. 80% of materials purchased were used in production. Direct materials used is:",
+    "options": [
+      {"text": "400,000 yen", "correct": true},
+      {"text": "500,000 yen", "correct": false},
+      {"text": "100,000 yen", "correct": false},
+      {"text": "300,000 yen", "correct": false}
+    ],
+    "explanation": "DM used = 500,000 x 80% = 400,000 yen. Ending RM = 500,000 - 400,000 = 100,000 yen.",
+    "steps": "Step 1: Purchases = 500,000 (beginning is 0). Step 2: DM used = 500,000 x 80% = 400,000. Step 3: Ending RM = 100,000."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Beginning WIP: 0. Materials requisitioned: DM 200,000, Indirect 30,000. DL: 150,000. FOH applied (150% of DL): 225,000. Ending WIP: 50,000. COGM is:",
+    "options": [
+      {"text": "525,000 yen", "correct": true},
+      {"text": "575,000 yen", "correct": false},
+      {"text": "555,000 yen", "correct": false},
+      {"text": "605,000 yen", "correct": false}
+    ],
+    "explanation": "Total mfg costs = 200,000 (DM) + 150,000 (DL) + 225,000 (FOH applied) = 575,000. COGM = 0 + 575,000 - 50,000 = 525,000 yen.",
+    "steps": "Step 1: FOH applied = 150,000 x 150% = 225,000. Step 2: Total mfg = 200,000 + 150,000 + 225,000 = 575,000. Step 3: COGM = 575,000 - 50,000 = 525,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "If direct materials used is 30% of total manufacturing costs, and DL is 25%, what percentage is factory overhead?",
+    "options": [
+      {"text": "45%", "correct": true},
+      {"text": "55%", "correct": false},
+      {"text": "30%", "correct": false},
+      {"text": "70%", "correct": false}
+    ],
+    "explanation": "Total mfg costs = 100%. DM (30%) + DL (25%) + FOH = 100%. FOH = 100% - 30% - 25% = 45%.",
+    "steps": "Step 1: Total mfg costs = DM + DL + FOH = 100%. Step 2: FOH = 100% - 30% - 25% = 45%."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "COGS is 600,000. COGM is 650,000. Ending FG exceeds beginning FG by:",
+    "options": [
+      {"text": "50,000 yen", "correct": true},
+      {"text": "100,000 yen", "correct": false},
+      {"text": "0 yen", "correct": false},
+      {"text": "25,000 yen", "correct": false}
+    ],
+    "explanation": "COGS = Beg FG + COGM - End FG. 600,000 = Beg + 650,000 - End. End - Beg = 650,000 - 600,000 = 50,000. Ending exceeds beginning by 50,000.",
+    "steps": "Step 1: COGS = Beg FG + COGM - End FG. Step 2: 600,000 = Beg + 650,000 - End. Step 3: End - Beg = 50,000 yen."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Under absorption costing, which of the following is included in product cost?",
+    "options": [
+      {"text": "Fixed factory overhead", "correct": true},
+      {"text": "Selling expenses", "correct": false},
+      {"text": "Administrative expenses", "correct": false},
+      {"text": "Interest expense", "correct": false}
+    ],
+    "explanation": "Absorption costing includes ALL manufacturing costs (DM + DL + Variable FOH + Fixed FOH) as product costs. Selling, admin, and interest are period costs expensed immediately.",
+    "steps": "Key concept: Absorption costing = DM + DL + ALL FOH (both variable and fixed). This is required by GAAP."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "Total manufacturing costs are 800,000 and COGM is 750,000. Beginning WIP must have been:",
+    "options": [
+      {"text": "Cannot be determined without knowing ending WIP", "correct": true},
+      {"text": "50,000 yen (less than ending WIP)", "correct": false},
+      {"text": "50,000 yen (more than ending WIP)", "correct": false},
+      {"text": "0 yen", "correct": false}
+    ],
+    "explanation": "COGM = Beg WIP + 800,000 - End WIP = 750,000. This gives one equation with two unknowns. Need ending WIP to solve.",
+    "steps": "Step 1: 750,000 = Beg WIP + 800,000 - End WIP. Step 2: End WIP - Beg WIP = 50,000. Step 3: We know the difference but not individual amounts."
+  },
+  {
+    "category": "Cost of Goods Manufactured",
+    "question": "A company uses normal costing. Estimated annual OH: 400,000, estimated DLH: 20,000. Actual DLH: 21,000, actual OH: 415,000. Applied overhead is:",
+    "options": [
+      {"text": "420,000 yen", "correct": true},
+      {"text": "400,000 yen", "correct": false},
+      {"text": "415,000 yen", "correct": false},
+      {"text": "405,000 yen", "correct": false}
+    ],
+    "explanation": "POHR = 400,000 / 20,000 = 20 yen/DLH. Applied = 21,000 x 20 = 420,000 yen. Overapplied = 420,000 - 415,000 = 5,000.",
+    "steps": "Step 1: POHR = 400,000 / 20,000 = 20 yen/DLH. Step 2: Applied OH = 21,000 x 20 = 420,000 yen. Step 3: Overapplied = 5,000 yen."
+  }
+]

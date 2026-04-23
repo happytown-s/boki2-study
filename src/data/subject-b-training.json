@@ -1,0 +1,326 @@
+[
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "The proper order of the accounting cycle is:",
+    "options": [
+      {"text": "Journalize transactions, Post to ledger, Trial balance, Adjustments, Adjusted trial balance, Financial statements, Closing entries, Post-closing trial balance", "correct": true},
+      {"text": "Financial statements, Journalize, Post, Trial balance, Close", "correct": false},
+      {"text": "Trial balance, Journalize, Post, Adjustments, Close, Statements", "correct": false},
+      {"text": "Post, Journalize, Adjust, Close, Statements, Trial balance", "correct": false}
+    ],
+    "explanation": "The accounting cycle follows a specific order: identify and journalize transactions, post to the ledger, prepare trial balance, make adjusting entries, prepare adjusted TB, prepare financial statements, close temporary accounts, prepare post-closing TB.",
+    "steps": "The 8 steps: 1) Analyze/Journalize, 2) Post, 3) Trial Balance, 4) Adjust, 5) Adjusted TB, 6) Statements, 7) Close, 8) Post-closing TB."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "Closing entries transfer balances from temporary accounts to:",
+    "options": [
+      {"text": "Retained Earnings (or Income Summary then Retained Earnings)", "correct": true},
+      {"text": "Capital Stock", "correct": false},
+      {"text": "Cash", "correct": false},
+      {"text": "Balance Sheet accounts", "correct": false}
+    ],
+    "explanation": "Temporary accounts (revenues, expenses, dividends/drawings) are closed to Income Summary, then Income Summary is closed to Retained Earnings. This resets temporary accounts to zero for the next period.",
+    "steps": "Step 1: Close revenues to Income Summary (credit). Step 2: Close expenses to Income Summary (debit). Step 3: Close Income Summary to Retained Earnings. Step 4: Close dividends to Retained Earnings."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "The post-closing trial balance contains only:",
+    "options": [
+      {"text": "Permanent (balance sheet) accounts with their updated balances", "correct": true},
+      {"text": "Temporary accounts at zero", "correct": false},
+      {"text": "All accounts with their adjusted balances", "correct": false},
+      {"text": "Only revenue and expense accounts", "correct": false}
+    ],
+    "explanation": "After closing, all temporary accounts (revenue, expense, dividends, income summary) have zero balances. The post-closing TB only shows permanent accounts: assets, liabilities, and equity accounts.",
+    "steps": "The post-closing TB verifies: (1) all temporary accounts are closed (zero), (2) total debits = total credits for permanent accounts, (3) ready for the next period."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "Adjusting entries are made at the end of the accounting period to:",
+    "options": [
+      {"text": "Update accounts for internal transactions and events not yet recorded", "correct": true},
+      {"text": "Close the temporary accounts", "correct": false},
+      {"text": "Correct errors found during the period", "correct": false},
+      {"text": "Prepare the initial trial balance", "correct": false}
+    ],
+    "explanation": "Adjusting entries ensure revenues are recognized when earned (revenue recognition) and expenses when incurred (matching principle). They handle accruals, deferrals, estimates, and depreciation.",
+    "steps": "Types: 1) Prepaid expenses (deferred), 2) Unearned revenues (deferred), 3) Accrued expenses, 4) Accrued revenues, 5) Estimates (depreciation, bad debts)."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "The adjusted trial balance is used to prepare:",
+    "options": [
+      {"text": "The financial statements", "correct": true},
+      {"text": "The journal entries", "correct": false},
+      {"text": "The closing entries", "correct": false},
+      {"text": "The next period's trial balance", "correct": false}
+    ],
+    "explanation": "The adjusted trial balance contains all accounts with their updated (after-adjustment) balances. These balances are used directly to prepare the income statement, statement of retained earnings, and balance sheet.",
+    "steps": "The adjusted TB is the starting point for: Income Statement (revenue and expense accounts), Retained Earnings Statement, and Balance Sheet (asset, liability, equity accounts)."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "A company has: Service Revenue 200,000, Salaries Expense 80,000, Rent Expense 30,000, Supplies Expense 10,000, Depreciation Expense 20,000. Net income is:",
+    "options": [
+      {"text": "60,000 yen", "correct": true},
+      {"text": "140,000 yen", "correct": false},
+      {"text": "80,000 yen", "correct": false},
+      {"text": "120,000 yen", "correct": false}
+    ],
+    "explanation": "Net income = Total Revenue - Total Expenses = 200,000 - (80,000 + 30,000 + 10,000 + 20,000) = 200,000 - 140,000 = 60,000 yen.",
+    "steps": "Step 1: Total revenue = 200,000. Step 2: Total expenses = 80,000 + 30,000 + 10,000 + 20,000 = 140,000. Step 3: Net income = 60,000 yen."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "In the closing process, the entry to close revenue accounts (total 300,000) is:",
+    "options": [
+      {"text": "(Debit) Service Revenue 300,000 / (Credit) Income Summary 300,000", "correct": true},
+      {"text": "(Debit) Income Summary 300,000 / (Credit) Service Revenue 300,000", "correct": false},
+      {"text": "(Debit) Retained Earnings 300,000 / (Credit) Service Revenue 300,000", "correct": false},
+      {"text": "(Debit) Service Revenue 300,000 / (Credit) Retained Earnings 300,000", "correct": false}
+    ],
+    "explanation": "Revenue accounts have credit balances. To close them, debit each revenue account (bringing it to zero) and credit Income Summary (accumulating the total revenue).",
+    "steps": "Step 1: Identify all revenue accounts and their credit balances. Step 2: Debit each revenue account. Step 3: Credit Income Summary for the total."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "A trial balance has total debits of 500,000 and total credits of 498,000. This indicates:",
+    "options": [
+      {"text": "An error exists, but the trial balance does not identify what the error is", "correct": true},
+      {"text": "Net income is 2,000 yen", "correct": false},
+      {"text": "Cash is understated by 2,000 yen", "correct": false},
+      {"text": "No error exists - small differences are normal", "correct": false}
+    ],
+    "explanation": "A trial balance that doesn't balance (debits not equal credits) confirms an error exists. However, it doesn't tell you WHAT the error is or WHERE it is. Common causes: math errors, omissions, double postings, wrong accounts.",
+    "steps": "If TB doesn't balance: 1) Check addition, 2) Check that all accounts are listed, 3) Verify ledger balances, 4) Trace from journal to ledger."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "Which account normally has a debit balance?",
+    "options": [
+      {"text": "Prepaid Insurance", "correct": true},
+      {"text": "Unearned Revenue", "correct": false},
+      {"text": "Accumulated Depreciation", "correct": false},
+      {"text": "Service Revenue", "correct": false}
+    ],
+    "explanation": "Assets (including prepaid expenses) normally have debit balances. Liabilities (unearned revenue), contra-assets (accumulated depreciation), and revenues normally have credit balances.",
+    "steps": "Normal balances: Assets (Dr), Expenses (Dr), Liabilities (Cr), Equity (Cr), Revenue (Cr), Contra-assets (Cr), Contra-revenue (Dr), Contra-equity (Dr)."
+  },
+  {
+    "category": "Complete Accounting Cycle",
+    "question": "An unadjusted trial balance is prepared:",
+    "options": [
+      {"text": "After posting regular journal entries but before adjusting entries", "correct": true},
+      {"text": "After adjusting entries but before closing entries", "correct": false},
+      {"text": "After closing entries", "correct": false},
+      {"text": "Before any journal entries are posted", "correct": false}
+    ],
+    "explanation": "The unadjusted (pre-closing) trial balance lists all accounts with their balances before adjustments. It is used to identify accounts needing adjustment and as a starting point for the adjusting entry process.",
+    "steps": "Sequence: Journal entries -> Post -> Unadjusted TB -> Adjusting entries -> Adjusted TB -> Statements -> Closing -> Post-closing TB."
+  },
+  {
+    "category": "Manufacturing Cost Flow",
+    "question": "The flow of manufacturing costs is:",
+    "options": [
+      {"text": "Raw Materials -> WIP -> Finished Goods -> Cost of Goods Sold", "correct": true},
+      {"text": "Raw Materials -> Finished Goods -> WIP -> COGS", "correct": false},
+      {"text": "Purchases -> COGS -> WIP -> Finished Goods", "correct": false},
+      {"text": "WIP -> Raw Materials -> Finished Goods -> COGS", "correct": false}
+    ],
+    "explanation": "Costs flow through three inventory accounts: (1) Raw materials are purchased and stored, (2) When used in production, costs move to WIP, (3) When completed, to Finished Goods, (4) When sold, to COGS.",
+    "steps": "Raw Materials (Dr when purchased, Cr when requisitioned) -> WIP (Dr for DM/DL/applied OH, Cr when completed) -> Finished Goods (Dr from WIP, Cr when sold) -> COGS."
+  },
+  {
+    "category": "Manufacturing Cost Flow",
+    "question": "The journal entry to record direct labor costs in a manufacturing company is:",
+    "options": [
+      {"text": "(Debit) WIP / (Credit) Wages Payable", "correct": true},
+      {"text": "(Debit) Factory Overhead / (Credit) Wages Payable", "correct": false},
+      {"text": "(Debit) COGS / (Credit) Wages Payable", "correct": false},
+      {"text": "(Debit) Salaries Expense / (Credit) Cash", "correct": false}
+    ],
+    "explanation": "Direct labor (work directly on products) is debited to WIP. Indirect labor (supervisors, maintenance) is debited to Factory Overhead.",
+    "steps": "Step 1: Direct labor -> WIP. Step 2: Indirect labor -> Factory Overhead. Step 3: Employer burden (social insurance) -> Factory Overhead."
+  },
+  {
+    "category": "Manufacturing Cost Flow",
+    "question": "When overhead is applied to production using a predetermined rate, the entry is:",
+    "options": [
+      {"text": "(Debit) WIP / (Credit) Factory Overhead", "correct": true},
+      {"text": "(Debit) Factory Overhead / (Credit) WIP", "correct": false},
+      {"text": "(Debit) COGS / (Credit) Factory Overhead", "correct": false},
+      {"text": "(Debit) WIP / (Credit) Overhead Applied", "correct": false}
+    ],
+    "explanation": "Overhead applied is a credit to Factory Overhead (reducing its balance). As actual overhead is debited to Factory Overhead throughout the period, the applied amount credits it. Any remaining balance is over/underapplied.",
+    "steps": "Actual OH: (Dr) Factory Overhead / (Cr) various accounts. Applied OH: (Dr) WIP / (Cr) Factory Overhead. At year-end: if Dr balance = underapplied, if Cr balance = overapplied."
+  },
+  {
+    "category": "Manufacturing Cost Flow",
+    "question": "A job-order cost sheet for Job 42 shows: DM 25,000, DL 15,000, OH (120% of DL) 18,000. Total job cost is:",
+    "options": [
+      {"text": "58,000 yen", "correct": true},
+      {"text": "40,000 yen", "correct": false},
+      {"text": "55,000 yen", "correct": false},
+      {"text": "33,000 yen", "correct": false}
+    ],
+    "explanation": "Total = DM (25,000) + DL (15,000) + OH (15,000 x 120% = 18,000) = 58,000 yen.",
+    "steps": "Step 1: DM = 25,000. Step 2: DL = 15,000. Step 3: OH = 15,000 x 1.20 = 18,000. Step 4: Total = 58,000 yen."
+  },
+  {
+    "category": "Manufacturing Cost Flow",
+    "question": "If actual overhead is 185,000 and applied overhead is 180,000, the entry to close the underapplied amount (immaterial) is:",
+    "options": [
+      {"text": "(Debit) COGS 5,000 / (Credit) Factory Overhead 5,000", "correct": true},
+      {"text": "(Debit) Factory Overhead 5,000 / (Credit) COGS 5,000", "correct": false},
+      {"text": "(Debit) WIP 5,000 / (Credit) Factory Overhead 5,000", "correct": false},
+      {"text": "No entry needed", "correct": false}
+    ],
+    "explanation": "Underapplied overhead = actual > applied. Factory Overhead has a 5,000 debit balance. To close: debit COGS (increase expense) and credit Factory Overhead (zero out the balance).",
+    "steps": "Step 1: Underapplied = 185,000 - 180,000 = 5,000. Step 2: Factory Overhead has Dr balance of 5,000. Step 3: Close by (Dr) COGS 5,000 / (Cr) Factory Overhead 5,000."
+  },
+  {
+    "category": "Statement Preparation",
+    "question": "On a multi-step income statement, the sequence from top to bottom is:",
+    "options": [
+      {"text": "Net Sales, COGS, Gross Profit, Operating Expenses, Operating Income, Non-operating Items, Net Income", "correct": true},
+      {"text": "Net Sales, Operating Expenses, Gross Profit, COGS, Net Income", "correct": false},
+      {"text": "Gross Profit, Net Sales, Operating Income, COGS, Net Income", "correct": false},
+      {"text": "Net Sales, Gross Profit, COGS, Net Income, Operating Expenses", "correct": false}
+    ],
+    "explanation": "The multi-step income statement separates operating from non-operating activities. Net Sales - COGS = Gross Profit. Gross Profit - Operating Expenses = Operating Income. Operating Income +/- Non-operating = Income Before Tax. Minus Tax = Net Income.",
+    "steps": "Net Sales -> COGS -> Gross Profit -> Operating Expenses -> Operating Income -> Other Items -> Income Before Tax -> Tax -> Net Income -> EPS."
+  },
+  {
+    "category": "Statement Preparation",
+    "question": "A classified balance sheet classifies assets as:",
+    "options": [
+      {"text": "Current assets and non-current (long-term) assets", "correct": true},
+      {"text": "Operating and non-operating assets", "correct": false},
+      {"text": "Tangible and intangible assets only", "correct": false},
+      {"text": "Fixed and variable assets", "correct": false}
+    ],
+    "explanation": "A classified balance sheet groups assets into current (expected to convert to cash within one year) and non-current (long-term investments, PP&E, intangibles). Liabilities are similarly classified.",
+    "steps": "Assets: Current (cash, AR, inventory, prepaid) + Non-current (investments, PP&E, intangibles, other). Liabilities: Current + Non-current. Equity sections."
+  },
+  {
+    "category": "Statement Preparation",
+    "question": "Which item appears on a manufacturer's income statement but NOT on a merchandiser's?",
+    "options": [
+      {"text": "Cost of Goods Manufactured", "correct": true},
+      {"text": "Sales Revenue", "correct": false},
+      {"text": "Gross Profit", "correct": false},
+      {"text": "Operating Income", "correct": false}
+    ],
+    "explanation": "Manufacturers show a schedule of COGM (detailing DM, DL, FOH) before arriving at COGS. Merchandisers show only purchases and inventory adjustments. Both show sales, gross profit, and operating income.",
+    "steps": "Manufacturer: COGM schedule -> COGS. Merchandiser: Beginning inventory + purchases - ending = COGS."
+  },
+  {
+    "category": "Statement Preparation",
+    "question": "A balance sheet must balance because:",
+    "options": [
+      {"text": "Assets = Liabilities + Stockholders' Equity is the fundamental accounting equation", "correct": true},
+      {"text": "Revenue must equal expenses", "correct": false},
+      {"text": "Debits must equal credits in the journal", "correct": false},
+      {"text": "Cash must equal net income", "correct": false}
+    ],
+    "explanation": "Every transaction maintains the balance of A = L + E. The balance sheet is a statement of this equation at a point in time. If it doesn't balance, there is an error in the financial statements.",
+    "steps": "Double-entry accounting ensures every transaction keeps A = L + E in balance. The balance sheet is a snapshot of this equation."
+  },
+  {
+    "category": "Error Analysis",
+    "question": "A company understated ending inventory by 30,000 in Year 1. Year 2 books are already closed. What correction is needed in Year 3?",
+    "options": [
+      {"text": "No correction needed - the error has self-corrected (counterbalanced)", "correct": true},
+      {"text": "A prior period adjustment of 30,000 to retained earnings", "correct": false},
+      {"text": "Increase Year 3 inventory by 30,000", "correct": false},
+      {"text": "Record additional depreciation of 30,000", "correct": false}
+    ],
+    "explanation": "This is a counterbalancing error. Year 1: COGS overstated by 30,000 (income understated). Year 2: COGS understated by 30,000 (income overstated). By end of Year 2, the effects cancel. No correction needed in Year 3.",
+    "steps": "Counterbalancing errors self-correct in 2 periods. Year 1 error (understated EI) creates opposite error in Year 2 (understated BI). Net effect on retained earnings at end of Year 2 = zero."
+  },
+  {
+    "category": "Error Analysis",
+    "question": "A company failed to depreciate a 500,000 asset (10-year SL, no salvage) for 3 years. In Year 4, the correction requires:",
+    "options": [
+      {"text": "A prior period adjustment of 150,000 (net of tax) to beginning retained earnings", "correct": true},
+      {"text": "Recording 150,000 depreciation expense in Year 4 only", "correct": false},
+      {"text": "No correction needed", "correct": false},
+      {"text": "Reducing the asset's cost by 150,000", "correct": false}
+    ],
+    "explanation": "This is a non-counterbalancing error. Annual depreciation = 50,000. Cumulative effect = 150,000. Correct by: (Dr) Retained Earnings 150,000 / (Cr) Accumulated Depreciation 150,000. Then resume normal depreciation.",
+    "steps": "Step 1: Annual depreciation missed = 500,000/10 = 50,000. Step 2: 3 years x 50,000 = 150,000 cumulative. Step 3: Prior period adjustment: reduce RE, increase accumulated depreciation."
+  },
+  {
+    "category": "Error Analysis",
+    "question": "A purchase of supplies for 5,000 was recorded as equipment. The immediate effect is:",
+    "options": [
+      {"text": "No effect on total assets or net income at year-end (if no depreciation on equipment yet)", "correct": true},
+      {"text": "Assets overstated and net income overstated", "correct": false},
+      {"text": "Assets understated and expenses overstated", "correct": false},
+      {"text": "Expenses understated and net income understated", "correct": false}
+    ],
+    "explanation": "This is an error of classification within assets. Total assets are correct (supplies 5,000 vs equipment 5,000). If supplies were consumed and the adjustment wasn't made, then expense is understated and net income overstated.",
+    "steps": "At purchase: Supplies Dr 5,000 vs Equipment Dr 5,000. Both are assets. Total unchanged. Issue arises at year-end if supplies are consumed but still classified as equipment."
+  },
+  {
+    "category": "Complex Journal Entries",
+    "question": "A company issues 1,000 shares of 500 yen par stock at 600 yen per share, and also pays 10,000 yen in issuance costs. Net cash received and the entry are:",
+    "options": [
+      {"text": "Net cash: 590,000. (Dr) Cash 590,000 / (Dr) APIC 10,000 / (Cr) Common Stock 500,000 / (Cr) APIC 100,000", "correct": true},
+      {"text": "Net cash: 600,000. (Dr) Cash 600,000 / (Cr) Common Stock 500,000 / (Cr) APIC 100,000", "correct": false},
+      {"text": "Net cash: 590,000. (Dr) Cash 590,000 / (Cr) Common Stock 590,000", "correct": false},
+      {"text": "Net cash: 590,000. (Dr) Cash 590,000 / (Cr) Common Stock 500,000 / (Cr) APIC 90,000", "correct": false}
+    ],
+    "explanation": "Cash received from investors = 600,000. Less issuance costs (10,000) = 590,000 net cash. Issuance costs reduce APIC. Entry: Common Stock at par (500,000), APIC for the remaining 90,000.",
+    "steps": "Step 1: Gross proceeds = 1,000 x 600 = 600,000. Step 2: Issuance costs = 10,000 (reduce APIC). Step 3: Net cash = 590,000. Common Stock = 500,000. APIC = 90,000."
+  },
+  {
+    "category": "Complex Journal Entries",
+    "question": "A company received a 6-month, 8% note for 400,000 on November 1 and discounted it at the bank on December 1 at 10%. The discount period is 5 months. Proceeds from discounting are:",
+    "options": [
+      {"text": "398,000 yen (approximately)", "correct": true},
+      {"text": "400,000 yen", "correct": false},
+      {"text": "416,000 yen", "correct": false},
+      {"text": "390,000 yen", "correct": false}
+    ],
+    "explanation": "Maturity value = 400,000 + (400,000 x 8% x 6/12) = 416,000. Bank discount = 416,000 x 10% x 5/12 = 17,333. Proceeds = 416,000 - 17,333 = 398,667.",
+    "steps": "Step 1: Maturity value = 400,000 + 16,000 = 416,000. Step 2: Discount period = Dec 1 to May 1 = 5 months. Step 3: Bank discount = 416,000 x 10% x 5/12 = 17,333. Step 4: Proceeds = 398,667."
+  },
+  {
+    "category": "Complex Journal Entries",
+    "question": "A company uses the periodic system. Beginning inventory: 80,000. Purchases: 500,000. Purchase returns: 20,000. Freight in: 10,000. Ending inventory: 100,000. COGS is:",
+    "options": [
+      {"text": "470,000 yen", "correct": true},
+      {"text": "490,000 yen", "correct": false},
+      {"text": "510,000 yen", "correct": false},
+      {"text": "450,000 yen", "correct": false}
+    ],
+    "explanation": "Net purchases = 500,000 - 20,000 + 10,000 = 490,000. COGS = 80,000 + 490,000 - 100,000 = 470,000 yen.",
+    "steps": "Step 1: Net purchases = 500,000 - 20,000 + 10,000 = 490,000. Step 2: COGS = 80,000 + 490,000 - 100,000 = 470,000 yen."
+  },
+  {
+    "category": "Complex Journal Entries",
+    "question": "Under perpetual inventory, the sale of merchandise costing 30,000 for 50,000 on credit requires how many journal entries?",
+    "options": [
+      {"text": "Two entries: one for revenue and one for COGS", "correct": true},
+      {"text": "One entry for both revenue and COGS", "correct": false},
+      {"text": "Three entries: revenue, COGS, and inventory adjustment", "correct": false},
+      {"text": "Only one entry at year-end", "correct": false}
+    ],
+    "explanation": "Under perpetual system: (1) Revenue entry: (Dr) AR 50,000 / (Cr) Sales Revenue 50,000. (2) COGS entry: (Dr) COGS 30,000 / (Cr) Inventory 30,000. Two separate entries at the time of sale.",
+    "steps": "Entry 1: (Dr) AR 50,000 / (Cr) Sales 50,000. Entry 2: (Dr) COGS 30,000 / (Cr) Inventory 30,000. Under periodic, COGS is calculated only at period-end."
+  },
+  {
+    "category": "Complex Journal Entries",
+    "question": "A partnership with partners A (capital 300,000) and B (capital 200,000) admits partner C who invests 250,000 for a 30% interest. Using the bonus method, partner A's capital becomes:",
+    "options": [
+      {"text": "315,000 yen", "correct": true},
+      {"text": "300,000 yen", "correct": false},
+      {"text": "325,000 yen", "correct": false},
+      {"text": "290,000 yen", "correct": false}
+    ],
+    "explanation": "Total capital after C = 300,000 + 200,000 + 250,000 = 750,000. C's 30% = 225,000. Bonus = 250,000 - 225,000 = 25,000 (from C to A and B). Split 3:2: A gets 15,000, B gets 10,000. A's new capital = 315,000.",
+    "steps": "Step 1: Total capital = 750,000. Step 2: C's interest = 750,000 x 30% = 225,000. Step 3: C's bonus = 250,000 - 225,000 = 25,000. Step 4: A's share of bonus (3/5) = 15,000. A's capital = 315,000."
+  }
+]

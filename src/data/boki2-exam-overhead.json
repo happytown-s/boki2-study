@@ -1,0 +1,343 @@
+[
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A predetermined overhead rate is calculated as:",
+    "options": [
+      {"text": "Estimated total overhead / Estimated total allocation base", "correct": true},
+      {"text": "Actual total overhead / Actual total allocation base", "correct": false},
+      {"text": "Estimated total overhead / Actual total allocation base", "correct": false},
+      {"text": "Actual total overhead / Estimated total allocation base", "correct": false}
+    ],
+    "explanation": "The predetermined overhead rate (POHR) is calculated BEFORE the period using estimated amounts. This allows overhead to be applied to products as they are produced, rather than waiting until actual costs are known at period-end."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A company estimates total overhead of 1,000,000 yen and 50,000 direct labor hours for the year. The predetermined overhead rate is:",
+    "options": [
+      {"text": "20 yen per direct labor hour", "correct": true},
+      {"text": "50 yen per direct labor hour", "correct": false},
+      {"text": "2 yen per direct labor hour", "correct": false},
+      {"text": "0.05 yen per direct labor hour", "correct": false}
+    ],
+    "explanation": "POHR = 1,000,000 / 50,000 = 20 yen per direct labor hour. This rate is used throughout the year to apply overhead to jobs based on the actual direct labor hours used."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "When actual overhead exceeds applied overhead, the difference is called:",
+    "options": [
+      {"text": "Underapplied (underallocated) overhead", "correct": true},
+      {"text": "Overapplied (overallocated) overhead", "correct": false},
+      {"text": "Variable overhead variance", "correct": false},
+      {"text": "Fixed overhead budget variance", "correct": false}
+    ],
+    "explanation": "Underapplied overhead means actual overhead costs exceeded the amount applied to products using the predetermined rate. This indicates the predetermined rate was too low or actual activity was lower than estimated."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "When overhead is overapplied at year-end, the most common treatment is to:",
+    "options": [
+      {"text": "Credit Cost of Goods Sold (reduce COGS)", "correct": true},
+      {"text": "Debit Cost of Goods Sold (increase COGS)", "correct": false},
+      {"text": "Credit Retained Earnings directly", "correct": false},
+      {"text": "Debit Factory Overhead", "correct": false}
+    ],
+    "explanation": "Overapplied overhead means too much was charged to products. If immaterial, it is closed to COGS (credited to reduce COGS). If material, it should be prorated among WIP, Finished Goods, and COGS based on their relative amounts."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A company applies overhead based on machine hours. Estimated overhead: 600,000 yen, estimated machine hours: 10,000. A job uses 100 machine hours. Overhead applied to the job is:",
+    "options": [
+      {"text": "6,000 yen", "correct": true},
+      {"text": "600 yen", "correct": false},
+      {"text": "60,000 yen", "correct": false},
+      {"text": "10,000 yen", "correct": false}
+    ],
+    "explanation": "POHR = 600,000 / 10,000 = 60 yen per machine hour. Overhead applied = 100 x 60 = 6,000 yen. Machine hours are used when overhead is primarily driven by machine usage (automated production)."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Variable overhead spending variance is calculated as:",
+    "options": [
+      {"text": "(Actual Variable OH Rate - Standard Variable OH Rate) x Actual Hours", "correct": true},
+      {"text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate", "correct": false},
+      {"text": "Budgeted Variable OH - Actual Variable OH", "correct": false},
+      {"text": "Standard Variable OH - Actual Variable OH", "correct": false}
+    ],
+    "explanation": "Variable Overhead Spending Variance = (AR - SR) x AH, similar to the labor rate variance. It measures whether the actual variable overhead cost per hour differs from the standard rate."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Variable overhead efficiency variance is calculated as:",
+    "options": [
+      {"text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate", "correct": true},
+      {"text": "(Actual Rate - Standard Rate) x Actual Hours", "correct": false},
+      {"text": "(Standard Hours - Actual Hours) x Actual Rate", "correct": false},
+      {"text": "Budgeted VOH - Applied VOH", "correct": false}
+    ],
+    "explanation": "Variable Overhead Efficiency Variance = (AH - SH) x SVOR. If actual hours exceed standard hours, the variance is unfavorable. This variance is caused by the same efficiency/inefficiency that causes the labor efficiency variance."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "The entry to apply overhead to production is:",
+    "options": [
+      {"text": "(Debit) Work in Process / (Credit) Factory Overhead", "correct": true},
+      {"text": "(Debit) Factory Overhead / (Credit) Work in Process", "correct": false},
+      {"text": "(Debit) Cost of Goods Manufactured / (Credit) Factory Overhead", "correct": false},
+      {"text": "(Debit) Work in Process / (Credit) Applied Overhead", "correct": false}
+    ],
+    "explanation": "Overhead is applied (credited) to Factory Overhead and debited to WIP. This reduces the Factory Overhead account balance as overhead is allocated to production. At year-end, any remaining balance is under- or overapplied."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Which of the following is typically included in factory overhead?",
+    "options": [
+      {"text": "Factory utilities, depreciation on factory equipment, and indirect materials", "correct": true},
+      {"text": "Direct materials and direct labor", "correct": false},
+      {"text": "Office supplies and executive salaries", "correct": false},
+      {"text": "Sales commissions and advertising", "correct": false}
+    ],
+    "explanation": "Factory overhead includes all manufacturing costs EXCEPT direct materials and direct labor. This includes indirect materials, indirect labor, factory utilities, depreciation on factory assets, insurance, property taxes on the factory, etc."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A company uses a plant-wide overhead rate. This means:",
+    "options": [
+      {"text": "One overhead rate is used for all departments and products", "correct": true},
+      {"text": "Each department calculates its own rate based on its specific allocation base", "correct": false},
+      {"text": "Only fixed overhead is allocated", "correct": false},
+      {"text": "Overhead is allocated only based on direct labor cost", "correct": false}
+    ],
+    "explanation": "A plant-wide (blanket) rate uses a single allocation base for the entire factory. This is simpler but less accurate than departmental rates, especially when departments have different cost drivers."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Departmental overhead rates are more accurate than a plant-wide rate because:",
+    "options": [
+      {"text": "Each department can use the allocation base that best reflects its overhead consumption", "correct": true},
+      {"text": "They always result in lower total overhead costs", "correct": false},
+      {"text": "They eliminate the need for predetermined rates", "correct": false},
+      {"text": "They are required by tax law", "correct": false}
+    ],
+    "explanation": "Different departments may have different cost drivers. An assembly department may be labor-intensive (use DLH), while a machining department may be machine-intensive (use MH). Departmental rates better match overhead to actual consumption."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Activity-based costing (ABC) differs from traditional costing in that ABC:",
+    "options": [
+      {"text": "Uses multiple cost drivers (activities) to assign overhead costs", "correct": true},
+      {"text": "Eliminates the need for overhead allocation entirely", "correct": false},
+      {"text": "Uses only volume-based allocation bases", "correct": false},
+      {"text": "Is always less expensive to implement", "correct": false}
+    ],
+    "explanation": "ABC identifies activities that consume resources and assigns costs based on the actual consumption of these activities by products. This provides more accurate product costs, especially for diverse product lines with different resource consumption patterns."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "In ABC, a cost pool is:",
+    "options": [
+      {"text": "A grouping of individual costs that are allocated using the same cost driver", "correct": true},
+      {"text": "The total of all manufacturing costs", "correct": false},
+      {"text": "The sum of direct materials and direct labor", "correct": false},
+      {"text": "A physical storage area for overhead items", "correct": false}
+    ],
+    "explanation": "A cost pool groups related overhead costs that share a common cost driver. For example, machine setup costs form a pool allocated based on number of setups. Material handling costs form another pool based on material moves."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Fixed overhead budget variance is calculated as:",
+    "options": [
+      {"text": "Actual Fixed OH - Budgeted Fixed OH (at the denominator level of activity)", "correct": true},
+      {"text": "Budgeted Fixed OH - Actual Fixed OH", "correct": false},
+      {"text": "Applied Fixed OH - Actual Fixed OH", "correct": false},
+      {"text": "Standard Fixed OH - Budgeted Fixed OH", "correct": false}
+    ],
+    "explanation": "Fixed Overhead Budget Variance = Actual FOH - Budgeted FOH. Budgeted FOH is the same regardless of actual activity because fixed costs don't change with volume. If actual costs exceed the budget, the variance is unfavorable."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Fixed overhead volume variance is calculated as:",
+    "options": [
+      {"text": "Budgeted Fixed OH - Applied Fixed OH", "correct": true},
+      {"text": "Actual Fixed OH - Budgeted Fixed OH", "correct": false},
+      {"text": "Actual Fixed OH - Applied Fixed OH", "correct": false},
+      {"text": "Budgeted Fixed OH - Standard Fixed OH", "correct": false}
+    ],
+    "explanation": "Volume Variance = Budgeted FOH - Applied FOH. This variance arises when actual production differs from the denominator (budgeted) activity level. If actual production exceeds the denominator level, the variance is favorable (overapplied)."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Estimated overhead: 500,000 yen (fixed 300,000 + variable 200,000). Estimated activity: 10,000 DLH. Actual: 11,000 DLH, actual overhead 520,000 (fixed 305,000 + variable 215,000). Applied overhead is:",
+    "options": [
+      {"text": "550,000 yen", "correct": true},
+      {"text": "520,000 yen", "correct": false},
+      {"text": "500,000 yen", "correct": false},
+      {"text": "600,000 yen", "correct": false}
+    ],
+    "explanation": "POHR = 500,000 / 10,000 = 50 yen/DLH. Applied = 11,000 x 50 = 550,000 yen. This includes both fixed and variable overhead applied at the combined rate. Overapplied overhead = 550,000 - 520,000 = 30,000 yen."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Using the data from the previous question, the total overhead variance (actual vs applied) is:",
+    "options": [
+      {"text": "30,000 yen overapplied", "correct": true},
+      {"text": "30,000 yen underapplied", "correct": false},
+      {"text": "20,000 yen overapplied", "correct": false},
+      {"text": "50,000 yen underapplied", "correct": false}
+    ],
+    "explanation": "Actual overhead (520,000) - Applied overhead (550,000) = -30,000. Since applied exceeds actual, overhead is overapplied by 30,000 yen. The predetermined rate was slightly too high relative to actual costs."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "The most appropriate allocation base for a highly automated factory is likely:",
+    "options": [
+      {"text": "Machine hours", "correct": true},
+      {"text": "Direct labor hours", "correct": false},
+      {"text": "Units produced", "correct": false},
+      {"text": "Direct materials cost", "correct": false}
+    ],
+    "explanation": "In a highly automated factory, most overhead (depreciation, maintenance, power) is driven by machine usage rather than labor. Machine hours better reflect the actual consumption of overhead resources."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Actual overhead costs are recorded by debiting:",
+    "options": [
+      {"text": "Factory Overhead (control account)", "correct": true},
+      {"text": "Work in Process", "correct": false},
+      {"text": "Applied Overhead", "correct": false},
+      {"text": "Cost of Goods Sold", "correct": false}
+    ],
+    "explanation": "Actual overhead costs (utilities, depreciation, indirect materials, indirect labor) are debited to Factory Overhead. When overhead is applied to production, Factory Overhead is credited. The balance at period-end is under- or overapplied."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "If overhead is significantly underapplied, the best treatment is to prorate it among:",
+    "options": [
+      {"text": "Work in Process, Finished Goods, and Cost of Goods Sold in proportion to their ending balances", "correct": true},
+      {"text": "Only Cost of Goods Sold", "correct": false},
+      {"text": "Only Work in Process and Finished Goods", "correct": false},
+      {"text": "Retained Earnings directly", "correct": false}
+    ],
+    "explanation": "Material over/underapplied overhead should be prorated among WIP, Finished Goods, and COGS to accurately reflect costs in each account. Only immaterial amounts are closed entirely to COGS."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Depreciation on factory equipment is recorded as:",
+    "options": [
+      {"text": "(Debit) Factory Overhead / (Credit) Accumulated Depreciation", "correct": true},
+      {"text": "(Debit) Depreciation Expense / (Credit) Accumulated Depreciation", "correct": false},
+      {"text": "(Debit) Work in Process / (Credit) Accumulated Depreciation", "correct": false},
+      {"text": "(Debit) Manufacturing Expense / (Credit) Equipment", "correct": false}
+    ],
+    "explanation": "Factory equipment depreciation is a manufacturing overhead cost. It is debited to Factory Overhead (not directly to WIP) and then allocated through the predetermined rate. Administrative equipment depreciation goes to Depreciation Expense."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A company has two departments: Machining (overhead 400,000, 20,000 MH) and Assembly (overhead 300,000, 30,000 DLH). The departmental rates are:",
+    "options": [
+      {"text": "Machining: 20 yen/MH, Assembly: 10 yen/DLH", "correct": true},
+      {"text": "Machining: 10 yen/MH, Assembly: 20 yen/DLH", "correct": false},
+      {"text": "Both: 14 yen/DLH (plant-wide rate)", "correct": false},
+      {"text": "Machining: 75 yen/MH, Assembly: 50 yen/DLH", "correct": false}
+    ],
+    "explanation": "Machining rate = 400,000 / 20,000 = 20 yen per machine hour. Assembly rate = 300,000 / 30,000 = 10 yen per direct labor hour. Each department uses the allocation base most relevant to its operations."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "In ABC, the cost driver for 'machine setups' activity is typically:",
+    "options": [
+      {"text": "Number of setups", "correct": true},
+      {"text": "Machine hours", "correct": false},
+      {"text": "Direct labor hours", "correct": false},
+      {"text": "Units produced", "correct": false}
+    ],
+    "explanation": "The machine setup activity cost is driven by the number of setups performed, not by machine hours or units. A product that requires frequent setups but short production runs would be assigned more setup costs under ABC than under traditional costing."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Prime costs plus conversion costs equal:",
+    "options": [
+      {"text": "Total manufacturing costs", "correct": true},
+      {"text": "Cost of goods sold", "correct": false},
+      {"text": "Cost of goods manufactured", "correct": false},
+      {"text": "Direct materials plus direct labor", "correct": false}
+    ],
+    "explanation": "Prime costs = Direct Materials + Direct Labor. Conversion costs = Direct Labor + Factory Overhead. Combined: DM + DL + DL + FOH = Total Manufacturing Costs. Note: Direct labor is counted in both prime and conversion costs."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "A company using normal costing applies overhead at 150% of direct labor cost. A job has direct materials of 40,000 and direct labor of 20,000. Total job cost is:",
+    "options": [
+      {"text": "90,000 yen", "correct": true},
+      {"text": "60,000 yen", "correct": false},
+      {"text": "70,000 yen", "correct": false},
+      {"text": "100,000 yen", "correct": false}
+    ],
+    "explanation": "Applied overhead = 20,000 x 150% = 30,000. Total job cost = DM (40,000) + DL (20,000) + Applied OH (30,000) = 90,000 yen. This is normal costing (actual DM and DL, applied OH using a predetermined rate)."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "The difference between normal costing and actual costing is that normal costing uses:",
+    "options": [
+      {"text": "Actual direct costs but a predetermined overhead rate", "correct": true},
+      {"text": "Estimated direct costs and estimated overhead", "correct": false},
+      {"text": "Actual overhead rate calculated at year-end", "correct": false},
+      {"text": "Only standard costs for all cost elements", "correct": false}
+    ],
+    "explanation": "Normal costing uses actual direct materials, actual direct labor, and a predetermined overhead rate. Actual costing uses actual amounts for all three. Standard costing uses standard (budgeted) amounts for all three."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Which of the following is NOT a common overhead allocation base?",
+    "options": [
+      {"text": "Number of employees in the marketing department", "correct": true},
+      {"text": "Direct labor hours", "correct": false},
+      {"text": "Machine hours", "correct": false},
+      {"text": "Direct labor cost", "correct": false}
+    ],
+    "explanation": "Overhead allocation bases should be related to manufacturing activity. Marketing department employees are not a manufacturing cost driver. Common bases include DLH, MH, DL cost, and units produced."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Service department costs are allocated to production departments using methods such as:",
+    "options": [
+      {"text": "Direct method, step-down method, and reciprocal method", "correct": true},
+      {"text": "FIFO method and weighted average method", "correct": false},
+      {"text": "High-low method and regression analysis", "correct": false},
+      {"text": "Job-order method and process method", "correct": false}
+    ],
+    "explanation": "Service departments (maintenance, cafeteria, power) support production but don't produce products. Their costs are allocated to production departments using the direct method (simplest), step-down (partially recognizes inter-service relationships), or reciprocal (fully recognizes them)."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Under the step-down method of service department allocation, once a service department's costs are allocated:",
+    "options": [
+      {"text": "It does not receive any allocations from other service departments", "correct": true},
+      {"text": "It continues to receive allocations from remaining service departments", "correct": false},
+      {"text": "Its costs are allocated back to itself", "correct": false},
+      {"text": "Its remaining balance is written off to cost of goods sold", "correct": false}
+    ],
+    "explanation": "In the step-down method, service departments are allocated in a specific order. Once a department's costs are allocated out, it receives no further allocations. This is simpler than the reciprocal method but less accurate."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "The high-low method is used to:",
+    "options": [
+      {"text": "Separate mixed costs into fixed and variable components", "correct": true},
+      {"text": "Allocate service department costs", "correct": false},
+      {"text": "Calculate equivalent units in process costing", "correct": false},
+      {"text": "Determine the cost of goods manufactured", "correct": false}
+    ],
+    "explanation": "The high-low method uses the highest and lowest activity levels to estimate the variable cost per unit (slope) and the fixed cost (intercept). It's a simple way to split mixed costs but can be inaccurate if the high/low points are unusual."
+  },
+  {
+    "category": "Cost Accounting - Overhead",
+    "question": "Using the high-low method: At 5,000 hours, total cost is 80,000. At 8,000 hours, total cost is 110,000. The variable cost per hour is:",
+    "options": [
+      {"text": "10 yen per hour", "correct": true},
+      {"text": "15 yen per hour", "correct": false},
+      {"text": "16 yen per hour", "correct": false},
+      {"text": "12 yen per hour", "correct": false}
+    ],
+    "explanation": "Variable cost = (110,000 - 80,000) / (8,000 - 5,000) = 30,000 / 3,000 = 10 yen per hour. Fixed cost = 110,000 - (8,000 x 10) = 110,000 - 80,000 = 30,000 yen."
+  }
+]
