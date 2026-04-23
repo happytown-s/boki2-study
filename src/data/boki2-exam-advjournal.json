@@ -1,22 +1,22 @@
 [
   {
     "category": "Advanced Journal Entries",
-    "question": "A company purchased merchandise listed at 100,000 yen with a 10% trade discount. What is the purchase amount recorded?",
+    "question": "会社が100,000円（定価）の商品を10%の数量値引きで仕入れた。記録される仕入金額は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Purchases 90,000 / (Credit) Accounts Payable 90,000",
+        "text": "(借方) 仕入 90,000 / (貸方) 買掛金 90,000",
         "correct": true
       },
       {
-        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000",
+        "text": "(借方) 仕入 100,000 / (貸方) 買掛金 100,000",
         "correct": false
       },
       {
-        "text": "(Debit) Purchases 90,000 / (Credit) Trade Discount 10,000 / (Credit) Accounts Payable 100,000",
+        "text": "(借方) 仕入 90,000 / (貸方) 仕入値引 10,000 / (貸方) 買掛金 100,000",
         "correct": false
       },
       {
-        "text": "(Debit) Purchases 100,000 / (Credit) Trade Discount 10,000 / (Credit) Cash 90,000",
+        "text": "(借方) 仕入 100,000 / (貸方) 仕入値引 10,000 / (貸方) 現金 90,000",
         "correct": false
       }
     ],
@@ -24,22 +24,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company purchased merchandise for 200,000 yen with terms 2/10, n/30 and paid within the discount period. Under the gross method, what entry records the payment?",
+    "question": "会社が200,000円の商品を仕入れ、条件は2/10, n/30。割引期間内に支払った。総額法で支払時の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Purchases Discounts 4,000",
+        "text": "(借方) 買掛金 200,000 / (貸方) 現金 196,000 / (貸方) 仕入割引 4,000",
         "correct": true
       },
       {
-        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 200,000",
+        "text": "(借方) 買掛金 200,000 / (貸方) 現金 200,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Payable 196,000 / (Credit) Cash 196,000",
+        "text": "(借方) 買掛金 196,000 / (貸方) 現金 196,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Sales Revenue 4,000",
+        "text": "(借方) 買掛金 200,000 / (貸方) 現金 196,000 / (貸方) 売上高 4,000",
         "correct": false
       }
     ],
@@ -47,22 +47,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company received a 3-month, 6% note receivable for 300,000 yen from a customer to settle an account. What is the correct entry?",
+    "question": "会社が顧客から未決済の掛け金決済のため、3ヶ月・6%・300,000円の受取手形を受領した。正しい仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000",
+        "text": "(借方) 受取手形 300,000 / (貸方) 売掛金 300,000",
         "correct": true
       },
       {
-        "text": "(Debit) Notes Receivable 304,500 / (Credit) Accounts Receivable 304,500",
+        "text": "(借方) 受取手形 304,500 / (貸方) 売掛金 304,500",
         "correct": false
       },
       {
-        "text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000 / (Credit) Interest Revenue 4,500",
+        "text": "(借方) 受取手形 300,000 / (貸方) 売掛金 300,000 / (貸方) 受取利息 4,500",
         "correct": false
       },
       {
-        "text": "(Debit) Notes Receivable 300,000 / (Credit) Sales Revenue 300,000",
+        "text": "(借方) 受取手形 300,000 / (貸方) 売上高 300,000",
         "correct": false
       }
     ],
@@ -70,22 +70,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company discounted a 90-day, 5% note receivable of 500,000 yen at a bank 30 days after issuance at a discount rate of 6%. The proceeds would be:",
+    "question": "会社が発行後30日経過した90日・5%・500,000円の受取手形を銀行で割引した（割引率6%）。手取額は次のうちどれか：",
     "options": [
       {
-        "text": "503,750 yen",
+        "text": "503,750円",
         "correct": true
       },
       {
-        "text": "500,000 yen",
+        "text": "500,000円",
         "correct": false
       },
       {
-        "text": "506,250 yen",
+        "text": "506,250円",
         "correct": false
       },
       {
-        "text": "496,250 yen",
+        "text": "496,250円",
         "correct": false
       }
     ],
@@ -93,45 +93,45 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company uses the allowance method for doubtful accounts. At year-end, accounts receivable is 1,000,000 yen and the company estimates 3% uncollectible. If the allowance account has a 5,000 yen debit balance before adjustment, the adjusting entry is:",
+    "question": "会社が貸倒引当金（繰入法）を使用している。期末売掛金1,000,000円、貸倒見積率3%。貸倒引当金の修正前残高が5,000円の借方残高の場合、修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Bad Debt Expense 35,000 / (Credit) Allowance for Doubtful Accounts 35,000",
+        "text": "(借方) 貸倒損失 35,000 / (貸方) 貸倒引当金 35,000",
         "correct": true
       },
       {
-        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "text": "(借方) 貸倒損失 30,000 / (貸方) 貸倒引当金 30,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000",
+        "text": "(借方) 貸倒損失 25,000 / (貸方) 貸倒引当金 25,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000",
+        "text": "(借方) 貸倒損失 30,000 / (貸方) 売掛金 30,000",
         "correct": false
       }
     ],
-    "explanation": "目標期末残高 = 1,000,000 x 3% = 30,000。現在の借方残高 = 5,000。必要な貸方修正額 = 30,000 + 5,000 = 35,000。これにより貸与勘定が目標の30,000貸方残高になる。"
+    "explanation": "目標期末残高 = 1,000,000 x 3% = 30,000。現在の借方残高 = 5,000。必要な貸方修正額 = 30,000 + 5,000 = 35,000。これにより貸倒引当金が目標の30,000貸方残高になる。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company received an advance payment of 600,000 yen from a customer for goods to be delivered next year. The year-end adjusting entry is:",
+    "question": "会社が顧客から来年引き渡し予定の商品に対し600,000円の前受金を受け取った。期末の修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "No entry needed - cash was already recorded",
+        "text": "修正不要 - 現金は既に記録済み",
         "correct": false
       },
       {
-        "text": "(Debit) Unearned Revenue 600,000 / (Credit) Sales Revenue 600,000",
+        "text": "(借方) 前受収益 600,000 / (貸方) 売上高 600,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 600,000 / (Credit) Unearned Revenue 600,000",
+        "text": "(借方) 現金 600,000 / (貸方) 前受収益 600,000",
         "correct": true
       },
       {
-        "text": "(Debit) Prepaid Revenue 600,000 / (Credit) Sales Revenue 600,000",
+        "text": "(借方) 前受収益 600,000 / (貸方) 売上高 600,000",
         "correct": false
       }
     ],
@@ -139,22 +139,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company issues a promissory note payable of 400,000 yen with 6% interest for 90 days to settle an accounts payable. The correct entry is:",
+    "question": "会社が買掛金決済のため、90日・6%・400,000円の約束手形を振り出した。正しい仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000",
+        "text": "(借方) 買掛金 400,000 / (貸方) 支払手形 400,000",
         "correct": true
       },
       {
-        "text": "(Debit) Accounts Payable 406,000 / (Credit) Notes Payable 406,000",
+        "text": "(借方) 買掛金 406,000 / (貸方) 支払手形 406,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000 / (Credit) Interest Payable 6,000",
+        "text": "(借方) 買掛金 400,000 / (貸方) 支払手形 400,000 / (貸方) 未払利息 6,000",
         "correct": false
       },
       {
-        "text": "(Debit) Notes Payable 400,000 / (Credit) Accounts Payable 400,000",
+        "text": "(借方) 支払手形 400,000 / (貸方) 買掛金 400,000",
         "correct": false
       }
     ],
@@ -162,22 +162,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Under the net method, a company purchases goods for 100,000 yen with terms 2/10, n/30. The initial recording is:",
+    "question": "正味法で、会社が100,000円の商品を条件2/10, n/30で仕入れた。当初の記録は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 98,000",
+        "text": "(借方) 仕入 98,000 / (貸方) 買掛金 98,000",
         "correct": true
       },
       {
-        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000",
+        "text": "(借方) 仕入 100,000 / (貸方) 買掛金 100,000",
         "correct": false
       },
       {
-        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 98,000 / (Credit) Purchases Discount 2,000",
+        "text": "(借方) 仕入 100,000 / (貸方) 買掛金 98,000 / (貸方) 仕入割引 2,000",
         "correct": false
       },
       {
-        "text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 100,000 / (Debit) Purchases Discount 2,000",
+        "text": "(借方) 仕入 98,000 / (貸方) 買掛金 100,000 / (借方) 仕入割引 2,000",
         "correct": false
       }
     ],
@@ -185,114 +185,114 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company wrote off a 50,000 yen account receivable under the allowance method. What is the correct entry?",
+    "question": "会社が繰入法で50,000円の売掛金を貸倒処理した。正しい仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Allowance for Doubtful Accounts 50,000 / (Credit) Accounts Receivable 50,000",
+        "text": "(借方) 貸倒引当金 50,000 / (貸方) 売掛金 50,000",
         "correct": true
       },
       {
-        "text": "(Debit) Bad Debt Expense 50,000 / (Credit) Accounts Receivable 50,000",
+        "text": "(借方) 貸倒損失 50,000 / (貸方) 売掛金 50,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 50,000 / (Credit) Allowance for Doubtful Accounts 50,000",
+        "text": "(借方) 貸倒損失 50,000 / (貸方) 貸倒引当金 50,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Receivable 50,000 / (Credit) Allowance for Doubtful Accounts 50,000",
+        "text": "(借方) 売掛金 50,000 / (貸方) 貸倒引当金 50,000",
         "correct": false
       }
     ],
-    "explanation": "貸与法では、貸倒は貸与勘定（対資産）を借方、売掛金を貸方に記録する。貸倒費用は貸与勘定を設定した時に既に記録済み。貸倒時の費用記録はしない。"
+    "explanation": "繰入法では、貸倒は貸倒引当金（対資産勘定）を借方、売掛金を貸方に記録する。貸倒損失は貸倒引当金を設定した時に既に計上済み。貸倒時の費用記録はしない。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A previously written-off account of 30,000 yen is later recovered. What are the correct entries?",
+    "question": "以前貸倒処理した30,000円の売掛金が回収された。正しい仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Receivable 30,000 / (Credit) Allowance for Doubtful Accounts 30,000; then (Debit) Cash 30,000 / (Credit) Accounts Receivable 30,000",
+        "text": "(借方) 売掛金 30,000 / (貸方) 貸倒引当金 30,000; 次いで (借方) 現金 30,000 / (貸方) 売掛金 30,000",
         "correct": true
       },
       {
-        "text": "(Debit) Cash 30,000 / (Credit) Bad Debt Recovery 30,000",
+        "text": "(借方) 現金 30,000 / (貸方) 貸倒償却戻入益 30,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "text": "(借方) 現金 30,000 / (貸方) 貸倒引当金 30,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense (30,000) / (Credit) Accounts Receivable 30,000",
+        "text": "(借方) 貸倒損失 30,000 / (貸方) 売掛金 30,000",
         "correct": false
       }
     ],
-    "explanation": "2つの仕訳が必要：(1)貸倒を取り消して売掛金と貸与勘定を復元する、(2)現金回収を記録する。これにより顧客の与信履歴を保持し、貸与勘定を復元する。"
+    "explanation": "2つの仕訳が必要：(1)貸倒を取り消して売掛金と貸倒引当金を復元する、(2)現金回収を記録する。これにより顧客の与信履歴を保持し、貸倒引当金を復元する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company holds a 6%, 90-day note receivable of 200,000 yen. At year-end, 30 days of interest have accrued. The adjusting entry is:",
+    "question": "会社が6%・90日・200,000円の受取手形を保有している。期末時点で30日分の利息が発生している。修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Interest Receivable 1,000 / (Credit) Interest Revenue 1,000",
+        "text": "(借方) 未収利息 1,000 / (貸方) 受取利息 1,000",
         "correct": true
       },
       {
-        "text": "(Debit) Interest Receivable 3,000 / (Credit) Interest Revenue 3,000",
+        "text": "(借方) 未収利息 3,000 / (貸方) 受取利息 3,000",
         "correct": false
       },
       {
-        "text": "(Debit) Notes Receivable 1,000 / (Credit) Interest Revenue 1,000",
+        "text": "(借方) 受取手形 1,000 / (貸方) 受取利息 1,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 1,000 / (Credit) Interest Revenue 1,000",
+        "text": "(借方) 現金 1,000 / (貸方) 受取利息 1,000",
         "correct": false
       }
     ],
-    "explanation": "発生利子 = 200,000 x 6% x 30/360 = 1,000 円。未収利息（資産）を借方、利息収益（収益）を貸方に記録する。満期時に全利子 3,000 が回収される。"
+    "explanation": "発生利子 = 200,000 x 6% x 30/360 = 1,000 円。未収利息（資産）を借方、受取利息（収益）を貸方に記録する。満期時に全利子 3,000 が回収される。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company estimates bonus expense of 500,000 yen for employees based on net income. The year-end adjusting entry is:",
+    "question": "会社が純利益に基づいて従業員の賞与費用を500,000円と見積った。期末の修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Bonus Expense 500,000 / (Credit) Provision for Bonuses Payable 500,000",
+        "text": "(借方) 賞与引当費用 500,000 / (貸方) 賞与引当金 500,000",
         "correct": true
       },
       {
-        "text": "(Debit) Salary Expense 500,000 / (Credit) Cash 500,000",
+        "text": "(借方) 給与手当 500,000 / (貸方) 現金 500,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bonus Expense 500,000 / (Credit) Accrued Expenses 500,000",
+        "text": "(借方) 賞与引当費用 500,000 / (貸方) 未払費用 500,000",
         "correct": true
       },
       {
-        "text": "(Debit) Retained Earnings 500,000 / (Credit) Bonus Payable 500,000",
+        "text": "(借方) 繰越利益剰余金 500,000 / (貸方) 未払賞与 500,000",
         "correct": false
       }
     ],
-    "explanation": "賞与費用は発生した期間に認識される。借方は賞与費用、貸方は負債勘定（賞与引当金または未払費用）。実際の支払は次期に行われる。"
+    "explanation": "賞与費用は発生した期間に認識される。借方は賞与引当費用、貸方は負債勘定（賞与引当金または未払費用）。実際の支払は次期に行われる。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company is constructing a building for its own use. Construction costs incurred during the period total 10,000,000 yen. The appropriate account to record these costs is:",
+    "question": "会社が自己使用の建物を建設中である。期間中の建設費合計10,000,000円。これらの費用を記録する適切な勘定は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Construction in Progress 10,000,000 / (Credit) Cash/Materials/etc. 10,000,000",
+        "text": "(借方) 建設仮勘定 10,000,000 / (貸方) 現金・材料等 10,000,000",
         "correct": true
       },
       {
-        "text": "(Debit) Building 10,000,000 / (Credit) Cash 10,000,000",
+        "text": "(借方) 建物 10,000,000 / (貸方) 現金 10,000,000",
         "correct": false
       },
       {
-        "text": "(Debit) Construction Expense 10,000,000 / (Credit) Cash 10,000,000",
+        "text": "(借方) 建設費 10,000,000 / (貸方) 現金 10,000,000",
         "correct": false
       },
       {
-        "text": "(Debit) Prepaid Expenses 10,000,000 / (Credit) Cash 10,000,000",
+        "text": "(借方) 前払費用 10,000,000 / (貸方) 現金 10,000,000",
         "correct": false
       }
     ],
@@ -300,22 +300,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company sold goods for 500,000 yen with a sales allowance of 20,000 yen for defective goods. Under the gross method, the entry to record the sale is:",
+    "question": "会社が500,000円で商品を掛け売上し、不良品に対し20,000円の売上値引を行った。総額法で売上の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 500,000",
+        "text": "(借方) 売掛金 500,000 / (貸方) 売上高 500,000",
         "correct": true
       },
       {
-        "text": "(Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 480,000",
+        "text": "(借方) 売掛金 480,000 / (貸方) 売上高 480,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 480,000 / (Credit) Sales Allowance 20,000",
+        "text": "(借方) 売掛金 500,000 / (貸方) 売上高 480,000 / (貸方) 売上値引 20,000",
         "correct": false
       },
       {
-        "text": "(Debit) Sales Allowance 20,000 / (Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 500,000",
+        "text": "(借方) 売上値引 20,000 / (借方) 売掛金 480,000 / (貸方) 売上高 500,000",
         "correct": false
       }
     ],
@@ -323,114 +323,114 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Under the allowance method using the aging of receivables approach, the required adjustment considers:",
+    "question": "繰入法で売掛金年齢調整法を使用する場合、必要な修正は次のどれを考慮するか：",
     "options": [
       {
-        "text": "The existing balance in the allowance account before adjustment",
+        "text": "修正前の貸倒引当金残高",
         "correct": true
       },
       {
-        "text": "Only the total accounts receivable balance",
+        "text": "売掛金合計残高のみ",
         "correct": false
       },
       {
-        "text": "Only the percentage of credit sales",
+        "text": "掛け売上高の割合のみ",
         "correct": false
       },
       {
-        "text": "The net realizable value of inventory",
+        "text": "棚卸資産の正味実現可能価額",
         "correct": false
       }
     ],
-    "explanation": " Agingアプローチは各売掛金の経過期間に基づいて貸与勘定の必要期末残高を計算する。修正額は目標期末残高から修正前の現在貸与残高を差し引いた（または加えた）額となる。"
+    "explanation": "年齢調整法は各売掛金の経過期間に基づいて貸倒引当金の必要期末残高を計算する。修正額は目標期末残高から修正前の現在残高を差し引いた（または加えた）額となる。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company received a 500,000 yen, 90-day, 8% note from a customer on November 1. At December 31 year-end, the accrued interest entry is:",
+    "question": "会社が11月1日に顧客から500,000円・90日・8%の手形を受領した。12月31日決算期末の発生利息の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Interest Receivable 6,667 / (Credit) Interest Revenue 6,667",
+        "text": "(借方) 未収利息 6,667 / (貸方) 受取利息 6,667",
         "correct": true
       },
       {
-        "text": "(Debit) Interest Receivable 40,000 / (Credit) Interest Revenue 40,000",
+        "text": "(借方) 未収利息 40,000 / (貸方) 受取利息 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Interest Receivable 10,000 / (Credit) Interest Revenue 10,000",
+        "text": "(借方) 未収利息 10,000 / (貸方) 受取利息 10,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 6,667 / (Credit) Interest Revenue 6,667",
+        "text": "(借方) 現金 6,667 / (貸方) 受取利息 6,667",
         "correct": false
       }
     ],
-    "explanation": "11月1日から12月31日までの61日間の発生利息 = 500,000 x 8% x 61/360 = 6,778。60日（2ヶ月）を使用 = 500,000 x 8% x 60/360 = 6,667 円。未収利息を借方、利息収益を貸方に記録する。"
+    "explanation": "11月1日から12月31日までの61日間の発生利息 = 500,000 x 8% x 61/360 = 6,778。60日（2ヶ月）を使用 = 500,000 x 8% x 60/360 = 6,667 円。未収利息を借方、受取利息を貸方に記録する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A customer returned goods sold for 80,000 yen that had a cost of 50,000 yen. The correct entries are:",
+    "question": "顧客が原価50,000円の商品（売価80,000円）を返品した。正しい仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Sales Returns and Allowances 80,000 / (Credit) Accounts Receivable 80,000; (Debit) Inventory 50,000 / (Credit) Cost of Goods Sold 50,000",
+        "text": "(借方) 売上値引及び返品 80,000 / (貸方) 売掛金 80,000; (借方) 商品 50,000 / (貸方) 売上原価 50,000",
         "correct": true
       },
       {
-        "text": "(Debit) Sales Revenue 80,000 / (Credit) Cash 80,000",
+        "text": "(借方) 売上高 80,000 / (貸方) 現金 80,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Receivable 80,000 / (Credit) Sales Revenue 80,000",
+        "text": "(借方) 売掛金 80,000 / (貸方) 売上高 80,000",
         "correct": false
       },
       {
-        "text": "(Debit) Sales Returns 80,000 / (Credit) Accounts Receivable 80,000",
+        "text": "(借方) 売上返品 80,000 / (貸方) 売掛金 80,000",
         "correct": false
       }
     ],
-    "explanation": "2つの仕訳が必要：(1)売上値引及び返品（対収益）で売上を取り消す、(2)商品を棚卸資産に戻し売上原価を取り消す。これにより売上高と売上原価の両方が減少する。"
+    "explanation": "2つの仕訳が必要：(1)売上値引及び返品（対収益勘定）で売上を取り消す、(2)商品を棚卸資産に戻し売上原価を取り消す。これにより売上高と売上原価の両方が減少する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company uses the percentage-of-sales method for bad debts. Credit sales are 2,000,000 yen and the estimated uncollectible rate is 1.5%. The allowance currently has a credit balance of 8,000 yen. The adjusting entry is:",
+    "question": "会社が売上高基準法で貸倒引当金を計上している。掛け売上高2,000,000円、貸倒見積率1.5%。貸倒引当金の現在貸方残高8,000円。修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "text": "(借方) 貸倒損失 30,000 / (貸方) 貸倒引当金 30,000",
         "correct": true
       },
       {
-        "text": "(Debit) Bad Debt Expense 22,000 / (Credit) Allowance for Doubtful Accounts 22,000",
+        "text": "(借方) 貸倒損失 22,000 / (貸方) 貸倒引当金 22,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 38,000 / (Credit) Allowance for Doubtful Accounts 38,000",
+        "text": "(借方) 貸倒損失 38,000 / (貸方) 貸倒引当金 38,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000",
+        "text": "(借方) 貸倒損失 30,000 / (貸方) 売掛金 30,000",
         "correct": false
       }
     ],
-    "explanation": "売上高基準法では、費用は掛け売上高に基づいて直接計算される：2,000,000 x 1.5% = 30,000。既存の貸与残高は考慮しない（Aging法とは異なる）。修正仕訳は常に計算額となる。"
+    "explanation": "売上高基準法では、費用は掛け売上高に基づいて直接計算される：2,000,000 x 1.5% = 30,000。既存の貸倒引当金残高は考慮しない（年齢調整法とは異なる）。修正仕訳は常に計算額となる。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Freight costs paid by the seller for goods shipped FOB destination should be recorded by the seller as:",
+    "question": "売主がFOB目的地条件で発送した商品の発送費は、売主にとって次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Freight Out (Delivery Expense) / (Credit) Cash",
+        "text": "(借方) 発送費（配達費） / (貸方) 現金",
         "correct": true
       },
       {
-        "text": "(Debit) Freight In / (Credit) Cash",
+        "text": "(借方) 仕入運賃 / (貸方) 現金",
         "correct": false
       },
       {
-        "text": "(Debit) Inventory / (Credit) Cash",
+        "text": "(借方) 棚卸資産 / (貸方) 現金",
         "correct": false
       },
       {
-        "text": "(Debit) Cost of Goods Sold / (Credit) Cash",
+        "text": "(借方) 売上原価 / (貸方) 現金",
         "correct": false
       }
     ],
@@ -438,22 +438,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company endorses and transfers a note receivable of 300,000 yen to settle an account payable of 310,000 yen, paying the difference in cash. The entry is:",
+    "question": "会社が310,000円の買掛金決済のため、300,000円の受取手形を裏書譲渡し、差額を現金で支払った。仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Credit) Cash 10,000",
+        "text": "(借方) 買掛金 310,000 / (貸方) 受取手形 300,000 / (貸方) 現金 10,000",
         "correct": true
       },
       {
-        "text": "(Debit) Accounts Payable 300,000 / (Credit) Notes Receivable 300,000",
+        "text": "(借方) 買掛金 300,000 / (貸方) 受取手形 300,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 310,000",
+        "text": "(借方) 買掛金 310,000 / (貸方) 受取手形 310,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Debit) Loss on Transfer 10,000",
+        "text": "(借方) 買掛金 310,000 / (貸方) 受取手形 300,000 / (借方) 手形譲渡損 10,000",
         "correct": false
       }
     ],
@@ -461,22 +461,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company with a December 31 year-end received a 6-month, 10% note for 800,000 yen on October 1. What is the total interest income recognized by December 31?",
+    "question": "12月31日決算の会社が10月1日に800,000円・6ヶ月・10%の手形を受領した。12月31日までに認識される利息収益の合計は次のうちどれか：",
     "options": [
       {
-        "text": "20,000 yen",
+        "text": "20,000円",
         "correct": true
       },
       {
-        "text": "80,000 yen",
+        "text": "80,000円",
         "correct": false
       },
       {
-        "text": "40,000 yen",
+        "text": "40,000円",
         "correct": false
       },
       {
-        "text": "13,333 yen",
+        "text": "13,333円",
         "correct": false
       }
     ],
@@ -484,22 +484,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Which of the following is the correct treatment for a sales discount under the gross method when the customer pays within the discount period?",
+    "question": "総額法で顧客が割引期間内に支払った場合、売上割引の正しい処理は次のうちどれか：",
     "options": [
       {
-        "text": "Sales Discounts is recorded as a contra-revenue account",
+        "text": "売上割引は対収益勘定として記録される",
         "correct": true
       },
       {
-        "text": "Sales Discounts is recorded as an expense account",
+        "text": "売上割引は費用勘定として記録される",
         "correct": false
       },
       {
-        "text": "Sales Revenue is reduced directly",
+        "text": "売上高を直接減額する",
         "correct": false
       },
       {
-        "text": "Cash is debited for the full invoice amount",
+        "text": "現金を全請求額で借方記録する",
         "correct": false
       }
     ],
@@ -507,22 +507,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company records credit card sales of 150,000 yen with a 3% credit card fee. The net amount received from the credit card company is:",
+    "question": "会社がクレジットカード売上150,000円（カード手数料3%）を計上した。カード会社から受け取る正味額は次のうちどれか：",
     "options": [
       {
-        "text": "145,500 yen",
+        "text": "145,500円",
         "correct": true
       },
       {
-        "text": "150,000 yen",
+        "text": "150,000円",
         "correct": false
       },
       {
-        "text": "144,500 yen",
+        "text": "144,500円",
         "correct": false
       },
       {
-        "text": "155,000 yen",
+        "text": "155,000円",
         "correct": false
       }
     ],
@@ -530,45 +530,45 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "When using the allowance method, if a company overestimates bad debts and the allowance has an excessive credit balance, what happens?",
+    "question": "繰入法で貸倒見積が過大で貸倒引当金に過剰な貸方残高がある場合、次のうちどれが起こるか：",
     "options": [
       {
-        "text": "The next period's adjustment will be smaller to bring the allowance to the desired level",
+        "text": "次期の修正額が小さくなり、貸倒引当金が目標水準に調整される",
         "correct": true
       },
       {
-        "text": "The excess is written off to retained earnings",
+        "text": "過剰額を繰越利益剰余金に繰り入れる",
         "correct": false
       },
       {
-        "text": "The excess is recorded as other income",
+        "text": "過剰額をその他の収益として記録する",
         "correct": false
       },
       {
-        "text": "The allowance must be reduced to zero at year-end",
+        "text": "貸倒引当金を期末に必ずゼロに減額する",
         "correct": false
       }
     ],
-    "explanation": "貸借対照表アプローチ（Aging法）では、修正は既存残高を考慮する。貸与勘定に過剰な貸方残高がある場合、次回の修正は減額され（または貸与勘定への借方記録となり）、目標期末残高を達成する。"
+    "explanation": "貸借対照表アプローチ（年齢調整法）では、修正は既存残高を考慮する。貸倒引当金に過剰な貸方残高がある場合、次回の修正は減額され（または貸倒引当金への借方記録となり）、目標期末残高を達成する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company pays property tax of 120,000 yen for the year on July 1. If the year-end is December 31, the prepaid portion at year-end is:",
+    "question": "会社が7月1日に120,000円の固定資産税を1年分支払った。12月31日決算の場合、期末の前払部分は次のうちどれか：",
     "options": [
       {
-        "text": "60,000 yen",
+        "text": "60,000円",
         "correct": true
       },
       {
-        "text": "120,000 yen",
+        "text": "120,000円",
         "correct": false
       },
       {
-        "text": "30,000 yen",
+        "text": "30,000円",
         "correct": false
       },
       {
-        "text": "0 yen",
+        "text": "0円",
         "correct": false
       }
     ],
@@ -576,22 +576,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company receives advance rent of 240,000 yen for 12 months starting January 1. On March 31, the adjusting entry for three months of rent earned is:",
+    "question": "会社が1月1日開始の12ヶ月分の前受家賃240,000円を受け取った。3月31日時点で3ヶ月分の稼得家賃の修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Unearned Rent Revenue 60,000 / (Credit) Rent Revenue 60,000",
+        "text": "(借方) 前受家賃収益 60,000 / (貸方) 受取家賃 60,000",
         "correct": true
       },
       {
-        "text": "(Debit) Rent Revenue 60,000 / (Credit) Cash 60,000",
+        "text": "(借方) 受取家賃 60,000 / (貸方) 現金 60,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 60,000 / (Credit) Rent Revenue 60,000",
+        "text": "(借方) 現金 60,000 / (貸方) 受取家賃 60,000",
         "correct": false
       },
       {
-        "text": "(Debit) Rent Revenue 180,000 / (Credit) Unearned Rent Revenue 180,000",
+        "text": "(借方) 受取家賃 180,000 / (貸方) 前受家賃収益 180,000",
         "correct": false
       }
     ],
@@ -599,22 +599,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company sells merchandise on credit for 300,000 yen, terms 1/10, n/30. The customer pays within the discount period. The net proceeds received are:",
+    "question": "会社が300,000円で商品を掛け売上し、条件は1/10, n/30。顧客が割引期間内に支払った。正味受取額は次のうちどれか：",
     "options": [
       {
-        "text": "297,000 yen",
+        "text": "297,000円",
         "correct": true
       },
       {
-        "text": "300,000 yen",
+        "text": "300,000円",
         "correct": false
       },
       {
-        "text": "303,000 yen",
+        "text": "303,000円",
         "correct": false
       },
       {
-        "text": "294,000 yen",
+        "text": "294,000円",
         "correct": false
       }
     ],
@@ -622,22 +622,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "When a company provides a warranty on its products, the estimated warranty expense for the current period's sales should be:",
+    "question": "会社が製品に保証を提供している場合、当期売上に対する見積保証費用は次のように処理すべきである：",
     "options": [
       {
-        "text": "Recorded in the period of sale as an expense with a corresponding liability",
+        "text": "販売した期間に費用として計上し、対応する負債を計上する",
         "correct": true
       },
       {
-        "text": "Recorded as an expense only when warranty claims are actually paid",
+        "text": "保証請求が実際に支払われた時のみ費用として計上する",
         "correct": false
       },
       {
-        "text": "Capitalized as part of inventory cost",
+        "text": "棚卸資産原価の一部として資産計上する",
         "correct": false
       },
       {
-        "text": "Recorded as a reduction of sales revenue",
+        "text": "売上高の減額として記録する",
         "correct": false
       }
     ],
@@ -645,22 +645,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A note receivable dishonored at maturity should be transferred to:",
+    "question": "満期時に不渡りとなった受取手形は次のどこに振り替えるべきか：",
     "options": [
       {
-        "text": "Accounts Receivable for the maturity value (principal + interest)",
+        "text": "売掛金（満期価額：元金 + 利息）",
         "correct": true
       },
       {
-        "text": "Bad Debt Expense for the face value",
+        "text": "貸倒損失（額面価額）",
         "correct": false
       },
       {
-        "text": "Notes Receivable - Dishonored for the face value",
+        "text": "不渡手形（額面価額）",
         "correct": false
       },
       {
-        "text": "Cash - the note is simply cancelled",
+        "text": "現金 - 手形は単に取り消される",
         "correct": false
       }
     ],
@@ -668,45 +668,45 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company uses the periodic inventory system. Freight paid on purchases of 20,000 yen is recorded as:",
+    "question": "会社が定期棚卸法を採用している。仕入運賃20,000円は次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Freight In 20,000 / (Credit) Cash 20,000",
+        "text": "(借方) 仕入運賃 20,000 / (貸方) 現金 20,000",
         "correct": true
       },
       {
-        "text": "(Debit) Purchases 20,000 / (Credit) Cash 20,000",
+        "text": "(借方) 仕入 20,000 / (貸方) 現金 20,000",
         "correct": false
       },
       {
-        "text": "(Debit) Inventory 20,000 / (Credit) Cash 20,000",
+        "text": "(借方) 棚卸資産 20,000 / (貸方) 現金 20,000",
         "correct": false
       },
       {
-        "text": "(Debit) Freight Out 20,000 / (Credit) Cash 20,000",
+        "text": "(借方) 発送費 20,000 / (貸方) 現金 20,000",
         "correct": false
       }
     ],
-    "explanation": "定期棚卸法では、仕入運賃（仕入運賃）は売上原価計算時に正味仕入に加算される別勘定である。棚卸資産や仕入勘定に直接加算されない。"
+    "explanation": "定期棚卸法では、仕入運賃は売上原価計算時に正味仕入に加算される別勘定である。棚卸資産や仕入勘定に直接加算されない。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company returned merchandise to a supplier that was purchased on credit for 40,000 yen. Under the periodic inventory system, the entry is:",
+    "question": "会社が掛け仕入した40,000円の商品を仕入先に返品した。定期棚卸法での仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Accounts Payable 40,000 / (Credit) Purchase Returns and Allowances 40,000",
+        "text": "(借方) 買掛金 40,000 / (貸方) 仕入戻し及び値引 40,000",
         "correct": true
       },
       {
-        "text": "(Debit) Accounts Payable 40,000 / (Credit) Inventory 40,000",
+        "text": "(借方) 買掛金 40,000 / (貸方) 棚卸資産 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 40,000 / (Credit) Purchase Returns 40,000",
+        "text": "(借方) 現金 40,000 / (貸方) 仕入戻し 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Purchase Returns 40,000 / (Credit) Accounts Payable 40,000",
+        "text": "(借方) 仕入戻し 40,000 / (貸方) 買掛金 40,000",
         "correct": false
       }
     ],
@@ -714,68 +714,68 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Interest on a note payable is classified on the income statement as:",
+    "question": "支払手形の利息は損益計算書上で次のように分類される：",
     "options": [
       {
-        "text": "Non-operating expense (financial expense)",
+        "text": "営業外費用（金融費用）",
         "correct": true
       },
       {
-        "text": "Operating expense",
+        "text": "販売費及び一般管理費",
         "correct": false
       },
       {
-        "text": "Cost of goods sold",
+        "text": "売上原価",
         "correct": false
       },
       {
-        "text": "Extraordinary item",
+        "text": "特別損益項目",
         "correct": false
       }
     ],
-    "explanation": "借入金の利子は損益計算書の営業外費用（金融費用またはその他の費用）に分類され、営業活動とは別に記載される。"
+    "explanation": "借入金の利息は損益計算書の営業外費用（金融費用）に分類され、営業活動とは別に記載される。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company discounts a customer's note at the bank and the proceeds exceed the face value of the note. The difference is recorded as:",
+    "question": "会社が銀行で顧客の手形を割引し、手取額が手形の額面を上回った。差額は次のように記録される：",
     "options": [
       {
-        "text": "Interest Revenue",
+        "text": "受取利息",
         "correct": true
       },
       {
-        "text": "Gain on Discounting Notes",
+        "text": "手形割引益",
         "correct": false
       },
       {
-        "text": "Unearned Interest",
+        "text": "前受利息",
         "correct": false
       },
       {
-        "text": "Reduction of Interest Expense",
+        "text": "支払利息の減額",
         "correct": false
       }
     ],
-    "explanation": "手形の割引による手取額が額面と発生利息を超える場合、超過額は利息収益として記録される。これは銀行の割引率が手形の利率より低い場合に発生する。"
+    "explanation": "手形の割引による手取額が額面と発生利息を超える場合、超過額は受取利息として記録される。これは銀行の割引率が手形の利率より低い場合に発生する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company's allowance for doubtful accounts has a credit balance of 15,000 yen before year-end adjustment. Using the percentage-of-receivables method, the desired ending balance is 25,000 yen. The adjustment is:",
+    "question": "会社の貸倒引当金が期末修正前に15,000円の貸方残高である。売掛金残高基準法で目標期末残高25,000円の場合、修正額は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Bad Debt Expense 10,000 / (Credit) Allowance for Doubtful Accounts 10,000",
+        "text": "(借方) 貸倒損失 10,000 / (貸方) 貸倒引当金 10,000",
         "correct": true
       },
       {
-        "text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000",
+        "text": "(借方) 貸倒損失 25,000 / (貸方) 貸倒引当金 25,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000",
+        "text": "(借方) 貸倒損失 40,000 / (貸方) 貸倒引当金 40,000",
         "correct": false
       },
       {
-        "text": "(Credit) Bad Debt Expense 10,000 / (Debit) Allowance for Doubtful Accounts 10,000",
+        "text": "(貸方) 貸倒損失 10,000 / (借方) 貸倒引当金 10,000",
         "correct": false
       }
     ],
@@ -783,22 +783,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company purchased goods for 500,000 yen, terms 2/10, n/30, FOB shipping point. Freight of 10,000 yen was paid. If payment is made within the discount period, the total cost recorded is:",
+    "question": "会社が500,000円の商品を条件2/10, n/30、FOB船側渡しで仕入れ、運賃10,000円を支払った。割引期間内に支払った場合、記録される総原価は次のうちどれか：",
     "options": [
       {
-        "text": "500,000 yen (freight is separate)",
+        "text": "500,000円（運賃は別勘定）",
         "correct": true
       },
       {
-        "text": "490,000 yen",
+        "text": "490,000円",
         "correct": false
       },
       {
-        "text": "510,000 yen",
+        "text": "510,000円",
         "correct": false
       },
       {
-        "text": "500,000 yen including freight",
+        "text": "運賃込みで500,000円",
         "correct": false
       }
     ],
@@ -806,45 +806,45 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company collects a note receivable at maturity. The note has a face value of 200,000 yen and accrued interest of 5,000 yen. The entry is:",
+    "question": "会社が満期で受取手形を回収した。手形の額面200,000円、発生利息5,000円。仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Receivable 5,000",
+        "text": "(借方) 現金 205,000 / (貸方) 受取手形 200,000 / (貸方) 未収利息 5,000",
         "correct": true
       },
       {
-        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 205,000",
+        "text": "(借方) 現金 205,000 / (貸方) 受取手形 205,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 200,000 / (Credit) Notes Receivable 200,000",
+        "text": "(借方) 現金 200,000 / (貸方) 受取手形 200,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Revenue 5,000",
+        "text": "(借方) 現金 205,000 / (貸方) 受取手形 200,000 / (貸方) 受取利息 5,000",
         "correct": false
       }
     ],
-    "explanation": "満期時、受取現金 = 額面（200,000）+ 総利息（5,000）= 205,000。利息が既に発生していた（未収利息）場合、その勘定を貸方記録する。利息収益は修正仕訳を通じて既に認識済み。"
+    "explanation": "満期時、受取現金 = 額面（200,000）+ 総利息（5,000）= 205,000。利息が既に発生していた（未収利息）場合、その勘定を貸方記録する。受取利息は修正仕訳を通じて既に認識済み。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company offers a 5% quantity discount for orders over 1,000,000 yen. A customer orders goods listed at 1,200,000 yen. The amount recorded as sales revenue is:",
+    "question": "会社が1,000,000円を超える注文に5%の数量値引きを提供している。顧客が定価1,200,000円の商品を注文した。売上高として記録される金額は次のうちどれか：",
     "options": [
       {
-        "text": "1,140,000 yen",
+        "text": "1,140,000円",
         "correct": true
       },
       {
-        "text": "1,200,000 yen",
+        "text": "1,200,000円",
         "correct": false
       },
       {
-        "text": "1,080,000 yen",
+        "text": "1,080,000円",
         "correct": false
       },
       {
-        "text": "1,150,000 yen",
+        "text": "1,150,000円",
         "correct": false
       }
     ],
@@ -852,68 +852,68 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Which statement about the allowance method is correct?",
+    "question": "繰入法について正しい記述は次のうちどれか：",
     "options": [
       {
-        "text": "Bad debt expense is matched to the period of the related sale",
+        "text": "貸倒費用は関連する売上の属する期間に対応される",
         "correct": true
       },
       {
-        "text": "Bad debt expense is recognized only when accounts are written off",
+        "text": "貸倒費用は売掛金を貸倒処理した時のみ認識される",
         "correct": false
       },
       {
-        "text": "The allowance account is debited when the adjustment is made",
+        "text": "修正時に貸倒引当金が借方記録される",
         "correct": false
       },
       {
-        "text": "Accounts receivable is credited when the allowance is established",
+        "text": "貸倒引当金設定時に売掛金が貸方記録される",
         "correct": false
       }
     ],
-    "explanation": "貸与法は貸倒費用をそれが関連する収益を生み出した期間に対応させる。貸倒は見積もられ、売上期間に費用計上される。特定の売掛金が回収不能になった時に認識されるのではない。"
+    "explanation": "繰入法は貸倒費用をそれが関連する収益を生み出した期間に対応させる。貸倒は見積もられ、売上期間に費用計上される。特定の売掛金が回収不能になった時に認識されるのではない。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company paid 600,000 yen for a 2-year insurance policy on October 1. At December 31, the adjusting entry for the expired portion is:",
+    "question": "会社が10月1日に2年間の保険料600,000円を支払った。12月31日時点で経過分の修正仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Insurance Expense 75,000 / (Credit) Prepaid Insurance 75,000",
+        "text": "(借方) 保険料 75,000 / (貸方) 前払保険料 75,000",
         "correct": true
       },
       {
-        "text": "(Debit) Insurance Expense 600,000 / (Credit) Prepaid Insurance 600,000",
+        "text": "(借方) 保険料 600,000 / (貸方) 前払保険料 600,000",
         "correct": false
       },
       {
-        "text": "(Debit) Insurance Expense 150,000 / (Credit) Prepaid Insurance 150,000",
+        "text": "(借方) 保険料 150,000 / (貸方) 前払保険料 150,000",
         "correct": false
       },
       {
-        "text": "(Debit) Prepaid Insurance 75,000 / (Credit) Insurance Expense 75,000",
+        "text": "(借方) 前払保険料 75,000 / (貸方) 保険料 75,000",
         "correct": false
       }
     ],
-    "explanation": "保険料消費額 = 600,000 / 24ヶ月 x 3ヶ月 = 75,000 円。前払保険料（資産）を貸方記録して減額し、保険費用を借方記録する。"
+    "explanation": "保険料消費額 = 600,000 / 24ヶ月 x 3ヶ月 = 75,000 円。前払保険料（資産）を貸方記録して減額し、保険料を借方記録する。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company received advance payment of 300,000 yen for a 6-month service contract starting next month. The entry to record receipt is:",
+    "question": "会社が来月開始の6ヶ月間サービス契約に対し300,000円の前受金を受け取った。受取時の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Cash 300,000 / (Credit) Unearned Service Revenue 300,000",
+        "text": "(借方) 現金 300,000 / (貸方) 前受サービス収益 300,000",
         "correct": true
       },
       {
-        "text": "(Debit) Cash 300,000 / (Credit) Service Revenue 300,000",
+        "text": "(借方) 現金 300,000 / (貸方) サービス収益 300,000",
         "correct": false
       },
       {
-        "text": "(Debit) Cash 300,000 / (Credit) Prepaid Service 300,000",
+        "text": "(借方) 現金 300,000 / (貸方) 前払サービス 300,000",
         "correct": false
       },
       {
-        "text": "(Debit) Unearned Service Revenue 300,000 / (Credit) Cash 300,000",
+        "text": "(借方) 前受サービス収益 300,000 / (貸方) 現金 300,000",
         "correct": false
       }
     ],
@@ -921,45 +921,45 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "Under the direct write-off method, when a 40,000 yen account is determined to be uncollectible:",
+    "question": "直接貸倒法で40,000円の売掛金が回収不能と判定された場合：",
     "options": [
       {
-        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Accounts Receivable 40,000",
+        "text": "(借方) 貸倒損失 40,000 / (貸方) 売掛金 40,000",
         "correct": true
       },
       {
-        "text": "(Debit) Allowance for Doubtful Accounts 40,000 / (Credit) Accounts Receivable 40,000",
+        "text": "(借方) 貸倒引当金 40,000 / (貸方) 売掛金 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000",
+        "text": "(借方) 貸倒損失 40,000 / (貸方) 貸倒引当金 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Accounts Receivable 40,000 / (Credit) Bad Debt Expense 40,000",
+        "text": "(借方) 売掛金 40,000 / (貸方) 貸倒損失 40,000",
         "correct": false
       }
     ],
-    "explanation": "直接貸倒法は、売掛金が回収不能と判定された時に貸倒費用を借方、売掛金を貸方に記録する。貸与勘定は使用しない。この方法はGAAPの費用収益対応の原則に準拠していない。"
+    "explanation": "直接貸倒法は、売掛金が回収不能と判定された時に貸倒損失を借方、売掛金を貸方に記録する。貸倒引当金は使用しない。この方法は費用収益対応の原則に準拠していない。"
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A construction project has costs of 50,000,000 yen incurred during the year. Construction is 40% complete. Under the percentage-of-completion method, the revenue recognized is:",
+    "question": "建設プロジェクトの当期発生費が50,000,000円、完成率40%である。完成率法で認識される収益は次のうちどれか：",
     "options": [
       {
-        "text": "This cannot be determined without knowing the total contract price",
+        "text": "総契約額が分からない限り計算できない",
         "correct": true
       },
       {
-        "text": "50,000,000 yen",
+        "text": "50,000,000円",
         "correct": false
       },
       {
-        "text": "20,000,000 yen",
+        "text": "20,000,000円",
         "correct": false
       },
       {
-        "text": "125,000,000 yen",
+        "text": "125,000,000円",
         "correct": false
       }
     ],
@@ -967,22 +967,22 @@
   },
   {
     "category": "Advanced Journal Entries",
-    "question": "A company has outstanding checks totaling 150,000 yen and deposits in transit of 200,000 yen. In the bank reconciliation, the bank balance is adjusted by:",
+    "question": "会社の未決済小切手合計150,000円、未取立預金200,000円。銀行残高調整表で銀行残高は次のように調整される：",
     "options": [
       {
-        "text": "Adding deposits in transit and subtracting outstanding checks",
+        "text": "未取立預金を加算し、未決済小切手を控除する",
         "correct": true
       },
       {
-        "text": "Subtracting deposits in transit and adding outstanding checks",
+        "text": "未取立預金を控除し、未決済小切手を加算する",
         "correct": false
       },
       {
-        "text": "Adding both deposits in transit and outstanding checks",
+        "text": "未取立預金と未決済小切手の両方を加算する",
         "correct": false
       },
       {
-        "text": "Subtracting both deposits in transit and outstanding checks",
+        "text": "未取立預金と未決済小切手の両方を控除する",
         "correct": false
       }
     ],

@@ -1,622 +1,298 @@
 [
   {
     "category": "Financial Statements",
-    "question": "In a multi-step income statement, gross profit is calculated as:",
+    "question": "区分損益計算書において、売上総利益は次のように計算される：",
     "options": [
-      {
-        "text": "Net Sales - Cost of Goods Sold",
-        "correct": true
-      },
-      {
-        "text": "Total Revenue - Total Expenses",
-        "correct": false
-      },
-      {
-        "text": "Net Sales - Operating Expenses",
-        "correct": false
-      },
-      {
-        "text": "Gross Sales - Sales Returns - Sales Discounts",
-        "correct": false
-      }
+      { "text": "純売上高 - 売上原価", "correct": true },
+      { "text": "総収益 - 総費用", "correct": false },
+      { "text": "純売上高 - 営業費用", "correct": false },
+      { "text": "総売上高 - 売上返品 - 売上割引", "correct": false }
     ],
     "explanation": "売上総利益 = 純売上高 - 売上原価。純売上高 = 総売上高 - 売上値引及び返品 - 売上割引。売上総利益は営業費用と利益を賄う余裕を示す。"
   },
   {
     "category": "Financial Statements",
-    "question": "Income from operations equals:",
+    "question": "営業利益は次のように計算される：",
     "options": [
-      {
-        "text": "Gross Profit - Operating Expenses",
-        "correct": true
-      },
-      {
-        "text": "Net Income - Non-operating Items",
-        "correct": false
-      },
-      {
-        "text": "Gross Profit - Cost of Goods Sold",
-        "correct": false
-      },
-      {
-        "text": "Total Revenue - Total Expenses",
-        "correct": false
-      }
+      { "text": "売上総利益 - 営業費用", "correct": true },
+      { "text": "当期純利益 - 営業外損益", "correct": false },
+      { "text": "売上総利益 - 売上原価", "correct": false },
+      { "text": "総収益 - 総費用", "correct": false }
     ],
     "explanation": "営業利益（経常利益）= 売上総利益 - 総営業費用（販売費 + 一般管理費）。これはコア事業の収益性に焦点を当て、利息や資産処分損益などの営業外項目を除外する。"
   },
   {
     "category": "Financial Statements",
-    "question": "Net income on a multi-step income statement is calculated as:",
+    "question": "区分損益計算書において、当期純利益は次のように計算される：",
     "options": [
-      {
-        "text": "Income from Operations +/- Non-operating Items - Income Tax Expense",
-        "correct": true
-      },
-      {
-        "text": "Gross Profit - Total Expenses",
-        "correct": false
-      },
-      {
-        "text": "Income from Operations - Income Tax Expense only",
-        "correct": false
-      },
-      {
-        "text": "Total Revenue - Cost of Goods Sold",
-        "correct": false
-      }
+      { "text": "営業利益 +/- 営業外損益 - 法人税等", "correct": true },
+      { "text": "売上総利益 - 総費用", "correct": false },
+      { "text": "営業利益 - 法人税等のみ", "correct": false },
+      { "text": "総収益 - 売上原価", "correct": false }
     ],
     "explanation": "当期純利益 = 営業利益 + 営業外収益 - 営業外費用 - 法人税等。営業外項目には受取利息・支払利息、資産処分損益、特別損益が含まれる。"
   },
   {
     "category": "Financial Statements",
-    "question": "On a classified balance sheet, current assets are listed in order of:",
+    "question": "区分表示貸借対照表において、流動資産は次の順序で配列される：",
     "options": [
-      {
-        "text": "Liquidity (most liquid first)",
-        "correct": true
-      },
-      {
-        "text": "Magnitude (largest first)",
-        "correct": false
-      },
-      {
-        "text": "Date of acquisition",
-        "correct": false
-      },
-      {
-        "text": "Alphabetical order",
-        "correct": false
-      }
+      { "text": "流動性の高い順（流動性が最も高いものが最初）", "correct": true },
+      { "text": "金額の大きい順", "correct": false },
+      { "text": "取得日の順", "correct": false },
+      { "text": "アルファベット順", "correct": false }
     ],
     "explanation": "流動資産は流動性の高い順（流動性が最も高いものが最初）に配列される：現金、有価証券、売掛金、棚卸資産、前払費用。この慣習は会社の短期財務状態の評価に役立つ。"
   },
   {
     "category": "Financial Statements",
-    "question": "Which of the following is classified as a current liability?",
+    "question": "次のうち流動負債に分類されるものはどれか：",
     "options": [
-      {
-        "text": "Dividends Payable (declared but unpaid)",
-        "correct": true
-      },
-      {
-        "text": "Bonds Payable (due in 5 years)",
-        "correct": false
-      },
-      {
-        "text": "Mortgage Payable (due in 10 years)",
-        "correct": false
-      },
-      {
-        "text": "Deferred Tax Liability (long-term portion)",
-        "correct": false
-      }
+      { "text": "未払配当金（宣言済み未払い）", "correct": true },
+      { "text": "社債（5年後満期）", "correct": false },
+      { "text": "長期借入金（10年後満期）", "correct": false },
+      { "text": "繰延税金負債（長期部分）", "correct": false }
     ],
     "explanation": "流動負債は1年以内または営業循環期間（いずれか長い方）以内に期限が到来する義務である。配当金未払は宣言済み配当が通常数ヶ月以内に支払われるため流動負債。長期負債は固定負債に分類。"
   },
   {
     "category": "Financial Statements",
-    "question": "The statement of retained earnings shows:",
+    "question": "繰越利益剰余金計算書は次を示す：",
     "options": [
-      {
-        "text": "Beginning R/E + Net Income - Dividends +/- Prior Period Adjustments = Ending R/E",
-        "correct": true
-      },
-      {
-        "text": "Beginning R/E + Revenues - Expenses = Ending R/E",
-        "correct": false
-      },
-      {
-        "text": "Total Assets - Total Liabilities = Ending R/E",
-        "correct": false
-      },
-      {
-        "text": "Beginning R/E + Gross Profit - Operating Expenses = Ending R/E",
-        "correct": false
-      }
+      { "text": "期首繰越利益剰余金 + 当期純利益 - 配当 +/- 前期修正 = 期末繰越利益剰余金", "correct": true },
+      { "text": "期首繰越利益剰余金 + 収益 - 費用 = 期末繰越利益剰余金", "correct": false },
+      { "text": "総資産 - 総負債 = 期末繰越利益剰余金", "correct": false },
+      { "text": "期首繰越利益剰余金 + 売上総利益 - 営業費用 = 期末繰越利益剰余金", "correct": false }
     ],
     "explanation": "繰越利益剰余金計算書は繰越利益剰余金の変動を調整する：期首残高、当期純利益の加算（または当期純損失の減算）、配当の減算、前期修正の加減を経て期末残高となる。"
   },
   {
     "category": "Financial Statements",
-    "question": "For a manufacturing company, the balance sheet shows three inventory accounts:",
+    "question": "製造業者の貸借対照表には3種類の棚卸資産勘定が表示される：",
     "options": [
-      {
-        "text": "Raw Materials, Work in Process, and Finished Goods",
-        "correct": true
-      },
-      {
-        "text": "Purchases, Inventory, and Cost of Goods Available",
-        "correct": false
-      },
-      {
-        "text": "Direct Materials, Indirect Materials, and Factory Supplies",
-        "correct": false
-      },
-      {
-        "text": "Beginning Inventory, Ending Inventory, and Average Inventory",
-        "correct": false
-      }
+      { "text": "原材料、仕掛品、製品", "correct": true },
+      { "text": "仕入、棚卸資産、販売可能商品原価", "correct": false },
+      { "text": "直接材料、間接材料、工場消耗品", "correct": false },
+      { "text": "期首棚卸、期末棚卸、平均棚卸", "correct": false }
     ],
     "explanation": "製造業者は3種類の棚卸資産を持つ：原材料（未使用）、仕掛品（製造中）、製品（完成済み未販売）。卸売業者は通常商品棚卸資産のみ。"
   },
   {
     "category": "Financial Statements",
-    "question": "Selling expenses on the income statement include all of the following EXCEPT:",
+    "question": "損益計算書の販売費に含まれないものは次のどれか：",
     "options": [
-      {
-        "text": "Factory utility costs",
-        "correct": true
-      },
-      {
-        "text": "Sales commissions",
-        "correct": false
-      },
-      {
-        "text": "Advertising expense",
-        "correct": false
-      },
-      {
-        "text": "Delivery expense",
-        "correct": false
-      }
+      { "text": "工場光熱費", "correct": true },
+      { "text": "販売手数料", "correct": false },
+      { "text": "広告費", "correct": false },
+      { "text": "配送費", "correct": false }
     ],
-    "explanation": "工場光熱費は製造間接費（売上原価の一部）。販売費には製品の販売に直接関連する費用が含まれる：販売員給料、 commissions、広告費、配送費、店舗家賃、店舗設備減価償却費。"
+    "explanation": "工場光熱費は製造間接費（売上原価の一部）。販売費には製品の販売に直接関連する費用が含まれる：販売員給料、手数料、広告費、配送費、店舗家賃、店舗設備減価償却費。"
   },
   {
     "category": "Financial Statements",
-    "question": "Administrative expenses on the income statement include:",
+    "question": "損益計算書の一般管理費には次が含まれる：",
     "options": [
-      {
-        "text": "Office salaries, accounting department costs, and executive salaries",
-        "correct": true
-      },
-      {
-        "text": "Factory supervisor salaries and quality control costs",
-        "correct": false
-      },
-      {
-        "text": "Sales commissions and advertising",
-        "correct": false
-      },
-      {
-        "text": "Direct materials and direct labor",
-        "correct": false
-      }
+      { "text": "事務員給与、会計部門費用、役員報酬", "correct": true },
+      { "text": "工場監督者給与と品質管理費", "correct": false },
+      { "text": "販売手数料と広告費", "correct": false },
+      { "text": "直接材料費と直接労務費", "correct": false }
     ],
     "explanation": "一般管理費（販売費及び一般管理費の一般管理部分）は事業管理の費用：事務員給与、法律費用、会計、事務用保険、事務用品、事務用設備減価償却費。これらは期間費用であり、製品原価ではない。"
   },
   {
     "category": "Financial Statements",
-    "question": "The difference between a manufacturing and merchandising income statement is:",
+    "question": "製造業と卸売業の損益計算書の違いは次のどれか：",
     "options": [
-      {
-        "text": "Manufacturing shows COGM and three inventory accounts; merchandising shows COGS and one inventory account",
-        "correct": true
-      },
-      {
-        "text": "There is no difference in format",
-        "correct": false
-      },
-      {
-        "text": "Merchandising has more expense categories",
-        "correct": false
-      },
-      {
-        "text": "Manufacturing companies do not report gross profit",
-        "correct": false
-      }
+      { "text": "製造業は製品製造原価と3種類の棚卸資産を表示し、卸売業は売上原価と1種類の棚卸資産を表示する", "correct": true },
+      { "text": "フォーマットに違いはない", "correct": false },
+      { "text": "卸売業の方が費用区分が多い", "correct": false },
+      { "text": "製造業者は売上総利益を報告しない", "correct": false }
     ],
     "explanation": "製造業の損益計算書には製品製造原価計算書が含まれ、直接材料費、直接労務費、製造間接費を明細表示する。卸売業は売上原価に仕入と商品棚卸資産の調整を表示するだけ。"
   },
   {
     "category": "Financial Statements",
-    "question": "Property, Plant, and Equipment on the balance sheet is reported at:",
+    "question": "貸借対照表の有形固定資産は次で報告される：",
     "options": [
-      {
-        "text": "Historical cost minus accumulated depreciation",
-        "correct": true
-      },
-      {
-        "text": "Current market value",
-        "correct": false
-      },
-      {
-        "text": "Replacement cost",
-        "correct": false
-      },
-      {
-        "text": "Historical cost only (no depreciation shown)",
-        "correct": false
-      }
+      { "text": "取得原価 - 減価償却累計額", "correct": true },
+      { "text": "現在の時価", "correct": false },
+      { "text": "取替原価", "correct": false },
+      { "text": "取得原価のみ（減価償却は表示しない）", "correct": false }
     ],
     "explanation": "有形固定資産は原価原則に基づく簿価（原価 - 減価償却累計額）で報告される。貸借対照表上の有形固定資産に時価は使用しない（減損の場合を除く）。"
   },
   {
     "category": "Financial Statements",
-    "question": "The accounting equation (balance sheet equation) is:",
+    "question": "会計等式（貸借対照表等式）は次のどれか：",
     "options": [
-      {
-        "text": "Assets = Liabilities + Stockholders' Equity",
-        "correct": true
-      },
-      {
-        "text": "Assets = Liabilities - Stockholders' Equity",
-        "correct": false
-      },
-      {
-        "text": "Revenue - Expenses = Net Income",
-        "correct": false
-      },
-      {
-        "text": "Assets + Expenses = Liabilities + Revenue + Equity",
-        "correct": false
-      }
+      { "text": "資産 = 負債 + 株主資本", "correct": true },
+      { "text": "資産 = 負債 - 株主資本", "correct": false },
+      { "text": "収益 - 費用 = 当期純利益", "correct": false },
+      { "text": "資産 + 費用 = 負債 + 収益 + 資本", "correct": false }
     ],
     "explanation": "基本の会計等式は常に均衡しなければならない。資産は会社が所有する資源。負債は債権者の請求権。株主資本は所有者の残余請求権。すべての取引でこの等式が維持される。"
   },
   {
     "category": "Financial Statements",
-    "question": "Intangible assets on the balance sheet include:",
+    "question": "貸借対照表の無形資産には次が含まれる：",
     "options": [
-      {
-        "text": "Patents, copyrights, trademarks, and goodwill",
-        "correct": true
-      },
-      {
-        "text": "Land, buildings, and equipment",
-        "correct": false
-      },
-      {
-        "text": "Accounts receivable and inventory",
-        "correct": false
-      },
-      {
-        "text": "Cash and marketable securities",
-        "correct": false
-      }
+      { "text": "特許権、著作権、商標権、のれん", "correct": true },
+      { "text": "土地、建物、設備", "correct": false },
+      { "text": "売掛金と棚卸資産", "correct": false },
+      { "text": "現金と有価証券", "correct": false }
     ],
     "explanation": "無形資産は物理的実体を持たないが、法的権利や競争上の優位性により価値がある。償却される（ただしのれんは年1回減損テスト）。貸借対照表の固定資産の部に記載。"
   },
   {
     "category": "Financial Statements",
-    "question": "Accumulated depreciation is reported on the balance sheet as:",
+    "question": "減価償却累計額は貸借対照表に次のように報告される：",
     "options": [
-      {
-        "text": "A contra asset account deducted from the related asset",
-        "correct": true
-      },
-      {
-        "text": "An expense on the income statement",
-        "correct": false
-      },
-      {
-        "text": "A liability",
-        "correct": false
-      },
-      {
-        "text": "A separate line item in equity",
-        "correct": false
-      }
+      { "text": "関連資産から控除する対資産勘定", "correct": true },
+      { "text": "損益計算書の費用", "correct": false },
+      { "text": "負債", "correct": false },
+      { "text": "資本の独立項目", "correct": false }
     ],
     "explanation": "減価償却累計額は貸方残高を持つ対資産勘定。関連資産の原価から控除して簿価を算出する。減価償却費自体は損益計算書に、減価償却累計額は貸借対照表に記載。"
   },
   {
     "category": "Financial Statements",
-    "question": "A manufacturing company's schedule of cost of goods manufactured shows direct materials used of 400,000, direct labor 300,000, and factory overhead 200,000. Beginning WIP 50,000, Ending WIP 80,000. COGM is:",
+    "question": "製造業者の製品製造原価計算書において、直接材料費400,000円、直接労務費300,000円、製造間接費200,000円。期首仕掛品50,000円、期末仕掛品80,000円。製品製造原価は：",
     "options": [
-      {
-        "text": "870,000 yen",
-        "correct": true
-      },
-      {
-        "text": "900,000 yen",
-        "correct": false
-      },
-      {
-        "text": "840,000 yen",
-        "correct": false
-      },
-      {
-        "text": "1,000,000 yen",
-        "correct": false
-      }
+      { "text": "870,000円", "correct": true },
+      { "text": "900,000円", "correct": false },
+      { "text": "840,000円", "correct": false },
+      { "text": "1,000,000円", "correct": false }
     ],
     "explanation": "総製造費用 = 400,000 + 300,000 + 200,000 = 900,000。製品製造原価 = 期首仕掛品（50,000）+ 総製造費用（900,000）- 期末仕掛品（80,000）= 870,000 円。"
   },
   {
     "category": "Financial Statements",
-    "question": "On a classified balance sheet, long-term investments include:",
+    "question": "区分表示貸借対照表において、投資その他の資産には次が含まれる：",
     "options": [
-      {
-        "text": "Investments in bonds of other companies not expected to be sold within one year",
-        "correct": true
-      },
-      {
-        "text": "Cash equivalents and marketable securities",
-        "correct": false
-      },
-      {
-        "text": "Inventory held for sale",
-        "correct": false
-      },
-      {
-        "text": "Treasury stock",
-        "correct": false
-      }
+      { "text": "1年以内に売却する予定のない他社社債への投資", "correct": true },
+      { "text": "現金同等物と有価証券", "correct": false },
+      { "text": "販売用に保有する棚卸資産", "correct": false },
+      { "text": "自己株式", "correct": false }
     ],
     "explanation": "投資その他の資産は事業のために使用されず、1年以内に現金化されない非流動資産。例：長期社債投資、関連会社投資、将来使用予定の土地。短期投資は流動資産。"
   },
   {
     "category": "Financial Statements",
-    "question": "Working capital is calculated as:",
+    "question": "運転資本は次のように計算される：",
     "options": [
-      {
-        "text": "Current Assets - Current Liabilities",
-        "correct": true
-      },
-      {
-        "text": "Total Assets - Total Liabilities",
-        "correct": false
-      },
-      {
-        "text": "Current Assets / Current Liabilities",
-        "correct": false
-      },
-      {
-        "text": "Cash - Accounts Payable",
-        "correct": false
-      }
+      { "text": "流動資産 - 流動負債", "correct": true },
+      { "text": "総資産 - 総負債", "correct": false },
+      { "text": "流動資産 / 流動負債", "correct": false },
+      { "text": "現金 - 買掛金", "correct": false }
     ],
     "explanation": "運転資本は短期財務健全性を測る。正の運転資本は流動資産が流動負債を超えることを示し、短期債務の履行能力を示唆する。負の運転資本は流動性問題を示唆する可能性がある。"
   },
   {
     "category": "Financial Statements",
-    "question": "The current ratio is calculated as:",
+    "question": "流動比率は次のように計算される：",
     "options": [
-      {
-        "text": "Current Assets / Current Liabilities",
-        "correct": true
-      },
-      {
-        "text": "(Current Assets - Inventory) / Current Liabilities",
-        "correct": false
-      },
-      {
-        "text": "Current Assets - Current Liabilities",
-        "correct": false
-      },
-      {
-        "text": "Total Assets / Total Liabilities",
-        "correct": false
-      }
+      { "text": "流動資産 / 流動負債", "correct": true },
+      { "text": "（流動資産 - 棚卸資産）/ 流動負債", "correct": false },
+      { "text": "流動資産 - 流動負債", "correct": false },
+      { "text": "総資産 / 総負債", "correct": false }
     ],
     "explanation": "流動比率（流動資産 / 流動負債）は全体の流動性を測る。1.0以上の比率は流動資産が流動負債を超えることを示す。業界によるが、1.5-2.0が適正とされることが多い。"
   },
   {
     "category": "Financial Statements",
-    "question": "Earnings per share (EPS) on the income statement is calculated for:",
+    "question": "損益計算書の1株当たり利益（EPS）は次について計算される：",
     "options": [
-      {
-        "text": "Income from continuing operations and net income",
-        "correct": true
-      },
-      {
-        "text": "Gross profit only",
-        "correct": false
-      },
-      {
-        "text": "Income before taxes only",
-        "correct": false
-      },
-      {
-        "text": "Operating income only",
-        "correct": false
-      }
+      { "text": "継続事業の利益と当期純利益", "correct": true },
+      { "text": "売上総利益のみ", "correct": false },
+      { "text": "税引前利益のみ", "correct": false },
+      { "text": "営業利益のみ", "correct": false }
     ],
     "explanation": "1株当たり利益（EPS）は継続事業の利益と当期純利益について損益計算書に記載される必要がある（IAS 33 / GAAP）。異なる規模の企業間の収益性比較に役立つ。"
   },
   {
     "category": "Financial Statements",
-    "question": "Other comprehensive income (OCI) includes items such as:",
+    "question": "その他の包括利益（OCI）には次のような項目が含まれる：",
     "options": [
-      {
-        "text": "Unrealized gains/losses on available-for-sale securities and foreign currency translation adjustments",
-        "correct": true
-      },
-      {
-        "text": "Revenues from core operations",
-        "correct": false
-      },
-      {
-        "text": "Cost of goods sold",
-        "correct": false
-      },
-      {
-        "text": "Extraordinary gains and losses",
-        "correct": false
-      }
+      { "text": "売買目的有価証券の未実現損益や為替換算差額", "correct": true },
+      { "text": "コア事業の収益", "correct": false },
+      { "text": "売上原価", "correct": false },
+      { "text": "特別損益", "correct": false }
     ],
     "explanation": "包括利益には損益計算書をバイパスするが株主資本に影響する項目が含まれる：売買目的有価証券の未実現損益、為替換算差額、退職給付債務調整、繰延ヘッジ損益。"
   },
   {
     "category": "Financial Statements",
-    "question": "A statement of cash flows has three sections: operating, investing, and financing. Depreciation expense appears in:",
+    "question": "キャッシュフロー計算書には営業活動、投資活動、財務活動の3つのセクションがある。減価償却費はどこに表示されるか：",
     "options": [
-      {
-        "text": "Operating activities (added back to net income)",
-        "correct": true
-      },
-      {
-        "text": "Investing activities",
-        "correct": false
-      },
-      {
-        "text": "Financing activities",
-        "correct": false
-      },
-      {
-        "text": "It does not appear on the statement of cash flows",
-        "correct": false
-      }
+      { "text": "営業活動（純利益に加算）", "correct": true },
+      { "text": "投資活動", "correct": false },
+      { "text": "財務活動", "correct": false },
+      { "text": "キャッシュフロー計算書には表示されない", "correct": false }
     ],
     "explanation": "減価償却費は現金を伴わない費用で純利益を減少させたが現金を使用していない。間接法では営業活動のキャッシュフローで純利益に加算される。直接法では減価償却費は別途表示されない。"
   },
   {
     "category": "Financial Statements",
-    "question": "The quick ratio (acid-test ratio) excludes which current asset?",
+    "question": "当座比率（酸性試験比率）はどの流動資産を除外するか：",
     "options": [
-      {
-        "text": "Inventory",
-        "correct": true
-      },
-      {
-        "text": "Cash",
-        "correct": false
-      },
-      {
-        "text": "Accounts receivable",
-        "correct": false
-      },
-      {
-        "text": "Marketable securities",
-        "correct": false
-      }
+      { "text": "棚卸資産", "correct": true },
+      { "text": "現金", "correct": false },
+      { "text": "売掛金", "correct": false },
+      { "text": "有価証券", "correct": false }
     ],
     "explanation": "当座比率 =（現金 + 有価証券 + 売掛金）/ 流動負債。棚卸資産は流動性が低いため除外される。これにより短期支払能力のより厳密なテストが可能。"
   },
   {
     "category": "Financial Statements",
-    "question": "A company reports net sales of 1,000,000, COGS 600,000, operating expenses 200,000, interest expense 20,000, and tax rate 30%. Net income is:",
+    "question": "企業の純売上高1,000,000円、売上原価600,000円、営業費用200,000円、支払利息20,000円、税率30%。当期純利益は：",
     "options": [
-      {
-        "text": "126,000 yen",
-        "correct": true
-      },
-      {
-        "text": "180,000 yen",
-        "correct": false
-      },
-      {
-        "text": "140,000 yen",
-        "correct": false
-      },
-      {
-        "text": "156,000 yen",
-        "correct": false
-      }
+      { "text": "126,000円", "correct": true },
+      { "text": "180,000円", "correct": false },
+      { "text": "140,000円", "correct": false },
+      { "text": "156,000円", "correct": false }
     ],
     "explanation": "売上総利益 = 1,000,000 - 600,000 = 400,000。営業利益 = 400,000 - 200,000 = 200,000。税引前利益 = 200,000 - 20,000 = 180,000。法人税 = 180,000 x 30% = 54,000。当期純利益 = 180,000 - 54,000 = 126,000 円。"
   },
   {
     "category": "Financial Statements",
-    "question": "Comprehensive income equals:",
+    "question": "包括利益は次に等しい：",
     "options": [
-      {
-        "text": "Net Income + Other Comprehensive Income",
-        "correct": true
-      },
-      {
-        "text": "Net Income only",
-        "correct": false
-      },
-      {
-        "text": "Gross Profit - Operating Expenses",
-        "correct": false
-      },
-      {
-        "text": "Revenue - Expenses + Gains - Losses",
-        "correct": false
-      }
+      { "text": "当期純利益 + その他の包括利益", "correct": true },
+      { "text": "当期純利益のみ", "correct": false },
+      { "text": "売上総利益 - 営業費用", "correct": false },
+      { "text": "収益 - 費用 + 利益 - 損失", "correct": false }
     ],
     "explanation": "包括利益 = 当期純利益 + その他の包括利益。当期の非所有者源泉による株主資本の総変動を表す。単一の計算書または連続する2つの計算書（損益計算書 + 包括利益計算書）で表示可能。"
   },
   {
     "category": "Financial Statements",
-    "question": "On a manufacturing company's income statement, cost of goods sold includes:",
+    "question": "製造業者の損益計算書の売上原価には次が含まれる：",
     "options": [
-      {
-        "text": "Direct materials used + Direct labor + Factory overhead (adjusted for WIP and FG changes)",
-        "correct": true
-      },
-      {
-        "text": "Only the cost of raw materials purchased",
-        "correct": false
-      },
-      {
-        "text": "Purchases + Freight In - Purchase Discounts",
-        "correct": false
-      },
-      {
-        "text": "Only direct labor and factory overhead",
-        "correct": false
-      }
+      { "text": "直接材料費 + 直接労務費 + 製造間接費（仕掛品と製品の増減を調整）", "correct": true },
+      { "text": "購入した原材料費のみ", "correct": false },
+      { "text": "純仕入 + 仕入運賃 - 仕入割引", "correct": false },
+      { "text": "直接労務費と製造間接費のみ", "correct": false }
     ],
     "explanation": "製造業者の売上原価 = 期首製品 + 製品製造原価 - 期末製品。製品製造原価には3つの製造原価要素（直接材料費、直接労務費、製造間接費）が含まれる。卸売業の売上原価 = 期首商品 + 純仕入 - 期末商品。"
   },
   {
     "category": "Financial Statements",
-    "question": "Which of the following is a contra-revenue account?",
+    "question": "次のうち対収益勘定はどれか：",
     "options": [
-      {
-        "text": "Sales Returns and Allowances",
-        "correct": true
-      },
-      {
-        "text": "Cost of Goods Sold",
-        "correct": false
-      },
-      {
-        "text": "Accumulated Depreciation",
-        "correct": false
-      },
-      {
-        "text": "Discount Received",
-        "correct": false
-      }
+      { "text": "売上値引及び返品", "correct": true },
+      { "text": "売上原価", "correct": false },
+      { "text": "減価償却累計額", "correct": false },
+      { "text": "仕入割引", "correct": false }
     ],
     "explanation": "売上値引及び返品は借方残高を持ち、総売上高から控除して純売上高を算出する。減価償却累計額は対資産。売上原価は費用であり、対勘定ではない。仕入割引は対費用勘定。"
   },
   {
     "category": "Financial Statements",
-    "question": "Extraordinary items on the income statement are:",
+    "question": "損益計算書の特別損益は次のどれか：",
     "options": [
-      {
-        "text": "Both unusual in nature and infrequent in occurrence (e.g., loss from a natural disaster in an area not prone to such events)",
-        "correct": true
-      },
-      {
-        "text": "Any unusual item regardless of frequency",
-        "correct": false
-      },
-      {
-        "text": "Write-downs of inventory and receivables",
-        "correct": false
-      },
-      {
-        "text": "Gains or losses from asset disposals",
-        "correct": false
-      }
+      { "text": "性質が異常であり発生が稀であることの両方を満たすもの（例：そのような出来事が稀な地域での自然災害による損失）", "correct": true },
+      { "text": "発生頻度に関係なくすべての異常項目", "correct": false },
+      { "text": "棚卸資産と売掛金の評価損", "correct": false },
+      { "text": "資産処分による利益・損失", "correct": false }
     ],
     "explanation": "特別損益は性質が異常であり発生が稀であることの両方の基準を満たす必要がある。例：そのような出来事が稀な地域での自然災害による損失。更新された基準では、以前特別損益に分類されていたほとんどの項目は継続事業の利益に含まれる。"
   }

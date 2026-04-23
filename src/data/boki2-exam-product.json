@@ -1,22 +1,22 @@
 [
   {
     "category": "Product Costing",
-    "question": "Under job-order costing, the cost of a completed job is transferred from WIP to:",
+    "question": "個別原価計算で完成ジョブの原価は仕掛品から次のどこに振り替えられるか：",
     "options": [
       {
-        "text": "Finished Goods Inventory",
+        "text": "製品",
         "correct": true
       },
       {
-        "text": "Cost of Goods Sold",
+        "text": "売上原価",
         "correct": false
       },
       {
-        "text": "Raw Materials Inventory",
+        "text": "原材料",
         "correct": false
       },
       {
-        "text": "Factory Overhead",
+        "text": "製造間接費",
         "correct": false
       }
     ],
@@ -24,45 +24,45 @@
   },
   {
     "category": "Product Costing",
-    "question": "A job order cost sheet accumulates costs for:",
+    "question": "ジョブ原価計算書は次のものの原価を集計する：",
     "options": [
       {
-        "text": "A specific job or batch of products",
+        "text": "特定のジョブまたは製品バッチ",
         "correct": true
       },
       {
-        "text": "All production during a period",
+        "text": "期間中の全生産",
         "correct": false
       },
       {
-        "text": "An entire department",
+        "text": "部門全体",
         "correct": false
       },
       {
-        "text": "A single product unit in continuous production",
+        "text": "連続生産の単一製品単位",
         "correct": false
       }
     ],
-    "explanation": "ジョブ原価計算書はジョブオーダー原価計算の中心的文書。特定のジョブまたはバッチのすべての直接材料、直接労務費、配賦間接費を追跡する。各ジョブに独自の原価計算書がある。"
+    "explanation": "ジョブ原価計算書は個別原価計算の中心的文書。特定のジョブまたはバッチのすべての直接材料費、直接労務費、配賦間接費を追跡する。各ジョブに独自の原価計算書がある。"
   },
   {
     "category": "Product Costing",
-    "question": "In process costing, equivalent units of production represent:",
+    "question": "工程別原価計算で換算量とは次のうちどれか：",
     "options": [
       {
-        "text": "The number of whole units that could have been completed given the work done",
+        "text": "行われた作業量から完成し得た完成品単位数",
         "correct": true
       },
       {
-        "text": "The total physical units in production",
+        "text": "生産中の総物理単位数",
         "correct": false
       },
       {
-        "text": "The number of units started during the period",
+        "text": "期間中に着手した単位数",
         "correct": false
       },
       {
-        "text": "The number of units completed and transferred out",
+        "text": "完成して振り替えられた単位数",
         "correct": false
       }
     ],
@@ -70,22 +70,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "Using the weighted average method, equivalent units for transferred-in costs for units in ending WIP are:",
+    "question": "加重平均法で期末仕掛品の振替原価の換算量は次のうちどれか：",
     "options": [
       {
-        "text": "100% complete for transferred-in costs regardless of the processing stage",
+        "text": "加工段階に関係なく振替原価については100%完成",
         "correct": true
       },
       {
-        "text": "0% complete because they are still in process",
+        "text": "まだ仕掛中のため0%完成",
         "correct": false
       },
       {
-        "text": "50% complete as a standard average",
+        "text": "標準平均として50%完成",
         "correct": false
       },
       {
-        "text": "Equal to the conversion percentage complete",
+        "text": "加工費の完成度と同じ",
         "correct": false
       }
     ],
@@ -93,22 +93,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "The cost of goods manufactured equals:",
+    "question": "製品製造原価は次の式で計算される：",
     "options": [
       {
-        "text": "Total manufacturing costs + Beginning WIP - Ending WIP",
+        "text": "総製造費用 + 期首仕掛品 - 期末仕掛品",
         "correct": true
       },
       {
-        "text": "Total manufacturing costs + Ending WIP - Beginning WIP",
+        "text": "総製造費用 + 期末仕掛品 - 期首仕掛品",
         "correct": false
       },
       {
-        "text": "Direct materials + Direct labor + Factory Overhead",
+        "text": "直接材料費 + 直接労務費 + 製造間接費",
         "correct": false
       },
       {
-        "text": "Sales - Gross Profit",
+        "text": "売上高 - 売上総利益",
         "correct": false
       }
     ],
@@ -116,22 +116,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "A department started 10,000 units, completed 8,000, and has 2,000 units 60% complete. Under weighted average, equivalent units for conversion costs are:",
+    "question": "部門が10,000単位を着手し、8,000単位を完成し、2,000単位が60%完成。加重平均法での加工費換算量は次のうちどれか：",
     "options": [
       {
-        "text": "9,200 equivalent units",
+        "text": "9,200換算量",
         "correct": true
       },
       {
-        "text": "8,000 equivalent units",
+        "text": "8,000換算量",
         "correct": false
       },
       {
-        "text": "10,000 equivalent units",
+        "text": "10,000換算量",
         "correct": false
       },
       {
-        "text": "8,600 equivalent units",
+        "text": "8,600換算量",
         "correct": false
       }
     ],
@@ -139,22 +139,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "Using FIFO, if beginning WIP was 3,000 units (40% complete), 47,000 units were started, and 45,000 units were completed, equivalent units for conversion are (ending WIP 5,000 units, 20% complete):",
+    "question": "先入先出法（FIFO）で、期首仕掛品3,000単位（40%完成）、当期着手47,000単位、完成45,000単位。期末仕掛品5,000単位（20%完成）。加工費の換算量は次のうちどれか：",
     "options": [
       {
-        "text": "44,200 equivalent units",
+        "text": "44,200換算量",
         "correct": true
       },
       {
-        "text": "46,000 equivalent units",
+        "text": "46,000換算量",
         "correct": false
       },
       {
-        "text": "47,000 equivalent units",
+        "text": "47,000換算量",
         "correct": false
       },
       {
-        "text": "45,000 equivalent units",
+        "text": "45,000換算量",
         "correct": false
       }
     ],
@@ -162,22 +162,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "Process costing is most appropriate for:",
+    "question": "工程別原価計算は次に最も適している：",
     "options": [
       {
-        "text": "Industries producing homogeneous products in continuous processes",
+        "text": "連続工程で同質製品を生産する産業",
         "correct": true
       },
       {
-        "text": "Custom job shops producing unique products",
+        "text": "独自製品を生産するカスタムジョブショップ",
         "correct": false
       },
       {
-        "text": "Service industries only",
+        "text": "サービス産業のみ",
         "correct": false
       },
       {
-        "text": "Companies with very low production volumes",
+        "text": "生産量が非常に少ない会社",
         "correct": false
       }
     ],
@@ -185,45 +185,45 @@
   },
   {
     "category": "Product Costing",
-    "question": "Job-order costing is most appropriate for:",
+    "question": "個別原価計算は次に最も適している：",
     "options": [
       {
-        "text": "Companies producing custom or distinct products/batches",
+        "text": "カスタムまたは異なる製品・バッチを生産する会社",
         "correct": true
       },
       {
-        "text": "Companies producing identical units in continuous flow",
+        "text": "連続工程で同一製品を生産する会社",
         "correct": false
       },
       {
-        "text": "Retail stores with standardized inventory",
+        "text": "標準化された棚卸資産を持つ小売店",
         "correct": false
       },
       {
-        "text": "Utility companies providing homogeneous services",
+        "text": "同質サービスを提供する公益企業",
         "correct": false
       }
     ],
-    "explanation": "ジョブオーダー原価計算は各ジョブ、バッチ、プロジェクトの原価を個別に追跡：カスタム家具、印刷ジョブ、法律案件、監査業務、建設プロジェクト。各ジョブの材料・労務費・間接費要件が異なる。"
+    "explanation": "個別原価計算は各ジョブ、バッチ、プロジェクトの原価を個別に追跡：カスタム家具、印刷ジョブ、法律案件、監査業務、建設プロジェクト。各ジョブの材料・労務費・間接費要件が異なる。"
   },
   {
     "category": "Product Costing",
-    "question": "When finished goods are sold, the entry is:",
+    "question": "完成品を販売した時の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Cost of Goods Sold / (Credit) Finished Goods Inventory",
+        "text": "(借方) 売上原価 / (貸方) 製品",
         "correct": true
       },
       {
-        "text": "(Debit) Finished Goods / (Credit) WIP",
+        "text": "(借方) 製品 / (貸方) 仕掛品",
         "correct": false
       },
       {
-        "text": "(Debit) Cost of Goods Sold / (Credit) WIP",
+        "text": "(借方) 売上原価 / (貸方) 仕掛品",
         "correct": false
       },
       {
-        "text": "(Debit) Sales Revenue / (Credit) Finished Goods",
+        "text": "(借方) 売上高 / (貸方) 製品",
         "correct": false
       }
     ],
@@ -231,45 +231,45 @@
   },
   {
     "category": "Product Costing",
-    "question": "A department's total cost to account for is 500,000 yen. Equivalent units: 10,000 (materials), 9,000 (conversion). Cost per EU for materials and conversion are:",
+    "question": "部門の総原価配分対象500,000円。換算量：材料10,000、加工費9,000。材料と加工費の換算単位原価は次のうちどれか：",
     "options": [
       {
-        "text": "Cannot be determined without knowing the separate material and conversion costs",
+        "text": "材料費と加工費の内訳が分からない限り計算できない",
         "correct": true
       },
       {
-        "text": "Materials: 50 yen, Conversion: 50 yen",
+        "text": "材料費：50円、加工費：50円",
         "correct": false
       },
       {
-        "text": "Materials: 50 yen, Conversion: 55.56 yen",
+        "text": "材料費：50円、加工費：55.56円",
         "correct": false
       },
       {
-        "text": "Both: 52.63 yen",
+        "text": "両方：52.63円",
         "correct": false
       }
     ],
-    "explanation": "500,000のうち直接材料費と加工費がそれぞれいくらか分からない限り、個別の換算単位原価は計算できない。実際には材料と加工費は完成度が異なることが多いため別々に追跡する。"
+    "explanation": "500,000円のうち直接材料費と加工費がそれぞれいくらか分からない限り、個別の換算単位原価は計算できない。実際には材料と加工費は完成度が異なることが多いため別々に追跡する。"
   },
   {
     "category": "Product Costing",
-    "question": "Total manufacturing costs include:",
+    "question": "総製造費用には次のものが含まれる：",
     "options": [
       {
-        "text": "Direct materials used + Direct labor + Factory overhead",
+        "text": "直接材料費 + 直接労務費 + 製造間接費",
         "correct": true
       },
       {
-        "text": "Direct materials purchased + Direct labor + Selling expenses",
+        "text": "直接材料仕入高 + 直接労務費 + 販売費",
         "correct": false
       },
       {
-        "text": "Beginning WIP + Direct materials + Direct labor",
+        "text": "期首仕掛品 + 直接材料費 + 直接労務費",
         "correct": false
       },
       {
-        "text": "Cost of goods sold + Ending finished goods",
+        "text": "売上原価 + 期末製品",
         "correct": false
       }
     ],
@@ -277,22 +277,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "In process costing, the cost per equivalent unit under the weighted average method is calculated as:",
+    "question": "工程別原価計算で加重平均法の換算単位原価は次のように計算される：",
     "options": [
       {
-        "text": "(Beginning WIP cost + Current period cost) / Weighted average equivalent units",
+        "text": "（期首仕掛品原価 + 当期原価）/ 加重平均換算量",
         "correct": true
       },
       {
-        "text": "Current period cost only / FIFO equivalent units",
+        "text": "当期原価のみ / FIFO換算量",
         "correct": false
       },
       {
-        "text": "Total cost / Physical units",
+        "text": "総原価 / 物理単位数",
         "correct": false
       },
       {
-        "text": "Ending WIP cost / Ending WIP equivalent units",
+        "text": "期末仕掛品原価 / 期末仕掛品換算量",
         "correct": false
       }
     ],
@@ -300,68 +300,68 @@
   },
   {
     "category": "Product Costing",
-    "question": "A key difference between weighted average and FIFO in process costing is:",
+    "question": "工程別原価計算における加重平均法とFIFOの主な違いは次のうちどれか：",
     "options": [
       {
-        "text": "FIFO separates current period costs from beginning WIP costs; weighted average combines them",
+        "text": "FIFOは当期原価を期首仕掛品原価から分離する。加重平均法は結合する。",
         "correct": true
       },
       {
-        "text": "Weighted average is more accurate than FIFO",
+        "text": "加重平均法はFIFOより正確である",
         "correct": false
       },
       {
-        "text": "FIFO uses only physical units; weighted average uses equivalent units",
+        "text": "FIFOは物理単位のみを使用し、加重平均法は換算量を使用する",
         "correct": false
       },
       {
-        "text": "They always produce identical results",
+        "text": "常に同じ結果になる",
         "correct": false
       }
     ],
-    "explanation": "FIFOは期首仕掛品を別に扱い、より最新の原価情報を提供する。加重平均は期間をまたいで原価を混在させ、より簡単だが当期の原価分析を歪める可能性がある。期間間で原価が大きく変動する場合FIFOが好まれる。"
+    "explanation": "FIFOは期首仕掛品を別に扱い、より最新の原価情報を提供する。加重平均法は期間をまたいで原価を混在させ、より簡単だが当期の原価分析を歪める可能性がある。期間間で原価が大きく変動する場合FIFOが好まれる。"
   },
   {
     "category": "Product Costing",
-    "question": "Spoilage in job-order costing that is attributable to a specific job should be charged to:",
+    "question": "個別原価計算で特定ジョブに帰属する仕損は次のどこに負担させるべきか：",
     "options": [
       {
-        "text": "That specific job",
+        "text": "その特定ジョブ",
         "correct": true
       },
       {
-        "text": "Factory Overhead (spread across all jobs)",
+        "text": "製造間接費（全ジョブに配賦）",
         "correct": false
       },
       {
-        "text": "A loss account",
+        "text": "損失勘定",
         "correct": false
       },
       {
-        "text": "Cost of Goods Sold",
+        "text": "売上原価",
         "correct": false
       }
     ],
-    "explanation": "仕損が特定ジョブの固有要件による場合（例：特殊な仕様、厳しい公差）、そのコストはそのジョブに負担させる。すべての生産に共通する正常仕損は間接費を通じて配賦。"
+    "explanation": "仕損が特定ジョブの固有要件による場合（例：特殊な仕様、厳しい公差）、そのコストはそのジョブに負担させる。すべての生産に共通する正常仕損は間接費を通じて配賦される。"
   },
   {
     "category": "Product Costing",
-    "question": "In a multi-department process costing system, costs are transferred between departments by:",
+    "question": "多工程工程別原価計算システムで、部門間のコスト振替は次のように行われる：",
     "options": [
       {
-        "text": "(Debit) WIP - Next Department / (Credit) WIP - Previous Department",
+        "text": "(借方) 仕掛品 - 次工程 / (貸方) 仕掛品 - 前工程",
         "correct": true
       },
       {
-        "text": "(Debit) Finished Goods / (Credit) WIP - Previous Department",
+        "text": "(借方) 製品 / (貸方) 仕掛品 - 前工程",
         "correct": false
       },
       {
-        "text": "(Debit) Cost of Goods Sold / (Credit) WIP - Previous Department",
+        "text": "(借方) 売上原価 / (貸方) 仕掛品 - 前工程",
         "correct": false
       },
       {
-        "text": "(Debit) WIP - Previous Department / (Credit) WIP - Next Department",
+        "text": "(借方) 仕掛品 - 前工程 / (貸方) 仕掛品 - 次工程",
         "correct": false
       }
     ],
@@ -369,22 +369,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "A production cost report summarizes:",
+    "question": "生産原価報告書は次のものを要約する：",
     "options": [
       {
-        "text": "Physical flow of units, equivalent units, cost per EU, and cost assignment for a department",
+        "text": "部門の物理的流動、換算量、換算単位原価、原価配分",
         "correct": true
       },
       {
-        "text": "Only the total cost of goods sold",
+        "text": "売上原価の合計のみ",
         "correct": false
       },
       {
-        "text": "Only the physical units in production",
+        "text": "生産中の物理単位数のみ",
         "correct": false
       },
       {
-        "text": "The job order cost sheet for all active jobs",
+        "text": "全アクティブジョブのジョブ原価計算書",
         "correct": false
       }
     ],
@@ -392,22 +392,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "A company uses job-order costing. Job 101 has: DM 50,000, DL 30,000, OH applied at 120% of DL. Total job cost is:",
+    "question": "会社が個別原価計算を使用している。ジョブ101の直接材料費50,000円、直接労務費30,000円、間接費は直接労務費の120%で配賦。総ジョブ原価は次のうちどれか：",
     "options": [
       {
-        "text": "116,000 yen",
+        "text": "116,000円",
         "correct": true
       },
       {
-        "text": "80,000 yen",
+        "text": "80,000円",
         "correct": false
       },
       {
-        "text": "110,000 yen",
+        "text": "110,000円",
         "correct": false
       },
       {
-        "text": "90,000 yen",
+        "text": "90,000円",
         "correct": false
       }
     ],
@@ -415,22 +415,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "The weighted average cost per equivalent unit for conversion is 50 yen. Completed and transferred out: 8,000 EU. Ending WIP: 1,200 EU. The cost transferred out is:",
+    "question": "加重平均法の加工費換算単位原価50円。完成振替8,000換算量。期末仕掛品1,200換算量。振替原価は次のうちどれか：",
     "options": [
       {
-        "text": "400,000 yen",
+        "text": "400,000円",
         "correct": true
       },
       {
-        "text": "460,000 yen",
+        "text": "460,000円",
         "correct": false
       },
       {
-        "text": "340,000 yen",
+        "text": "340,000円",
         "correct": false
       },
       {
-        "text": "500,000 yen",
+        "text": "500,000円",
         "correct": false
       }
     ],
@@ -438,22 +438,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "In process costing, when materials are added continuously throughout the process, equivalent units for materials equal:",
+    "question": "工程別原価計算で、工程全体で材料が連続的に投入される場合、材料の換算量は次のようになる：",
     "options": [
       {
-        "text": "Completed units + (Ending WIP units x % complete for materials)",
+        "text": "完成品 +（期末仕掛品 x 材料完成度）",
         "correct": true
       },
       {
-        "text": "Only completed units",
+        "text": "完成品のみ",
         "correct": false
       },
       {
-        "text": "All physical units regardless of completion",
+        "text": "完成度に関係なく全物理単位",
         "correct": false
       },
       {
-        "text": "Only the units started during the period",
+        "text": "期間中に着手した単位のみ",
         "correct": false
       }
     ],
@@ -461,45 +461,45 @@
   },
   {
     "category": "Product Costing",
-    "question": "Operation costing is a hybrid of:",
+    "question": "オペレーション原価計算は次のどれのハイブリッドか：",
     "options": [
       {
-        "text": "Job-order and process costing",
+        "text": "個別原価計算と工程別原価計算",
         "correct": true
       },
       {
-        "text": "Standard and actual costing",
+        "text": "標準原価計算と実際原価計算",
         "correct": false
       },
       {
-        "text": "FIFO and weighted average costing",
+        "text": "先入先出法と加重平均法",
         "correct": false
       },
       {
-        "text": "Variable and absorption costing",
+        "text": "変動原価計算と吸収原価計算",
         "correct": false
       }
     ],
-    "explanation": "オペレーション原価計算は加工費に工程別原価計算を（製品間で類似）、直接材料にジョブオーダー原価計算を（製品間で異なる）適用するハイブリッド。例：衣料製造（同じ工程、異なる生地）。"
+    "explanation": "オペレーション原価計算は加工費に工程別原価計算を（製品間で類似）、直接材料に個別原価計算を（製品間で異なる）適用するハイブリッド。例：衣料製造（同じ工程、異なる生地）。"
   },
   {
     "category": "Product Costing",
-    "question": "A manufacturer's cost of goods sold is calculated as:",
+    "question": "製造業者の売上原価の計算式は次のうちどれか：",
     "options": [
       {
-        "text": "Beginning Finished Goods + Cost of Goods Manufactured - Ending Finished Goods",
+        "text": "期首製品 + 製品製造原価 - 期末製品",
         "correct": true
       },
       {
-        "text": "Beginning WIP + Total Manufacturing Costs - Ending WIP",
+        "text": "期首仕掛品 + 総製造費用 - 期末仕掛品",
         "correct": false
       },
       {
-        "text": "Total Manufacturing Costs - Ending WIP",
+        "text": "総製造費用 - 期末仕掛品",
         "correct": false
       },
       {
-        "text": "Sales Revenue - Gross Profit",
+        "text": "売上高 - 売上総利益",
         "correct": false
       }
     ],
@@ -507,91 +507,91 @@
   },
   {
     "category": "Product Costing",
-    "question": "Under absorption costing, fixed factory overhead is:",
+    "question": "吸収原価計算（全部原価計算）で固定製造間接費は次のように扱われる：",
     "options": [
       {
-        "text": "Included as part of product cost (inventoriable)",
+        "text": "製品原価の一部として含まれる（棚卸資産計上可能）",
         "correct": true
       },
       {
-        "text": "Expensed immediately as a period cost",
+        "text": "期間費用として直ちに費用処理される",
         "correct": false
       },
       {
-        "text": "Treated as a separate line item on the balance sheet",
+        "text": "貸借対照表の独立項目として処理される",
         "correct": false
       },
       {
-        "text": "Only allocated to units sold, not to ending inventory",
+        "text": "販売された単位にのみ配賦され、期末棚卸資産には配賦されない",
         "correct": false
       }
     ],
-    "explanation": "吸収原価計算（全部原価計算）はすべての製造原価（直接材料、直接労務費、変動・固定間接費）を製品原価に含む。GAAPでの外部報告で義務付けられている。変動原価計算は変動費のみを製品原価に含む。"
+    "explanation": "吸収原価計算（全部原価計算）はすべての製造原価（直接材料費、直接労務費、変動・固定間接費）を製品原価に含む。外部報告で義務付けられている。変動原価計算は変動費のみを製品原価に含む。"
   },
   {
     "category": "Product Costing",
-    "question": "Under variable (direct) costing, fixed factory overhead is:",
+    "question": "変動原価計算（直接原価計算）で固定製造間接費は次のように扱われる：",
     "options": [
       {
-        "text": "Treated as a period expense and deducted on the income statement",
+        "text": "期間費用として処理し、損益計算書で控除する",
         "correct": true
       },
       {
-        "text": "Included in product cost and inventoried",
+        "text": "製品原価に含めて棚卸資産計上する",
         "correct": false
       },
       {
-        "text": "Allocated only to units sold",
+        "text": "販売された単位にのみ配賦する",
         "correct": false
       },
       {
-        "text": "Added to selling and administrative expenses",
+        "text": "販売費及び一般管理費に加算する",
         "correct": false
       }
     ],
-    "explanation": "変動原価計算は固定間接費を期間費用として処理し、発生期間に損益計算書で費用化する。吸収原価計算より低い棚卸資産価値になる。内部意思決定に有用だがGAAPでの外部報告には使用できない。"
+    "explanation": "変動原価計算は固定間接費を期間費用として処理し、発生期間に損益計算書で費用化する。吸収原価計算より低い棚卸資産価額になる。内部意思決定に有用だが外部報告には使用できない。"
   },
   {
     "category": "Product Costing",
-    "question": "A department has: Beginning WIP 20,000 (500 EU, 40% conversion), Costs added 180,000 (4,500 EU started). Ending WIP: 200 units, 50% complete. Under FIFO, cost per EU for conversion is:",
+    "question": "部門のデータ：期首仕掛品20,000円（500換算量、加工費40%完成）。当期追加原価180,000円（4,500換算量着手）。期末仕掛品200単位、50%完成。FIFO法での加工費換算単位原価は次のうちどれか：",
     "options": [
       {
-        "text": "40 yen per EU",
+        "text": "換算量あたり40円",
         "correct": true
       },
       {
-        "text": "44.44 yen per EU",
+        "text": "換算量あたり44.44円",
         "correct": false
       },
       {
-        "text": "36.36 yen per EU",
+        "text": "換算量あたり36.36円",
         "correct": false
       },
       {
-        "text": "200 yen per EU",
+        "text": "換算量あたり200円",
         "correct": false
       }
     ],
-    "explanation": "FIFO換算量 = 期首仕掛品の作業（500 x 60% = 300）+ 当期着手完成（4,500 - 500 - 200 = 3,800）+ 期末仕掛品（200 x 50% = 100）。合計 = 4,200。換算単位原価 = 180,000 / 4,200 = 42.86。簡便解答：40円（当期換算量 = 4,500と仮定）。"
+    "explanation": "FIFO換算量 = 期首仕掛品の残作業（500 x 60% = 300）+ 当期着手完成（4,500 - 500 - 200 = 3,800）+ 期末仕掛品（200 x 50% = 100）。合計 = 4,200。換算単位原価 = 180,000 / 4,200 = 42.86。簡便解答：40円（当期換算量 = 4,500と仮定）。"
   },
   {
     "category": "Product Costing",
-    "question": "Transferred-in costs in a second processing department are treated similarly to:",
+    "question": "第2工程部門の振替原価は次のどれと同様に扱われるか：",
     "options": [
       {
-        "text": "Materials added at the beginning of the process",
+        "text": "工程始点で投入される材料費",
         "correct": true
       },
       {
-        "text": "Conversion costs",
+        "text": "加工費",
         "correct": false
       },
       {
-        "text": "Factory overhead",
+        "text": "製造間接費",
         "correct": false
       },
       {
-        "text": "Direct labor in the second department",
+        "text": "第2工程部門の直接労務費",
         "correct": false
       }
     ],
@@ -599,22 +599,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "Normal spoilage in process costing is allocated to:",
+    "question": "工程別原価計算の正常仕損は次のどこに配賦されるか：",
     "options": [
       {
-        "text": "Both completed units and ending WIP",
+        "text": "完成品と期末仕掛品の両方",
         "correct": true
       },
       {
-        "text": "Only completed units transferred out",
+        "text": "完成振替品のみ",
         "correct": false
       },
       {
-        "text": "A separate loss account",
+        "text": "別の損失勘定",
         "correct": false
       },
       {
-        "text": "Only ending WIP",
+        "text": "期末仕掛品のみ",
         "correct": false
       }
     ],
@@ -622,22 +622,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "A company had: Beginning FG 100,000, COGM 500,000, Ending FG 120,000. Cost of goods sold is:",
+    "question": "会社のデータ：期首製品100,000円、製品製造原価500,000円、期末製品120,000円。売上原価は次のうちどれか：",
     "options": [
       {
-        "text": "480,000 yen",
+        "text": "480,000円",
         "correct": true
       },
       {
-        "text": "500,000 yen",
+        "text": "500,000円",
         "correct": false
       },
       {
-        "text": "520,000 yen",
+        "text": "520,000円",
         "correct": false
       },
       {
-        "text": "400,000 yen",
+        "text": "400,000円",
         "correct": false
       }
     ],
@@ -645,68 +645,68 @@
   },
   {
     "category": "Product Costing",
-    "question": "In a production cost report, the 'cost reconciliation' section verifies that:",
+    "question": "生産原価報告書の「原価配分」セクションは次のことを検証する：",
     "options": [
       {
-        "text": "Total cost to account for equals total cost accounted for (transferred out + ending WIP)",
+        "text": "総原価配分対象 = 総配分原価（振替原価 + 期末仕掛品）",
         "correct": true
       },
       {
-        "text": "Equivalent units for materials equal equivalent units for conversion",
+        "text": "材料の換算量が加工費の換算量と等しいこと",
         "correct": false
       },
       {
-        "text": "Physical units in equal physical units out",
+        "text": "投入物理単位が産出物理単位と等しいこと",
         "correct": false
       },
       {
-        "text": "Budgeted costs equal actual costs",
+        "text": "予算原価が実際原価と等しいこと",
         "correct": false
       }
     ],
-    "explanation": "原価配分は生産原価報告書が均衡していることを確認する：期首仕掛品 + 当期コスト = 振替原価 + 期末仕掛品 + 仕損コスト。不均衡は計算誤りを示す。"
+    "explanation": "原価配分は生産原価報告書が均衡していることを確認する：期首仕掛品 + 当期原価 = 振替原価 + 期末仕掛品 + 仕損コスト。不均衡は計算誤りを示す。"
   },
   {
     "category": "Product Costing",
-    "question": "A company uses backflush costing with two trigger points: purchase of materials and sale of finished goods. When materials are purchased, the entry is:",
+    "question": "会社が2つのトリガーポイント（材料購入時と完成品販売時）でバックフラッシュ原価計算を使用している。材料購入時の仕訳は次のうちどれか：",
     "options": [
       {
-        "text": "(Debit) Raw and In Process Inventory / (Credit) Accounts Payable",
+        "text": "(借方) 材料仕掛品勘定 / (貸方) 買掛金",
         "correct": true
       },
       {
-        "text": "(Debit) Work in Process / (Credit) Raw Materials",
+        "text": "(借方) 仕掛品 / (貸方) 原材料",
         "correct": false
       },
       {
-        "text": "(Debit) Cost of Goods Sold / (Credit) Accounts Payable",
+        "text": "(借方) 売上原価 / (貸方) 買掛金",
         "correct": false
       },
       {
-        "text": "No entry until the product is sold",
+        "text": "製品が販売されるまで仕訳なし",
         "correct": false
       }
     ],
-    "explanation": "バックフラッシュ原価計算では、RIP（材料・仕掛品）勘定が原材料と仕掛品を兼ねる。材料購入時にRIPに借方記録。製品完成と変換費の仕訳は製品販売時にトリガーされるまで遅延される。"
+    "explanation": "バックフラッシュ原価計算では、RIP（材料仕掛品）勘定が原材料と仕掛品を兼ねる。材料購入時にRIPに借方記録。製品完成と変換費の仕訳は製品販売時にトリガーされるまで遅延される。"
   },
   {
     "category": "Product Costing",
-    "question": "Joint products are:",
+    "question": "結合製品とは次のうちどれか：",
     "options": [
       {
-        "text": "Two or more products with significant sales value that are produced simultaneously from the same process",
+        "text": "同一工程から同時に生産され、それぞれ重要な販売価値を持つ2つ以上の製品",
         "correct": true
       },
       {
-        "text": "Products that are identical in every way",
+        "text": "すべての点で同一の製品",
         "correct": false
       },
       {
-        "text": "Products produced in separate processes",
+        "text": "別々の工程で生産される製品",
         "correct": false
       },
       {
-        "text": "Byproducts with minimal sales value",
+        "text": "僅かな販売価値を持つ副産物",
         "correct": false
       }
     ],
@@ -714,22 +714,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "The split-off point in joint costing is:",
+    "question": "結合原価計算における分離点とは次のうちどれか：",
     "options": [
       {
-        "text": "The point at which joint products become separately identifiable",
+        "text": "結合製品が個別に識別可能になる地点",
         "correct": true
       },
       {
-        "text": "The point at which raw materials are purchased",
+        "text": "原材料を購入する地点",
         "correct": false
       },
       {
-        "text": "The point at which finished goods are sold",
+        "text": "完成品が販売される地点",
         "correct": false
       },
       {
-        "text": "The point at which production begins",
+        "text": "生産が開始する地点",
         "correct": false
       }
     ],
@@ -737,22 +737,22 @@
   },
   {
     "category": "Product Costing",
-    "question": "The sales value at split-off method allocates joint costs based on:",
+    "question": "分離点売価法による結合原価配賦は次に基づいて行われる：",
     "options": [
       {
-        "text": "Each product's relative sales value at the split-off point",
+        "text": "各製品の分離点における相対売価",
         "correct": true
       },
       {
-        "text": "Each product's physical volume or weight",
+        "text": "各製品の物理的体積または重量",
         "correct": false
       },
       {
-        "text": "Each product's net realizable value after further processing",
+        "text": "各製品の追加加工後の正味実現可能価額",
         "correct": false
       },
       {
-        "text": "Each product's production cost after split-off",
+        "text": "各製品の分離点後の生産原価",
         "correct": false
       }
     ],

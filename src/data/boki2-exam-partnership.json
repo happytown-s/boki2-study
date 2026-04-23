@@ -1,22 +1,22 @@
 [
   {
     "category": "Partnership",
-    "question": "When a partnership is formed, partners' capital accounts are credited for:",
+    "question": "組合の設立時、組合員の資本勘定に貸方記録されるのは：",
     "options": [
       {
-        "text": "The agreed-upon value of assets contributed (net of any liabilities assumed)",
+        "text": "出資資産の合意された価額（引き受けた負債を控除した純額）",
         "correct": true
       },
       {
-        "text": "The original purchase price of assets contributed",
+        "text": "出資資産の当初取得原価",
         "correct": false
       },
       {
-        "text": "The market value of the partnership as a whole divided by number of partners",
+        "text": "組合全体の公正時価を組合員数で割った額",
         "correct": false
       },
       {
-        "text": "The book value of assets contributed",
+        "text": "出資資産の簿価",
         "correct": false
       }
     ],
@@ -24,22 +24,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Partners A and B share profits in a 3:2 ratio. Net income is 100,000 yen. Partner A's share is:",
+    "question": "組合員AとBは利益を3:2の割合で分配する。純利益は100,000円。組合員Aの取り分は：",
     "options": [
       {
-        "text": "60,000 yen",
+        "text": "60,000円",
         "correct": true
       },
       {
-        "text": "40,000 yen",
+        "text": "40,000円",
         "correct": false
       },
       {
-        "text": "50,000 yen",
+        "text": "50,000円",
         "correct": false
       },
       {
-        "text": "30,000 yen",
+        "text": "30,000円",
         "correct": false
       }
     ],
@@ -47,22 +47,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Under the interest on capital method, Partner A invests 500,000 yen and Partner B invests 300,000 yen. Interest rate is 10%. Remaining profit is shared equally. If net income is 120,000 yen, Partner A receives:",
+    "question": "資本利息法において、組合員Aは500,000円、組合員Bは300,000円を出資。利率10%。残余利益は均等配分。純利益120,000円の場合、組合員Aの受取額は：",
     "options": [
       {
-        "text": "60,000 yen total (50,000 interest + 10,000 of remaining)",
+        "text": "60,000円（利息50,000円 + 残額配分10,000円）",
         "correct": true
       },
       {
-        "text": "75,000 yen total (50,000 interest + 25,000 of remaining)",
+        "text": "75,000円（利息50,000円 + 残額配分25,000円）",
         "correct": false
       },
       {
-        "text": "50,000 yen (interest only)",
+        "text": "50,000円（利息のみ）",
         "correct": false
       },
       {
-        "text": "60,000 yen total (30,000 interest + 30,000 of remaining)",
+        "text": "60,000円（利息30,000円 + 残額配分30,000円）",
         "correct": false
       }
     ],
@@ -70,22 +70,22 @@
   },
   {
     "category": "Partnership",
-    "question": "When a new partner is admitted by purchasing an interest from existing partners:",
+    "question": "新組合員が既存組合員から持分を購入して加入する場合：",
     "options": [
       {
-        "text": "Total partnership assets and equity remain unchanged; the purchase price is between the partners personally",
+        "text": "組合の総資産と純資産は変化しない。購入代金は組合員間の個人的取引である。",
         "correct": true
       },
       {
-        "text": "Partnership assets increase by the purchase price",
+        "text": "組合資産が購入代金分だけ増加する",
         "correct": false
       },
       {
-        "text": "The new partner's capital account equals the purchase price paid",
+        "text": "新組合員の資本勘定は支払った購入代金に等しい",
         "correct": false
       },
       {
-        "text": "Goodwill is always recorded",
+        "text": "常にのれんが計上される",
         "correct": false
       }
     ],
@@ -93,22 +93,22 @@
   },
   {
     "category": "Partnership",
-    "question": "When a new partner invests directly in the partnership and the amount invested exceeds the capital interest received, the difference is recorded as:",
+    "question": "新組合員が組合に直接出資し、出資額が受領する資本持分を超える場合、差額は次のように記録される：",
     "options": [
       {
-        "text": "A bonus to the existing partners (credited to their capital accounts)",
+        "text": "既存組合員へのボーナス（資本勘定に貸方記録）",
         "correct": true
       },
       {
-        "text": "Goodwill to the new partner",
+        "text": "新組合員へののれん",
         "correct": false
       },
       {
-        "text": "Additional paid-in capital",
+        "text": "株式払込剰余金",
         "correct": false
       },
       {
-        "text": "Revenue for the period",
+        "text": "当期の収益",
         "correct": false
       }
     ],
@@ -116,22 +116,22 @@
   },
   {
     "category": "Partnership",
-    "question": "When a new partner invests directly and receives a capital interest greater than the amount invested, the difference is a bonus to:",
+    "question": "新組合員が直接出資し、出資額よりも多い資本持分を受け取る場合、差額は次のボーナスとなる：",
     "options": [
       {
-        "text": "The new partner (debited from existing partners' capital accounts)",
+        "text": "新組合員へのボーナス（既存組合員の資本勘定から借方記録）",
         "correct": true
       },
       {
-        "text": "The existing partners",
+        "text": "既存組合員へのボーナス",
         "correct": false
       },
       {
-        "text": "Recorded as a loss",
+        "text": "損失として記録",
         "correct": false
       },
       {
-        "text": "Goodwill to the partnership",
+        "text": "組合へののれん",
         "correct": false
       }
     ],
@@ -139,22 +139,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Upon partnership liquidation, after all non-cash assets are sold and liabilities paid, any remaining cash is distributed:",
+    "question": "組合の清算において、すべての非現金資産を売却し負債を支払った後、残余の現金は次のように配分される：",
     "options": [
       {
-        "text": "To partners according to their capital account balances",
+        "text": "組合員の資本勘定残高に応じて",
         "correct": true
       },
       {
-        "text": "According to the profit-sharing ratio",
+        "text": "損益分配率に応じて",
         "correct": false
       },
       {
-        "text": "Equally among all partners",
+        "text": "すべての組合員に均等に",
         "correct": false
       },
       {
-        "text": "To the partner with the highest profit share",
+        "text": "利益分配率が最も高い組合員に",
         "correct": false
       }
     ],
@@ -162,22 +162,22 @@
   },
   {
     "category": "Partnership",
-    "question": "In partnership liquidation, if a partner has a deficit (negative) capital balance after all assets are sold:",
+    "question": "組合の清算で、すべての資産を売却した後に組合員の資本残高がマイナス（不足）の場合：",
     "options": [
       {
-        "text": "The partner must contribute cash to cover the deficit; if unable, the deficit is absorbed by other partners according to their profit-sharing ratio",
+        "text": "その組合員は不足額を補填するために現金を出資する必要がある。できない場合、他の組合員が損益分配率に応じて不足額を負担する。",
         "correct": true
       },
       {
-        "text": "The deficit is simply written off by the partnership",
+        "text": "不足額は組合が単に切り捨てる",
         "correct": false
       },
       {
-        "text": "The remaining partners share the deficit equally regardless of profit ratio",
+        "text": "残りの組合員が利益分配率に関係なく均等に負担する",
         "correct": false
       },
       {
-        "text": "The partnership borrows to cover the deficit",
+        "text": "組合が借入して不足額を補う",
         "correct": false
       }
     ],
@@ -185,22 +185,22 @@
   },
   {
     "category": "Partnership",
-    "question": "The journal entry to close net income to partners' capital accounts (A: 60,000, B: 40,000) is:",
+    "question": "純利益を組合員の資本勘定に振り替える仕訳（A: 60,000円、B: 40,000円）は：",
     "options": [
       {
-        "text": "(Debit) Income Summary 100,000 / (Credit) A, Capital 60,000 / (Credit) B, Capital 40,000",
+        "text": "(借方) 損益集計 100,000 / (貸方) A資本金 60,000 / (貸方) B資本金 40,000",
         "correct": true
       },
       {
-        "text": "(Debit) A, Capital 60,000 / (Debit) B, Capital 40,000 / (Credit) Income Summary 100,000",
+        "text": "(借方) A資本金 60,000 / (借方) B資本金 40,000 / (貸方) 損益集計 100,000",
         "correct": false
       },
       {
-        "text": "(Debit) Net Income 100,000 / (Credit) A, Capital 60,000 / (Credit) B, Capital 40,000",
+        "text": "(借方) 純利益 100,000 / (貸方) A資本金 60,000 / (貸方) B資本金 40,000",
         "correct": false
       },
       {
-        "text": "(Debit) Income Summary 100,000 / (Credit) Retained Earnings 100,000",
+        "text": "(借方) 損益集計 100,000 / (貸方) 繰越利益剰余金 100,000",
         "correct": false
       }
     ],
@@ -208,22 +208,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Which characteristic distinguishes a partnership from a corporation?",
+    "question": "組合と法人を区別する次の特徴はどれか：",
     "options": [
       {
-        "text": "Mutual agency - each partner can bind the partnership to contracts",
+        "text": "相互代理 - 各組合員が組合を契約に拘束できる",
         "correct": true
       },
       {
-        "text": "Limited liability for all partners",
+        "text": "すべての組合員の有限責任",
         "correct": false
       },
       {
-        "text": "Double taxation on income",
+        "text": "所得の二重課税",
         "correct": false
       },
       {
-        "text": "Continuous life regardless of ownership changes",
+        "text": "所有権の変更に関係なく存続する永続的生命",
         "correct": false
       }
     ],
@@ -231,22 +231,22 @@
   },
   {
     "category": "Partnership",
-    "question": "A partnership agreement provides Partner A a salary of 30,000 and Partner B a salary of 20,000, with remaining profits shared 3:2. Net income is 90,000. Partner A's total share is:",
+    "question": "組合契約で組合員Aに給与30,000円、組合員Bに給与20,000円を定め、残余利益を3:2で配分。純利益90,000円の場合、Aの合計取り分は：",
     "options": [
       {
-        "text": "52,000 yen",
+        "text": "52,000円",
         "correct": true
       },
       {
-        "text": "60,000 yen",
+        "text": "60,000円",
         "correct": false
       },
       {
-        "text": "54,000 yen",
+        "text": "54,000円",
         "correct": false
       },
       {
-        "text": "50,000 yen",
+        "text": "50,000円",
         "correct": false
       }
     ],
@@ -254,22 +254,22 @@
   },
   {
     "category": "Partnership",
-    "question": "In a limited partnership (LP):",
+    "question": "有限責任組合（LP）において：",
     "options": [
       {
-        "text": "Limited partners have liability limited to their investment but cannot participate in management",
+        "text": "有限責任組合員は責任が出資額に限定されるが、業務に参加できない",
         "correct": true
       },
       {
-        "text": "All partners have limited liability",
+        "text": "すべての組合員が有限責任を持つ",
         "correct": false
       },
       {
-        "text": "Limited partners can manage the business without losing limited liability",
+        "text": "有限責任組合員は有限責任を失わずに業務に参加できる",
         "correct": false
       },
       {
-        "text": "There must be at least two general partners",
+        "text": "少なくとも2人の無限責任組合員が必要である",
         "correct": false
       }
     ],
@@ -277,22 +277,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Partner drawings (withdrawals) are recorded by:",
+    "question": "組合員の引出（drawings）は次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Partner, Drawings / (Credit) Cash",
+        "text": "(借方) 組合員引出金 / (貸方) 現金",
         "correct": true
       },
       {
-        "text": "(Debit) Partner, Capital / (Credit) Cash",
+        "text": "(借方) 組合員資本金 / (貸方) 現金",
         "correct": false
       },
       {
-        "text": "(Debit) Salary Expense / (Credit) Cash",
+        "text": "(借方) 給与費用 / (貸方) 現金",
         "correct": false
       },
       {
-        "text": "(Debit) Retained Earnings / (Credit) Cash",
+        "text": "(借方) 繰越利益剰余金 / (貸方) 現金",
         "correct": false
       }
     ],
@@ -300,22 +300,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Goodwill recorded upon admission of a new partner under the goodwill method implies:",
+    "question": "のれん法による新組合員加入時ののれん計上は次を意味する：",
     "options": [
       {
-        "text": "The partnership has unrecognized value that the new partner's investment reveals",
+        "text": "新組合員の出資が組合の未認識価値を示している",
         "correct": true
       },
       {
-        "text": "The new partner is contributing intangible assets",
+        "text": "新組合員が無形資産を出資している",
         "correct": false
       },
       {
-        "text": "The partnership is overvalued",
+        "text": "組合が過大評価されている",
         "correct": false
       },
       {
-        "text": "The new partner is receiving a discount on their investment",
+        "text": "新組合員が出資の割引を受けている",
         "correct": false
       }
     ],
@@ -323,22 +323,22 @@
   },
   {
     "category": "Partnership",
-    "question": "A partner retires and is paid more than their capital balance. The excess is treated as:",
+    "question": "組合員が退職し、資本残高を超える金額を受け取る場合、超過額は次のように処理される：",
     "options": [
       {
-        "text": "A bonus to the retiring partner, shared by the remaining partners in their profit ratio",
+        "text": "退職組合員へのボーナスとなり、残存組合員が損益分配率で負担する",
         "correct": true
       },
       {
-        "text": "A gain on retirement",
+        "text": "退職益",
         "correct": false
       },
       {
-        "text": "Goodwill to the partnership",
+        "text": "組合へののれん",
         "correct": false
       },
       {
-        "text": "An expense on the income statement",
+        "text": "損益計算書上の費用",
         "correct": false
       }
     ],
@@ -346,22 +346,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Partnership income is taxed:",
+    "question": "組合の所得はどのように課税されるか：",
     "options": [
       {
-        "text": "At the individual partner level (the partnership itself is not taxed)",
+        "text": "各組合員の個人レベルで課税される（組合自体は課税されない）",
         "correct": true
       },
       {
-        "text": "At the partnership level (double taxation like corporations)",
+        "text": "組合レベルで課税される（法人と同様の二重課税）",
         "correct": false
       },
       {
-        "text": "Neither at partnership nor individual level",
+        "text": "組合レベルでも個人レベルでも課税されない",
         "correct": false
       },
       {
-        "text": "Only on dividends distributed",
+        "text": "配当が分配された時のみ課税される",
         "correct": false
       }
     ],
@@ -369,22 +369,22 @@
   },
   {
     "category": "Partnership",
-    "question": "In a partnership liquidation statement, the order of distribution is:",
+    "question": "組合清算計算書における配分順序は：",
     "options": [
       {
-        "text": "First pay external liabilities, then loans from partners, then distribute remaining assets to partners",
+        "text": "まず外部負債を支払い、次に組合員からの借入金を支払い、最後に残余資産を組合員に配分する",
         "correct": true
       },
       {
-        "text": "First distribute to partners, then pay liabilities",
+        "text": "まず組合員に配分し、次に負債を支払う",
         "correct": false
       },
       {
-        "text": "Pay all parties simultaneously",
+        "text": "すべての関係者に同時に支払う",
         "correct": false
       },
       {
-        "text": "First pay partners' loans, then external liabilities",
+        "text": "まず組合員への借入金を支払い、次に外部負債を支払う",
         "correct": false
       }
     ],
@@ -392,22 +392,22 @@
   },
   {
     "category": "Partnership",
-    "question": "A partner's capital statement is similar to:",
+    "question": "組合員の資本変動計算書は次のどれに類似するか：",
     "options": [
       {
-        "text": "A retained earnings statement but for an individual partner",
+        "text": "個々の組合員向けの繰越利益剰余金計算書",
         "correct": true
       },
       {
-        "text": "A balance sheet for the partnership",
+        "text": "組合の貸借対照表",
         "correct": false
       },
       {
-        "text": "An income statement",
+        "text": "損益計算書",
         "correct": false
       },
       {
-        "text": "A statement of cash flows",
+        "text": "キャッシュフロー計算書",
         "correct": false
       }
     ],
@@ -415,22 +415,22 @@
   },
   {
     "category": "Partnership",
-    "question": "A partnership has total capital of 400,000 (A: 250,000, B: 150,000). New partner C invests 200,000 for a 1/3 interest. Under the bonus method, the bonus is allocated to:",
+    "question": "組合の総資本は400,000円（A: 250,000円、B: 150,000円）。新組合員Cが200,000円を出資して1/3の持分を取得。ボーナス法の場合、ボーナスは次に配分される：",
     "options": [
       {
-        "text": "Existing partners A and B in their capital ratio",
+        "text": "既存組合員AとBの資本比率に応じて",
         "correct": true
       },
       {
-        "text": "New partner C",
+        "text": "新組合員C",
         "correct": false
       },
       {
-        "text": "Equally among all three partners",
+        "text": "3人の組合員すべてに均等に",
         "correct": false
       },
       {
-        "text": "No bonus exists - amounts match exactly",
+        "text": "ボーナスなし - 金額が正確に一致する",
         "correct": false
       }
     ],
@@ -438,22 +438,22 @@
   },
   {
     "category": "Partnership",
-    "question": "Partners A and B share profits equally. A's capital balance is 200,000 and B's is 100,000. B invests an additional 100,000 to bring the capital to 300,000 each. The new profit-sharing ratio:",
+    "question": "組合員AとBは利益を均等に分配する。Aの資本残高は200,000円、Bは100,000円。Bがさらに100,000円を出資し、資本を均等にする。新しい損益分配率は：",
     "options": [
       {
-        "text": "Remains unchanged unless the partners agree to change it",
+        "text": "組合員が変更に合意しない限り変更されない",
         "correct": true
       },
       {
-        "text": "Automatically becomes 1:1 based on equal capital",
+        "text": "資本が均等になったため自動的に1:1になる",
         "correct": false
       },
       {
-        "text": "Changes to reflect the new capital ratio",
+        "text": "新しい資本比率を反映して変更される",
         "correct": false
       },
       {
-        "text": "Must be approved by the court",
+        "text": "裁判所の承認が必要",
         "correct": false
       }
     ],

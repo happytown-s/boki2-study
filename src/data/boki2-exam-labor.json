@@ -1,22 +1,22 @@
 [
   {
     "category": "Cost Accounting - Labor",
-    "question": "Direct labor costs incurred in production are recorded as:",
+    "question": "生産中に発生した直接労務費は次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Work in Process Inventory / (Credit) Wages Payable",
+        "text": "(借方) 仕掛品 / (貸方) 未払給与",
         "correct": true
       },
       {
-        "text": "(Debit) Factory Overhead / (Credit) Wages Payable",
+        "text": "(借方) 製造間接費 / (貸方) 未払給与",
         "correct": false
       },
       {
-        "text": "(Debit) Salary Expense / (Credit) Cash",
+        "text": "(借方) 給与費用 / (貸方) 現金",
         "correct": false
       },
       {
-        "text": "(Debit) Cost of Goods Manufactured / (Credit) Wages Payable",
+        "text": "(借方) 製品製造原価 / (貸方) 未払給与",
         "correct": false
       }
     ],
@@ -24,22 +24,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Indirect labor costs such as factory supervisor salaries are recorded as:",
+    "question": "工場監督者の給与などの間接労務費は次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Factory Overhead / (Credit) Wages Payable",
+        "text": "(借方) 製造間接費 / (貸方) 未払給与",
         "correct": true
       },
       {
-        "text": "(Debit) Work in Process / (Credit) Wages Payable",
+        "text": "(借方) 仕掛品 / (貸方) 未払給与",
         "correct": false
       },
       {
-        "text": "(Debit) Administrative Expenses / (Credit) Wages Payable",
+        "text": "(借方) 管理費用 / (貸方) 未払給与",
         "correct": false
       },
       {
-        "text": "(Debit) Salaries Expense / (Credit) Cash",
+        "text": "(借方) 給与費用 / (貸方) 現金",
         "correct": false
       }
     ],
@@ -47,22 +47,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Gross pay is 500,000 yen. Deductions: income tax 50,000, social insurance 60,000, health insurance 25,000. Net pay is:",
+    "question": "総支給額500,000円。控除：所得税50,000円、社会保険料60,000円、健康保険料25,000円。手取額は：",
     "options": [
       {
-        "text": "365,000 yen",
+        "text": "365,000円",
         "correct": true
       },
       {
-        "text": "450,000 yen",
+        "text": "450,000円",
         "correct": false
       },
       {
-        "text": "400,000 yen",
+        "text": "400,000円",
         "correct": false
       },
       {
-        "text": "340,000 yen",
+        "text": "340,000円",
         "correct": false
       }
     ],
@@ -70,22 +70,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "The employer's share of social insurance premiums (employer burden) is recorded as:",
+    "question": "雇主負担の社会保険料は次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Factory Overhead (for factory workers) / (Credit) Social Insurance Payable",
+        "text": "(借方) 製造間接費（工場労働者の場合） / (貸方) 未払社会保険料",
         "correct": true
       },
       {
-        "text": "(Debit) Wages Expense / (Credit) Social Insurance Payable",
+        "text": "(借方) 給与費用 / (貸方) 未払社会保険料",
         "correct": false
       },
       {
-        "text": "(Debit) Work in Process / (Credit) Social Insurance Payable",
+        "text": "(借方) 仕掛品 / (貸方) 未払社会保険料",
         "correct": false
       },
       {
-        "text": "(Debit) Retained Earnings / (Credit) Social Insurance Payable",
+        "text": "(借方) 繰越利益剰余金 / (貸方) 未払社会保険料",
         "correct": false
       }
     ],
@@ -93,22 +93,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Overtime premium paid to factory workers should be charged to:",
+    "question": "工場労働者の残業割増賃金は次に課すべきである：",
     "options": [
       {
-        "text": "Factory Overhead (as a normal cost of production) when overtime is due to general factory demand",
+        "text": "一般的な工場需要による残業の場合、製造間接費（通常の生産コスト）",
         "correct": true
       },
       {
-        "text": "Always charged to the specific job that caused the overtime",
+        "text": "常に残業の原因となった特定ジョブに直接賦課する",
         "correct": false
       },
       {
-        "text": "Always charged to Factory Overhead regardless of the reason",
+        "text": "理由に関係なく常に製造間接費に課す",
         "correct": false
       },
       {
-        "text": "Recorded as a period expense",
+        "text": "期間費用として記録する",
         "correct": false
       }
     ],
@@ -116,22 +116,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "A worker earns 2,000 yen/hour regular rate. Overtime rate is 1.5x. In a 40-hour week, the worker works 46 hours (4 overtime hours) on general factory production. Total labor cost is:",
+    "question": "労働者の通常賃率は1時間あたり2,000円。残業賃率は1.5倍。週40時間の労働者が46時間（残業4時間）一般工場生産に従事した場合、総労務費は：",
     "options": [
       {
-        "text": "96,000 yen (WIP 92,000 + Overhead 4,000)",
+        "text": "96,000円（仕掛品92,000円 + 製造間接費4,000円）",
         "correct": true
       },
       {
-        "text": "96,000 yen (all WIP)",
+        "text": "96,000円（すべて仕掛品）",
         "correct": false
       },
       {
-        "text": "92,000 yen (regular only)",
+        "text": "92,000円（通常分のみ）",
         "correct": false
       },
       {
-        "text": "100,000 yen",
+        "text": "100,000円",
         "correct": false
       }
     ],
@@ -139,22 +139,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Idle time (workers waiting for materials or machine breakdown) is treated as:",
+    "question": "アイドルタイム（材料待ちや機械故障での待機時間）は次のように処理される：",
     "options": [
       {
-        "text": "Factory Overhead because it is a normal cost of operations",
+        "text": "正常な操業コストとして製造間接費に処理される",
         "correct": true
       },
       {
-        "text": "Direct labor charged to specific jobs",
+        "text": "特定ジョブに直接賦課される直接労務費",
         "correct": false
       },
       {
-        "text": "A loss recorded on the income statement",
+        "text": "損益計算書に損失として記録される",
         "correct": false
       },
       {
-        "text": "Added to the cost of raw materials",
+        "text": "原材料費に加算される",
         "correct": false
       }
     ],
@@ -162,22 +162,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Payroll entries for factory workers include all of the following EXCEPT:",
+    "question": "工場労働者の給与仕訳として当てはまらないものは次のどれか：",
     "options": [
       {
-        "text": "(Debit) Sales Salaries Expense / (Credit) Wages Payable",
+        "text": "(借方) 販売員給与 / (貸方) 未払給与",
         "correct": true
       },
       {
-        "text": "(Debit) Work in Process / (Credit) Wages Payable (for direct labor)",
+        "text": "(借方) 仕掛品 / (貸方) 未払給与（直接労務費）",
         "correct": false
       },
       {
-        "text": "(Debit) Factory Overhead / (Credit) Wages Payable (for indirect labor)",
+        "text": "(借方) 製造間接費 / (貸方) 未払給与（間接労務費）",
         "correct": false
       },
       {
-        "text": "(Debit) Wages Payable / (Credit) Cash (for net pay)",
+        "text": "(借方) 未払給与 / (貸方) 現金（手取額支払）",
         "correct": false
       }
     ],
@@ -185,22 +185,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Piece-rate wages are calculated as:",
+    "question": "歩合制賃金は次のように計算される：",
     "options": [
       {
-        "text": "Number of units produced x rate per unit",
+        "text": "生産数 x 単位当たり単価",
         "correct": true
       },
       {
-        "text": "Hours worked x hourly rate",
+        "text": "作業時間 x 時間当たり賃率",
         "correct": false
       },
       {
-        "text": "Monthly salary regardless of output",
+        "text": "生産量に関係ない月給",
         "correct": false
       },
       {
-        "text": "Base salary + bonus per unit above standard",
+        "text": "基本給 + 標準を超える単位ごとのボーナス",
         "correct": false
       }
     ],
@@ -208,22 +208,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Labor cost allocation based on time tickets involves:",
+    "question": "作業時間票に基づく労務費配賦では次が行われる：",
     "options": [
       {
-        "text": "Recording the time each worker spends on specific jobs or departments",
+        "text": "各労働者が特定ジョブまたは部門に費やした時間を記録する",
         "correct": true
       },
       {
-        "text": "Dividing total labor cost equally among all jobs",
+        "text": "総労務費をすべてのジョブに均等に分割する",
         "correct": false
       },
       {
-        "text": "Allocating labor based on machine hours only",
+        "text": "労務費を機械時間のみに基づいて配賦する",
         "correct": false
       },
       {
-        "text": "Using a single labor rate for all workers regardless of skill level",
+        "text": "技能レベルに関係なくすべての労働者に同じ賃率を使用する",
         "correct": false
       }
     ],
@@ -231,22 +231,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "A guaranteed wage plan provides that a worker earns:",
+    "question": "保証賃金制では労働者は次を受け取る：",
     "options": [
       {
-        "text": "The higher of the guaranteed minimum wage or piece-rate earnings",
+        "text": "保証最低賃金と歩合収入のいずれか高い方",
         "correct": true
       },
       {
-        "text": "Only the piece-rate earnings, regardless of the minimum",
+        "text": "最低賃金に関係なく歩合収入のみ",
         "correct": false
       },
       {
-        "text": "Only the guaranteed minimum wage",
+        "text": "保証最低賃金のみ",
         "correct": false
       },
       {
-        "text": "The average of the minimum and piece-rate",
+        "text": "最低賃金と歩合収入の平均",
         "correct": false
       }
     ],
@@ -254,22 +254,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Vacation pay and holiday pay for factory workers are generally charged to:",
+    "question": "工場労働者の有給休暇と祝日給与は一般に次に課される：",
     "options": [
       {
-        "text": "Factory Overhead as an indirect labor cost",
+        "text": "間接労務費として製造間接費",
         "correct": true
       },
       {
-        "text": "Work in Process as direct labor",
+        "text": "直接労務費として仕掛品",
         "correct": false
       },
       {
-        "text": "Administrative expenses",
+        "text": "管理費用",
         "correct": false
       },
       {
-        "text": "Retained earnings",
+        "text": "繰越利益剰余金",
         "correct": false
       }
     ],
@@ -277,22 +277,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Labor rate variance is calculated as:",
+    "question": "労務費率差異は次のように計算される：",
     "options": [
       {
-        "text": "(Actual Rate - Standard Rate) x Actual Hours Worked",
+        "text": "(実際賃率 - 標準賃率) x 実際作業時間",
         "correct": true
       },
       {
-        "text": "(Actual Hours - Standard Hours) x Standard Rate",
+        "text": "(実際作業時間 - 標準許容時間) x 標準賃率",
         "correct": false
       },
       {
-        "text": "(Standard Rate - Actual Rate) x Standard Hours",
+        "text": "(標準賃率 - 実際賃率) x 標準時間",
         "correct": false
       },
       {
-        "text": "Actual Labor Cost - Budgeted Labor Cost",
+        "text": "実際労務費 - 予算労務費",
         "correct": false
       }
     ],
@@ -300,22 +300,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Standard rate: 1,500 yen/hour. Actual rate: 1,550 yen/hour. Actual hours: 800. Labor rate variance is:",
+    "question": "標準賃率：1時間あたり1,500円。実際賃率：1時間あたり1,550円。実際作業時間：800時間。労務費率差異は：",
     "options": [
       {
-        "text": "40,000 yen unfavorable",
+        "text": "40,000円 不利",
         "correct": true
       },
       {
-        "text": "40,000 yen favorable",
+        "text": "40,000円 有利",
         "correct": false
       },
       {
-        "text": "1,550 yen unfavorable",
+        "text": "1,550円 不利",
         "correct": false
       },
       {
-        "text": "50 yen per hour unfavorable",
+        "text": "1時間あたり50円 不利",
         "correct": false
       }
     ],
@@ -323,22 +323,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Labor efficiency variance is calculated as:",
+    "question": "労務費時間差異（能率差異）は次のように計算される：",
     "options": [
       {
-        "text": "(Actual Hours - Standard Hours Allowed) x Standard Rate",
+        "text": "(実際作業時間 - 標準許容時間) x 標準賃率",
         "correct": true
       },
       {
-        "text": "(Actual Rate - Standard Rate) x Actual Hours",
+        "text": "(実際賃率 - 標準賃率) x 実際作業時間",
         "correct": false
       },
       {
-        "text": "(Standard Hours - Actual Hours) x Actual Rate",
+        "text": "(標準時間 - 実際時間) x 実際賃率",
         "correct": false
       },
       {
-        "text": "Standard Labor Cost - Actual Labor Cost",
+        "text": "標準労務費 - 実際労務費",
         "correct": false
       }
     ],
@@ -346,45 +346,45 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Standard hours allowed: 2,000. Actual hours worked: 2,100. Standard rate: 1,500 yen. Labor efficiency variance is:",
+    "question": "標準許容時間：2,000時間。実際作業時間：2,100時間。標準賃率：1,500円。労務費時間差異は：",
     "options": [
       {
-        "text": "150,000 yen unfavorable",
+        "text": "150,000円 不利",
         "correct": true
       },
       {
-        "text": "150,000 yen favorable",
+        "text": "150,000円 有利",
         "correct": false
       },
       {
-        "text": "100,000 yen unfavorable",
+        "text": "100,000円 不利",
         "correct": false
       },
       {
-        "text": "210,000 yen unfavorable",
+        "text": "210,000円 不利",
         "correct": false
       }
     ],
-    "explanation": "労務費時間差異 =（2,100 - 2,000）x 1,500 = 100 x 1,500 = 150,000 円 不利。労働者が標準許容時間より100時間多く作業し、標準賃率 1,500 円で計算される。"
+    "explanation": "労務費時間差異 =（2,100 - 2,000）x 1,500 = 100 x 1,500 = 150,000 円 不利。労働者が標準許容時間より100時間多く作業し、標準賃率 1,500 円で評価される。"
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "When payroll is recorded, the total factory labor cost of 800,000 yen is allocated: direct labor 600,000, indirect labor 200,000. The entry is:",
+    "question": "給与記録で総工場労務費800,000円を配賦する：直接労務費600,000円、間接労務費200,000円。仕訳は：",
     "options": [
       {
-        "text": "(Debit) WIP 600,000 / (Debit) Factory Overhead 200,000 / (Credit) Wages Payable 800,000",
+        "text": "(借方) 仕掛品 600,000 / (借方) 製造間接費 200,000 / (貸方) 未払給与 800,000",
         "correct": true
       },
       {
-        "text": "(Debit) WIP 800,000 / (Credit) Wages Payable 800,000",
+        "text": "(借方) 仕掛品 800,000 / (貸方) 未払給与 800,000",
         "correct": false
       },
       {
-        "text": "(Debit) Labor Cost 800,000 / (Credit) Wages Payable 800,000",
+        "text": "(借方) 労務費 800,000 / (貸方) 未払給与 800,000",
         "correct": false
       },
       {
-        "text": "(Debit) WIP 600,000 / (Credit) Wages Payable 600,000",
+        "text": "(借方) 仕掛品 600,000 / (貸方) 未払給与 600,000",
         "correct": false
       }
     ],
@@ -392,22 +392,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Employer's payroll taxes for factory workers are best described as:",
+    "question": "工場労働者の雇主負担税（給与税）は次のように最も適切に説明される：",
     "options": [
       {
-        "text": "An additional labor cost that increases the total cost of employing workers",
+        "text": "労働者の雇用総コストを増加させる追加の労務費",
         "correct": true
       },
       {
-        "text": "A deduction from employee wages",
+        "text": "従業員給与からの控除",
         "correct": false
       },
       {
-        "text": "A selling expense",
+        "text": "販売費",
         "correct": false
       },
       {
-        "text": "An administrative expense unrelated to production",
+        "text": "生産に関係ない管理費用",
         "correct": false
       }
     ],
@@ -415,22 +415,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "A differential piece-rate system pays:",
+    "question": "差別歩合制では次を支払う：",
     "options": [
       {
-        "text": "A higher rate for units above a standard quota",
+        "text": "標準ノルマを超える単位に対して高い単価",
         "correct": true
       },
       {
-        "text": "The same rate for all units produced",
+        "text": "生産されたすべての単位に同じ単価",
         "correct": false
       },
       {
-        "text": "A lower rate for experienced workers",
+        "text": "熟練労働者に対して低い単価",
         "correct": false
       },
       {
-        "text": "Based on total department output divided by number of workers",
+        "text": "部門の総生産量を従業員数で割った額",
         "correct": false
       }
     ],
@@ -438,22 +438,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Shift premium (night shift differential) is generally treated as:",
+    "question": "シフト割増（夜勤差額）は一般に次のように処理される：",
     "options": [
       {
-        "text": "Factory Overhead",
+        "text": "製造間接費",
         "correct": true
       },
       {
-        "text": "Direct labor cost",
+        "text": "直接労務費",
         "correct": false
       },
       {
-        "text": "Selling expense",
+        "text": "販売費",
         "correct": false
       },
       {
-        "text": "General administrative expense",
+        "text": "一般管理費",
         "correct": false
       }
     ],
@@ -461,22 +461,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Total labor cost variance can be decomposed into:",
+    "question": "総労務費差異は次に分解できる：",
     "options": [
       {
-        "text": "Labor rate variance + Labor efficiency variance",
+        "text": "労務費率差異 + 労務費時間差異",
         "correct": true
       },
       {
-        "text": "Material price variance + Material quantity variance",
+        "text": "材料価格差異 + 材料数量差異",
         "correct": false
       },
       {
-        "text": "Direct labor variance + Indirect labor variance",
+        "text": "直接労務費差異 + 間接労務費差異",
         "correct": false
       },
       {
-        "text": "Overtime variance + Idle time variance",
+        "text": "残業差異 + アイドルタイム差異",
         "correct": false
       }
     ],
@@ -484,22 +484,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Bonuses paid to factory production supervisors are recorded as:",
+    "question": "工場の生産監督者へのボーナスは次のように記録される：",
     "options": [
       {
-        "text": "(Debit) Factory Overhead / (Credit) Bonus Payable",
+        "text": "(借方) 製造間接費 / (貸方) 未払ボーナス",
         "correct": true
       },
       {
-        "text": "(Debit) Work in Process / (Credit) Bonus Payable",
+        "text": "(借方) 仕掛品 / (貸方) 未払ボーナス",
         "correct": false
       },
       {
-        "text": "(Debit) Administrative Expenses / (Credit) Bonus Payable",
+        "text": "(借方) 管理費用 / (貸方) 未払ボーナス",
         "correct": false
       },
       {
-        "text": "No entry needed - bonuses are discretionary",
+        "text": "仕訳不要 - ボーナスは裁量による",
         "correct": false
       }
     ],
@@ -507,22 +507,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "Learning curve theory suggests that as cumulative production doubles:",
+    "question": "学習曲線理論によれば、累積生産量が倍増すると：",
     "options": [
       {
-        "text": "The average time per unit decreases by a constant percentage",
+        "text": "単位当たり平均時間が一定の割合で減少する",
         "correct": true
       },
       {
-        "text": "The total production cost doubles",
+        "text": "総生産コストが倍増する",
         "correct": false
       },
       {
-        "text": "The defect rate increases due to faster production",
+        "text": "より速い生産により不良率が増加する",
         "correct": false
       },
       {
-        "text": "Labor efficiency variance always becomes favorable",
+        "text": "労務費能率差異が常に有利になる",
         "correct": false
       }
     ],
@@ -530,7 +530,7 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "A time study determines that a worker should produce 10 units per hour. The worker actually produced 8 units in one hour. Standard rate is 1,500 yen. The efficiency ratio is:",
+    "question": "時間研究で労働者が1時間あたり10単位を生産すべきと判定された。実際には1時間で8単位を生産した。標準賃率は1,500円。能率比は：",
     "options": [
       {
         "text": "80%",
@@ -553,22 +553,22 @@
   },
   {
     "category": "Cost Accounting - Labor",
-    "question": "In a labor cost summary, the total employer burden includes all of the following EXCEPT:",
+    "question": "労務費集計において、総雇主負担に含まれないものは次のどれか：",
     "options": [
       {
-        "text": "Employee income tax withholding",
+        "text": "従業員の源泉所得税控除",
         "correct": true
       },
       {
-        "text": "Employer social insurance contributions",
+        "text": "雇主の社会保険料負担",
         "correct": false
       },
       {
-        "text": "Employer unemployment insurance",
+        "text": "雇主の雇用保険料",
         "correct": false
       },
       {
-        "text": "Workers' compensation insurance",
+        "text": "労災保険料",
         "correct": false
       }
     ],

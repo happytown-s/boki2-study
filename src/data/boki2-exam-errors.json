@@ -1,22 +1,22 @@
 [
   {
     "category": "Error Correction",
-    "question": "A counterbalancing error is one that:",
+    "question": "相殺誤り（counterbalancing error）とは次のどれか：",
     "options": [
       {
-        "text": "Automatically corrects itself over two periods",
+        "text": "2会計期間内で自動的に相殺される誤り",
         "correct": true
       },
       {
-        "text": "Never self-corrects and persists indefinitely",
+        "text": "自己修正されず、無限に存続する誤り",
         "correct": false
       },
       {
-        "text": "Only affects the income statement",
+        "text": "損益計算書にのみ影響する誤り",
         "correct": false
       },
       {
-        "text": "Only affects the balance sheet",
+        "text": "貸借対照表にのみ影響する誤り",
         "correct": false
       }
     ],
@@ -24,22 +24,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "A non-counterbalancing error is one that:",
+    "question": "非相殺誤り（non-counterbalancing error）とは次のどれか：",
     "options": [
       {
-        "text": "Does not automatically correct itself and requires a prior period adjustment",
+        "text": "自動的には修正されず、前期修正が必要な誤り",
         "correct": true
       },
       {
-        "text": "Corrects itself in the next period",
+        "text": "翌期に自動的に修正される誤り",
         "correct": false
       },
       {
-        "text": "Only affects current period financial statements",
+        "text": "当期の財務諸表にのみ影響する誤り",
         "correct": false
       },
       {
-        "text": "Is immaterial and does not need correction",
+        "text": "重要でなく、修正が不要な誤り",
         "correct": false
       }
     ],
@@ -47,22 +47,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "If ending inventory is understated at the end of Year 1, the effect in Year 1 is:",
+    "question": "第1年末の期末棚卸資産が過小だった場合、第1年への影響は：",
     "options": [
       {
-        "text": "Cost of Goods Sold is overstated and Net Income is understated",
+        "text": "売上原価が過大となり、純利益が過小となる",
         "correct": true
       },
       {
-        "text": "Cost of Goods Sold is understated and Net Income is overstated",
+        "text": "売上原価が過小となり、純利益が過大となる",
         "correct": false
       },
       {
-        "text": "Cost of Goods Sold and Net Income are both understated",
+        "text": "売上原価と純利益がともに過小となる",
         "correct": false
       },
       {
-        "text": "No effect on Year 1 financial statements",
+        "text": "第1年の財務諸表に影響なし",
         "correct": false
       }
     ],
@@ -70,22 +70,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "If ending inventory is understated at the end of Year 1, the effect in Year 2 is:",
+    "question": "第1年末の期末棚卸資産が過小だった場合、第2年への影響は：",
     "options": [
       {
-        "text": "Beginning inventory is understated, so COGS is understated and Net Income is overstated",
+        "text": "期首棚卸が過小となり、売上原価が過小、純利益が過大となる",
         "correct": true
       },
       {
-        "text": "COGS is overstated and Net Income is understated",
+        "text": "売上原価が過大となり、純利益が過小となる",
         "correct": false
       },
       {
-        "text": "No effect on Year 2",
+        "text": "第2年に影響なし",
         "correct": false
       },
       {
-        "text": "Beginning inventory is overstated, COGS is overstated",
+        "text": "期首棚卸が過大となり、売上原価が過大となる",
         "correct": false
       }
     ],
@@ -93,22 +93,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "If a prepaid expense was recorded as an expense when paid (failure to adjust), the effect is:",
+    "question": "前払費用を支払時に費用として記録した場合（修正漏れ）、影響は：",
     "options": [
       {
-        "text": "Expenses are overstated and assets are understated in the current period",
+        "text": "当期の費用が過大となり、資産が過小となる",
         "correct": true
       },
       {
-        "text": "Expenses are understated and assets are overstated",
+        "text": "費用が過小となり、資産が過大となる",
         "correct": false
       },
       {
-        "text": "No error - this is correct treatment",
+        "text": "誤りなし - 正しい処理である",
         "correct": false
       },
       {
-        "text": "Liabilities are overstated",
+        "text": "負債が過大となる",
         "correct": false
       }
     ],
@@ -116,22 +116,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "Failure to record accrued revenue at year-end results in:",
+    "question": "期末の未収収益の計上漏れは次の結果をもたらす：",
     "options": [
       {
-        "text": "Revenue and assets both understated in the current year",
+        "text": "当期の収益と資産がともに過小となる",
         "correct": true
       },
       {
-        "text": "Revenue and liabilities both understated",
+        "text": "収益と負債がともに過小となる",
         "correct": false
       },
       {
-        "text": "Revenue overstated and expenses understated",
+        "text": "収益が過大となり、費用が過小となる",
         "correct": false
       },
       {
-        "text": "No effect since cash hasn't been received",
+        "text": "現金未受領のため影響なし",
         "correct": false
       }
     ],
@@ -139,22 +139,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "A prior period adjustment is reported on the:",
+    "question": "前期修正（prior period adjustment）はどこに記載されるか：",
     "options": [
       {
-        "text": "Statement of Retained Earnings (or Statement of Changes in Equity) as an adjustment to beginning balance",
+        "text": "繰越利益剰余金計算書（または株主資本等変動計算書）の期首残高に対する修正として",
         "correct": true
       },
       {
-        "text": "Income Statement of the current period",
+        "text": "当期の損益計算書",
         "correct": false
       },
       {
-        "text": "Balance Sheet as a separate line item",
+        "text": "貸借対照表の独立項目",
         "correct": false
       },
       {
-        "text": "Cash Flow Statement",
+        "text": "キャッシュフロー計算書",
         "correct": false
       }
     ],
@@ -162,22 +162,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "Failure to record depreciation expense is an example of:",
+    "question": "減価償却費の計上漏れは次のどれの例か：",
     "options": [
       {
-        "text": "A non-counterbalancing error",
+        "text": "非相殺誤り",
         "correct": true
       },
       {
-        "text": "A counterbalancing error",
+        "text": "相殺誤り",
         "correct": false
       },
       {
-        "text": "An error that has no effect on financial statements",
+        "text": "財務諸表に影響のない誤り",
         "correct": false
       },
       {
-        "text": "An error that only affects the balance sheet",
+        "text": "貸借対照表にのみ影響する誤り",
         "correct": false
       }
     ],
@@ -185,22 +185,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "If a purchase of equipment was recorded as a maintenance expense, the error causes:",
+    "question": "設備の購入を保守費用として記録した場合、この誤りは次をもたらす：",
     "options": [
       {
-        "text": "Expenses overstated, assets understated, and equity understated in the year of the error",
+        "text": "誤りの発生年度において、費用が過大、資産が過小、純資産が過小となる",
         "correct": true
       },
       {
-        "text": "Expenses understated and assets overstated",
+        "text": "費用が過小となり、資産が過大となる",
         "correct": false
       },
       {
-        "text": "No error - maintenance and equipment are both expenses",
+        "text": "誤りなし - 保守と設備はともに費用である",
         "correct": false
       },
       {
-        "text": "Only the balance sheet is affected",
+        "text": "貸借対照表にのみ影響する",
         "correct": false
       }
     ],
@@ -208,22 +208,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "An error in counting ending inventory that overstated it by 50,000 yen was discovered in the next year after Year 1 books were closed. If Year 2 is still open:",
+    "question": "第1年の帳簿が締切られた後、期末棚卸資産を50,000円過大計上していた誤りが第2年に発見された。第2年の帳簿がまだ開いている場合：",
     "options": [
       {
-        "text": "Correct Year 2 beginning retained earnings and inventory records; no prior period adjustment needed",
+        "text": "第2年の期首繰越利益剰余金と棚卸資産記録を修正する。前期修正は不要。",
         "correct": true
       },
       {
-        "text": "Report a prior period adjustment on the retained earnings statement",
+        "text": "繰越利益剰余金計算書に前期修正として記載する",
         "correct": false
       },
       {
-        "text": "Restate Year 1 financial statements",
+        "text": "第1年の財務諸表を修正再表示する",
         "correct": false
       },
       {
-        "text": "Ignore the error as it will counterbalance",
+        "text": "相殺されるため誤りを無視する",
         "correct": false
       }
     ],
@@ -231,22 +231,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "A company failed to accrue wages payable of 80,000 yen at year-end. The effect is:",
+    "question": "企業が期末に80,000円の未払給与の見落としをした。影響は：",
     "options": [
       {
-        "text": "Expenses understated, liabilities understated, net income overstated",
+        "text": "費用が過小、負債が過小、純利益が過大となる",
         "correct": true
       },
       {
-        "text": "Expenses overstated, liabilities overstated",
+        "text": "費用が過大、負債が過大となる",
         "correct": false
       },
       {
-        "text": "Assets understated, equity overstated",
+        "text": "資産が過小、純資産が過大となる",
         "correct": false
       },
       {
-        "text": "No effect on net income since cash hasn't been paid",
+        "text": "現金未支払のため純利益に影響なし",
         "correct": false
       }
     ],
@@ -254,22 +254,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "If depreciation was understated by 20,000 yen for each of the past 3 years and the error is discovered in Year 4, the correction requires:",
+    "question": "過去3年間、減価償却費が毎年20,000円過小だった場合、第4年に発見された時の修正は：",
     "options": [
       {
-        "text": "A prior period adjustment of 60,000 (net of tax) to the beginning retained earnings of Year 4",
+        "text": "第4年期首繰越利益剰余金に対する60,000円（税引後）の前期修正",
         "correct": true
       },
       {
-        "text": "Correcting only the current year by recording 20,000 more depreciation",
+        "text": "当期に20,000円の追加減価償却費を計上して修正する",
         "correct": false
       },
       {
-        "text": "Restating all three prior year financial statements",
+        "text": "過去3年間の財務諸表をすべて修正再表示する",
         "correct": false
       },
       {
-        "text": "Recording 60,000 depreciation expense in the current year",
+        "text": "当期に60,000円の減価償却費を計上する",
         "correct": false
       }
     ],
@@ -277,22 +277,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "Which of the following errors would NOT be discovered by trial balance preparation?",
+    "question": "次のうち、試算表の作成では発見できない誤りはどれか：",
     "options": [
       {
-        "text": "A transaction recorded with the correct amount but in the wrong account (both debits and credits correct)",
+        "text": "金額は正しいが間違った勘定に記録された取引（借方・貸方ともに正しい場合）",
         "correct": true
       },
       {
-        "text": "A journal entry with unequal debits and credits",
+        "text": "借方と貸方が不一致の仕訳",
         "correct": false
       },
       {
-        "text": "Only the debit side of a transaction was posted",
+        "text": "取引の借方側のみが転記された",
         "correct": false
       },
       {
-        "text": "An amount was incorrectly calculated in a journal entry",
+        "text": "仕訳で金額が誤って計算された",
         "correct": false
       }
     ],
@@ -300,22 +300,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "Overstating beginning inventory in a periodic inventory system causes:",
+    "question": "定期棚卸法で期首棚卸資産を過大計上すると次の結果となる：",
     "options": [
       {
-        "text": "COGS overstated and Net Income understated",
+        "text": "売上原価が過大となり、純利益が過小となる",
         "correct": true
       },
       {
-        "text": "COGS understated and Net Income overstated",
+        "text": "売上原価が過小となり、純利益が過大となる",
         "correct": false
       },
       {
-        "text": "No effect on COGS or Net Income",
+        "text": "売上原価と純利益に影響なし",
         "correct": false
       },
       {
-        "text": "COGS understated and ending inventory overstated",
+        "text": "売上原価が過小となり、期末棚卸が過大となる",
         "correct": false
       }
     ],
@@ -323,22 +323,22 @@
   },
   {
     "category": "Error Correction",
-    "question": "A company recorded the purchase of a machine as a debit to Land instead of Machinery. The effect is:",
+    "question": "機械の購入を土地の借方に記録した場合、影響は：",
     "options": [
       {
-        "text": "Total assets are correct but the composition is wrong; depreciation will be understated",
+        "text": "総資産は正しいが内訳が誤り。減価償却費が過小となる。",
         "correct": true
       },
       {
-        "text": "Total assets are overstated",
+        "text": "総資産が過大となる",
         "correct": false
       },
       {
-        "text": "Total assets are understated",
+        "text": "総資産が過小となる",
         "correct": false
       },
       {
-        "text": "No error - Land and Machinery are the same account",
+        "text": "誤りなし - 土地と機械は同じ勘定である",
         "correct": false
       }
     ],
