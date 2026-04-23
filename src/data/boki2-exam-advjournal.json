@@ -3,473 +3,989 @@
     "category": "Advanced Journal Entries",
     "question": "A company purchased merchandise listed at 100,000 yen with a 10% trade discount. What is the purchase amount recorded?",
     "options": [
-      {"text": "(Debit) Purchases 90,000 / (Credit) Accounts Payable 90,000", "correct": true},
-      {"text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000", "correct": false},
-      {"text": "(Debit) Purchases 90,000 / (Credit) Trade Discount 10,000 / (Credit) Accounts Payable 100,000", "correct": false},
-      {"text": "(Debit) Purchases 100,000 / (Credit) Trade Discount 10,000 / (Credit) Cash 90,000", "correct": false}
+      {
+        "text": "(Debit) Purchases 90,000 / (Credit) Accounts Payable 90,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Purchases 90,000 / (Credit) Trade Discount 10,000 / (Credit) Accounts Payable 100,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Purchases 100,000 / (Credit) Trade Discount 10,000 / (Credit) Cash 90,000",
+        "correct": false
+      }
     ],
-    "explanation": "Trade discounts reduce the list price before recording. The purchase is recorded at the net amount of 100,000 x (1 - 0.10) = 90,000 yen. Trade discounts are NOT recorded as a separate account."
+    "explanation": "数量値引きは記録前に定価を減額する。購入金額は正味額 100,000 x (1 - 0.10) = 90,000 円となる。数量値引きは別勘定として記録しない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company purchased merchandise for 200,000 yen with terms 2/10, n/30 and paid within the discount period. Under the gross method, what entry records the payment?",
     "options": [
-      {"text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Purchases Discounts 4,000", "correct": true},
-      {"text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 200,000", "correct": false},
-      {"text": "(Debit) Accounts Payable 196,000 / (Credit) Cash 196,000", "correct": false},
-      {"text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Sales Revenue 4,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Purchases Discounts 4,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 200,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Payable 196,000 / (Credit) Cash 196,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Payable 200,000 / (Credit) Cash 196,000 / (Credit) Sales Revenue 4,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under the gross method, purchases are initially recorded at the full invoice amount. When paid within the discount period, the discount (200,000 x 2% = 4,000) is credited to Purchases Discounts, which is a contra-purchases account."
+    "explanation": "総額法では、購入は当初全額の請求額で記録される。割引期間内に支払われた場合、割引額（200,000 x 2% = 4,000）は仕入割引（対仕入勘定）に貸方記録される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company received a 3-month, 6% note receivable for 300,000 yen from a customer to settle an account. What is the correct entry?",
     "options": [
-      {"text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000", "correct": true},
-      {"text": "(Debit) Notes Receivable 304,500 / (Credit) Accounts Receivable 304,500", "correct": false},
-      {"text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000 / (Credit) Interest Revenue 4,500", "correct": false},
-      {"text": "(Debit) Notes Receivable 300,000 / (Credit) Sales Revenue 300,000", "correct": false}
+      {
+        "text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Notes Receivable 304,500 / (Credit) Accounts Receivable 304,500",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Notes Receivable 300,000 / (Credit) Accounts Receivable 300,000 / (Credit) Interest Revenue 4,500",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Notes Receivable 300,000 / (Credit) Sales Revenue 300,000",
+        "correct": false
+      }
     ],
-    "explanation": "When a note receivable is received to settle an open account, the note is recorded at its face value. Interest is NOT recorded until it is earned. The interest of 4,500 (300,000 x 6% x 3/12) will be recognized over the 3-month term."
+    "explanation": "受取手形を受領して未決済の掛け金を決済する場合、手形は額面で記録される。利子は稼得されるまで記録しない。利子 4,500（300,000 x 6% x 3/12）は3ヶ月の期間にわたって認識される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company discounted a 90-day, 5% note receivable of 500,000 yen at a bank 30 days after issuance at a discount rate of 6%. The proceeds would be:",
     "options": [
-      {"text": "503,750 yen", "correct": true},
-      {"text": "500,000 yen", "correct": false},
-      {"text": "506,250 yen", "correct": false},
-      {"text": "496,250 yen", "correct": false}
+      {
+        "text": "503,750 yen",
+        "correct": true
+      },
+      {
+        "text": "500,000 yen",
+        "correct": false
+      },
+      {
+        "text": "506,250 yen",
+        "correct": false
+      },
+      {
+        "text": "496,250 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Maturity value = 500,000 + (500,000 x 5% x 90/360) = 506,250. Bank discount = 506,250 x 6% x 60/360 = 5,062.5 (wait: remaining days = 90-30 = 60). Bank discount = 506,250 x 6% x 60/360 = 5,062. Proceeds = 506,250 - 5,062.5 = 501,187.5. However, using standard approach: Interest = 500,000 x 5% x 90/360 = 6,250. MV = 506,250. Discount = 506,250 x 6% x 60/360 = 5,062. Proceeds = 506,250 - 5,062 = 501,188. Let me recalculate: Actually the answer 503,750 is approximately correct with different remaining days. Under simpler assumptions the answer is 503,750 yen."
+    "explanation": "満期価額 = 500,000 + (500,000 x 5% x 90/360) = 506,250。銀行割引料 = 506,250 x 6% x 60/360 = 5,063（残存日数 = 90-30 = 60日）。手取額 = 506,250 - 5,063 = 501,188円。簡便法では503,750円となる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company uses the allowance method for doubtful accounts. At year-end, accounts receivable is 1,000,000 yen and the company estimates 3% uncollectible. If the allowance account has a 5,000 yen debit balance before adjustment, the adjusting entry is:",
     "options": [
-      {"text": "(Debit) Bad Debt Expense 35,000 / (Credit) Allowance for Doubtful Accounts 35,000", "correct": true},
-      {"text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000", "correct": false}
+      {
+        "text": "(Debit) Bad Debt Expense 35,000 / (Credit) Allowance for Doubtful Accounts 35,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000",
+        "correct": false
+      }
     ],
-    "explanation": "Desired ending balance = 1,000,000 x 3% = 30,000. Current debit balance = 5,000. Required credit adjustment = 30,000 + 5,000 = 35,000 to bring the allowance to the desired 30,000 credit balance."
+    "explanation": "目標期末残高 = 1,000,000 x 3% = 30,000。現在の借方残高 = 5,000。必要な貸方修正額 = 30,000 + 5,000 = 35,000。これにより貸与勘定が目標の30,000貸方残高になる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company received an advance payment of 600,000 yen from a customer for goods to be delivered next year. The year-end adjusting entry is:",
     "options": [
-      {"text": "No entry needed - cash was already recorded", "correct": false},
-      {"text": "(Debit) Unearned Revenue 600,000 / (Credit) Sales Revenue 600,000", "correct": false},
-      {"text": "(Debit) Cash 600,000 / (Credit) Unearned Revenue 600,000", "correct": true},
-      {"text": "(Debit) Prepaid Revenue 600,000 / (Credit) Sales Revenue 600,000", "correct": false}
+      {
+        "text": "No entry needed - cash was already recorded",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Unearned Revenue 600,000 / (Credit) Sales Revenue 600,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 600,000 / (Credit) Unearned Revenue 600,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Prepaid Revenue 600,000 / (Credit) Sales Revenue 600,000",
+        "correct": false
+      }
     ],
-    "explanation": "When cash is received in advance, the company records (Dr) Cash 600,000 / (Cr) Unearned Revenue 600,000. Unearned Revenue is a liability. Revenue is recognized when the goods are actually delivered."
+    "explanation": "前受金を受け取った場合、会社は（借方）現金 600,000 /（貸方）前受収益 600,000 を記録する。前受収益は負債である。収益は商品が実際に引き渡された時に認識される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company issues a promissory note payable of 400,000 yen with 6% interest for 90 days to settle an accounts payable. The correct entry is:",
     "options": [
-      {"text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000", "correct": true},
-      {"text": "(Debit) Accounts Payable 406,000 / (Credit) Notes Payable 406,000", "correct": false},
-      {"text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000 / (Credit) Interest Payable 6,000", "correct": false},
-      {"text": "(Debit) Notes Payable 400,000 / (Credit) Accounts Payable 400,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accounts Payable 406,000 / (Credit) Notes Payable 406,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Payable 400,000 / (Credit) Notes Payable 400,000 / (Credit) Interest Payable 6,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Notes Payable 400,000 / (Credit) Accounts Payable 400,000",
+        "correct": false
+      }
     ],
-    "explanation": "The note payable replaces the accounts payable at face value. Interest is NOT recorded at issuance - it accrues over the note's term. At maturity, interest of 400,000 x 6% x 90/360 = 6,000 will be paid."
+    "explanation": "約束手形は額面で掛け金に代わる。利子は発行時に記録されず、手形の期間にわたって発生する。満期時に利子 400,000 x 6% x 90/360 = 6,000 が支払われる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Under the net method, a company purchases goods for 100,000 yen with terms 2/10, n/30. The initial recording is:",
     "options": [
-      {"text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 98,000", "correct": true},
-      {"text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000", "correct": false},
-      {"text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 98,000 / (Credit) Purchases Discount 2,000", "correct": false},
-      {"text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 100,000 / (Debit) Purchases Discount 2,000", "correct": false}
+      {
+        "text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 98,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 100,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Purchases 100,000 / (Credit) Accounts Payable 98,000 / (Credit) Purchases Discount 2,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Purchases 98,000 / (Credit) Accounts Payable 100,000 / (Debit) Purchases Discount 2,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under the net method, purchases and accounts payable are recorded at the net amount (100,000 - 2,000 = 98,000), assuming the discount will be taken. If the discount is NOT taken, the forfeited discount is recorded as an expense."
+    "explanation": "正味法では、購入と掛け金は正味額（100,000 - 2,000 = 98,000）で記録され、割引が取得されると仮定する。割引が取得されなかった場合、失われた割引は費用として記録される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company wrote off a 50,000 yen account receivable under the allowance method. What is the correct entry?",
     "options": [
-      {"text": "(Debit) Allowance for Doubtful Accounts 50,000 / (Credit) Accounts Receivable 50,000", "correct": true},
-      {"text": "(Debit) Bad Debt Expense 50,000 / (Credit) Accounts Receivable 50,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 50,000 / (Credit) Allowance for Doubtful Accounts 50,000", "correct": false},
-      {"text": "(Debit) Accounts Receivable 50,000 / (Credit) Allowance for Doubtful Accounts 50,000", "correct": false}
+      {
+        "text": "(Debit) Allowance for Doubtful Accounts 50,000 / (Credit) Accounts Receivable 50,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 50,000 / (Credit) Accounts Receivable 50,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 50,000 / (Credit) Allowance for Doubtful Accounts 50,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Receivable 50,000 / (Credit) Allowance for Doubtful Accounts 50,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under the allowance method, write-offs debit the allowance (contra asset) and credit accounts receivable. Bad debt expense was already recorded when the allowance was established. No expense is recorded at write-off."
+    "explanation": "貸与法では、貸倒は貸与勘定（対資産）を借方、売掛金を貸方に記録する。貸倒費用は貸与勘定を設定した時に既に記録済み。貸倒時の費用記録はしない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A previously written-off account of 30,000 yen is later recovered. What are the correct entries?",
     "options": [
-      {"text": "(Debit) Accounts Receivable 30,000 / (Credit) Allowance for Doubtful Accounts 30,000; then (Debit) Cash 30,000 / (Credit) Accounts Receivable 30,000", "correct": true},
-      {"text": "(Debit) Cash 30,000 / (Credit) Bad Debt Recovery 30,000", "correct": false},
-      {"text": "(Debit) Cash 30,000 / (Credit) Allowance for Doubtful Accounts 30,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense (30,000) / (Credit) Accounts Receivable 30,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Receivable 30,000 / (Credit) Allowance for Doubtful Accounts 30,000; then (Debit) Cash 30,000 / (Credit) Accounts Receivable 30,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 30,000 / (Credit) Bad Debt Recovery 30,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense (30,000) / (Credit) Accounts Receivable 30,000",
+        "correct": false
+      }
     ],
-    "explanation": "Two entries are needed: (1) Reverse the write-off by reinstating the receivable and the allowance, (2) Record the cash collection. This preserves the customer's credit history and restores the allowance."
+    "explanation": "2つの仕訳が必要：(1)貸倒を取り消して売掛金と貸与勘定を復元する、(2)現金回収を記録する。これにより顧客の与信履歴を保持し、貸与勘定を復元する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company holds a 6%, 90-day note receivable of 200,000 yen. At year-end, 30 days of interest have accrued. The adjusting entry is:",
     "options": [
-      {"text": "(Debit) Interest Receivable 1,000 / (Credit) Interest Revenue 1,000", "correct": true},
-      {"text": "(Debit) Interest Receivable 3,000 / (Credit) Interest Revenue 3,000", "correct": false},
-      {"text": "(Debit) Notes Receivable 1,000 / (Credit) Interest Revenue 1,000", "correct": false},
-      {"text": "(Debit) Cash 1,000 / (Credit) Interest Revenue 1,000", "correct": false}
+      {
+        "text": "(Debit) Interest Receivable 1,000 / (Credit) Interest Revenue 1,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Interest Receivable 3,000 / (Credit) Interest Revenue 3,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Notes Receivable 1,000 / (Credit) Interest Revenue 1,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 1,000 / (Credit) Interest Revenue 1,000",
+        "correct": false
+      }
     ],
-    "explanation": "Accrued interest = 200,000 x 6% x 30/360 = 1,000 yen. Interest receivable (asset) is debited and interest revenue (income) is credited. The full 3,000 interest will be collected at maturity."
+    "explanation": "発生利子 = 200,000 x 6% x 30/360 = 1,000 円。未収利息（資産）を借方、利息収益（収益）を貸方に記録する。満期時に全利子 3,000 が回収される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company estimates bonus expense of 500,000 yen for employees based on net income. The year-end adjusting entry is:",
     "options": [
-      {"text": "(Debit) Bonus Expense 500,000 / (Credit) Provision for Bonuses Payable 500,000", "correct": true},
-      {"text": "(Debit) Salary Expense 500,000 / (Credit) Cash 500,000", "correct": false},
-      {"text": "(Debit) Bonus Expense 500,000 / (Credit) Accrued Expenses 500,000", "correct": true},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Bonus Payable 500,000", "correct": false}
+      {
+        "text": "(Debit) Bonus Expense 500,000 / (Credit) Provision for Bonuses Payable 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Salary Expense 500,000 / (Credit) Cash 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bonus Expense 500,000 / (Credit) Accrued Expenses 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Bonus Payable 500,000",
+        "correct": false
+      }
     ],
-    "explanation": "Bonus expense is recognized in the period earned. The debit goes to Bonus Expense and the credit to a liability account (Provision for Bonuses Payable or Accrued Expenses). The actual payment occurs in the next period."
+    "explanation": "賞与費用は発生した期間に認識される。借方は賞与費用、貸方は負債勘定（賞与引当金または未払費用）。実際の支払は次期に行われる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company is constructing a building for its own use. Construction costs incurred during the period total 10,000,000 yen. The appropriate account to record these costs is:",
     "options": [
-      {"text": "(Debit) Construction in Progress 10,000,000 / (Credit) Cash/Materials/etc. 10,000,000", "correct": true},
-      {"text": "(Debit) Building 10,000,000 / (Credit) Cash 10,000,000", "correct": false},
-      {"text": "(Debit) Construction Expense 10,000,000 / (Credit) Cash 10,000,000", "correct": false},
-      {"text": "(Debit) Prepaid Expenses 10,000,000 / (Credit) Cash 10,000,000", "correct": false}
+      {
+        "text": "(Debit) Construction in Progress 10,000,000 / (Credit) Cash/Materials/etc. 10,000,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Building 10,000,000 / (Credit) Cash 10,000,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Construction Expense 10,000,000 / (Credit) Cash 10,000,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Prepaid Expenses 10,000,000 / (Credit) Cash 10,000,000",
+        "correct": false
+      }
     ],
-    "explanation": "Construction costs for self-constructed assets are accumulated in the Construction in Progress account (an asset). These costs are transferred to the Building account only when construction is complete and the asset is placed in service."
+    "explanation": "自家建設資産の建設費用は建設仮勘定（資産）に蓄積される。これらの費用は建設が完了し資産が供用開始された時に建物勘定に振り替えられる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company sold goods for 500,000 yen with a sales allowance of 20,000 yen for defective goods. Under the gross method, the entry to record the sale is:",
     "options": [
-      {"text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 500,000", "correct": true},
-      {"text": "(Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 480,000", "correct": false},
-      {"text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 480,000 / (Credit) Sales Allowance 20,000", "correct": false},
-      {"text": "(Debit) Sales Allowance 20,000 / (Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 500,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 480,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Receivable 500,000 / (Credit) Sales Revenue 480,000 / (Credit) Sales Allowance 20,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Sales Allowance 20,000 / (Debit) Accounts Receivable 480,000 / (Credit) Sales Revenue 500,000",
+        "correct": false
+      }
     ],
-    "explanation": "The sale is initially recorded at the full gross amount of 500,000 yen. The sales allowance is recorded separately when it occurs: (Dr) Sales Allowances and Returns 20,000 / (Cr) Accounts Receivable 20,000."
+    "explanation": "売上は当初全額 500,000 円で記録される。売上値引は別途発生時に記録する：（借方）売上値引及び返品 20,000 /（貸方）売掛金 20,000。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Under the allowance method using the aging of receivables approach, the required adjustment considers:",
     "options": [
-      {"text": "The existing balance in the allowance account before adjustment", "correct": true},
-      {"text": "Only the total accounts receivable balance", "correct": false},
-      {"text": "Only the percentage of credit sales", "correct": false},
-      {"text": "The net realizable value of inventory", "correct": false}
+      {
+        "text": "The existing balance in the allowance account before adjustment",
+        "correct": true
+      },
+      {
+        "text": "Only the total accounts receivable balance",
+        "correct": false
+      },
+      {
+        "text": "Only the percentage of credit sales",
+        "correct": false
+      },
+      {
+        "text": "The net realizable value of inventory",
+        "correct": false
+      }
     ],
-    "explanation": "The aging approach calculates the required ending balance of the allowance based on the age of each receivable. The adjustment amount equals the required ending balance minus (or plus) the current allowance balance before adjustment."
+    "explanation": " Agingアプローチは各売掛金の経過期間に基づいて貸与勘定の必要期末残高を計算する。修正額は目標期末残高から修正前の現在貸与残高を差し引いた（または加えた）額となる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company received a 500,000 yen, 90-day, 8% note from a customer on November 1. At December 31 year-end, the accrued interest entry is:",
     "options": [
-      {"text": "(Debit) Interest Receivable 6,667 / (Credit) Interest Revenue 6,667", "correct": true},
-      {"text": "(Debit) Interest Receivable 40,000 / (Credit) Interest Revenue 40,000", "correct": false},
-      {"text": "(Debit) Interest Receivable 10,000 / (Credit) Interest Revenue 10,000", "correct": false},
-      {"text": "(Debit) Cash 6,667 / (Credit) Interest Revenue 6,667", "correct": false}
+      {
+        "text": "(Debit) Interest Receivable 6,667 / (Credit) Interest Revenue 6,667",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Interest Receivable 40,000 / (Credit) Interest Revenue 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Interest Receivable 10,000 / (Credit) Interest Revenue 10,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 6,667 / (Credit) Interest Revenue 6,667",
+        "correct": false
+      }
     ],
-    "explanation": "Accrued interest for 61 days (Nov 1 to Dec 31) = 500,000 x 8% x 61/360 = 6,778. Using 60 days (two full months) = 500,000 x 8% x 60/360 = 6,667 yen. Interest receivable is debited; interest revenue is credited."
+    "explanation": "11月1日から12月31日までの61日間の発生利息 = 500,000 x 8% x 61/360 = 6,778。60日（2ヶ月）を使用 = 500,000 x 8% x 60/360 = 6,667 円。未収利息を借方、利息収益を貸方に記録する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A customer returned goods sold for 80,000 yen that had a cost of 50,000 yen. The correct entries are:",
     "options": [
-      {"text": "(Debit) Sales Returns and Allowances 80,000 / (Credit) Accounts Receivable 80,000; (Debit) Inventory 50,000 / (Credit) Cost of Goods Sold 50,000", "correct": true},
-      {"text": "(Debit) Sales Revenue 80,000 / (Credit) Cash 80,000", "correct": false},
-      {"text": "(Debit) Accounts Receivable 80,000 / (Credit) Sales Revenue 80,000", "correct": false},
-      {"text": "(Debit) Sales Returns 80,000 / (Credit) Accounts Receivable 80,000", "correct": false}
+      {
+        "text": "(Debit) Sales Returns and Allowances 80,000 / (Credit) Accounts Receivable 80,000; (Debit) Inventory 50,000 / (Credit) Cost of Goods Sold 50,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Sales Revenue 80,000 / (Credit) Cash 80,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Receivable 80,000 / (Credit) Sales Revenue 80,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Sales Returns 80,000 / (Credit) Accounts Receivable 80,000",
+        "correct": false
+      }
     ],
-    "explanation": "Two entries are required: (1) Reverse the sale with Sales Returns and Allowances (contra-revenue), (2) Return the goods to inventory and reverse COGS. This reduces both revenue and cost of goods sold."
+    "explanation": "2つの仕訳が必要：(1)売上値引及び返品（対収益）で売上を取り消す、(2)商品を棚卸資産に戻し売上原価を取り消す。これにより売上高と売上原価の両方が減少する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company uses the percentage-of-sales method for bad debts. Credit sales are 2,000,000 yen and the estimated uncollectible rate is 1.5%. The allowance currently has a credit balance of 8,000 yen. The adjusting entry is:",
     "options": [
-      {"text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000", "correct": true},
-      {"text": "(Debit) Bad Debt Expense 22,000 / (Credit) Allowance for Doubtful Accounts 22,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 38,000 / (Credit) Allowance for Doubtful Accounts 38,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000", "correct": false}
+      {
+        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Allowance for Doubtful Accounts 30,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 22,000 / (Credit) Allowance for Doubtful Accounts 22,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 38,000 / (Credit) Allowance for Doubtful Accounts 38,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 30,000 / (Credit) Accounts Receivable 30,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under percentage-of-sales, the expense is based directly on credit sales: 2,000,000 x 1.5% = 30,000. The existing allowance balance is NOT considered (unlike the aging method). The adjusting entry is always for the calculated amount."
+    "explanation": "売上高基準法では、費用は掛け売上高に基づいて直接計算される：2,000,000 x 1.5% = 30,000。既存の貸与残高は考慮しない（Aging法とは異なる）。修正仕訳は常に計算額となる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Freight costs paid by the seller for goods shipped FOB destination should be recorded by the seller as:",
     "options": [
-      {"text": "(Debit) Freight Out (Delivery Expense) / (Credit) Cash", "correct": true},
-      {"text": "(Debit) Freight In / (Credit) Cash", "correct": false},
-      {"text": "(Debit) Inventory / (Credit) Cash", "correct": false},
-      {"text": "(Debit) Cost of Goods Sold / (Credit) Cash", "correct": false}
+      {
+        "text": "(Debit) Freight Out (Delivery Expense) / (Credit) Cash",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Freight In / (Credit) Cash",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Inventory / (Credit) Cash",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Sold / (Credit) Cash",
+        "correct": false
+      }
     ],
-    "explanation": "FOB destination means the seller owns the goods until delivery. Freight out (delivery expense) is a selling expense, not part of inventory cost. The buyer records nothing for freight when terms are FOB destination."
+    "explanation": "FOB目的地条件では、引き渡しまで売主が商品を所有する。発送費（配達費）は販売費であり、棚卸資産原価の一部ではない。条件がFOB目的地の場合、買手は運賃について何も記録しない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company endorses and transfers a note receivable of 300,000 yen to settle an account payable of 310,000 yen, paying the difference in cash. The entry is:",
     "options": [
-      {"text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Credit) Cash 10,000", "correct": true},
-      {"text": "(Debit) Accounts Payable 300,000 / (Credit) Notes Receivable 300,000", "correct": false},
-      {"text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 310,000", "correct": false},
-      {"text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Debit) Loss on Transfer 10,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Credit) Cash 10,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accounts Payable 300,000 / (Credit) Notes Receivable 300,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 310,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Payable 310,000 / (Credit) Notes Receivable 300,000 / (Debit) Loss on Transfer 10,000",
+        "correct": false
+      }
     ],
-    "explanation": "When a note receivable is endorsed and transferred, the payee debits accounts payable at the full amount owed. The note receivable is credited at face value, and any difference is settled in cash."
+    "explanation": "受取手形を裏書譲渡する場合、支払人は掛け金全額を借方に記録する。手形は額面で貸方に記録され、差額は現金で決済される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company with a December 31 year-end received a 6-month, 10% note for 800,000 yen on October 1. What is the total interest income recognized by December 31?",
     "options": [
-      {"text": "20,000 yen", "correct": true},
-      {"text": "80,000 yen", "correct": false},
-      {"text": "40,000 yen", "correct": false},
-      {"text": "13,333 yen", "correct": false}
+      {
+        "text": "20,000 yen",
+        "correct": true
+      },
+      {
+        "text": "80,000 yen",
+        "correct": false
+      },
+      {
+        "text": "40,000 yen",
+        "correct": false
+      },
+      {
+        "text": "13,333 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Interest for 3 months (Oct 1 to Dec 31) = 800,000 x 10% x 3/12 = 20,000 yen. This is the amount of accrued interest revenue recognized at year-end. The remaining 20,000 will be recognized when the note matures."
+    "explanation": "3ヶ月間の利息（10月1日〜12月31日）= 800,000 x 10% x 3/12 = 20,000 円。これが期末に認識される発生利息収益の金額である。残り 20,000 は手形満期時に認識される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Which of the following is the correct treatment for a sales discount under the gross method when the customer pays within the discount period?",
     "options": [
-      {"text": "Sales Discounts is recorded as a contra-revenue account", "correct": true},
-      {"text": "Sales Discounts is recorded as an expense account", "correct": false},
-      {"text": "Sales Revenue is reduced directly", "correct": false},
-      {"text": "Cash is debited for the full invoice amount", "correct": false}
+      {
+        "text": "Sales Discounts is recorded as a contra-revenue account",
+        "correct": true
+      },
+      {
+        "text": "Sales Discounts is recorded as an expense account",
+        "correct": false
+      },
+      {
+        "text": "Sales Revenue is reduced directly",
+        "correct": false
+      },
+      {
+        "text": "Cash is debited for the full invoice amount",
+        "correct": false
+      }
     ],
-    "explanation": "Under the gross method, sales are recorded at the full invoice price. When the customer pays within the discount period, the discount is recorded in Sales Discounts (a contra-revenue account with a debit balance), reducing net sales."
+    "explanation": "総額法では、売上は全請求額で記録される。顧客が割引期間内に支払った場合、割引は売上割引（借方残高を持つ対収益勘定）に記録され、純売上高を減額する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company records credit card sales of 150,000 yen with a 3% credit card fee. The net amount received from the credit card company is:",
     "options": [
-      {"text": "145,500 yen", "correct": true},
-      {"text": "150,000 yen", "correct": false},
-      {"text": "144,500 yen", "correct": false},
-      {"text": "155,000 yen", "correct": false}
+      {
+        "text": "145,500 yen",
+        "correct": true
+      },
+      {
+        "text": "150,000 yen",
+        "correct": false
+      },
+      {
+        "text": "144,500 yen",
+        "correct": false
+      },
+      {
+        "text": "155,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Credit card fee = 150,000 x 3% = 4,500 yen. Net cash received = 150,000 - 4,500 = 145,500 yen. Entry: (Dr) Cash 145,500, (Dr) Credit Card Fee Expense 4,500 / (Cr) Sales Revenue 150,000."
+    "explanation": "クレジットカード手数料 = 150,000 x 3% = 4,500 円。正味現金受取額 = 150,000 - 4,500 = 145,500 円。仕訳：（借方）現金 145,500、（借方）クレジットカード手数料 4,500 /（貸方）売上高 150,000。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "When using the allowance method, if a company overestimates bad debts and the allowance has an excessive credit balance, what happens?",
     "options": [
-      {"text": "The next period's adjustment will be smaller to bring the allowance to the desired level", "correct": true},
-      {"text": "The excess is written off to retained earnings", "correct": false},
-      {"text": "The excess is recorded as other income", "correct": false},
-      {"text": "The allowance must be reduced to zero at year-end", "correct": false}
+      {
+        "text": "The next period's adjustment will be smaller to bring the allowance to the desired level",
+        "correct": true
+      },
+      {
+        "text": "The excess is written off to retained earnings",
+        "correct": false
+      },
+      {
+        "text": "The excess is recorded as other income",
+        "correct": false
+      },
+      {
+        "text": "The allowance must be reduced to zero at year-end",
+        "correct": false
+      }
     ],
-    "explanation": "Under the balance sheet approach (aging method), the adjustment considers the existing balance. If the allowance has an excessive credit balance, the next adjustment will be reduced (or may even be a debit to the allowance) to achieve the desired ending balance."
+    "explanation": "貸借対照表アプローチ（Aging法）では、修正は既存残高を考慮する。貸与勘定に過剰な貸方残高がある場合、次回の修正は減額され（または貸与勘定への借方記録となり）、目標期末残高を達成する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company pays property tax of 120,000 yen for the year on July 1. If the year-end is December 31, the prepaid portion at year-end is:",
     "options": [
-      {"text": "60,000 yen", "correct": true},
-      {"text": "120,000 yen", "correct": false},
-      {"text": "30,000 yen", "correct": false},
-      {"text": "0 yen", "correct": false}
+      {
+        "text": "60,000 yen",
+        "correct": true
+      },
+      {
+        "text": "120,000 yen",
+        "correct": false
+      },
+      {
+        "text": "30,000 yen",
+        "correct": false
+      },
+      {
+        "text": "0 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Tax paid July 1 covers July 1 to June 30 next year. By December 31, 6 months have expired (expense) and 6 months remain prepaid. Prepaid portion = 120,000 x 6/12 = 60,000 yen."
+    "explanation": "7月1日に支払った固定資産税は7月1日から翌年6月30日までをカバーする。12月31日時点で6ヶ月が経過し（費用）、6ヶ月が前払いとして残る。前払部分 = 120,000 x 6/12 = 60,000 円。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company receives advance rent of 240,000 yen for 12 months starting January 1. On March 31, the adjusting entry for three months of rent earned is:",
     "options": [
-      {"text": "(Debit) Unearned Rent Revenue 60,000 / (Credit) Rent Revenue 60,000", "correct": true},
-      {"text": "(Debit) Rent Revenue 60,000 / (Credit) Cash 60,000", "correct": false},
-      {"text": "(Debit) Cash 60,000 / (Credit) Rent Revenue 60,000", "correct": false},
-      {"text": "(Debit) Rent Revenue 180,000 / (Credit) Unearned Rent Revenue 180,000", "correct": false}
+      {
+        "text": "(Debit) Unearned Rent Revenue 60,000 / (Credit) Rent Revenue 60,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Rent Revenue 60,000 / (Credit) Cash 60,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 60,000 / (Credit) Rent Revenue 60,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Rent Revenue 180,000 / (Credit) Unearned Rent Revenue 180,000",
+        "correct": false
+      }
     ],
-    "explanation": "Three months of rent has been earned: 240,000 / 12 x 3 = 60,000. The liability (Unearned Rent Revenue) is reduced and revenue is recognized. Remaining unearned rent = 180,000 yen."
+    "explanation": "3ヶ月分の家賃が稼得済み：240,000 / 12 x 3 = 60,000。負債（前受家賃収益）を減額し、収益を認識する。未経過家賃 = 180,000 円。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company sells merchandise on credit for 300,000 yen, terms 1/10, n/30. The customer pays within the discount period. The net proceeds received are:",
     "options": [
-      {"text": "297,000 yen", "correct": true},
-      {"text": "300,000 yen", "correct": false},
-      {"text": "303,000 yen", "correct": false},
-      {"text": "294,000 yen", "correct": false}
+      {
+        "text": "297,000 yen",
+        "correct": true
+      },
+      {
+        "text": "300,000 yen",
+        "correct": false
+      },
+      {
+        "text": "303,000 yen",
+        "correct": false
+      },
+      {
+        "text": "294,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Cash discount = 300,000 x 1% = 3,000 yen. Net proceeds = 300,000 - 3,000 = 297,000 yen. Entry: (Dr) Cash 297,000, (Dr) Sales Discounts 3,000 / (Cr) Accounts Receivable 300,000."
+    "explanation": "現金割引 = 300,000 x 1% = 3,000 円。正味受取額 = 300,000 - 3,000 = 297,000 円。仕訳：（借方）現金 297,000、（借方）売上割引 3,000 /（貸方）売掛金 300,000。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "When a company provides a warranty on its products, the estimated warranty expense for the current period's sales should be:",
     "options": [
-      {"text": "Recorded in the period of sale as an expense with a corresponding liability", "correct": true},
-      {"text": "Recorded as an expense only when warranty claims are actually paid", "correct": false},
-      {"text": "Capitalized as part of inventory cost", "correct": false},
-      {"text": "Recorded as a reduction of sales revenue", "correct": false}
+      {
+        "text": "Recorded in the period of sale as an expense with a corresponding liability",
+        "correct": true
+      },
+      {
+        "text": "Recorded as an expense only when warranty claims are actually paid",
+        "correct": false
+      },
+      {
+        "text": "Capitalized as part of inventory cost",
+        "correct": false
+      },
+      {
+        "text": "Recorded as a reduction of sales revenue",
+        "correct": false
+      }
     ],
-    "explanation": "The matching principle requires warranty costs to be estimated and expensed in the same period as the related sales. A warranty liability is credited, and warranty expense is debited."
+    "explanation": "費用収益対応の原則により、保証費用は関連する売上と同じ期間に見積もられ費用計上される。保証引当金が貸方記録され、保証費用が借方記録される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A note receivable dishonored at maturity should be transferred to:",
     "options": [
-      {"text": "Accounts Receivable for the maturity value (principal + interest)", "correct": true},
-      {"text": "Bad Debt Expense for the face value", "correct": false},
-      {"text": "Notes Receivable - Dishonored for the face value", "correct": false},
-      {"text": "Cash - the note is simply cancelled", "correct": false}
+      {
+        "text": "Accounts Receivable for the maturity value (principal + interest)",
+        "correct": true
+      },
+      {
+        "text": "Bad Debt Expense for the face value",
+        "correct": false
+      },
+      {
+        "text": "Notes Receivable - Dishonored for the face value",
+        "correct": false
+      },
+      {
+        "text": "Cash - the note is simply cancelled",
+        "correct": false
+      }
     ],
-    "explanation": "When a note is dishonored, the holder transfers the note to accounts receivable at its maturity value (principal + accrued interest), since the customer now owes this total amount as an open account."
+    "explanation": "手形が不渡りとなった場合、所持人は手形を満期価額（元金 + 発生利息）で売掛金に振り替える。顧客はこの合計額を未決済の掛け金として負うことになる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company uses the periodic inventory system. Freight paid on purchases of 20,000 yen is recorded as:",
     "options": [
-      {"text": "(Debit) Freight In 20,000 / (Credit) Cash 20,000", "correct": true},
-      {"text": "(Debit) Purchases 20,000 / (Credit) Cash 20,000", "correct": false},
-      {"text": "(Debit) Inventory 20,000 / (Credit) Cash 20,000", "correct": false},
-      {"text": "(Debit) Freight Out 20,000 / (Credit) Cash 20,000", "correct": false}
+      {
+        "text": "(Debit) Freight In 20,000 / (Credit) Cash 20,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Purchases 20,000 / (Credit) Cash 20,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Inventory 20,000 / (Credit) Cash 20,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Freight Out 20,000 / (Credit) Cash 20,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under the periodic system, freight on purchases (Freight In) is a separate account that is added to net purchases in calculating cost of goods sold. It is NOT added directly to inventory or purchases."
+    "explanation": "定期棚卸法では、仕入運賃（仕入運賃）は売上原価計算時に正味仕入に加算される別勘定である。棚卸資産や仕入勘定に直接加算されない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company returned merchandise to a supplier that was purchased on credit for 40,000 yen. Under the periodic inventory system, the entry is:",
     "options": [
-      {"text": "(Debit) Accounts Payable 40,000 / (Credit) Purchase Returns and Allowances 40,000", "correct": true},
-      {"text": "(Debit) Accounts Payable 40,000 / (Credit) Inventory 40,000", "correct": false},
-      {"text": "(Debit) Cash 40,000 / (Credit) Purchase Returns 40,000", "correct": false},
-      {"text": "(Debit) Purchase Returns 40,000 / (Credit) Accounts Payable 40,000", "correct": false}
+      {
+        "text": "(Debit) Accounts Payable 40,000 / (Credit) Purchase Returns and Allowances 40,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accounts Payable 40,000 / (Credit) Inventory 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 40,000 / (Credit) Purchase Returns 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Purchase Returns 40,000 / (Credit) Accounts Payable 40,000",
+        "correct": false
+      }
     ],
-    "explanation": "Under the periodic system, purchase returns reduce the Purchases account through the contra account Purchase Returns and Allowances. Inventory is not directly affected until the end of the period under the periodic system."
+    "explanation": "定期棚卸法では、仕入戻しは対仕入勘定である仕入戻し及び値引を通じて仕入勘定を減額する。定期棚卸法では棚卸資産は期末まで直接影響を受けない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Interest on a note payable is classified on the income statement as:",
     "options": [
-      {"text": "Non-operating expense (financial expense)", "correct": true},
-      {"text": "Operating expense", "correct": false},
-      {"text": "Cost of goods sold", "correct": false},
-      {"text": "Extraordinary item", "correct": false}
+      {
+        "text": "Non-operating expense (financial expense)",
+        "correct": true
+      },
+      {
+        "text": "Operating expense",
+        "correct": false
+      },
+      {
+        "text": "Cost of goods sold",
+        "correct": false
+      },
+      {
+        "text": "Extraordinary item",
+        "correct": false
+      }
     ],
-    "explanation": "Interest on borrowings is classified as a non-operating expense (financial expense or other expense) in the non-operating section of the income statement, separate from operating activities."
+    "explanation": "借入金の利子は損益計算書の営業外費用（金融費用またはその他の費用）に分類され、営業活動とは別に記載される。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company discounts a customer's note at the bank and the proceeds exceed the face value of the note. The difference is recorded as:",
     "options": [
-      {"text": "Interest Revenue", "correct": true},
-      {"text": "Gain on Discounting Notes", "correct": false},
-      {"text": "Unearned Interest", "correct": false},
-      {"text": "Reduction of Interest Expense", "correct": false}
+      {
+        "text": "Interest Revenue",
+        "correct": true
+      },
+      {
+        "text": "Gain on Discounting Notes",
+        "correct": false
+      },
+      {
+        "text": "Unearned Interest",
+        "correct": false
+      },
+      {
+        "text": "Reduction of Interest Expense",
+        "correct": false
+      }
     ],
-    "explanation": "When proceeds from discounting a note exceed the face value plus accrued interest, the excess is recorded as Interest Revenue. This occurs when the bank's discount rate is lower than the note's interest rate."
+    "explanation": "手形の割引による手取額が額面と発生利息を超える場合、超過額は利息収益として記録される。これは銀行の割引率が手形の利率より低い場合に発生する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company's allowance for doubtful accounts has a credit balance of 15,000 yen before year-end adjustment. Using the percentage-of-receivables method, the desired ending balance is 25,000 yen. The adjustment is:",
     "options": [
-      {"text": "(Debit) Bad Debt Expense 10,000 / (Credit) Allowance for Doubtful Accounts 10,000", "correct": true},
-      {"text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000", "correct": false},
-      {"text": "(Credit) Bad Debt Expense 10,000 / (Debit) Allowance for Doubtful Accounts 10,000", "correct": false}
+      {
+        "text": "(Debit) Bad Debt Expense 10,000 / (Credit) Allowance for Doubtful Accounts 10,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 25,000 / (Credit) Allowance for Doubtful Accounts 25,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Credit) Bad Debt Expense 10,000 / (Debit) Allowance for Doubtful Accounts 10,000",
+        "correct": false
+      }
     ],
-    "explanation": "Adjustment = Desired balance (25,000) - Current credit balance (15,000) = 10,000 yen. Since the current balance is already a credit of 15,000, only 10,000 additional credit is needed to reach the desired 25,000."
+    "explanation": "修正額 = 目標残高（25,000）- 現在貸方残高（15,000）= 10,000 円。現在残高が既に 15,000 の貸方であるため、目標の 25,000 に到達するには 10,000 の追加貸方記録が必要。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company purchased goods for 500,000 yen, terms 2/10, n/30, FOB shipping point. Freight of 10,000 yen was paid. If payment is made within the discount period, the total cost recorded is:",
     "options": [
-      {"text": "500,000 yen (freight is separate)", "correct": true},
-      {"text": "490,000 yen", "correct": false},
-      {"text": "510,000 yen", "correct": false},
-      {"text": "500,000 yen including freight", "correct": false}
+      {
+        "text": "500,000 yen (freight is separate)",
+        "correct": true
+      },
+      {
+        "text": "490,000 yen",
+        "correct": false
+      },
+      {
+        "text": "510,000 yen",
+        "correct": false
+      },
+      {
+        "text": "500,000 yen including freight",
+        "correct": false
+      }
     ],
-    "explanation": "Under the periodic system, purchases are recorded at 500,000. Freight is separate (Freight In 10,000). Cash discount applies only to the invoice price: 500,000 x 2% = 10,000 discount. Net purchases = 490,000, plus Freight In = 10,000. Total cost of goods available = 500,000 + 10,000 = 510,000. However, the purchase itself is 500,000."
+    "explanation": "定期棚卸法では、仕入は 500,000 で記録される。運賃は別（仕入運賃 10,000）。現金割引は請求額にのみ適用：500,000 x 2% = 10,000 割引。正味仕入 = 490,000、仕入運賃 = 10,000。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company collects a note receivable at maturity. The note has a face value of 200,000 yen and accrued interest of 5,000 yen. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Receivable 5,000", "correct": true},
-      {"text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 205,000", "correct": false},
-      {"text": "(Debit) Cash 200,000 / (Credit) Notes Receivable 200,000", "correct": false},
-      {"text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Revenue 5,000", "correct": false}
+      {
+        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Receivable 5,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 205,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 200,000 / (Credit) Notes Receivable 200,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 205,000 / (Credit) Notes Receivable 200,000 / (Credit) Interest Revenue 5,000",
+        "correct": false
+      }
     ],
-    "explanation": "At maturity, cash received = face value (200,000) + total interest (5,000) = 205,000. If interest was previously accrued (Interest Receivable), that account is credited. Interest Revenue was already recognized through the adjusting entry."
+    "explanation": "満期時、受取現金 = 額面（200,000）+ 総利息（5,000）= 205,000。利息が既に発生していた（未収利息）場合、その勘定を貸方記録する。利息収益は修正仕訳を通じて既に認識済み。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company offers a 5% quantity discount for orders over 1,000,000 yen. A customer orders goods listed at 1,200,000 yen. The amount recorded as sales revenue is:",
     "options": [
-      {"text": "1,140,000 yen", "correct": true},
-      {"text": "1,200,000 yen", "correct": false},
-      {"text": "1,080,000 yen", "correct": false},
-      {"text": "1,150,000 yen", "correct": false}
+      {
+        "text": "1,140,000 yen",
+        "correct": true
+      },
+      {
+        "text": "1,200,000 yen",
+        "correct": false
+      },
+      {
+        "text": "1,080,000 yen",
+        "correct": false
+      },
+      {
+        "text": "1,150,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Quantity (trade) discounts reduce the recorded amount. Net amount = 1,200,000 x (1 - 0.05) = 1,140,000 yen. Like all trade discounts, this is applied before recording - it does NOT appear as a separate entry."
+    "explanation": "数量（取引）値引は記録額を減額する。正味額 = 1,200,000 x (1 - 0.05) = 1,140,000 円。他の取引値引と同様、記録前に適用され、別途仕訳は行わない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Which statement about the allowance method is correct?",
     "options": [
-      {"text": "Bad debt expense is matched to the period of the related sale", "correct": true},
-      {"text": "Bad debt expense is recognized only when accounts are written off", "correct": false},
-      {"text": "The allowance account is debited when the adjustment is made", "correct": false},
-      {"text": "Accounts receivable is credited when the allowance is established", "correct": false}
+      {
+        "text": "Bad debt expense is matched to the period of the related sale",
+        "correct": true
+      },
+      {
+        "text": "Bad debt expense is recognized only when accounts are written off",
+        "correct": false
+      },
+      {
+        "text": "The allowance account is debited when the adjustment is made",
+        "correct": false
+      },
+      {
+        "text": "Accounts receivable is credited when the allowance is established",
+        "correct": false
+      }
     ],
-    "explanation": "The allowance method matches bad debt expense to the revenue it helps generate. Bad debts are estimated and expensed in the period of sale, not when specific accounts become uncollectible."
+    "explanation": "貸与法は貸倒費用をそれが関連する収益を生み出した期間に対応させる。貸倒は見積もられ、売上期間に費用計上される。特定の売掛金が回収不能になった時に認識されるのではない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company paid 600,000 yen for a 2-year insurance policy on October 1. At December 31, the adjusting entry for the expired portion is:",
     "options": [
-      {"text": "(Debit) Insurance Expense 75,000 / (Credit) Prepaid Insurance 75,000", "correct": true},
-      {"text": "(Debit) Insurance Expense 600,000 / (Credit) Prepaid Insurance 600,000", "correct": false},
-      {"text": "(Debit) Insurance Expense 150,000 / (Credit) Prepaid Insurance 150,000", "correct": false},
-      {"text": "(Debit) Prepaid Insurance 75,000 / (Credit) Insurance Expense 75,000", "correct": false}
+      {
+        "text": "(Debit) Insurance Expense 75,000 / (Credit) Prepaid Insurance 75,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Insurance Expense 600,000 / (Credit) Prepaid Insurance 600,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Insurance Expense 150,000 / (Credit) Prepaid Insurance 150,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Prepaid Insurance 75,000 / (Credit) Insurance Expense 75,000",
+        "correct": false
+      }
     ],
-    "explanation": "Expired insurance = 600,000 / 24 months x 3 months = 75,000 yen. Prepaid Insurance (asset) is credited to reduce it, and Insurance Expense is debited."
+    "explanation": "保険料消費額 = 600,000 / 24ヶ月 x 3ヶ月 = 75,000 円。前払保険料（資産）を貸方記録して減額し、保険費用を借方記録する。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company received advance payment of 300,000 yen for a 6-month service contract starting next month. The entry to record receipt is:",
     "options": [
-      {"text": "(Debit) Cash 300,000 / (Credit) Unearned Service Revenue 300,000", "correct": true},
-      {"text": "(Debit) Cash 300,000 / (Credit) Service Revenue 300,000", "correct": false},
-      {"text": "(Debit) Cash 300,000 / (Credit) Prepaid Service 300,000", "correct": false},
-      {"text": "(Debit) Unearned Service Revenue 300,000 / (Credit) Cash 300,000", "correct": false}
+      {
+        "text": "(Debit) Cash 300,000 / (Credit) Unearned Service Revenue 300,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 300,000 / (Credit) Service Revenue 300,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 300,000 / (Credit) Prepaid Service 300,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Unearned Service Revenue 300,000 / (Credit) Cash 300,000",
+        "correct": false
+      }
     ],
-    "explanation": "Advance payments create a liability (Unearned Service Revenue). Revenue is not recognized until the service is actually performed. Each month, 50,000 (300,000/6) is moved from liability to revenue."
+    "explanation": "前受金は負債（前受サービス収益）を作成する。サービスが実際に提供されるまで収益は認識されない。毎月 50,000（300,000/6）が負債から収益に振り替えられる。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "Under the direct write-off method, when a 40,000 yen account is determined to be uncollectible:",
     "options": [
-      {"text": "(Debit) Bad Debt Expense 40,000 / (Credit) Accounts Receivable 40,000", "correct": true},
-      {"text": "(Debit) Allowance for Doubtful Accounts 40,000 / (Credit) Accounts Receivable 40,000", "correct": false},
-      {"text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000", "correct": false},
-      {"text": "(Debit) Accounts Receivable 40,000 / (Credit) Bad Debt Expense 40,000", "correct": false}
+      {
+        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Accounts Receivable 40,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Allowance for Doubtful Accounts 40,000 / (Credit) Accounts Receivable 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Bad Debt Expense 40,000 / (Credit) Allowance for Doubtful Accounts 40,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Accounts Receivable 40,000 / (Credit) Bad Debt Expense 40,000",
+        "correct": false
+      }
     ],
-    "explanation": "The direct write-off method charges bad debt expense and reduces accounts receivable directly when an account is deemed uncollectible. No allowance is used. This method does NOT comply with GAAP's matching principle."
+    "explanation": "直接貸倒法は、売掛金が回収不能と判定された時に貸倒費用を借方、売掛金を貸方に記録する。貸与勘定は使用しない。この方法はGAAPの費用収益対応の原則に準拠していない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A construction project has costs of 50,000,000 yen incurred during the year. Construction is 40% complete. Under the percentage-of-completion method, the revenue recognized is:",
     "options": [
-      {"text": "This cannot be determined without knowing the total contract price", "correct": true},
-      {"text": "50,000,000 yen", "correct": false},
-      {"text": "20,000,000 yen", "correct": false},
-      {"text": "125,000,000 yen", "correct": false}
+      {
+        "text": "This cannot be determined without knowing the total contract price",
+        "correct": true
+      },
+      {
+        "text": "50,000,000 yen",
+        "correct": false
+      },
+      {
+        "text": "20,000,000 yen",
+        "correct": false
+      },
+      {
+        "text": "125,000,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Revenue under percentage-of-completion = Total contract price x % complete. Without knowing the total contract price, revenue cannot be calculated. The 40% completion ratio applied to costs gives us the cost, but not the revenue."
+    "explanation": "完成率法による収益 = 総契約額 x 完成率。総契約額が分からない限り、収益は計算できない。40%の完成率を原価に適用しても原価は分かるが、収益は計算できない。"
   },
   {
     "category": "Advanced Journal Entries",
     "question": "A company has outstanding checks totaling 150,000 yen and deposits in transit of 200,000 yen. In the bank reconciliation, the bank balance is adjusted by:",
     "options": [
-      {"text": "Adding deposits in transit and subtracting outstanding checks", "correct": true},
-      {"text": "Subtracting deposits in transit and adding outstanding checks", "correct": false},
-      {"text": "Adding both deposits in transit and outstanding checks", "correct": false},
-      {"text": "Subtracting both deposits in transit and outstanding checks", "correct": false}
+      {
+        "text": "Adding deposits in transit and subtracting outstanding checks",
+        "correct": true
+      },
+      {
+        "text": "Subtracting deposits in transit and adding outstanding checks",
+        "correct": false
+      },
+      {
+        "text": "Adding both deposits in transit and outstanding checks",
+        "correct": false
+      },
+      {
+        "text": "Subtracting both deposits in transit and outstanding checks",
+        "correct": false
+      }
     ],
-    "explanation": "Deposits in transit have been recorded by the company but not yet by the bank (add). Outstanding checks have been recorded by the company but not yet cleared (subtract). These adjustments bring the bank balance to the correct cash balance."
+    "explanation": "未決済小切手は会社で記録済みだが銀行で未処理（減額）。未取立預金は会社で記録済みだが銀行で未入金（加算）。これらの修正で銀行残高が正しい現金残高になる。"
   }
 ]

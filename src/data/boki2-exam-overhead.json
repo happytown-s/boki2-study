@@ -3,341 +3,713 @@
     "category": "Cost Accounting - Overhead",
     "question": "A predetermined overhead rate is calculated as:",
     "options": [
-      {"text": "Estimated total overhead / Estimated total allocation base", "correct": true},
-      {"text": "Actual total overhead / Actual total allocation base", "correct": false},
-      {"text": "Estimated total overhead / Actual total allocation base", "correct": false},
-      {"text": "Actual total overhead / Estimated total allocation base", "correct": false}
+      {
+        "text": "Estimated total overhead / Estimated total allocation base",
+        "correct": true
+      },
+      {
+        "text": "Actual total overhead / Actual total allocation base",
+        "correct": false
+      },
+      {
+        "text": "Estimated total overhead / Actual total allocation base",
+        "correct": false
+      },
+      {
+        "text": "Actual total overhead / Estimated total allocation base",
+        "correct": false
+      }
     ],
-    "explanation": "The predetermined overhead rate (POHR) is calculated BEFORE the period using estimated amounts. This allows overhead to be applied to products as they are produced, rather than waiting until actual costs are known at period-end."
+    "explanation": "予定間接費配賦率（POHR）は期間開始前に見積額を使用して計算する。これにより製品が生産されると同時に間接費を配賦でき、期末まで実際コストを待つ必要がない。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "A company estimates total overhead of 1,000,000 yen and 50,000 direct labor hours for the year. The predetermined overhead rate is:",
     "options": [
-      {"text": "20 yen per direct labor hour", "correct": true},
-      {"text": "50 yen per direct labor hour", "correct": false},
-      {"text": "2 yen per direct labor hour", "correct": false},
-      {"text": "0.05 yen per direct labor hour", "correct": false}
+      {
+        "text": "20 yen per direct labor hour",
+        "correct": true
+      },
+      {
+        "text": "50 yen per direct labor hour",
+        "correct": false
+      },
+      {
+        "text": "2 yen per direct labor hour",
+        "correct": false
+      },
+      {
+        "text": "0.05 yen per direct labor hour",
+        "correct": false
+      }
     ],
-    "explanation": "POHR = 1,000,000 / 50,000 = 20 yen per direct labor hour. This rate is used throughout the year to apply overhead to jobs based on the actual direct labor hours used."
+    "explanation": "POHR = 1,000,000 / 50,000 = 20 円/直接作業時間。この率は年度を通じて、実際に使用された直接作業時間に基づいてジョブに間接費を配賦するために使用される。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "When actual overhead exceeds applied overhead, the difference is called:",
     "options": [
-      {"text": "Underapplied (underallocated) overhead", "correct": true},
-      {"text": "Overapplied (overallocated) overhead", "correct": false},
-      {"text": "Variable overhead variance", "correct": false},
-      {"text": "Fixed overhead budget variance", "correct": false}
+      {
+        "text": "Underapplied (underallocated) overhead",
+        "correct": true
+      },
+      {
+        "text": "Overapplied (overallocated) overhead",
+        "correct": false
+      },
+      {
+        "text": "Variable overhead variance",
+        "correct": false
+      },
+      {
+        "text": "Fixed overhead budget variance",
+        "correct": false
+      }
     ],
-    "explanation": "Underapplied overhead means actual overhead costs exceeded the amount applied to products using the predetermined rate. This indicates the predetermined rate was too low or actual activity was lower than estimated."
+    "explanation": "配賦不足は、予定配賦率が低すぎたか実際活動量が見積より低かったことを示す。実際間接費が予定配賦率で製品に配賦した額を超えたことを意味する。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "When overhead is overapplied at year-end, the most common treatment is to:",
     "options": [
-      {"text": "Credit Cost of Goods Sold (reduce COGS)", "correct": true},
-      {"text": "Debit Cost of Goods Sold (increase COGS)", "correct": false},
-      {"text": "Credit Retained Earnings directly", "correct": false},
-      {"text": "Debit Factory Overhead", "correct": false}
+      {
+        "text": "Credit Cost of Goods Sold (reduce COGS)",
+        "correct": true
+      },
+      {
+        "text": "Debit Cost of Goods Sold (increase COGS)",
+        "correct": false
+      },
+      {
+        "text": "Credit Retained Earnings directly",
+        "correct": false
+      },
+      {
+        "text": "Debit Factory Overhead",
+        "correct": false
+      }
     ],
-    "explanation": "Overapplied overhead means too much was charged to products. If immaterial, it is closed to COGS (credited to reduce COGS). If material, it should be prorated among WIP, Finished Goods, and COGS based on their relative amounts."
+    "explanation": "配賦超過は製品に過大に配賦されたことを意味する。金額が重要でなければ、売上原価に（貸方記録して減額）。金額が重要な場合は仕掛品、製品、売上原価に按分配賦すべき。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "A company applies overhead based on machine hours. Estimated overhead: 600,000 yen, estimated machine hours: 10,000. A job uses 100 machine hours. Overhead applied to the job is:",
     "options": [
-      {"text": "6,000 yen", "correct": true},
-      {"text": "600 yen", "correct": false},
-      {"text": "60,000 yen", "correct": false},
-      {"text": "10,000 yen", "correct": false}
+      {
+        "text": "6,000 yen",
+        "correct": true
+      },
+      {
+        "text": "600 yen",
+        "correct": false
+      },
+      {
+        "text": "60,000 yen",
+        "correct": false
+      },
+      {
+        "text": "10,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "POHR = 600,000 / 10,000 = 60 yen per machine hour. Overhead applied = 100 x 60 = 6,000 yen. Machine hours are used when overhead is primarily driven by machine usage (automated production)."
+    "explanation": "POHR = 600,000 / 10,000 = 60 円/機械時間。配賦間接費 = 100 x 60 = 6,000 円。間接費が主に機械使用に駆動される場合（自動化生産）、機械時間が使用される。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Variable overhead spending variance is calculated as:",
     "options": [
-      {"text": "(Actual Variable OH Rate - Standard Variable OH Rate) x Actual Hours", "correct": true},
-      {"text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate", "correct": false},
-      {"text": "Budgeted Variable OH - Actual Variable OH", "correct": false},
-      {"text": "Standard Variable OH - Actual Variable OH", "correct": false}
+      {
+        "text": "(Actual Variable OH Rate - Standard Variable OH Rate) x Actual Hours",
+        "correct": true
+      },
+      {
+        "text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate",
+        "correct": false
+      },
+      {
+        "text": "Budgeted Variable OH - Actual Variable OH",
+        "correct": false
+      },
+      {
+        "text": "Standard Variable OH - Actual Variable OH",
+        "correct": false
+      }
     ],
-    "explanation": "Variable Overhead Spending Variance = (AR - SR) x AH, similar to the labor rate variance. It measures whether the actual variable overhead cost per hour differs from the standard rate."
+    "explanation": "変動間接費配賦差異 =（実際変動間接費率 - 標準変動間接費率）x 実際時間。労務費率差異と同様。実際の時間当たり変動間接費コストが標準率と異なるかを測る。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Variable overhead efficiency variance is calculated as:",
     "options": [
-      {"text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate", "correct": true},
-      {"text": "(Actual Rate - Standard Rate) x Actual Hours", "correct": false},
-      {"text": "(Standard Hours - Actual Hours) x Actual Rate", "correct": false},
-      {"text": "Budgeted VOH - Applied VOH", "correct": false}
+      {
+        "text": "(Actual Hours - Standard Hours) x Standard Variable OH Rate",
+        "correct": true
+      },
+      {
+        "text": "(Actual Rate - Standard Rate) x Actual Hours",
+        "correct": false
+      },
+      {
+        "text": "(Standard Hours - Actual Hours) x Actual Rate",
+        "correct": false
+      },
+      {
+        "text": "Budgeted VOH - Applied VOH",
+        "correct": false
+      }
     ],
-    "explanation": "Variable Overhead Efficiency Variance = (AH - SH) x SVOR. If actual hours exceed standard hours, the variance is unfavorable. This variance is caused by the same efficiency/inefficiency that causes the labor efficiency variance."
+    "explanation": "変動間接費能率差異 =（実際時間 - 標準時間）x 標準変動間接費率。実際時間が標準時間を超える場合、差異は不利。この差異は労務費能率差異と同じ原因で発生する。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "The entry to apply overhead to production is:",
     "options": [
-      {"text": "(Debit) Work in Process / (Credit) Factory Overhead", "correct": true},
-      {"text": "(Debit) Factory Overhead / (Credit) Work in Process", "correct": false},
-      {"text": "(Debit) Cost of Goods Manufactured / (Credit) Factory Overhead", "correct": false},
-      {"text": "(Debit) Work in Process / (Credit) Applied Overhead", "correct": false}
+      {
+        "text": "(Debit) Work in Process / (Credit) Factory Overhead",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Work in Process",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Manufactured / (Credit) Factory Overhead",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Applied Overhead",
+        "correct": false
+      }
     ],
-    "explanation": "Overhead is applied (credited) to Factory Overhead and debited to WIP. This reduces the Factory Overhead account balance as overhead is allocated to production. At year-end, any remaining balance is under- or overapplied."
+    "explanation": "間接費は仕掛品に借方記録し、製造間接費に貸方記録して配賦する。製造間接費勘定残高を減額しながら製造に配賦する。期末の残高が配賦超過/不足となる。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Which of the following is typically included in factory overhead?",
     "options": [
-      {"text": "Factory utilities, depreciation on factory equipment, and indirect materials", "correct": true},
-      {"text": "Direct materials and direct labor", "correct": false},
-      {"text": "Office supplies and executive salaries", "correct": false},
-      {"text": "Sales commissions and advertising", "correct": false}
+      {
+        "text": "Factory utilities, depreciation on factory equipment, and indirect materials",
+        "correct": true
+      },
+      {
+        "text": "Direct materials and direct labor",
+        "correct": false
+      },
+      {
+        "text": "Office supplies and executive salaries",
+        "correct": false
+      },
+      {
+        "text": "Sales commissions and advertising",
+        "correct": false
+      }
     ],
-    "explanation": "Factory overhead includes all manufacturing costs EXCEPT direct materials and direct labor. This includes indirect materials, indirect labor, factory utilities, depreciation on factory assets, insurance, property taxes on the factory, etc."
+    "explanation": "製造間接費は直接材料と直接労務費を除くすべての製造原価を含む。間接材料、間接労務費、工場光熱費、工場設備減価償却費、工場保険、工場固定資産税など。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "A company uses a plant-wide overhead rate. This means:",
     "options": [
-      {"text": "One overhead rate is used for all departments and products", "correct": true},
-      {"text": "Each department calculates its own rate based on its specific allocation base", "correct": false},
-      {"text": "Only fixed overhead is allocated", "correct": false},
-      {"text": "Overhead is allocated only based on direct labor cost", "correct": false}
+      {
+        "text": "One overhead rate is used for all departments and products",
+        "correct": true
+      },
+      {
+        "text": "Each department calculates its own rate based on its specific allocation base",
+        "correct": false
+      },
+      {
+        "text": "Only fixed overhead is allocated",
+        "correct": false
+      },
+      {
+        "text": "Overhead is allocated only based on direct labor cost",
+        "correct": false
+      }
     ],
-    "explanation": "A plant-wide (blanket) rate uses a single allocation base for the entire factory. This is simpler but less accurate than departmental rates, especially when departments have different cost drivers."
+    "explanation": "全工場一括配賦率は全工場で単一の配賦基準を使用する。部門別配賦率より簡単だが、部門によってコストドライバーが異なる場合、精度が低い。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Departmental overhead rates are more accurate than a plant-wide rate because:",
     "options": [
-      {"text": "Each department can use the allocation base that best reflects its overhead consumption", "correct": true},
-      {"text": "They always result in lower total overhead costs", "correct": false},
-      {"text": "They eliminate the need for predetermined rates", "correct": false},
-      {"text": "They are required by tax law", "correct": false}
+      {
+        "text": "Each department can use the allocation base that best reflects its overhead consumption",
+        "correct": true
+      },
+      {
+        "text": "They always result in lower total overhead costs",
+        "correct": false
+      },
+      {
+        "text": "They eliminate the need for predetermined rates",
+        "correct": false
+      },
+      {
+        "text": "They are required by tax law",
+        "correct": false
+      }
     ],
-    "explanation": "Different departments may have different cost drivers. An assembly department may be labor-intensive (use DLH), while a machining department may be machine-intensive (use MH). Departmental rates better match overhead to actual consumption."
+    "explanation": "部門間接費率は各部門が最も適切な配賦基準を使用できるためより正確。組立部門は労働集約的（直接作業時間を使用）、機械加工部門は機械集約的（機械時間を使用）など。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Activity-based costing (ABC) differs from traditional costing in that ABC:",
     "options": [
-      {"text": "Uses multiple cost drivers (activities) to assign overhead costs", "correct": true},
-      {"text": "Eliminates the need for overhead allocation entirely", "correct": false},
-      {"text": "Uses only volume-based allocation bases", "correct": false},
-      {"text": "Is always less expensive to implement", "correct": false}
+      {
+        "text": "Uses multiple cost drivers (activities) to assign overhead costs",
+        "correct": true
+      },
+      {
+        "text": "Eliminates the need for overhead allocation entirely",
+        "correct": false
+      },
+      {
+        "text": "Uses only volume-based allocation bases",
+        "correct": false
+      },
+      {
+        "text": "Is always less expensive to implement",
+        "correct": false
+      }
     ],
-    "explanation": "ABC identifies activities that consume resources and assigns costs based on the actual consumption of these activities by products. This provides more accurate product costs, especially for diverse product lines with different resource consumption patterns."
+    "explanation": "ABCは消費活動を識別し、製品による活動の実際消費量に基づいてコストを配賦する。多様な製品ラインで異なるリソース消費パターンがある場合、より正確な製品原価を提供する。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "In ABC, a cost pool is:",
     "options": [
-      {"text": "A grouping of individual costs that are allocated using the same cost driver", "correct": true},
-      {"text": "The total of all manufacturing costs", "correct": false},
-      {"text": "The sum of direct materials and direct labor", "correct": false},
-      {"text": "A physical storage area for overhead items", "correct": false}
+      {
+        "text": "A grouping of individual costs that are allocated using the same cost driver",
+        "correct": true
+      },
+      {
+        "text": "The total of all manufacturing costs",
+        "correct": false
+      },
+      {
+        "text": "The sum of direct materials and direct labor",
+        "correct": false
+      },
+      {
+        "text": "A physical storage area for overhead items",
+        "correct": false
+      }
     ],
-    "explanation": "A cost pool groups related overhead costs that share a common cost driver. For example, machine setup costs form a pool allocated based on number of setups. Material handling costs form another pool based on material moves."
+    "explanation": "コストプールは共通のコストドライバーを共有する関連する間接費をグループ化する。例：段取替コストは段取回数に基づいて配賦。材料運搬コストは運搬回数に基づく。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Fixed overhead budget variance is calculated as:",
     "options": [
-      {"text": "Actual Fixed OH - Budgeted Fixed OH (at the denominator level of activity)", "correct": true},
-      {"text": "Budgeted Fixed OH - Actual Fixed OH", "correct": false},
-      {"text": "Applied Fixed OH - Actual Fixed OH", "correct": false},
-      {"text": "Standard Fixed OH - Budgeted Fixed OH", "correct": false}
+      {
+        "text": "Actual Fixed OH - Budgeted Fixed OH (at the denominator level of activity)",
+        "correct": true
+      },
+      {
+        "text": "Budgeted Fixed OH - Actual Fixed OH",
+        "correct": false
+      },
+      {
+        "text": "Applied Fixed OH - Actual Fixed OH",
+        "correct": false
+      },
+      {
+        "text": "Standard Fixed OH - Budgeted Fixed OH",
+        "correct": false
+      }
     ],
-    "explanation": "Fixed Overhead Budget Variance = Actual FOH - Budgeted FOH. Budgeted FOH is the same regardless of actual activity because fixed costs don't change with volume. If actual costs exceed the budget, the variance is unfavorable."
+    "explanation": "固定間接費予算差異 = 実際固定間接費 - 予算固定間接費。予算固定間接費は実際活動量に関係なく一定。実際コストが予算を超える場合、差異は不利。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Fixed overhead volume variance is calculated as:",
     "options": [
-      {"text": "Budgeted Fixed OH - Applied Fixed OH", "correct": true},
-      {"text": "Actual Fixed OH - Budgeted Fixed OH", "correct": false},
-      {"text": "Actual Fixed OH - Applied Fixed OH", "correct": false},
-      {"text": "Budgeted Fixed OH - Standard Fixed OH", "correct": false}
+      {
+        "text": "Budgeted Fixed OH - Applied Fixed OH",
+        "correct": true
+      },
+      {
+        "text": "Actual Fixed OH - Budgeted Fixed OH",
+        "correct": false
+      },
+      {
+        "text": "Actual Fixed OH - Applied Fixed OH",
+        "correct": false
+      },
+      {
+        "text": "Budgeted Fixed OH - Standard Fixed OH",
+        "correct": false
+      }
     ],
-    "explanation": "Volume Variance = Budgeted FOH - Applied FOH. This variance arises when actual production differs from the denominator (budgeted) activity level. If actual production exceeds the denominator level, the variance is favorable (overapplied)."
+    "explanation": "操業度差異 = 予算固定間接費 - 配賦固定間接費。実際生産量が分母（予算）活動水準と異なる場合に発生。実際生産量が分母水準を超える場合、差異は有利（配賦超過）。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Estimated overhead: 500,000 yen (fixed 300,000 + variable 200,000). Estimated activity: 10,000 DLH. Actual: 11,000 DLH, actual overhead 520,000 (fixed 305,000 + variable 215,000). Applied overhead is:",
     "options": [
-      {"text": "550,000 yen", "correct": true},
-      {"text": "520,000 yen", "correct": false},
-      {"text": "500,000 yen", "correct": false},
-      {"text": "600,000 yen", "correct": false}
+      {
+        "text": "550,000 yen",
+        "correct": true
+      },
+      {
+        "text": "520,000 yen",
+        "correct": false
+      },
+      {
+        "text": "500,000 yen",
+        "correct": false
+      },
+      {
+        "text": "600,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "POHR = 500,000 / 10,000 = 50 yen/DLH. Applied = 11,000 x 50 = 550,000 yen. This includes both fixed and variable overhead applied at the combined rate. Overapplied overhead = 550,000 - 520,000 = 30,000 yen."
+    "explanation": "POHR = 500,000 / 10,000 = 50 円/直接作業時間。配賦額 = 11,000 x 50 = 550,000 円。固定・変動両方を含む。配賦超過 = 550,000 - 520,000 = 30,000 円。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Using the data from the previous question, the total overhead variance (actual vs applied) is:",
     "options": [
-      {"text": "30,000 yen overapplied", "correct": true},
-      {"text": "30,000 yen underapplied", "correct": false},
-      {"text": "20,000 yen overapplied", "correct": false},
-      {"text": "50,000 yen underapplied", "correct": false}
+      {
+        "text": "30,000 yen overapplied",
+        "correct": true
+      },
+      {
+        "text": "30,000 yen underapplied",
+        "correct": false
+      },
+      {
+        "text": "20,000 yen overapplied",
+        "correct": false
+      },
+      {
+        "text": "50,000 yen underapplied",
+        "correct": false
+      }
     ],
-    "explanation": "Actual overhead (520,000) - Applied overhead (550,000) = -30,000. Since applied exceeds actual, overhead is overapplied by 30,000 yen. The predetermined rate was slightly too high relative to actual costs."
+    "explanation": "実際間接費（520,000）- 配賦間接費（550,000）= -30,000。配賦が実際を超えるため、30,000円の配賦超過。予定配賦率は実際コストに対してやや高かった。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "The most appropriate allocation base for a highly automated factory is likely:",
     "options": [
-      {"text": "Machine hours", "correct": true},
-      {"text": "Direct labor hours", "correct": false},
-      {"text": "Units produced", "correct": false},
-      {"text": "Direct materials cost", "correct": false}
+      {
+        "text": "Machine hours",
+        "correct": true
+      },
+      {
+        "text": "Direct labor hours",
+        "correct": false
+      },
+      {
+        "text": "Units produced",
+        "correct": false
+      },
+      {
+        "text": "Direct materials cost",
+        "correct": false
+      }
     ],
-    "explanation": "In a highly automated factory, most overhead (depreciation, maintenance, power) is driven by machine usage rather than labor. Machine hours better reflect the actual consumption of overhead resources."
+    "explanation": "高度に自動化された工場では、ほとんどの間接費（減価償却、保全、動力費）が労働よりも機械使用に駆動される。機械時間が間接費リソースの実際消費をよりよく反映する。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Actual overhead costs are recorded by debiting:",
     "options": [
-      {"text": "Factory Overhead (control account)", "correct": true},
-      {"text": "Work in Process", "correct": false},
-      {"text": "Applied Overhead", "correct": false},
-      {"text": "Cost of Goods Sold", "correct": false}
+      {
+        "text": "Factory Overhead (control account)",
+        "correct": true
+      },
+      {
+        "text": "Work in Process",
+        "correct": false
+      },
+      {
+        "text": "Applied Overhead",
+        "correct": false
+      },
+      {
+        "text": "Cost of Goods Sold",
+        "correct": false
+      }
     ],
-    "explanation": "Actual overhead costs (utilities, depreciation, indirect materials, indirect labor) are debited to Factory Overhead. When overhead is applied to production, Factory Overhead is credited. The balance at period-end is under- or overapplied."
+    "explanation": "実際間接費コスト（光熱費、減価償却、間接材料、間接労務費）は製造間接費に借方記録。間接費を配賦する時は製造間接費に貸方記録。期末残高が配賦超過/不足。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "If overhead is significantly underapplied, the best treatment is to prorate it among:",
     "options": [
-      {"text": "Work in Process, Finished Goods, and Cost of Goods Sold in proportion to their ending balances", "correct": true},
-      {"text": "Only Cost of Goods Sold", "correct": false},
-      {"text": "Only Work in Process and Finished Goods", "correct": false},
-      {"text": "Retained Earnings directly", "correct": false}
+      {
+        "text": "Work in Process, Finished Goods, and Cost of Goods Sold in proportion to their ending balances",
+        "correct": true
+      },
+      {
+        "text": "Only Cost of Goods Sold",
+        "correct": false
+      },
+      {
+        "text": "Only Work in Process and Finished Goods",
+        "correct": false
+      },
+      {
+        "text": "Retained Earnings directly",
+        "correct": false
+      }
     ],
-    "explanation": "Material over/underapplied overhead should be prorated among WIP, Finished Goods, and COGS to accurately reflect costs in each account. Only immaterial amounts are closed entirely to COGS."
+    "explanation": "重要な配賦超過/不足は仕掛品、製品、売上原価に按分配賦して各勘定のコストを正確に反映すべき。金額が重要でない場合のみ売上原価に全額賦課。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Depreciation on factory equipment is recorded as:",
     "options": [
-      {"text": "(Debit) Factory Overhead / (Credit) Accumulated Depreciation", "correct": true},
-      {"text": "(Debit) Depreciation Expense / (Credit) Accumulated Depreciation", "correct": false},
-      {"text": "(Debit) Work in Process / (Credit) Accumulated Depreciation", "correct": false},
-      {"text": "(Debit) Manufacturing Expense / (Credit) Equipment", "correct": false}
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Accumulated Depreciation",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Depreciation Expense / (Credit) Accumulated Depreciation",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Accumulated Depreciation",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Manufacturing Expense / (Credit) Equipment",
+        "correct": false
+      }
     ],
-    "explanation": "Factory equipment depreciation is a manufacturing overhead cost. It is debited to Factory Overhead (not directly to WIP) and then allocated through the predetermined rate. Administrative equipment depreciation goes to Depreciation Expense."
+    "explanation": "工場設備減価償却は製造間接費。製造間接費に借方（直接仕掛品ではなく）、予定配賦率を通じて配賦。事務設備減価償却は減価償却費（期間費用）に記録。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "A company has two departments: Machining (overhead 400,000, 20,000 MH) and Assembly (overhead 300,000, 30,000 DLH). The departmental rates are:",
     "options": [
-      {"text": "Machining: 20 yen/MH, Assembly: 10 yen/DLH", "correct": true},
-      {"text": "Machining: 10 yen/MH, Assembly: 20 yen/DLH", "correct": false},
-      {"text": "Both: 14 yen/DLH (plant-wide rate)", "correct": false},
-      {"text": "Machining: 75 yen/MH, Assembly: 50 yen/DLH", "correct": false}
+      {
+        "text": "Machining: 20 yen/MH, Assembly: 10 yen/DLH",
+        "correct": true
+      },
+      {
+        "text": "Machining: 10 yen/MH, Assembly: 20 yen/DLH",
+        "correct": false
+      },
+      {
+        "text": "Both: 14 yen/DLH (plant-wide rate)",
+        "correct": false
+      },
+      {
+        "text": "Machining: 75 yen/MH, Assembly: 50 yen/DLH",
+        "correct": false
+      }
     ],
-    "explanation": "Machining rate = 400,000 / 20,000 = 20 yen per machine hour. Assembly rate = 300,000 / 30,000 = 10 yen per direct labor hour. Each department uses the allocation base most relevant to its operations."
+    "explanation": "機械加工部門率 = 400,000 / 20,000 = 20 円/機械時間。組立部門率 = 300,000 / 30,000 = 10 円/直接作業時間。各部門が最も関連する配賦基準を使用する。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "In ABC, the cost driver for 'machine setups' activity is typically:",
     "options": [
-      {"text": "Number of setups", "correct": true},
-      {"text": "Machine hours", "correct": false},
-      {"text": "Direct labor hours", "correct": false},
-      {"text": "Units produced", "correct": false}
+      {
+        "text": "Number of setups",
+        "correct": true
+      },
+      {
+        "text": "Machine hours",
+        "correct": false
+      },
+      {
+        "text": "Direct labor hours",
+        "correct": false
+      },
+      {
+        "text": "Units produced",
+        "correct": false
+      }
     ],
-    "explanation": "The machine setup activity cost is driven by the number of setups performed, not by machine hours or units. A product that requires frequent setups but short production runs would be assigned more setup costs under ABC than under traditional costing."
+    "explanation": "機械段取替活動のコストは段取回数に駆動され、機械時間や生産数には駆動されない。頻繁な段取替だが短い生産ロットの製品はABCでより多くの段取替コストが配賦される。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Prime costs plus conversion costs equal:",
     "options": [
-      {"text": "Total manufacturing costs", "correct": true},
-      {"text": "Cost of goods sold", "correct": false},
-      {"text": "Cost of goods manufactured", "correct": false},
-      {"text": "Direct materials plus direct labor", "correct": false}
+      {
+        "text": "Total manufacturing costs",
+        "correct": true
+      },
+      {
+        "text": "Cost of goods sold",
+        "correct": false
+      },
+      {
+        "text": "Cost of goods manufactured",
+        "correct": false
+      },
+      {
+        "text": "Direct materials plus direct labor",
+        "correct": false
+      }
     ],
-    "explanation": "Prime costs = Direct Materials + Direct Labor. Conversion costs = Direct Labor + Factory Overhead. Combined: DM + DL + DL + FOH = Total Manufacturing Costs. Note: Direct labor is counted in both prime and conversion costs."
+    "explanation": "素原価 = 直接材料 + 直接労務費。加工費 = 直接労務費 + 製造間接費。合計：直接材料 + 直接労務費 + 直接労務費 + 製造間接費 = 総製造費用。直接労務費は素原価と加工費の両方に含まれる。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "A company using normal costing applies overhead at 150% of direct labor cost. A job has direct materials of 40,000 and direct labor of 20,000. Total job cost is:",
     "options": [
-      {"text": "90,000 yen", "correct": true},
-      {"text": "60,000 yen", "correct": false},
-      {"text": "70,000 yen", "correct": false},
-      {"text": "100,000 yen", "correct": false}
+      {
+        "text": "90,000 yen",
+        "correct": true
+      },
+      {
+        "text": "60,000 yen",
+        "correct": false
+      },
+      {
+        "text": "70,000 yen",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Applied overhead = 20,000 x 150% = 30,000. Total job cost = DM (40,000) + DL (20,000) + Applied OH (30,000) = 90,000 yen. This is normal costing (actual DM and DL, applied OH using a predetermined rate)."
+    "explanation": "配賦間接費 = 20,000 x 150% = 30,000。総ジョブ原価 = 直接材料（40,000）+ 直接労務費（20,000）+ 配賦間接費（30,000）= 90,000 円。これは正常原価計算（実際DM・DL、予定間接費）。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "The difference between normal costing and actual costing is that normal costing uses:",
     "options": [
-      {"text": "Actual direct costs but a predetermined overhead rate", "correct": true},
-      {"text": "Estimated direct costs and estimated overhead", "correct": false},
-      {"text": "Actual overhead rate calculated at year-end", "correct": false},
-      {"text": "Only standard costs for all cost elements", "correct": false}
+      {
+        "text": "Actual direct costs but a predetermined overhead rate",
+        "correct": true
+      },
+      {
+        "text": "Estimated direct costs and estimated overhead",
+        "correct": false
+      },
+      {
+        "text": "Actual overhead rate calculated at year-end",
+        "correct": false
+      },
+      {
+        "text": "Only standard costs for all cost elements",
+        "correct": false
+      }
     ],
-    "explanation": "Normal costing uses actual direct materials, actual direct labor, and a predetermined overhead rate. Actual costing uses actual amounts for all three. Standard costing uses standard (budgeted) amounts for all three."
+    "explanation": "正常原価計算は実際直接材料、実際直接労務費、予定間接費配賦率を使用。実際原価計算は3要素すべて実際額。標準原価計算は3要素すべて標準（予算）額を使用。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Which of the following is NOT a common overhead allocation base?",
     "options": [
-      {"text": "Number of employees in the marketing department", "correct": true},
-      {"text": "Direct labor hours", "correct": false},
-      {"text": "Machine hours", "correct": false},
-      {"text": "Direct labor cost", "correct": false}
+      {
+        "text": "Number of employees in the marketing department",
+        "correct": true
+      },
+      {
+        "text": "Direct labor hours",
+        "correct": false
+      },
+      {
+        "text": "Machine hours",
+        "correct": false
+      },
+      {
+        "text": "Direct labor cost",
+        "correct": false
+      }
     ],
-    "explanation": "Overhead allocation bases should be related to manufacturing activity. Marketing department employees are not a manufacturing cost driver. Common bases include DLH, MH, DL cost, and units produced."
+    "explanation": "間接費配賦基準は製造活動に関連すべき。マーケティング部門の従業員数は製造コストドライバーではない。一般的な基準には直接作業時間、機械時間、直接労務費、生産数がある。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Service department costs are allocated to production departments using methods such as:",
     "options": [
-      {"text": "Direct method, step-down method, and reciprocal method", "correct": true},
-      {"text": "FIFO method and weighted average method", "correct": false},
-      {"text": "High-low method and regression analysis", "correct": false},
-      {"text": "Job-order method and process method", "correct": false}
+      {
+        "text": "Direct method, step-down method, and reciprocal method",
+        "correct": true
+      },
+      {
+        "text": "FIFO method and weighted average method",
+        "correct": false
+      },
+      {
+        "text": "High-low method and regression analysis",
+        "correct": false
+      },
+      {
+        "text": "Job-order method and process method",
+        "correct": false
+      }
     ],
-    "explanation": "Service departments (maintenance, cafeteria, power) support production but don't produce products. Their costs are allocated to production departments using the direct method (simplest), step-down (partially recognizes inter-service relationships), or reciprocal (fully recognizes them)."
+    "explanation": "補助部門（保全、食堂、動力）は生産を支援するが製品を生産しない。そのコストは直接法（最も簡単）、段階法（補助部門間の一部の関係を認識）、相互配賦法（完全に認識）で生産部門に配賦。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Under the step-down method of service department allocation, once a service department's costs are allocated:",
     "options": [
-      {"text": "It does not receive any allocations from other service departments", "correct": true},
-      {"text": "It continues to receive allocations from remaining service departments", "correct": false},
-      {"text": "Its costs are allocated back to itself", "correct": false},
-      {"text": "Its remaining balance is written off to cost of goods sold", "correct": false}
+      {
+        "text": "It does not receive any allocations from other service departments",
+        "correct": true
+      },
+      {
+        "text": "It continues to receive allocations from remaining service departments",
+        "correct": false
+      },
+      {
+        "text": "Its costs are allocated back to itself",
+        "correct": false
+      },
+      {
+        "text": "Its remaining balance is written off to cost of goods sold",
+        "correct": false
+      }
     ],
-    "explanation": "In the step-down method, service departments are allocated in a specific order. Once a department's costs are allocated out, it receives no further allocations. This is simpler than the reciprocal method but less accurate."
+    "explanation": "段階法では、補助部門は特定の順序で配賦される。一度配賦された部門はそれ以降の配賦を受けない。相互配賦法より簡単だが精度は低い。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "The high-low method is used to:",
     "options": [
-      {"text": "Separate mixed costs into fixed and variable components", "correct": true},
-      {"text": "Allocate service department costs", "correct": false},
-      {"text": "Calculate equivalent units in process costing", "correct": false},
-      {"text": "Determine the cost of goods manufactured", "correct": false}
+      {
+        "text": "Separate mixed costs into fixed and variable components",
+        "correct": true
+      },
+      {
+        "text": "Allocate service department costs",
+        "correct": false
+      },
+      {
+        "text": "Calculate equivalent units in process costing",
+        "correct": false
+      },
+      {
+        "text": "Determine the cost of goods manufactured",
+        "correct": false
+      }
     ],
-    "explanation": "The high-low method uses the highest and lowest activity levels to estimate the variable cost per unit (slope) and the fixed cost (intercept). It's a simple way to split mixed costs but can be inaccurate if the high/low points are unusual."
+    "explanation": "高低点法は最高と最低の活動水準を使用して変動費率（傾き）と固定費（切片）を推定する。複合費を分割する簡単な方法だが、高低点が異常値の場合不正確になる。"
   },
   {
     "category": "Cost Accounting - Overhead",
     "question": "Using the high-low method: At 5,000 hours, total cost is 80,000. At 8,000 hours, total cost is 110,000. The variable cost per hour is:",
     "options": [
-      {"text": "10 yen per hour", "correct": true},
-      {"text": "15 yen per hour", "correct": false},
-      {"text": "16 yen per hour", "correct": false},
-      {"text": "12 yen per hour", "correct": false}
+      {
+        "text": "10 yen per hour",
+        "correct": true
+      },
+      {
+        "text": "15 yen per hour",
+        "correct": false
+      },
+      {
+        "text": "16 yen per hour",
+        "correct": false
+      },
+      {
+        "text": "12 yen per hour",
+        "correct": false
+      }
     ],
-    "explanation": "Variable cost = (110,000 - 80,000) / (8,000 - 5,000) = 30,000 / 3,000 = 10 yen per hour. Fixed cost = 110,000 - (8,000 x 10) = 110,000 - 80,000 = 30,000 yen."
+    "explanation": "変動費 =（110,000 - 80,000）/（8,000 - 5,000）= 30,000 / 3,000 = 10 円/時間。固定費 = 110,000 -（8,000 x 10）= 110,000 - 80,000 = 30,000 円。"
   }
 ]

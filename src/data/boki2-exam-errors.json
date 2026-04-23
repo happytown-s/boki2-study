@@ -3,165 +3,345 @@
     "category": "Error Correction",
     "question": "A counterbalancing error is one that:",
     "options": [
-      {"text": "Automatically corrects itself over two periods", "correct": true},
-      {"text": "Never self-corrects and persists indefinitely", "correct": false},
-      {"text": "Only affects the income statement", "correct": false},
-      {"text": "Only affects the balance sheet", "correct": false}
+      {
+        "text": "Automatically corrects itself over two periods",
+        "correct": true
+      },
+      {
+        "text": "Never self-corrects and persists indefinitely",
+        "correct": false
+      },
+      {
+        "text": "Only affects the income statement",
+        "correct": false
+      },
+      {
+        "text": "Only affects the balance sheet",
+        "correct": false
+      }
     ],
-    "explanation": "Counterbalancing errors offset within two accounting periods. For example, overstating ending inventory in Year 1 overstates Year 1 net income and understates Year 2 net income by the same amount (because beginning inventory of Year 2 = ending of Year 1)."
+    "explanation": "相殺誤りは2会計期間内で自動的に相殺される誤りである。例えば、第1年末の棚卸資産を過大計上すると第1年純利益を過大にし、第2年純利益を同額だけ過小にする（第1年の期末 = 第2年の期首のため）。"
   },
   {
     "category": "Error Correction",
     "question": "A non-counterbalancing error is one that:",
     "options": [
-      {"text": "Does not automatically correct itself and requires a prior period adjustment", "correct": true},
-      {"text": "Corrects itself in the next period", "correct": false},
-      {"text": "Only affects current period financial statements", "correct": false},
-      {"text": "Is immaterial and does not need correction", "correct": false}
+      {
+        "text": "Does not automatically correct itself and requires a prior period adjustment",
+        "correct": true
+      },
+      {
+        "text": "Corrects itself in the next period",
+        "correct": false
+      },
+      {
+        "text": "Only affects current period financial statements",
+        "correct": false
+      },
+      {
+        "text": "Is immaterial and does not need correction",
+        "correct": false
+      }
     ],
-    "explanation": "Non-counterbalancing errors persist until corrected. Example: failing to depreciate an asset affects all subsequent periods. Each period's income is overstated by the depreciation amount until the error is discovered and corrected."
+    "explanation": "非相殺誤りは修正されるまで存続する。例：資産の減価償却を怠ると、すべての以後の期間に影響する。各期間の利益が減価償却費分だけ過大となり、誤りが発見・修正されるまで続く。"
   },
   {
     "category": "Error Correction",
     "question": "If ending inventory is understated at the end of Year 1, the effect in Year 1 is:",
     "options": [
-      {"text": "Cost of Goods Sold is overstated and Net Income is understated", "correct": true},
-      {"text": "Cost of Goods Sold is understated and Net Income is overstated", "correct": false},
-      {"text": "Cost of Goods Sold and Net Income are both understated", "correct": false},
-      {"text": "No effect on Year 1 financial statements", "correct": false}
+      {
+        "text": "Cost of Goods Sold is overstated and Net Income is understated",
+        "correct": true
+      },
+      {
+        "text": "Cost of Goods Sold is understated and Net Income is overstated",
+        "correct": false
+      },
+      {
+        "text": "Cost of Goods Sold and Net Income are both understated",
+        "correct": false
+      },
+      {
+        "text": "No effect on Year 1 financial statements",
+        "correct": false
+      }
     ],
-    "explanation": "COGS = Beginning Inventory + Purchases - Ending Inventory. If ending inventory is understated, COGS is overstated, and gross profit and net income are understated. This is a counterbalancing error that reverses in Year 2."
+    "explanation": "売上原価 = 期首棚卸 + 仕入 - 期末棚卸。期末棚卸が過小の場合、売上原価は過大となり、売上総利益と純利益は過小となる。これは第2年に逆転する相殺誤りである。"
   },
   {
     "category": "Error Correction",
     "question": "If ending inventory is understated at the end of Year 1, the effect in Year 2 is:",
     "options": [
-      {"text": "Beginning inventory is understated, so COGS is understated and Net Income is overstated", "correct": true},
-      {"text": "COGS is overstated and Net Income is understated", "correct": false},
-      {"text": "No effect on Year 2", "correct": false},
-      {"text": "Beginning inventory is overstated, COGS is overstated", "correct": false}
+      {
+        "text": "Beginning inventory is understated, so COGS is understated and Net Income is overstated",
+        "correct": true
+      },
+      {
+        "text": "COGS is overstated and Net Income is understated",
+        "correct": false
+      },
+      {
+        "text": "No effect on Year 2",
+        "correct": false
+      },
+      {
+        "text": "Beginning inventory is overstated, COGS is overstated",
+        "correct": false
+      }
     ],
-    "explanation": "Year 1's ending inventory becomes Year 2's beginning inventory. Understated beginning inventory in Year 2 means COGS = Understated Beg Inv + Purchases - Ending Inv = understated COGS, overstated net income. This is the counterbalancing effect."
+    "explanation": "第1年の期末棚卸が第2年の期首棚卸になる。第2年の期首棚卸が過小の場合、売上原価 = 過小期首 + 仕入 - 期末 = 過小な売上原価、過大な純利益となる。これが相殺効果。"
   },
   {
     "category": "Error Correction",
     "question": "If a prepaid expense was recorded as an expense when paid (failure to adjust), the effect is:",
     "options": [
-      {"text": "Expenses are overstated and assets are understated in the current period", "correct": true},
-      {"text": "Expenses are understated and assets are overstated", "correct": false},
-      {"text": "No error - this is correct treatment", "correct": false},
-      {"text": "Liabilities are overstated", "correct": false}
+      {
+        "text": "Expenses are overstated and assets are understated in the current period",
+        "correct": true
+      },
+      {
+        "text": "Expenses are understated and assets are overstated",
+        "correct": false
+      },
+      {
+        "text": "No error - this is correct treatment",
+        "correct": false
+      },
+      {
+        "text": "Liabilities are overstated",
+        "correct": false
+      }
     ],
-    "explanation": "Prepaid expenses should be assets until consumed. Recording them as expenses immediately overstates current expenses and understates current assets. This is a counterbalancing error: next period's expenses will be understated by the same amount."
+    "explanation": "前払費用は消費されるまで資産であるべき。支払時に費用記録すると当期費用を過大、当期資産を過小にする。これは相殺誤り：翌期の費用が同額だけ過小となる。"
   },
   {
     "category": "Error Correction",
     "question": "Failure to record accrued revenue at year-end results in:",
     "options": [
-      {"text": "Revenue and assets both understated in the current year", "correct": true},
-      {"text": "Revenue and liabilities both understated", "correct": false},
-      {"text": "Revenue overstated and expenses understated", "correct": false},
-      {"text": "No effect since cash hasn't been received", "correct": false}
+      {
+        "text": "Revenue and assets both understated in the current year",
+        "correct": true
+      },
+      {
+        "text": "Revenue and liabilities both understated",
+        "correct": false
+      },
+      {
+        "text": "Revenue overstated and expenses understated",
+        "correct": false
+      },
+      {
+        "text": "No effect since cash hasn't been received",
+        "correct": false
+      }
     ],
-    "explanation": "Accrued revenue (earned but not received or recorded) should increase both revenue and accounts receivable. Failure to record means both are understated. Next period, when cash is received, revenue will be overstated (counterbalancing)."
+    "explanation": "未収収益（稼得済みだが未受領・未記録）は収益と売掛金の両方を増加させるべき。記録しないと両方が過小となる。翌期に現金を受領した時、収益が過大になる（相殺）。"
   },
   {
     "category": "Error Correction",
     "question": "A prior period adjustment is reported on the:",
     "options": [
-      {"text": "Statement of Retained Earnings (or Statement of Changes in Equity) as an adjustment to beginning balance", "correct": true},
-      {"text": "Income Statement of the current period", "correct": false},
-      {"text": "Balance Sheet as a separate line item", "correct": false},
-      {"text": "Cash Flow Statement", "correct": false}
+      {
+        "text": "Statement of Retained Earnings (or Statement of Changes in Equity) as an adjustment to beginning balance",
+        "correct": true
+      },
+      {
+        "text": "Income Statement of the current period",
+        "correct": false
+      },
+      {
+        "text": "Balance Sheet as a separate line item",
+        "correct": false
+      },
+      {
+        "text": "Cash Flow Statement",
+        "correct": false
+      }
     ],
-    "explanation": "Prior period adjustments for material errors correct the beginning retained earnings balance. They are reported net of tax on the retained earnings statement (or statement of changes in equity), NOT on the current income statement."
+    "explanation": "前期修正は重要な誤りの修正で期首繰越利益剰余金残高を修正する。税引後純額で繰越利益剰余金計算書（または株主資本等変動計算書）に記載され、当期の損益計算書には記載しない。"
   },
   {
     "category": "Error Correction",
     "question": "Failure to record depreciation expense is an example of:",
     "options": [
-      {"text": "A non-counterbalancing error", "correct": true},
-      {"text": "A counterbalancing error", "correct": false},
-      {"text": "An error that has no effect on financial statements", "correct": false},
-      {"text": "An error that only affects the balance sheet", "correct": false}
+      {
+        "text": "A non-counterbalancing error",
+        "correct": true
+      },
+      {
+        "text": "A counterbalancing error",
+        "correct": false
+      },
+      {
+        "text": "An error that has no effect on financial statements",
+        "correct": false
+      },
+      {
+        "text": "An error that only affects the balance sheet",
+        "correct": false
+      }
     ],
-    "explanation": "Depreciation failure affects every period until corrected (assets overstated, equity overstated, income overstated, depreciation expense understated). It doesn't self-correct because the asset's book value keeps compounding the error."
+    "explanation": "減価償却費の計上漏れは修正されるまで毎期に影響する（資産過大、資本過大、利益過大、減価償却費過小）。資産の帳簿価額が誤りを蓄積するため自己修正しない。"
   },
   {
     "category": "Error Correction",
     "question": "If a purchase of equipment was recorded as a maintenance expense, the error causes:",
     "options": [
-      {"text": "Expenses overstated, assets understated, and equity understated in the year of the error", "correct": true},
-      {"text": "Expenses understated and assets overstated", "correct": false},
-      {"text": "No error - maintenance and equipment are both expenses", "correct": false},
-      {"text": "Only the balance sheet is affected", "correct": false}
+      {
+        "text": "Expenses overstated, assets understated, and equity understated in the year of the error",
+        "correct": true
+      },
+      {
+        "text": "Expenses understated and assets overstated",
+        "correct": false
+      },
+      {
+        "text": "No error - maintenance and equipment are both expenses",
+        "correct": false
+      },
+      {
+        "text": "Only the balance sheet is affected",
+        "correct": false
+      }
     ],
-    "explanation": "Capital expenditures (equipment) should be assets. Expensing them immediately overstates expenses and understates both assets and net income (and therefore retained earnings). This is a non-counterbalancing error."
+    "explanation": "資本的支出（設備）は資産であるべき。直ちに費用処理すると費用が過大、資産と純利益（したがって繰越利益剰余金）が過小となる。これは非相殺誤りである。"
   },
   {
     "category": "Error Correction",
     "question": "An error in counting ending inventory that overstated it by 50,000 yen was discovered in the next year after Year 1 books were closed. If Year 2 is still open:",
     "options": [
-      {"text": "Correct Year 2 beginning retained earnings and inventory records; no prior period adjustment needed", "correct": true},
-      {"text": "Report a prior period adjustment on the retained earnings statement", "correct": false},
-      {"text": "Restate Year 1 financial statements", "correct": false},
-      {"text": "Ignore the error as it will counterbalance", "correct": false}
+      {
+        "text": "Correct Year 2 beginning retained earnings and inventory records; no prior period adjustment needed",
+        "correct": true
+      },
+      {
+        "text": "Report a prior period adjustment on the retained earnings statement",
+        "correct": false
+      },
+      {
+        "text": "Restate Year 1 financial statements",
+        "correct": false
+      },
+      {
+        "text": "Ignore the error as it will counterbalance",
+        "correct": false
+      }
     ],
-    "explanation": "If the current year (Year 2) books are still open, the error can be corrected by adjusting Year 2's beginning balances. Since this is a counterbalancing error, Year 2's opening retained earnings and inventory can be corrected directly without a prior period adjustment."
+    "explanation": "当期（第2年）の帳簿がまだ開いている場合、誤りは第2年の期首残高を修正することで修正できる。これは相殺誤りなので、期首繰越利益と棚卸資産を直接修正でき、前期修正は不要。"
   },
   {
     "category": "Error Correction",
     "question": "A company failed to accrue wages payable of 80,000 yen at year-end. The effect is:",
     "options": [
-      {"text": "Expenses understated, liabilities understated, net income overstated", "correct": true},
-      {"text": "Expenses overstated, liabilities overstated", "correct": false},
-      {"text": "Assets understated, equity overstated", "correct": false},
-      {"text": "No effect on net income since cash hasn't been paid", "correct": false}
+      {
+        "text": "Expenses understated, liabilities understated, net income overstated",
+        "correct": true
+      },
+      {
+        "text": "Expenses overstated, liabilities overstated",
+        "correct": false
+      },
+      {
+        "text": "Assets understated, equity overstated",
+        "correct": false
+      },
+      {
+        "text": "No effect on net income since cash hasn't been paid",
+        "correct": false
+      }
     ],
-    "explanation": "Unrecorded accrued wages mean: (1) Wages Expense is understated (missing expense), (2) Wages Payable is understated (missing liability), (3) Net income is overstated, (4) Retained earnings is overstated. This is counterbalancing."
+    "explanation": "未記録の未払給与とは：(1) 給与費用が過小（不足費用）、(2) 未払給与が過小（不足負債）、(3) 純利益が過大、(4) 繰越利益剰余金が過大。これは相殺誤り。"
   },
   {
     "category": "Error Correction",
     "question": "If depreciation was understated by 20,000 yen for each of the past 3 years and the error is discovered in Year 4, the correction requires:",
     "options": [
-      {"text": "A prior period adjustment of 60,000 (net of tax) to the beginning retained earnings of Year 4", "correct": true},
-      {"text": "Correcting only the current year by recording 20,000 more depreciation", "correct": false},
-      {"text": "Restating all three prior year financial statements", "correct": false},
-      {"text": "Recording 60,000 depreciation expense in the current year", "correct": false}
+      {
+        "text": "A prior period adjustment of 60,000 (net of tax) to the beginning retained earnings of Year 4",
+        "correct": true
+      },
+      {
+        "text": "Correcting only the current year by recording 20,000 more depreciation",
+        "correct": false
+      },
+      {
+        "text": "Restating all three prior year financial statements",
+        "correct": false
+      },
+      {
+        "text": "Recording 60,000 depreciation expense in the current year",
+        "correct": false
+      }
     ],
-    "explanation": "This is a non-counterbalancing error. The cumulative effect of 3 years x 20,000 = 60,000 must be corrected as a prior period adjustment (net of tax). The asset's book value must also be corrected by reducing accumulated depreciation."
+    "explanation": "これは非相殺誤り。3年間 x 20,000 = 60,000 の累積影響を前期修正（税引後）として修正する必要がある。資産の帳簿価額も減価償却累計額を減額して修正する。"
   },
   {
     "category": "Error Correction",
     "question": "Which of the following errors would NOT be discovered by trial balance preparation?",
     "options": [
-      {"text": "A transaction recorded with the correct amount but in the wrong account (both debits and credits correct)", "correct": true},
-      {"text": "A journal entry with unequal debits and credits", "correct": false},
-      {"text": "Only the debit side of a transaction was posted", "correct": false},
-      {"text": "An amount was incorrectly calculated in a journal entry", "correct": false}
+      {
+        "text": "A transaction recorded with the correct amount but in the wrong account (both debits and credits correct)",
+        "correct": true
+      },
+      {
+        "text": "A journal entry with unequal debits and credits",
+        "correct": false
+      },
+      {
+        "text": "Only the debit side of a transaction was posted",
+        "correct": false
+      },
+      {
+        "text": "An amount was incorrectly calculated in a journal entry",
+        "correct": false
+      }
     ],
-    "explanation": "The trial balance checks that total debits = total credits. An error of principle (wrong account but correct amount) maintains the debit-credit equality and would not be detected by the trial balance."
+    "explanation": "試算表は借方合計 = 貸方合計を確認する。原則的誤り（勘定が違うが金額は正しい）は借貸の均衡を維持するため、試算表では検出されない。"
   },
   {
     "category": "Error Correction",
     "question": "Overstating beginning inventory in a periodic inventory system causes:",
     "options": [
-      {"text": "COGS overstated and Net Income understated", "correct": true},
-      {"text": "COGS understated and Net Income overstated", "correct": false},
-      {"text": "No effect on COGS or Net Income", "correct": false},
-      {"text": "COGS understated and ending inventory overstated", "correct": false}
+      {
+        "text": "COGS overstated and Net Income understated",
+        "correct": true
+      },
+      {
+        "text": "COGS understated and Net Income overstated",
+        "correct": false
+      },
+      {
+        "text": "No effect on COGS or Net Income",
+        "correct": false
+      },
+      {
+        "text": "COGS understated and ending inventory overstated",
+        "correct": false
+      }
     ],
-    "explanation": "COGS = Beginning Inventory + Purchases - Ending Inventory. Overstated beginning inventory directly increases COGS, which decreases gross profit and net income. This is a counterbalancing error."
+    "explanation": "売上原価 = 期首棚卸 + 仕入 - 期末棚卸。期首棚卸の過大は直接売上原価を増加させ、売上総利益と純利益を減少させる。これは相殺誤り。"
   },
   {
     "category": "Error Correction",
     "question": "A company recorded the purchase of a machine as a debit to Land instead of Machinery. The effect is:",
     "options": [
-      {"text": "Total assets are correct but the composition is wrong; depreciation will be understated", "correct": true},
-      {"text": "Total assets are overstated", "correct": false},
-      {"text": "Total assets are understated", "correct": false},
-      {"text": "No error - Land and Machinery are the same account", "correct": false}
+      {
+        "text": "Total assets are correct but the composition is wrong; depreciation will be understated",
+        "correct": true
+      },
+      {
+        "text": "Total assets are overstated",
+        "correct": false
+      },
+      {
+        "text": "Total assets are understated",
+        "correct": false
+      },
+      {
+        "text": "No error - Land and Machinery are the same account",
+        "correct": false
+      }
     ],
-    "explanation": "This is an error of classification, not amount. Total assets are correct initially. However, Land is not depreciated while Machinery should be. Future depreciation expense will be understated, and net income and assets will be overstated in subsequent periods."
+    "explanation": "これは分類の誤りであり、金額の誤りではない。総資産は当初正しい。ただし、土地は減価償却されず、機械は減価償却されるべき。将来の減価償却費が過小となり、純利益と資産が以後の期間で過大になる。"
   }
 ]

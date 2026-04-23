@@ -3,275 +3,575 @@
     "category": "Cost Accounting - Labor",
     "question": "Direct labor costs incurred in production are recorded as:",
     "options": [
-      {"text": "(Debit) Work in Process Inventory / (Credit) Wages Payable", "correct": true},
-      {"text": "(Debit) Factory Overhead / (Credit) Wages Payable", "correct": false},
-      {"text": "(Debit) Salary Expense / (Credit) Cash", "correct": false},
-      {"text": "(Debit) Cost of Goods Manufactured / (Credit) Wages Payable", "correct": false}
+      {
+        "text": "(Debit) Work in Process Inventory / (Credit) Wages Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Wages Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Salary Expense / (Credit) Cash",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Manufactured / (Credit) Wages Payable",
+        "correct": false
+      }
     ],
-    "explanation": "Direct labor (workers who physically work on products) is charged to Work in Process Inventory. Indirect labor (supervisors, maintenance) is charged to Factory Overhead. Direct labor is a prime cost element."
+    "explanation": "直接労務費（製品に直接作業する労働者）は仕掛品に借方記録。間接労務費（監督者、保全作業員）は製造間接費に借方記録。直接労務費は素原価の要素である。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Indirect labor costs such as factory supervisor salaries are recorded as:",
     "options": [
-      {"text": "(Debit) Factory Overhead / (Credit) Wages Payable", "correct": true},
-      {"text": "(Debit) Work in Process / (Credit) Wages Payable", "correct": false},
-      {"text": "(Debit) Administrative Expenses / (Credit) Wages Payable", "correct": false},
-      {"text": "(Debit) Salaries Expense / (Credit) Cash", "correct": false}
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Wages Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Wages Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Administrative Expenses / (Credit) Wages Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Salaries Expense / (Credit) Cash",
+        "correct": false
+      }
     ],
-    "explanation": "Indirect labor cannot be traced to specific products. It includes supervisors, maintenance workers, quality control, and material handlers. These costs are accumulated in Factory Overhead and allocated to products using a predetermined rate."
+    "explanation": "間接労務費は特定の製品にトレースできない。監督者、保全作業員、品質管理、材料運搬作業員が含まれる。これらは製造間接費に蓄積され、予定配賦率で製品に配賦される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Gross pay is 500,000 yen. Deductions: income tax 50,000, social insurance 60,000, health insurance 25,000. Net pay is:",
     "options": [
-      {"text": "365,000 yen", "correct": true},
-      {"text": "450,000 yen", "correct": false},
-      {"text": "400,000 yen", "correct": false},
-      {"text": "340,000 yen", "correct": false}
+      {
+        "text": "365,000 yen",
+        "correct": true
+      },
+      {
+        "text": "450,000 yen",
+        "correct": false
+      },
+      {
+        "text": "400,000 yen",
+        "correct": false
+      },
+      {
+        "text": "340,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Net pay = Gross pay - Total deductions = 500,000 - (50,000 + 60,000 + 25,000) = 500,000 - 135,000 = 365,000 yen. Deductions are liabilities until remitted to the respective agencies."
+    "explanation": "手取額 = 総支給額 - 総控除額 = 500,000 - (50,000 + 60,000 + 25,000) = 500,000 - 135,000 = 365,000 円。控除額は各機関に納付するまで負債である。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "The employer's share of social insurance premiums (employer burden) is recorded as:",
     "options": [
-      {"text": "(Debit) Factory Overhead (for factory workers) / (Credit) Social Insurance Payable", "correct": true},
-      {"text": "(Debit) Wages Expense / (Credit) Social Insurance Payable", "correct": false},
-      {"text": "(Debit) Work in Process / (Credit) Social Insurance Payable", "correct": false},
-      {"text": "(Debit) Retained Earnings / (Credit) Social Insurance Payable", "correct": false}
+      {
+        "text": "(Debit) Factory Overhead (for factory workers) / (Credit) Social Insurance Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Wages Expense / (Credit) Social Insurance Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Social Insurance Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings / (Credit) Social Insurance Payable",
+        "correct": false
+      }
     ],
-    "explanation": "Employer's share of social insurance is a labor cost in addition to gross wages. For factory workers, it is allocated through Factory Overhead. The employer's burden increases total labor costs beyond the gross pay shown on the paycheck."
+    "explanation": "雇主の社会保険料負担は総給与に上乗せされる労務費。工場労働者の場合は製造間接費を通じて配賦される。雇主負担は給与明細に表示される総給与を超える総労務費を増加させる。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Overtime premium paid to factory workers should be charged to:",
     "options": [
-      {"text": "Factory Overhead (as a normal cost of production) when overtime is due to general factory demand", "correct": true},
-      {"text": "Always charged to the specific job that caused the overtime", "correct": false},
-      {"text": "Always charged to Factory Overhead regardless of the reason", "correct": false},
-      {"text": "Recorded as a period expense", "correct": false}
+      {
+        "text": "Factory Overhead (as a normal cost of production) when overtime is due to general factory demand",
+        "correct": true
+      },
+      {
+        "text": "Always charged to the specific job that caused the overtime",
+        "correct": false
+      },
+      {
+        "text": "Always charged to Factory Overhead regardless of the reason",
+        "correct": false
+      },
+      {
+        "text": "Recorded as a period expense",
+        "correct": false
+      }
     ],
-    "explanation": "If overtime is caused by general production demands (not a specific job), the overtime premium goes to Factory Overhead. If a specific customer rush order caused the overtime, the premium is charged directly to that job."
+    "explanation": "残業が一般的な生産需要による場合（特定のジョブによる場合ではない）、残業割増は製造間接費に振り替える。特定の顧客急ぎ注文が原因の場合、割増はそのジョブに直接賦課する。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "A worker earns 2,000 yen/hour regular rate. Overtime rate is 1.5x. In a 40-hour week, the worker works 46 hours (4 overtime hours) on general factory production. Total labor cost is:",
     "options": [
-      {"text": "96,000 yen (WIP 92,000 + Overhead 4,000)", "correct": true},
-      {"text": "96,000 yen (all WIP)", "correct": false},
-      {"text": "92,000 yen (regular only)", "correct": false},
-      {"text": "100,000 yen", "correct": false}
+      {
+        "text": "96,000 yen (WIP 92,000 + Overhead 4,000)",
+        "correct": true
+      },
+      {
+        "text": "96,000 yen (all WIP)",
+        "correct": false
+      },
+      {
+        "text": "92,000 yen (regular only)",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Regular pay: 46 x 2,000 = 92,000 (direct labor to WIP). Overtime premium: 4 x 1,000 (premium portion only = 2,000 x 0.5) = 4,000 to Factory Overhead. Total: 96,000. Only the premium portion goes to overhead."
+    "explanation": "通常賃金：46 x 2,000 = 92,000（仕掛品への直接労務費）。残業割増：4 x 1,000（割増部分のみ = 2,000 x 0.5）= 4,000 を製造間接費へ。合計：96,000。割増部分のみが間接費に行く。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Idle time (workers waiting for materials or machine breakdown) is treated as:",
     "options": [
-      {"text": "Factory Overhead because it is a normal cost of operations", "correct": true},
-      {"text": "Direct labor charged to specific jobs", "correct": false},
-      {"text": "A loss recorded on the income statement", "correct": false},
-      {"text": "Added to the cost of raw materials", "correct": false}
+      {
+        "text": "Factory Overhead because it is a normal cost of operations",
+        "correct": true
+      },
+      {
+        "text": "Direct labor charged to specific jobs",
+        "correct": false
+      },
+      {
+        "text": "A loss recorded on the income statement",
+        "correct": false
+      },
+      {
+        "text": "Added to the cost of raw materials",
+        "correct": false
+      }
     ],
-    "explanation": "Idle time is an indirect labor cost because it cannot be attributed to specific products. It is charged to Factory Overhead and allocated across all products. Abnormal idle time due to unusual events might be treated as a loss."
+    "explanation": "アイドルタイム（材料待ちや機械故障での待機時間）は正常な操業コストとして製造間接費に処理される。特定の製品に帰属できない間接労務費である。異常なアイドルタイムは損失として処理される場合がある。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Payroll entries for factory workers include all of the following EXCEPT:",
     "options": [
-      {"text": "(Debit) Sales Salaries Expense / (Credit) Wages Payable", "correct": true},
-      {"text": "(Debit) Work in Process / (Credit) Wages Payable (for direct labor)", "correct": false},
-      {"text": "(Debit) Factory Overhead / (Credit) Wages Payable (for indirect labor)", "correct": false},
-      {"text": "(Debit) Wages Payable / (Credit) Cash (for net pay)", "correct": false}
+      {
+        "text": "(Debit) Sales Salaries Expense / (Credit) Wages Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Wages Payable (for direct labor)",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Wages Payable (for indirect labor)",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Wages Payable / (Credit) Cash (for net pay)",
+        "correct": false
+      }
     ],
-    "explanation": "Sales Salaries Expense is for selling staff, not factory workers. Factory worker payroll is split between WIP (direct labor), Factory Overhead (indirect labor), and possibly additional employer burden costs."
+    "explanation": "販売員給与は販売スタッフ用であり、工場労働者用ではない。工場労働者の給与は仕掛品（直接労務費）、製造間接費（間接労務費）、および追加の雇主負担費用に分割される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Piece-rate wages are calculated as:",
     "options": [
-      {"text": "Number of units produced x rate per unit", "correct": true},
-      {"text": "Hours worked x hourly rate", "correct": false},
-      {"text": "Monthly salary regardless of output", "correct": false},
-      {"text": "Base salary + bonus per unit above standard", "correct": false}
+      {
+        "text": "Number of units produced x rate per unit",
+        "correct": true
+      },
+      {
+        "text": "Hours worked x hourly rate",
+        "correct": false
+      },
+      {
+        "text": "Monthly salary regardless of output",
+        "correct": false
+      },
+      {
+        "text": "Base salary + bonus per unit above standard",
+        "correct": false
+      }
     ],
-    "explanation": "Under a piece-rate system, workers are paid based on output rather than time. Total pay = units produced x rate per unit. This incentivizes productivity but may affect quality if not properly managed."
+    "explanation": "歩合制では、労働者は時間ではなく生産量に基づいて支払われる。総支給額 = 生産数 x 単位当たり単価。生産性を促進するが、適切に管理しないと品質に影響する可能性がある。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Labor cost allocation based on time tickets involves:",
     "options": [
-      {"text": "Recording the time each worker spends on specific jobs or departments", "correct": true},
-      {"text": "Dividing total labor cost equally among all jobs", "correct": false},
-      {"text": "Allocating labor based on machine hours only", "correct": false},
-      {"text": "Using a single labor rate for all workers regardless of skill level", "correct": false}
+      {
+        "text": "Recording the time each worker spends on specific jobs or departments",
+        "correct": true
+      },
+      {
+        "text": "Dividing total labor cost equally among all jobs",
+        "correct": false
+      },
+      {
+        "text": "Allocating labor based on machine hours only",
+        "correct": false
+      },
+      {
+        "text": "Using a single labor rate for all workers regardless of skill level",
+        "correct": false
+      }
     ],
-    "explanation": "Time tickets (job tickets) record the specific time each worker spends on each job. This allows direct labor to be accurately traced to jobs. Time not traceable to specific jobs is allocated to Factory Overhead."
+    "explanation": "作業時間票（作業票）は各労働者が各ジョブに費やした時間を記録する。これにより直接労務費をジョブに正確にトレースできる。特定ジョブにトレースできない時間は製造間接費に配賦される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "A guaranteed wage plan provides that a worker earns:",
     "options": [
-      {"text": "The higher of the guaranteed minimum wage or piece-rate earnings", "correct": true},
-      {"text": "Only the piece-rate earnings, regardless of the minimum", "correct": false},
-      {"text": "Only the guaranteed minimum wage", "correct": false},
-      {"text": "The average of the minimum and piece-rate", "correct": false}
+      {
+        "text": "The higher of the guaranteed minimum wage or piece-rate earnings",
+        "correct": true
+      },
+      {
+        "text": "Only the piece-rate earnings, regardless of the minimum",
+        "correct": false
+      },
+      {
+        "text": "Only the guaranteed minimum wage",
+        "correct": false
+      },
+      {
+        "text": "The average of the minimum and piece-rate",
+        "correct": false
+      }
     ],
-    "explanation": "Under a guaranteed wage plan, workers are assured of a minimum wage even if their piece-rate earnings fall below it. If piece-rate earnings exceed the minimum, they receive the higher amount. This protects workers during slow periods."
+    "explanation": "保証賃金制では、歩合収入が最低賃金を下回る場合でも最低賃金が保証される。歩合収入が最低賃金を超える場合は高い方を受取る。これは閑散期の労働者を保護する。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Vacation pay and holiday pay for factory workers are generally charged to:",
     "options": [
-      {"text": "Factory Overhead as an indirect labor cost", "correct": true},
-      {"text": "Work in Process as direct labor", "correct": false},
-      {"text": "Administrative expenses", "correct": false},
-      {"text": "Retained earnings", "correct": false}
+      {
+        "text": "Factory Overhead as an indirect labor cost",
+        "correct": true
+      },
+      {
+        "text": "Work in Process as direct labor",
+        "correct": false
+      },
+      {
+        "text": "Administrative expenses",
+        "correct": false
+      },
+      {
+        "text": "Retained earnings",
+        "correct": false
+      }
     ],
-    "explanation": "Paid vacation and holidays are indirect labor costs because the time is not traceable to specific products. These costs are accumulated in Factory Overhead and allocated to products through the overhead rate."
+    "explanation": "有給休暇と祝日給与は、その時間が特定の製品にトレースできないため間接労務費。製造間接費に蓄積され、間接費配賦率を通じて製品に配賦される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Labor rate variance is calculated as:",
     "options": [
-      {"text": "(Actual Rate - Standard Rate) x Actual Hours Worked", "correct": true},
-      {"text": "(Actual Hours - Standard Hours) x Standard Rate", "correct": false},
-      {"text": "(Standard Rate - Actual Rate) x Standard Hours", "correct": false},
-      {"text": "Actual Labor Cost - Budgeted Labor Cost", "correct": false}
+      {
+        "text": "(Actual Rate - Standard Rate) x Actual Hours Worked",
+        "correct": true
+      },
+      {
+        "text": "(Actual Hours - Standard Hours) x Standard Rate",
+        "correct": false
+      },
+      {
+        "text": "(Standard Rate - Actual Rate) x Standard Hours",
+        "correct": false
+      },
+      {
+        "text": "Actual Labor Cost - Budgeted Labor Cost",
+        "correct": false
+      }
     ],
-    "explanation": "Labor Rate Variance (LRV) = (AR - SR) x AH. If workers are paid more than the standard rate, the variance is unfavorable. This variance measures the effect of paying different wages than expected."
+    "explanation": "労務費率差異 =（実際賃率 - 標準賃率）x 実際作業時間。労働者が標準賃率より高い賃金を支払われた場合、差異は不利である。これは予定外の賃金支払の影響を測る。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Standard rate: 1,500 yen/hour. Actual rate: 1,550 yen/hour. Actual hours: 800. Labor rate variance is:",
     "options": [
-      {"text": "40,000 yen unfavorable", "correct": true},
-      {"text": "40,000 yen favorable", "correct": false},
-      {"text": "1,550 yen unfavorable", "correct": false},
-      {"text": "50 yen per hour unfavorable", "correct": false}
+      {
+        "text": "40,000 yen unfavorable",
+        "correct": true
+      },
+      {
+        "text": "40,000 yen favorable",
+        "correct": false
+      },
+      {
+        "text": "1,550 yen unfavorable",
+        "correct": false
+      },
+      {
+        "text": "50 yen per hour unfavorable",
+        "correct": false
+      }
     ],
-    "explanation": "LRV = (1,550 - 1,500) x 800 = 50 x 800 = 40,000 yen unfavorable. The company paid 50 yen more per hour than standard for 800 hours, resulting in a 40,000 yen unfavorable variance."
+    "explanation": "労務費率差異 =（1,550 - 1,500）x 800 = 50 x 800 = 40,000 円 不利。会社が標準より1時間あたり50円多い賃金を800時間に支払い、40,000円の不利差異となった。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Labor efficiency variance is calculated as:",
     "options": [
-      {"text": "(Actual Hours - Standard Hours Allowed) x Standard Rate", "correct": true},
-      {"text": "(Actual Rate - Standard Rate) x Actual Hours", "correct": false},
-      {"text": "(Standard Hours - Actual Hours) x Actual Rate", "correct": false},
-      {"text": "Standard Labor Cost - Actual Labor Cost", "correct": false}
+      {
+        "text": "(Actual Hours - Standard Hours Allowed) x Standard Rate",
+        "correct": true
+      },
+      {
+        "text": "(Actual Rate - Standard Rate) x Actual Hours",
+        "correct": false
+      },
+      {
+        "text": "(Standard Hours - Actual Hours) x Actual Rate",
+        "correct": false
+      },
+      {
+        "text": "Standard Labor Cost - Actual Labor Cost",
+        "correct": false
+      }
     ],
-    "explanation": "Labor Efficiency Variance (LEV) = (AH - SH) x SR. If more hours are worked than the standard allows for actual output, the variance is unfavorable. This measures productivity efficiency."
+    "explanation": "労務費時間差異 =（実際作業時間 - 標準許容時間）x 標準賃率。実際の作業時間が標準許容時間を超える場合、差異は不利。これは生産効率を測る。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Standard hours allowed: 2,000. Actual hours worked: 2,100. Standard rate: 1,500 yen. Labor efficiency variance is:",
     "options": [
-      {"text": "150,000 yen unfavorable", "correct": true},
-      {"text": "150,000 yen favorable", "correct": false},
-      {"text": "100,000 yen unfavorable", "correct": false},
-      {"text": "210,000 yen unfavorable", "correct": false}
+      {
+        "text": "150,000 yen unfavorable",
+        "correct": true
+      },
+      {
+        "text": "150,000 yen favorable",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen unfavorable",
+        "correct": false
+      },
+      {
+        "text": "210,000 yen unfavorable",
+        "correct": false
+      }
     ],
-    "explanation": "LEV = (2,100 - 2,000) x 1,500 = 100 x 1,500 = 150,000 yen unfavorable. Workers took 100 more hours than the standard allowed for the actual output, at the standard rate of 1,500 yen."
+    "explanation": "労務費時間差異 =（2,100 - 2,000）x 1,500 = 100 x 1,500 = 150,000 円 不利。労働者が標準許容時間より100時間多く作業し、標準賃率 1,500 円で計算される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "When payroll is recorded, the total factory labor cost of 800,000 yen is allocated: direct labor 600,000, indirect labor 200,000. The entry is:",
     "options": [
-      {"text": "(Debit) WIP 600,000 / (Debit) Factory Overhead 200,000 / (Credit) Wages Payable 800,000", "correct": true},
-      {"text": "(Debit) WIP 800,000 / (Credit) Wages Payable 800,000", "correct": false},
-      {"text": "(Debit) Labor Cost 800,000 / (Credit) Wages Payable 800,000", "correct": false},
-      {"text": "(Debit) WIP 600,000 / (Credit) Wages Payable 600,000", "correct": false}
+      {
+        "text": "(Debit) WIP 600,000 / (Debit) Factory Overhead 200,000 / (Credit) Wages Payable 800,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) WIP 800,000 / (Credit) Wages Payable 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Labor Cost 800,000 / (Credit) Wages Payable 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) WIP 600,000 / (Credit) Wages Payable 600,000",
+        "correct": false
+      }
     ],
-    "explanation": "Direct labor (600,000) goes to WIP. Indirect labor (200,000) goes to Factory Overhead. The total credit to Wages Payable represents the gross earnings of all factory workers before deductions."
+    "explanation": "直接労務費（600,000）は仕掛品へ。間接労務費（200,000）は製造間接費へ。未払給与への総貸方記録は全工場労働者の総支給額（控除前）を表す。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Employer's payroll taxes for factory workers are best described as:",
     "options": [
-      {"text": "An additional labor cost that increases the total cost of employing workers", "correct": true},
-      {"text": "A deduction from employee wages", "correct": false},
-      {"text": "A selling expense", "correct": false},
-      {"text": "An administrative expense unrelated to production", "correct": false}
+      {
+        "text": "An additional labor cost that increases the total cost of employing workers",
+        "correct": true
+      },
+      {
+        "text": "A deduction from employee wages",
+        "correct": false
+      },
+      {
+        "text": "A selling expense",
+        "correct": false
+      },
+      {
+        "text": "An administrative expense unrelated to production",
+        "correct": false
+      }
     ],
-    "explanation": "Employer's payroll taxes (social insurance, unemployment tax, etc.) are costs the employer bears in addition to gross wages. These are NOT deducted from employee pay; they are additional costs charged to production through overhead."
+    "explanation": "雇主の社会保険料負担（社会保険、雇用保険等）は総給与に上乗せされる雇主が負担するコスト。従業員の給与から控除されるものではない。生産を通じて間接費として配賦される追加費用。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "A differential piece-rate system pays:",
     "options": [
-      {"text": "A higher rate for units above a standard quota", "correct": true},
-      {"text": "The same rate for all units produced", "correct": false},
-      {"text": "A lower rate for experienced workers", "correct": false},
-      {"text": "Based on total department output divided by number of workers", "correct": false}
+      {
+        "text": "A higher rate for units above a standard quota",
+        "correct": true
+      },
+      {
+        "text": "The same rate for all units produced",
+        "correct": false
+      },
+      {
+        "text": "A lower rate for experienced workers",
+        "correct": false
+      },
+      {
+        "text": "Based on total department output divided by number of workers",
+        "correct": false
+      }
     ],
-    "explanation": "A differential (or tiered) piece-rate system rewards higher productivity by paying a higher rate for output above a certain standard. This incentivizes workers to exceed normal production quotas."
+    "explanation": "差別歩合制は、一定基準を超える生産に対してより高い単価を支払うことで高い生産性を報奨する。労働者が通常の生産ノルマを超えることを促進する。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Shift premium (night shift differential) is generally treated as:",
     "options": [
-      {"text": "Factory Overhead", "correct": true},
-      {"text": "Direct labor cost", "correct": false},
-      {"text": "Selling expense", "correct": false},
-      {"text": "General administrative expense", "correct": false}
+      {
+        "text": "Factory Overhead",
+        "correct": true
+      },
+      {
+        "text": "Direct labor cost",
+        "correct": false
+      },
+      {
+        "text": "Selling expense",
+        "correct": false
+      },
+      {
+        "text": "General administrative expense",
+        "correct": false
+      }
     ],
-    "explanation": "Shift premiums (extra pay for night or weekend shifts) are typically charged to Factory Overhead because they are not traceable to specific products. They represent a normal cost of operating the factory."
+    "explanation": "シフト割増（夜勤・週末勤務差額）は特定の製品にトレースできないため、通常製造間接費として処理される。工場の操業に伴う正常なコストを表す。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Total labor cost variance can be decomposed into:",
     "options": [
-      {"text": "Labor rate variance + Labor efficiency variance", "correct": true},
-      {"text": "Material price variance + Material quantity variance", "correct": false},
-      {"text": "Direct labor variance + Indirect labor variance", "correct": false},
-      {"text": "Overtime variance + Idle time variance", "correct": false}
+      {
+        "text": "Labor rate variance + Labor efficiency variance",
+        "correct": true
+      },
+      {
+        "text": "Material price variance + Material quantity variance",
+        "correct": false
+      },
+      {
+        "text": "Direct labor variance + Indirect labor variance",
+        "correct": false
+      },
+      {
+        "text": "Overtime variance + Idle time variance",
+        "correct": false
+      }
     ],
-    "explanation": "Total labor variance = (AH x AR) - (SH x SR). This decomposes into: Rate effect (AH x AR - AH x SR) + Efficiency effect (AH x SR - SH x SR) = LRV + LEV. Both variances help management understand labor cost performance."
+    "explanation": "総労務費差異 =（実際時間 x 実際賃率）-（標準時間 x 標準賃率）。これは：(実際時間 x 実際賃率 - 実際時間 x 標準賃率）+（実際時間 x 標準賃率 - 標準時間 x 標準賃率）= 賃率差異 + 時間差異に分解される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Bonuses paid to factory production supervisors are recorded as:",
     "options": [
-      {"text": "(Debit) Factory Overhead / (Credit) Bonus Payable", "correct": true},
-      {"text": "(Debit) Work in Process / (Credit) Bonus Payable", "correct": false},
-      {"text": "(Debit) Administrative Expenses / (Credit) Bonus Payable", "correct": false},
-      {"text": "No entry needed - bonuses are discretionary", "correct": false}
+      {
+        "text": "(Debit) Factory Overhead / (Credit) Bonus Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Bonus Payable",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Administrative Expenses / (Credit) Bonus Payable",
+        "correct": false
+      },
+      {
+        "text": "No entry needed - bonuses are discretionary",
+        "correct": false
+      }
     ],
-    "explanation": "Supervisor bonuses are an indirect labor cost because supervisors don't work directly on products. They are charged to Factory Overhead and allocated to products through the overhead application rate."
+    "explanation": "監督者ボーナスは製品に直接作業しないため間接労務費。製造間接費に借方記録し、間接費配賦率を通じて製品に配賦される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "Learning curve theory suggests that as cumulative production doubles:",
     "options": [
-      {"text": "The average time per unit decreases by a constant percentage", "correct": true},
-      {"text": "The total production cost doubles", "correct": false},
-      {"text": "The defect rate increases due to faster production", "correct": false},
-      {"text": "Labor efficiency variance always becomes favorable", "correct": false}
+      {
+        "text": "The average time per unit decreases by a constant percentage",
+        "correct": true
+      },
+      {
+        "text": "The total production cost doubles",
+        "correct": false
+      },
+      {
+        "text": "The defect rate increases due to faster production",
+        "correct": false
+      },
+      {
+        "text": "Labor efficiency variance always becomes favorable",
+        "correct": false
+      }
     ],
-    "explanation": "The learning curve (Wright's model) states that as cumulative production doubles, the average time per unit decreases by a constant percentage (e.g., an 80% learning curve means each doubling reduces average time by 20%)."
+    "explanation": "学習曲線（Wrightモデル）は、累積生産量が倍増するごとに、単位当たり平均時間が一定割合（例：80%学習曲線では各倍増で平均時間が20%減少）で減少することを示す。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "A time study determines that a worker should produce 10 units per hour. The worker actually produced 8 units in one hour. Standard rate is 1,500 yen. The efficiency ratio is:",
     "options": [
-      {"text": "80%", "correct": true},
-      {"text": "125%", "correct": false},
-      {"text": "90%", "correct": false},
-      {"text": "100%", "correct": false}
+      {
+        "text": "80%",
+        "correct": true
+      },
+      {
+        "text": "125%",
+        "correct": false
+      },
+      {
+        "text": "90%",
+        "correct": false
+      },
+      {
+        "text": "100%",
+        "correct": false
+      }
     ],
-    "explanation": "Efficiency ratio = Actual output / Standard output = 8 / 10 = 80%. An efficiency below 100% indicates the worker underperformed relative to the standard. This is used in performance evaluation and bonus calculations."
+    "explanation": "能率比 = 実際生産量 / 標準生産量 = 8 / 10 = 80%。100%未満の能率は労働者が標準に対して未達であることを示す。業績評価とボーナス計算に使用される。"
   },
   {
     "category": "Cost Accounting - Labor",
     "question": "In a labor cost summary, the total employer burden includes all of the following EXCEPT:",
     "options": [
-      {"text": "Employee income tax withholding", "correct": true},
-      {"text": "Employer social insurance contributions", "correct": false},
-      {"text": "Employer unemployment insurance", "correct": false},
-      {"text": "Workers' compensation insurance", "correct": false}
+      {
+        "text": "Employee income tax withholding",
+        "correct": true
+      },
+      {
+        "text": "Employer social insurance contributions",
+        "correct": false
+      },
+      {
+        "text": "Employer unemployment insurance",
+        "correct": false
+      },
+      {
+        "text": "Workers' compensation insurance",
+        "correct": false
+      }
     ],
-    "explanation": "Employee income tax withholding is deducted from the employee's gross pay (a liability for the employer until remitted). It is NOT an additional cost to the employer. The employer's burden includes only taxes and insurance the employer must pay on top of gross wages."
+    "explanation": "従業員の源泉所得税は従業員の総給与から控除される（納付まで雇主の負債）。これは雇主にとっての追加コストではない。雇主負担には総給与に上乗せして雇主が支払う必要のある税金と保険のみが含まれる。"
   }
 ]

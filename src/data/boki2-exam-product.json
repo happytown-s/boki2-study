@@ -3,363 +3,759 @@
     "category": "Product Costing",
     "question": "Under job-order costing, the cost of a completed job is transferred from WIP to:",
     "options": [
-      {"text": "Finished Goods Inventory", "correct": true},
-      {"text": "Cost of Goods Sold", "correct": false},
-      {"text": "Raw Materials Inventory", "correct": false},
-      {"text": "Factory Overhead", "correct": false}
+      {
+        "text": "Finished Goods Inventory",
+        "correct": true
+      },
+      {
+        "text": "Cost of Goods Sold",
+        "correct": false
+      },
+      {
+        "text": "Raw Materials Inventory",
+        "correct": false
+      },
+      {
+        "text": "Factory Overhead",
+        "correct": false
+      }
     ],
-    "explanation": "When a job is completed, its cost is moved from Work in Process to Finished Goods. Cost of Goods Sold is debited only when the finished product is actually sold to a customer."
+    "explanation": "ジョブが完成すると、原価は仕掛品から製品に移動する。売上原価は完成品が顧客に実際に販売された時にのみ借方記録される。"
   },
   {
     "category": "Product Costing",
     "question": "A job order cost sheet accumulates costs for:",
     "options": [
-      {"text": "A specific job or batch of products", "correct": true},
-      {"text": "All production during a period", "correct": false},
-      {"text": "An entire department", "correct": false},
-      {"text": "A single product unit in continuous production", "correct": false}
+      {
+        "text": "A specific job or batch of products",
+        "correct": true
+      },
+      {
+        "text": "All production during a period",
+        "correct": false
+      },
+      {
+        "text": "An entire department",
+        "correct": false
+      },
+      {
+        "text": "A single product unit in continuous production",
+        "correct": false
+      }
     ],
-    "explanation": "A job order cost sheet is the central document in job-order costing. It tracks all direct materials, direct labor, and applied overhead for a specific job or batch. Each job gets its own cost sheet."
+    "explanation": "ジョブ原価計算書はジョブオーダー原価計算の中心的文書。特定のジョブまたはバッチのすべての直接材料、直接労務費、配賦間接費を追跡する。各ジョブに独自の原価計算書がある。"
   },
   {
     "category": "Product Costing",
     "question": "In process costing, equivalent units of production represent:",
     "options": [
-      {"text": "The number of whole units that could have been completed given the work done", "correct": true},
-      {"text": "The total physical units in production", "correct": false},
-      {"text": "The number of units started during the period", "correct": false},
-      {"text": "The number of units completed and transferred out", "correct": false}
+      {
+        "text": "The number of whole units that could have been completed given the work done",
+        "correct": true
+      },
+      {
+        "text": "The total physical units in production",
+        "correct": false
+      },
+      {
+        "text": "The number of units started during the period",
+        "correct": false
+      },
+      {
+        "text": "The number of units completed and transferred out",
+        "correct": false
+      }
     ],
-    "explanation": "Equivalent units convert partially completed units into an equivalent number of fully completed units. For example, 200 units 50% complete = 100 equivalent units. This is essential for accurate cost allocation in process costing."
+    "explanation": "換算量は部分的に完成した単位を完成品に相当する数量に換算する。例：200単位の50%完成品 = 100換算量。工程別原価計算で正確な原価配賦に不可欠。"
   },
   {
     "category": "Product Costing",
     "question": "Using the weighted average method, equivalent units for transferred-in costs for units in ending WIP are:",
     "options": [
-      {"text": "100% complete for transferred-in costs regardless of the processing stage", "correct": true},
-      {"text": "0% complete because they are still in process", "correct": false},
-      {"text": "50% complete as a standard average", "correct": false},
-      {"text": "Equal to the conversion percentage complete", "correct": false}
+      {
+        "text": "100% complete for transferred-in costs regardless of the processing stage",
+        "correct": true
+      },
+      {
+        "text": "0% complete because they are still in process",
+        "correct": false
+      },
+      {
+        "text": "50% complete as a standard average",
+        "correct": false
+      },
+      {
+        "text": "Equal to the conversion percentage complete",
+        "correct": false
+      }
     ],
-    "explanation": "Transferred-in costs represent work done in the previous department. Units in ending WIP have already received 100% of the previous department's work. They are 100% complete for transferred-in costs but may be partially complete for conversion."
+    "explanation": "振替原価は前工程での作業を表す。期末仕掛品の単位は前工程の作業を既に100%受けているため、振替原価については100%完成だが、加工費は部分的に完成。"
   },
   {
     "category": "Product Costing",
     "question": "The cost of goods manufactured equals:",
     "options": [
-      {"text": "Total manufacturing costs + Beginning WIP - Ending WIP", "correct": true},
-      {"text": "Total manufacturing costs + Ending WIP - Beginning WIP", "correct": false},
-      {"text": "Direct materials + Direct labor + Factory Overhead", "correct": false},
-      {"text": "Sales - Gross Profit", "correct": false}
+      {
+        "text": "Total manufacturing costs + Beginning WIP - Ending WIP",
+        "correct": true
+      },
+      {
+        "text": "Total manufacturing costs + Ending WIP - Beginning WIP",
+        "correct": false
+      },
+      {
+        "text": "Direct materials + Direct labor + Factory Overhead",
+        "correct": false
+      },
+      {
+        "text": "Sales - Gross Profit",
+        "correct": false
+      }
     ],
-    "explanation": "COGM = Beginning WIP + Total Manufacturing Costs (DM used + DL + FOH applied) - Ending WIP. This formula determines the cost of goods completed and transferred to Finished Goods during the period."
+    "explanation": "製品製造原価 = 期首仕掛品 + 総製造費用（直接材料費 + 直接労務費 + 製造間接費配賦額）- 期末仕掛品。当期に完成し製品に振り替えられた原価を決定する公式。"
   },
   {
     "category": "Product Costing",
     "question": "A department started 10,000 units, completed 8,000, and has 2,000 units 60% complete. Under weighted average, equivalent units for conversion costs are:",
     "options": [
-      {"text": "9,200 equivalent units", "correct": true},
-      {"text": "8,000 equivalent units", "correct": false},
-      {"text": "10,000 equivalent units", "correct": false},
-      {"text": "8,600 equivalent units", "correct": false}
+      {
+        "text": "9,200 equivalent units",
+        "correct": true
+      },
+      {
+        "text": "8,000 equivalent units",
+        "correct": false
+      },
+      {
+        "text": "10,000 equivalent units",
+        "correct": false
+      },
+      {
+        "text": "8,600 equivalent units",
+        "correct": false
+      }
     ],
-    "explanation": "Weighted average EU = Units completed + (Ending WIP x % complete) = 8,000 + (2,000 x 60%) = 8,000 + 1,200 = 9,200 equivalent units. Weighted average does NOT consider the degree of completion of beginning WIP."
+    "explanation": "加重平均換算量 = 完成品 +（期末仕掛品 x 完成度）= 8,000 +（2,000 x 60%）= 8,000 + 1,200 = 9,200 換算量。加重平均法は期首仕掛品の完成度を考慮しない。"
   },
   {
     "category": "Product Costing",
     "question": "Using FIFO, if beginning WIP was 3,000 units (40% complete), 47,000 units were started, and 45,000 units were completed, equivalent units for conversion are (ending WIP 5,000 units, 20% complete):",
     "options": [
-      {"text": "44,200 equivalent units", "correct": true},
-      {"text": "46,000 equivalent units", "correct": false},
-      {"text": "47,000 equivalent units", "correct": false},
-      {"text": "45,000 equivalent units", "correct": false}
+      {
+        "text": "44,200 equivalent units",
+        "correct": true
+      },
+      {
+        "text": "46,000 equivalent units",
+        "correct": false
+      },
+      {
+        "text": "47,000 equivalent units",
+        "correct": false
+      },
+      {
+        "text": "45,000 equivalent units",
+        "correct": false
+      }
     ],
-    "explanation": "FIFO EU = Work needed to complete beg WIP (3,000 x 60% = 1,800) + Units started and completed (45,000 - 3,000 = 42,000) + Work done on ending WIP (5,000 x 20% = 1,000). Total = 1,800 + 42,000 + 1,000 = 44,800. With the FIFO formula using different completion percentages: the answer depends on the specific data. Using standard approach: EU = 44,200."
+    "explanation": "FIFO換算量 = 期首仕掛品の残作業（3,000 x 60% = 1,800）+ 当期着手完成（45,000 - 3,000 = 42,000）+ 期末仕掛品の作業（5,000 x 20% = 1,000）。合計 = 44,800。標準的アプローチ：44,200。"
   },
   {
     "category": "Product Costing",
     "question": "Process costing is most appropriate for:",
     "options": [
-      {"text": "Industries producing homogeneous products in continuous processes", "correct": true},
-      {"text": "Custom job shops producing unique products", "correct": false},
-      {"text": "Service industries only", "correct": false},
-      {"text": "Companies with very low production volumes", "correct": false}
+      {
+        "text": "Industries producing homogeneous products in continuous processes",
+        "correct": true
+      },
+      {
+        "text": "Custom job shops producing unique products",
+        "correct": false
+      },
+      {
+        "text": "Service industries only",
+        "correct": false
+      },
+      {
+        "text": "Companies with very low production volumes",
+        "correct": false
+      }
     ],
-    "explanation": "Process costing suits continuous, mass production of identical products: oil refining, chemical processing, food processing, paper manufacturing. Costs are averaged over all units rather than tracked individually."
+    "explanation": "工程別原価計算は、同一製品の連続的大量生産に最適：石油精製、化学処理、食品加工、製紙。原価は個別に追跡するのではなく全単位に平均化される。"
   },
   {
     "category": "Product Costing",
     "question": "Job-order costing is most appropriate for:",
     "options": [
-      {"text": "Companies producing custom or distinct products/batches", "correct": true},
-      {"text": "Companies producing identical units in continuous flow", "correct": false},
-      {"text": "Retail stores with standardized inventory", "correct": false},
-      {"text": "Utility companies providing homogeneous services", "correct": false}
+      {
+        "text": "Companies producing custom or distinct products/batches",
+        "correct": true
+      },
+      {
+        "text": "Companies producing identical units in continuous flow",
+        "correct": false
+      },
+      {
+        "text": "Retail stores with standardized inventory",
+        "correct": false
+      },
+      {
+        "text": "Utility companies providing homogeneous services",
+        "correct": false
+      }
     ],
-    "explanation": "Job-order costing tracks costs for each distinct job, batch, or project: custom furniture, printing jobs, legal cases, audit engagements, construction projects. Each job can have different materials, labor, and overhead requirements."
+    "explanation": "ジョブオーダー原価計算は各ジョブ、バッチ、プロジェクトの原価を個別に追跡：カスタム家具、印刷ジョブ、法律案件、監査業務、建設プロジェクト。各ジョブの材料・労務費・間接費要件が異なる。"
   },
   {
     "category": "Product Costing",
     "question": "When finished goods are sold, the entry is:",
     "options": [
-      {"text": "(Debit) Cost of Goods Sold / (Credit) Finished Goods Inventory", "correct": true},
-      {"text": "(Debit) Finished Goods / (Credit) WIP", "correct": false},
-      {"text": "(Debit) Cost of Goods Sold / (Credit) WIP", "correct": false},
-      {"text": "(Debit) Sales Revenue / (Credit) Finished Goods", "correct": false}
+      {
+        "text": "(Debit) Cost of Goods Sold / (Credit) Finished Goods Inventory",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Finished Goods / (Credit) WIP",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Sold / (Credit) WIP",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Sales Revenue / (Credit) Finished Goods",
+        "correct": false
+      }
     ],
-    "explanation": "The cost of finished goods is recognized as an expense (COGS) when sold. The revenue side records (Dr) Cash/AR and (Cr) Sales Revenue separately. The matching principle requires the cost to be matched with the revenue in the same period."
+    "explanation": "完成品のコストは販売時に費用（売上原価）として認識される。収益側は別途（借方）現金/売掛金、（貸方）売上高として記録。費用収益対応の原則により原価と収益を同じ期間に対応させる。"
   },
   {
     "category": "Product Costing",
     "question": "A department's total cost to account for is 500,000 yen. Equivalent units: 10,000 (materials), 9,000 (conversion). Cost per EU for materials and conversion are:",
     "options": [
-      {"text": "Cannot be determined without knowing the separate material and conversion costs", "correct": true},
-      {"text": "Materials: 50 yen, Conversion: 50 yen", "correct": false},
-      {"text": "Materials: 50 yen, Conversion: 55.56 yen", "correct": false},
-      {"text": "Both: 52.63 yen", "correct": false}
+      {
+        "text": "Cannot be determined without knowing the separate material and conversion costs",
+        "correct": true
+      },
+      {
+        "text": "Materials: 50 yen, Conversion: 50 yen",
+        "correct": false
+      },
+      {
+        "text": "Materials: 50 yen, Conversion: 55.56 yen",
+        "correct": false
+      },
+      {
+        "text": "Both: 52.63 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Without knowing how much of the 500,000 is materials cost vs conversion cost, individual EU costs cannot be determined. In practice, materials and conversion costs are tracked separately because they often have different completion percentages."
+    "explanation": "500,000のうち直接材料費と加工費がそれぞれいくらか分からない限り、個別の換算単位原価は計算できない。実際には材料と加工費は完成度が異なることが多いため別々に追跡する。"
   },
   {
     "category": "Product Costing",
     "question": "Total manufacturing costs include:",
     "options": [
-      {"text": "Direct materials used + Direct labor + Factory overhead", "correct": true},
-      {"text": "Direct materials purchased + Direct labor + Selling expenses", "correct": false},
-      {"text": "Beginning WIP + Direct materials + Direct labor", "correct": false},
-      {"text": "Cost of goods sold + Ending finished goods", "correct": false}
+      {
+        "text": "Direct materials used + Direct labor + Factory overhead",
+        "correct": true
+      },
+      {
+        "text": "Direct materials purchased + Direct labor + Selling expenses",
+        "correct": false
+      },
+      {
+        "text": "Beginning WIP + Direct materials + Direct labor",
+        "correct": false
+      },
+      {
+        "text": "Cost of goods sold + Ending finished goods",
+        "correct": false
+      }
     ],
-    "explanation": "Total manufacturing costs represent all costs incurred to manufacture products during the period: direct materials used, direct labor, and factory overhead. These costs are added to beginning WIP to arrive at total cost to account for."
+    "explanation": "総製造費用は当期に製品を製造するために発生したすべてのコスト：直接材料費、直接労務費、製造間接費。これらは期首仕掛品に加えられ、総原価配分対象となる。"
   },
   {
     "category": "Product Costing",
     "question": "In process costing, the cost per equivalent unit under the weighted average method is calculated as:",
     "options": [
-      {"text": "(Beginning WIP cost + Current period cost) / Weighted average equivalent units", "correct": true},
-      {"text": "Current period cost only / FIFO equivalent units", "correct": false},
-      {"text": "Total cost / Physical units", "correct": false},
-      {"text": "Ending WIP cost / Ending WIP equivalent units", "correct": false}
+      {
+        "text": "(Beginning WIP cost + Current period cost) / Weighted average equivalent units",
+        "correct": true
+      },
+      {
+        "text": "Current period cost only / FIFO equivalent units",
+        "correct": false
+      },
+      {
+        "text": "Total cost / Physical units",
+        "correct": false
+      },
+      {
+        "text": "Ending WIP cost / Ending WIP equivalent units",
+        "correct": false
+      }
     ],
-    "explanation": "Weighted average combines beginning WIP costs and current period costs, then divides by weighted average equivalent units. This is simpler than FIFO but assumes prior period work is at the same cost as current period work."
+    "explanation": "加重平均法は期首仕掛品原価と当期原価を結合し、加重平均換算量で割る。FIFOより簡単だが、前期の作業を当期と同じ原価と仮定する。"
   },
   {
     "category": "Product Costing",
     "question": "A key difference between weighted average and FIFO in process costing is:",
     "options": [
-      {"text": "FIFO separates current period costs from beginning WIP costs; weighted average combines them", "correct": true},
-      {"text": "Weighted average is more accurate than FIFO", "correct": false},
-      {"text": "FIFO uses only physical units; weighted average uses equivalent units", "correct": false},
-      {"text": "They always produce identical results", "correct": false}
+      {
+        "text": "FIFO separates current period costs from beginning WIP costs; weighted average combines them",
+        "correct": true
+      },
+      {
+        "text": "Weighted average is more accurate than FIFO",
+        "correct": false
+      },
+      {
+        "text": "FIFO uses only physical units; weighted average uses equivalent units",
+        "correct": false
+      },
+      {
+        "text": "They always produce identical results",
+        "correct": false
+      }
     ],
-    "explanation": "FIFO provides more current cost information by treating beginning WIP separately. Weighted average blends costs across periods, which is simpler but may distort current period cost analysis. FIFO is preferred when costs change significantly between periods."
+    "explanation": "FIFOは期首仕掛品を別に扱い、より最新の原価情報を提供する。加重平均は期間をまたいで原価を混在させ、より簡単だが当期の原価分析を歪める可能性がある。期間間で原価が大きく変動する場合FIFOが好まれる。"
   },
   {
     "category": "Product Costing",
     "question": "Spoilage in job-order costing that is attributable to a specific job should be charged to:",
     "options": [
-      {"text": "That specific job", "correct": true},
-      {"text": "Factory Overhead (spread across all jobs)", "correct": false},
-      {"text": "A loss account", "correct": false},
-      {"text": "Cost of Goods Sold", "correct": false}
+      {
+        "text": "That specific job",
+        "correct": true
+      },
+      {
+        "text": "Factory Overhead (spread across all jobs)",
+        "correct": false
+      },
+      {
+        "text": "A loss account",
+        "correct": false
+      },
+      {
+        "text": "Cost of Goods Sold",
+        "correct": false
+      }
     ],
-    "explanation": "If spoilage is caused by the unique requirements of a specific job (e.g., unusual specifications, tight tolerances), the cost should be charged to that job. Normal spoilage common to all production is allocated through overhead."
+    "explanation": "仕損が特定ジョブの固有要件による場合（例：特殊な仕様、厳しい公差）、そのコストはそのジョブに負担させる。すべての生産に共通する正常仕損は間接費を通じて配賦。"
   },
   {
     "category": "Product Costing",
     "question": "In a multi-department process costing system, costs are transferred between departments by:",
     "options": [
-      {"text": "(Debit) WIP - Next Department / (Credit) WIP - Previous Department", "correct": true},
-      {"text": "(Debit) Finished Goods / (Credit) WIP - Previous Department", "correct": false},
-      {"text": "(Debit) Cost of Goods Sold / (Credit) WIP - Previous Department", "correct": false},
-      {"text": "(Debit) WIP - Previous Department / (Credit) WIP - Next Department", "correct": false}
+      {
+        "text": "(Debit) WIP - Next Department / (Credit) WIP - Previous Department",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Finished Goods / (Credit) WIP - Previous Department",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Sold / (Credit) WIP - Previous Department",
+        "correct": false
+      },
+      {
+        "text": "(Debit) WIP - Previous Department / (Credit) WIP - Next Department",
+        "correct": false
+      }
     ],
-    "explanation": "In multi-department processing, completed units and their costs transfer from one department's WIP to the next department's WIP. Only the final department transfers completed units to Finished Goods."
+    "explanation": "多工程工程別原価計算では、完成した単位とその原価は一つの部門の仕掛品から次の部門の仕掛品に振り替えられる。最終工程のみ完成品に振り替える。"
   },
   {
     "category": "Product Costing",
     "question": "A production cost report summarizes:",
     "options": [
-      {"text": "Physical flow of units, equivalent units, cost per EU, and cost assignment for a department", "correct": true},
-      {"text": "Only the total cost of goods sold", "correct": false},
-      {"text": "Only the physical units in production", "correct": false},
-      {"text": "The job order cost sheet for all active jobs", "correct": false}
+      {
+        "text": "Physical flow of units, equivalent units, cost per EU, and cost assignment for a department",
+        "correct": true
+      },
+      {
+        "text": "Only the total cost of goods sold",
+        "correct": false
+      },
+      {
+        "text": "Only the physical units in production",
+        "correct": false
+      },
+      {
+        "text": "The job order cost sheet for all active jobs",
+        "correct": false
+      }
     ],
-    "explanation": "The production cost report is the key document in process costing. It has four sections: (1) Physical flow, (2) Equivalent units, (3) Cost per equivalent unit, (4) Cost reconciliation (assigning costs to completed units and ending WIP)."
+    "explanation": "生産原価報告書は工程別原価計算の主要文書。4つのセクション：(1) 物理的流動、(2) 換算量、(3) 換算単位原価、(4) 原価配分（完成品と期末仕掛品への原価配賦）。"
   },
   {
     "category": "Product Costing",
     "question": "A company uses job-order costing. Job 101 has: DM 50,000, DL 30,000, OH applied at 120% of DL. Total job cost is:",
     "options": [
-      {"text": "116,000 yen", "correct": true},
-      {"text": "80,000 yen", "correct": false},
-      {"text": "110,000 yen", "correct": false},
-      {"text": "90,000 yen", "correct": false}
+      {
+        "text": "116,000 yen",
+        "correct": true
+      },
+      {
+        "text": "80,000 yen",
+        "correct": false
+      },
+      {
+        "text": "110,000 yen",
+        "correct": false
+      },
+      {
+        "text": "90,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Applied OH = 30,000 x 120% = 36,000. Total job cost = 50,000 + 30,000 + 36,000 = 116,000 yen. The overhead rate is applied based on the actual direct labor cost of the job."
+    "explanation": "配賦間接費 = 30,000 x 120% = 36,000。総ジョブ原価 = 50,000 + 30,000 + 36,000 = 116,000 円。間接費率はジョブの実際直接労務費に基づいて適用される。"
   },
   {
     "category": "Product Costing",
     "question": "The weighted average cost per equivalent unit for conversion is 50 yen. Completed and transferred out: 8,000 EU. Ending WIP: 1,200 EU. The cost transferred out is:",
     "options": [
-      {"text": "400,000 yen", "correct": true},
-      {"text": "460,000 yen", "correct": false},
-      {"text": "340,000 yen", "correct": false},
-      {"text": "500,000 yen", "correct": false}
+      {
+        "text": "400,000 yen",
+        "correct": true
+      },
+      {
+        "text": "460,000 yen",
+        "correct": false
+      },
+      {
+        "text": "340,000 yen",
+        "correct": false
+      },
+      {
+        "text": "500,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Cost transferred out = 8,000 EU x 50 yen = 400,000 yen. Ending WIP = 1,200 EU x 50 yen = 60,000 yen. Total accounted for = 460,000 yen."
+    "explanation": "完成品への振替原価 = 8,000 換算量 x 50 円 = 400,000 円。期末仕掛品 = 1,200 換算量 x 50 円 = 60,000 円。合計配分原価 = 460,000 円。"
   },
   {
     "category": "Product Costing",
     "question": "In process costing, when materials are added continuously throughout the process, equivalent units for materials equal:",
     "options": [
-      {"text": "Completed units + (Ending WIP units x % complete for materials)", "correct": true},
-      {"text": "Only completed units", "correct": false},
-      {"text": "All physical units regardless of completion", "correct": false},
-      {"text": "Only the units started during the period", "correct": false}
+      {
+        "text": "Completed units + (Ending WIP units x % complete for materials)",
+        "correct": true
+      },
+      {
+        "text": "Only completed units",
+        "correct": false
+      },
+      {
+        "text": "All physical units regardless of completion",
+        "correct": false
+      },
+      {
+        "text": "Only the units started during the period",
+        "correct": false
+      }
     ],
-    "explanation": "When materials are added continuously, the degree of completion for materials must be estimated for ending WIP, just like conversion costs. This differs from materials added at the beginning (always 100% complete)."
+    "explanation": "工程全体で材料が連続的に投入される場合、期末仕掛品の材料の完成度を見積もる必要がある（加工費と同様）。工程始点投入（常に100%完成）とは異なる。"
   },
   {
     "category": "Product Costing",
     "question": "Operation costing is a hybrid of:",
     "options": [
-      {"text": "Job-order and process costing", "correct": true},
-      {"text": "Standard and actual costing", "correct": false},
-      {"text": "FIFO and weighted average costing", "correct": false},
-      {"text": "Variable and absorption costing", "correct": false}
+      {
+        "text": "Job-order and process costing",
+        "correct": true
+      },
+      {
+        "text": "Standard and actual costing",
+        "correct": false
+      },
+      {
+        "text": "FIFO and weighted average costing",
+        "correct": false
+      },
+      {
+        "text": "Variable and absorption costing",
+        "correct": false
+      }
     ],
-    "explanation": "Operation costing applies process costing to conversion costs (which are similar across products) and job-order costing to direct materials (which differ between products). Example: clothing manufacturing (same process, different fabrics)."
+    "explanation": "オペレーション原価計算は加工費に工程別原価計算を（製品間で類似）、直接材料にジョブオーダー原価計算を（製品間で異なる）適用するハイブリッド。例：衣料製造（同じ工程、異なる生地）。"
   },
   {
     "category": "Product Costing",
     "question": "A manufacturer's cost of goods sold is calculated as:",
     "options": [
-      {"text": "Beginning Finished Goods + Cost of Goods Manufactured - Ending Finished Goods", "correct": true},
-      {"text": "Beginning WIP + Total Manufacturing Costs - Ending WIP", "correct": false},
-      {"text": "Total Manufacturing Costs - Ending WIP", "correct": false},
-      {"text": "Sales Revenue - Gross Profit", "correct": false}
+      {
+        "text": "Beginning Finished Goods + Cost of Goods Manufactured - Ending Finished Goods",
+        "correct": true
+      },
+      {
+        "text": "Beginning WIP + Total Manufacturing Costs - Ending WIP",
+        "correct": false
+      },
+      {
+        "text": "Total Manufacturing Costs - Ending WIP",
+        "correct": false
+      },
+      {
+        "text": "Sales Revenue - Gross Profit",
+        "correct": false
+      }
     ],
-    "explanation": "COGS = Beginning FG + COGM - Ending FG. This parallels the COGM formula but at the finished goods level. COGM = Beginning WIP + Total Manufacturing Costs - Ending WIP."
+    "explanation": "売上原価 = 期首製品 + 製品製造原価 - 期末製品。製品レベルでの製造原価計算書と同様の公式。製品製造原価 = 期首仕掛品 + 総製造費用 - 期末仕掛品。"
   },
   {
     "category": "Product Costing",
     "question": "Under absorption costing, fixed factory overhead is:",
     "options": [
-      {"text": "Included as part of product cost (inventoriable)", "correct": true},
-      {"text": "Expensed immediately as a period cost", "correct": false},
-      {"text": "Treated as a separate line item on the balance sheet", "correct": false},
-      {"text": "Only allocated to units sold, not to ending inventory", "correct": false}
+      {
+        "text": "Included as part of product cost (inventoriable)",
+        "correct": true
+      },
+      {
+        "text": "Expensed immediately as a period cost",
+        "correct": false
+      },
+      {
+        "text": "Treated as a separate line item on the balance sheet",
+        "correct": false
+      },
+      {
+        "text": "Only allocated to units sold, not to ending inventory",
+        "correct": false
+      }
     ],
-    "explanation": "Absorption costing (full costing) includes ALL manufacturing costs (direct materials, direct labor, both variable and fixed overhead) as product costs. This is required by GAAP for external reporting. Variable costing only includes variable costs as product costs."
+    "explanation": "吸収原価計算（全部原価計算）はすべての製造原価（直接材料、直接労務費、変動・固定間接費）を製品原価に含む。GAAPでの外部報告で義務付けられている。変動原価計算は変動費のみを製品原価に含む。"
   },
   {
     "category": "Product Costing",
     "question": "Under variable (direct) costing, fixed factory overhead is:",
     "options": [
-      {"text": "Treated as a period expense and deducted on the income statement", "correct": true},
-      {"text": "Included in product cost and inventoried", "correct": false},
-      {"text": "Allocated only to units sold", "correct": false},
-      {"text": "Added to selling and administrative expenses", "correct": false}
+      {
+        "text": "Treated as a period expense and deducted on the income statement",
+        "correct": true
+      },
+      {
+        "text": "Included in product cost and inventoried",
+        "correct": false
+      },
+      {
+        "text": "Allocated only to units sold",
+        "correct": false
+      },
+      {
+        "text": "Added to selling and administrative expenses",
+        "correct": false
+      }
     ],
-    "explanation": "Variable costing treats fixed overhead as a period cost, expensed in the period incurred. This results in lower inventory values compared to absorption costing. Variable costing is useful for internal decision-making but not GAAP for external reporting."
+    "explanation": "変動原価計算は固定間接費を期間費用として処理し、発生期間に損益計算書で費用化する。吸収原価計算より低い棚卸資産価値になる。内部意思決定に有用だがGAAPでの外部報告には使用できない。"
   },
   {
     "category": "Product Costing",
     "question": "A department has: Beginning WIP 20,000 (500 EU, 40% conversion), Costs added 180,000 (4,500 EU started). Ending WIP: 200 units, 50% complete. Under FIFO, cost per EU for conversion is:",
     "options": [
-      {"text": "40 yen per EU", "correct": true},
-      {"text": "44.44 yen per EU", "correct": false},
-      {"text": "36.36 yen per EU", "correct": false},
-      {"text": "200 yen per EU", "correct": false}
+      {
+        "text": "40 yen per EU",
+        "correct": true
+      },
+      {
+        "text": "44.44 yen per EU",
+        "correct": false
+      },
+      {
+        "text": "36.36 yen per EU",
+        "correct": false
+      },
+      {
+        "text": "200 yen per EU",
+        "correct": false
+      }
     ],
-    "explanation": "FIFO EU = Work on beg WIP (500 x 60% = 300) + Started and completed (4,500 - 500 - 200 = 3,800 assuming no loss) + End WIP (200 x 50% = 100). Total EU = 300 + 3,800 + 100 = 4,200. Cost per EU = 180,000 / 4,200 = 42.86. With alternative interpretation: 180,000 / (some EU) = varies by assumption. The simple answer of 40 yen assumes current period EU = 4,500."
+    "explanation": "FIFO換算量 = 期首仕掛品の作業（500 x 60% = 300）+ 当期着手完成（4,500 - 500 - 200 = 3,800）+ 期末仕掛品（200 x 50% = 100）。合計 = 4,200。換算単位原価 = 180,000 / 4,200 = 42.86。簡便解答：40円（当期換算量 = 4,500と仮定）。"
   },
   {
     "category": "Product Costing",
     "question": "Transferred-in costs in a second processing department are treated similarly to:",
     "options": [
-      {"text": "Materials added at the beginning of the process", "correct": true},
-      {"text": "Conversion costs", "correct": false},
-      {"text": "Factory overhead", "correct": false},
-      {"text": "Direct labor in the second department", "correct": false}
+      {
+        "text": "Materials added at the beginning of the process",
+        "correct": true
+      },
+      {
+        "text": "Conversion costs",
+        "correct": false
+      },
+      {
+        "text": "Factory overhead",
+        "correct": false
+      },
+      {
+        "text": "Direct labor in the second department",
+        "correct": false
+      }
     ],
-    "explanation": "Transferred-in costs (from the prior department) are 100% complete for all units that have entered the department, just like materials added at the beginning. They are tracked as a separate cost category in the production cost report."
+    "explanation": "振替原価（前工程から）は部門に入ったすべての単位について100%完了しており、工程始点で投入される材料と同様に扱われる。生産原価報告書で別のコスト項目として追跡される。"
   },
   {
     "category": "Product Costing",
     "question": "Normal spoilage in process costing is allocated to:",
     "options": [
-      {"text": "Both completed units and ending WIP", "correct": true},
-      {"text": "Only completed units transferred out", "correct": false},
-      {"text": "A separate loss account", "correct": false},
-      {"text": "Only ending WIP", "correct": false}
+      {
+        "text": "Both completed units and ending WIP",
+        "correct": true
+      },
+      {
+        "text": "Only completed units transferred out",
+        "correct": false
+      },
+      {
+        "text": "A separate loss account",
+        "correct": false
+      },
+      {
+        "text": "Only ending WIP",
+        "correct": false
+      }
     ],
-    "explanation": "Normal spoilage cost is spread across good units (both completed and in ending WIP) because it is an inherent cost of production. The cost per EU is calculated including the spoilage, and this higher cost is assigned to all good units."
+    "explanation": "正常仕損コストは生産に固有のコストとして良品（完成品と期末仕掛品の両方）に配分される。換算単位原価に仕損を含めて計算し、この高い原価をすべての良品に配賦する。"
   },
   {
     "category": "Product Costing",
     "question": "A company had: Beginning FG 100,000, COGM 500,000, Ending FG 120,000. Cost of goods sold is:",
     "options": [
-      {"text": "480,000 yen", "correct": true},
-      {"text": "500,000 yen", "correct": false},
-      {"text": "520,000 yen", "correct": false},
-      {"text": "400,000 yen", "correct": false}
+      {
+        "text": "480,000 yen",
+        "correct": true
+      },
+      {
+        "text": "500,000 yen",
+        "correct": false
+      },
+      {
+        "text": "520,000 yen",
+        "correct": false
+      },
+      {
+        "text": "400,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "COGS = Beginning FG (100,000) + COGM (500,000) - Ending FG (120,000) = 480,000 yen. This is the cost of the goods that were actually sold during the period."
+    "explanation": "売上原価 = 期首製品（100,000）+ 製品製造原価（500,000）- 期末製品（120,000）= 480,000 円。当期に実際に販売された商品の原価。"
   },
   {
     "category": "Product Costing",
     "question": "In a production cost report, the 'cost reconciliation' section verifies that:",
     "options": [
-      {"text": "Total cost to account for equals total cost accounted for (transferred out + ending WIP)", "correct": true},
-      {"text": "Equivalent units for materials equal equivalent units for conversion", "correct": false},
-      {"text": "Physical units in equal physical units out", "correct": false},
-      {"text": "Budgeted costs equal actual costs", "correct": false}
+      {
+        "text": "Total cost to account for equals total cost accounted for (transferred out + ending WIP)",
+        "correct": true
+      },
+      {
+        "text": "Equivalent units for materials equal equivalent units for conversion",
+        "correct": false
+      },
+      {
+        "text": "Physical units in equal physical units out",
+        "correct": false
+      },
+      {
+        "text": "Budgeted costs equal actual costs",
+        "correct": false
+      }
     ],
-    "explanation": "Cost reconciliation ensures the production cost report balances: costs from beginning WIP + current period costs = costs transferred out + costs in ending WIP + any spoilage costs. Any imbalance indicates a calculation error."
+    "explanation": "原価配分は生産原価報告書が均衡していることを確認する：期首仕掛品 + 当期コスト = 振替原価 + 期末仕掛品 + 仕損コスト。不均衡は計算誤りを示す。"
   },
   {
     "category": "Product Costing",
     "question": "A company uses backflush costing with two trigger points: purchase of materials and sale of finished goods. When materials are purchased, the entry is:",
     "options": [
-      {"text": "(Debit) Raw and In Process Inventory / (Credit) Accounts Payable", "correct": true},
-      {"text": "(Debit) Work in Process / (Credit) Raw Materials", "correct": false},
-      {"text": "(Debit) Cost of Goods Sold / (Credit) Accounts Payable", "correct": false},
-      {"text": "No entry until the product is sold", "correct": false}
+      {
+        "text": "(Debit) Raw and In Process Inventory / (Credit) Accounts Payable",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Work in Process / (Credit) Raw Materials",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cost of Goods Sold / (Credit) Accounts Payable",
+        "correct": false
+      },
+      {
+        "text": "No entry until the product is sold",
+        "correct": false
+      }
     ],
-    "explanation": "In backflush costing, the RIP (Raw and In Process) account combines raw materials and WIP. Materials are debited to RIP when purchased. Conversion costs and product completion entries are delayed until triggered by the sale of finished goods."
+    "explanation": "バックフラッシュ原価計算では、RIP（材料・仕掛品）勘定が原材料と仕掛品を兼ねる。材料購入時にRIPに借方記録。製品完成と変換費の仕訳は製品販売時にトリガーされるまで遅延される。"
   },
   {
     "category": "Product Costing",
     "question": "Joint products are:",
     "options": [
-      {"text": "Two or more products with significant sales value that are produced simultaneously from the same process", "correct": true},
-      {"text": "Products that are identical in every way", "correct": false},
-      {"text": "Products produced in separate processes", "correct": false},
-      {"text": "Byproducts with minimal sales value", "correct": false}
+      {
+        "text": "Two or more products with significant sales value that are produced simultaneously from the same process",
+        "correct": true
+      },
+      {
+        "text": "Products that are identical in every way",
+        "correct": false
+      },
+      {
+        "text": "Products produced in separate processes",
+        "correct": false
+      },
+      {
+        "text": "Byproducts with minimal sales value",
+        "correct": false
+      }
     ],
-    "explanation": "Joint products (e.g., gasoline, diesel, kerosene from crude oil) are the primary outputs of a joint production process. They have significant individual sales values and cannot be identified as separate products until the split-off point."
+    "explanation": "結合製品（原油からのガソリン、軽油、灯油など）は共同生産プロセスの主要産出物。個々に重要な販売価値があり、分離点までは別製品として識別できない。"
   },
   {
     "category": "Product Costing",
     "question": "The split-off point in joint costing is:",
     "options": [
-      {"text": "The point at which joint products become separately identifiable", "correct": true},
-      {"text": "The point at which raw materials are purchased", "correct": false},
-      {"text": "The point at which finished goods are sold", "correct": false},
-      {"text": "The point at which production begins", "correct": false}
+      {
+        "text": "The point at which joint products become separately identifiable",
+        "correct": true
+      },
+      {
+        "text": "The point at which raw materials are purchased",
+        "correct": false
+      },
+      {
+        "text": "The point at which finished goods are sold",
+        "correct": false
+      },
+      {
+        "text": "The point at which production begins",
+        "correct": false
+      }
     ],
-    "explanation": "The split-off point is where joint products diverge from a common production process. Joint costs (incurred before split-off) must be allocated to the products. Costs incurred after split-off are separable costs traced to individual products."
+    "explanation": "分離点は共同製品が共通生産プロセスから分岐する地点。分離点前の結合原価は製品に配賦する必要がある。分離点後のコストは個別原価として各製品にトレースできる。"
   },
   {
     "category": "Product Costing",
     "question": "The sales value at split-off method allocates joint costs based on:",
     "options": [
-      {"text": "Each product's relative sales value at the split-off point", "correct": true},
-      {"text": "Each product's physical volume or weight", "correct": false},
-      {"text": "Each product's net realizable value after further processing", "correct": false},
-      {"text": "Each product's production cost after split-off", "correct": false}
+      {
+        "text": "Each product's relative sales value at the split-off point",
+        "correct": true
+      },
+      {
+        "text": "Each product's physical volume or weight",
+        "correct": false
+      },
+      {
+        "text": "Each product's net realizable value after further processing",
+        "correct": false
+      },
+      {
+        "text": "Each product's production cost after split-off",
+        "correct": false
+      }
     ],
-    "explanation": "The sales value at split-off method is the most commonly used because it allocates costs based on each product's ability to generate revenue. Products with higher sales value at split-off bear more of the joint costs."
+    "explanation": "分離点売価法は各製品の収益創出能力に基づいて原価を配賦するため最も一般的。分離点で高い売価を持つ製品がより多くの結合原価を負担する。"
   }
 ]

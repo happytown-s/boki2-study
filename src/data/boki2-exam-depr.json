@@ -3,275 +3,575 @@
     "category": "Depreciation & Fixed Assets",
     "question": "Under the straight-line method, annual depreciation on an asset costing 1,000,000 yen with a 5-year useful life and 100,000 yen salvage value is:",
     "options": [
-      {"text": "180,000 yen per year", "correct": true},
-      {"text": "200,000 yen per year", "correct": false},
-      {"text": "225,000 yen per year", "correct": false},
-      {"text": "100,000 yen per year", "correct": false}
+      {
+        "text": "180,000 yen per year",
+        "correct": true
+      },
+      {
+        "text": "200,000 yen per year",
+        "correct": false
+      },
+      {
+        "text": "225,000 yen per year",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen per year",
+        "correct": false
+      }
     ],
-    "explanation": "Annual depreciation = (Cost - Salvage Value) / Useful Life = (1,000,000 - 100,000) / 5 = 180,000 yen per year. This method allocates equal depreciation expense each year."
+    "explanation": "年間減価償却費 =（取得原価 - 残存価額）/ 耐用年数 =（1,000,000 - 100,000）/ 5 = 180,000 円/年。この方法は毎年均等な減価償却費を配賦する。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Under the declining balance method (200% DB) for an asset costing 500,000 yen with a 5-year life, depreciation for Year 1 is:",
     "options": [
-      {"text": "200,000 yen", "correct": true},
-      {"text": "100,000 yen", "correct": false},
-      {"text": "180,000 yen", "correct": false},
-      {"text": "250,000 yen", "correct": false}
+      {
+        "text": "200,000 yen",
+        "correct": true
+      },
+      {
+        "text": "100,000 yen",
+        "correct": false
+      },
+      {
+        "text": "180,000 yen",
+        "correct": false
+      },
+      {
+        "text": "250,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Double declining balance rate = 2 / 5 = 40%. Year 1 depreciation = 500,000 x 40% = 200,000 yen. Under DDB, the salvage value is NOT subtracted initially but the book value cannot go below salvage value."
+    "explanation": "定率法（200% DDB）の償却率 = 2 / 5 = 40%。第1年減価償却費 = 500,000 x 40% = 200,000 円。DDBでは残存価額は当初差し引かないが、帳簿価額は残存価額を下回らない。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Under the sum-of-the-years'-digits method for an asset costing 600,000 yen (salvage 60,000) with a 5-year life, depreciation for Year 1 is:",
     "options": [
-      {"text": "180,000 yen", "correct": true},
-      {"text": "108,000 yen", "correct": false},
-      {"text": "120,000 yen", "correct": false},
-      {"text": "540,000 yen", "correct": false}
+      {
+        "text": "180,000 yen",
+        "correct": true
+      },
+      {
+        "text": "108,000 yen",
+        "correct": false
+      },
+      {
+        "text": "120,000 yen",
+        "correct": false
+      },
+      {
+        "text": "540,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "SYD = 5+4+3+2+1 = 15. Year 1 fraction = 5/15. Depreciation = (600,000 - 60,000) x 5/15 = 540,000 x 5/15 = 180,000 yen. SYD results in higher depreciation in early years, like declining balance."
+    "explanation": "SYD = 5+4+3+2+1 = 15。第1年の分数 = 5/15。減価償却費 =（600,000 - 60,000）x 5/15 = 540,000 x 5/15 = 180,000 円。SYDは定率法と同様に初期の減価償却費が大きい。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "The units of production method calculates depreciation based on:",
     "options": [
-      {"text": "Actual usage or output during the period", "correct": true},
-      {"text": "The passage of time only", "correct": false},
-      {"text": "A fixed percentage of the asset's cost", "correct": false},
-      {"text": "The asset's market value decline", "correct": false}
+      {
+        "text": "Actual usage or output during the period",
+        "correct": true
+      },
+      {
+        "text": "The passage of time only",
+        "correct": false
+      },
+      {
+        "text": "A fixed percentage of the asset's cost",
+        "correct": false
+      },
+      {
+        "text": "The asset's market value decline",
+        "correct": false
+      }
     ],
-    "explanation": "Units of production ties depreciation to actual usage (miles driven, units produced, hours operated). Depreciation per unit = (Cost - Salvage) / Total estimated units. Period depreciation = Rate x Actual units in period."
+    "explanation": "生産高比例法は実際の使用量（走行距離、生産数量、稼働時間）に減価償却費を連動させる。単位当たり償却費 =（原価 - 残存価額）/ 総見積生産量。期間償却費 = レート x 当期実際生産量。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "An asset costs 800,000 yen, salvage value 50,000, estimated total production 300,000 units. If 50,000 units are produced this year, depreciation is:",
     "options": [
-      {"text": "125,000 yen", "correct": true},
-      {"text": "150,000 yen", "correct": false},
-      {"text": "100,000 yen", "correct": false},
-      {"text": "250,000 yen", "correct": false}
+      {
+        "text": "125,000 yen",
+        "correct": true
+      },
+      {
+        "text": "150,000 yen",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen",
+        "correct": false
+      },
+      {
+        "text": "250,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Rate per unit = (800,000 - 50,000) / 300,000 = 2.50 yen per unit. Depreciation = 50,000 x 2.50 = 125,000 yen. This method best matches expense with the asset's actual consumption."
+    "explanation": "単位当たりレート =（800,000 - 50,000）/ 300,000 = 2.50 円/単位。減価償却費 = 50,000 x 2.50 = 125,000 円。この方法は資産の実際の消費に費用を最もよく対応させる。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "When a depreciable asset is sold for more than its book value, the difference is recorded as:",
     "options": [
-      {"text": "A gain on disposal", "correct": true},
-      {"text": "Additional depreciation expense", "correct": false},
-      {"text": "An increase to accumulated depreciation", "correct": false},
-      {"text": "Revenue from asset sales", "correct": false}
+      {
+        "text": "A gain on disposal",
+        "correct": true
+      },
+      {
+        "text": "Additional depreciation expense",
+        "correct": false
+      },
+      {
+        "text": "An increase to accumulated depreciation",
+        "correct": false
+      },
+      {
+        "text": "Revenue from asset sales",
+        "correct": false
+      }
     ],
-    "explanation": "Gain = Selling price - Book value. If the selling price exceeds book value (cost - accumulated depreciation), a gain is recognized. Gains on asset disposal appear in the non-operating section of the income statement."
+    "explanation": "売却益 = 売却価額 - 帳簿価額。売却価額が帳簿価額（原価 - 減価償却累計額）を超える場合、売却益が認識される。資産処分益は損益計算書の営業外に記載される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "An asset purchased for 500,000 yen has accumulated depreciation of 350,000 yen. It is sold for 120,000 yen. The result is:",
     "options": [
-      {"text": "A loss of 30,000 yen", "correct": true},
-      {"text": "A gain of 30,000 yen", "correct": false},
-      {"text": "A gain of 120,000 yen", "correct": false},
-      {"text": "No gain or loss", "correct": false}
+      {
+        "text": "A loss of 30,000 yen",
+        "correct": true
+      },
+      {
+        "text": "A gain of 30,000 yen",
+        "correct": false
+      },
+      {
+        "text": "A gain of 120,000 yen",
+        "correct": false
+      },
+      {
+        "text": "No gain or loss",
+        "correct": false
+      }
     ],
-    "explanation": "Book value = 500,000 - 350,000 = 150,000. Loss = Book value (150,000) - Selling price (120,000) = 30,000 yen loss. Entry: (Dr) Cash 120,000, (Dr) Accum Depr 350,000, (Dr) Loss 30,000 / (Cr) Asset 500,000."
+    "explanation": "帳簿価額 = 500,000 - 350,000 = 150,000。売却損 = 帳簿価額（150,000）- 売却価額（120,000）= 30,000 円の損失。仕訳：（借方）現金 120,000、（借方）減価償却累計額 350,000、（借方）固定資産売却損 30,000 /（貸方）資産 500,000。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "When a depreciable asset is disposed of, depreciation must be recorded up to:",
     "options": [
-      {"text": "The date of disposal", "correct": true},
-      {"text": "The end of the previous fiscal year only", "correct": false},
-      {"text": "The original purchase date anniversary", "correct": false},
-      {"text": "Depreciation stops when the asset becomes fully depreciated", "correct": false}
+      {
+        "text": "The date of disposal",
+        "correct": true
+      },
+      {
+        "text": "The end of the previous fiscal year only",
+        "correct": false
+      },
+      {
+        "text": "The original purchase date anniversary",
+        "correct": false
+      },
+      {
+        "text": "Depreciation stops when the asset becomes fully depreciated",
+        "correct": false
+      }
     ],
-    "explanation": "Depreciation must always be recorded up to the date of disposal to ensure the book value is accurate. This may require a partial-year depreciation calculation if disposal occurs mid-period."
+    "explanation": "処分時まで減価償却費を必ず記録し、帳簿価額が正確であることを確認する。中途処分の場合、部分年度の減価償却費計算が必要になる場合がある。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Capitalized costs of a fixed asset include:",
     "options": [
-      {"text": "Purchase price, taxes, delivery, installation, and any costs to prepare the asset for its intended use", "correct": true},
-      {"text": "Only the purchase price", "correct": false},
-      {"text": "Purchase price and subsequent repair costs", "correct": false},
-      {"text": "Purchase price minus any trade discount", "correct": false}
+      {
+        "text": "Purchase price, taxes, delivery, installation, and any costs to prepare the asset for its intended use",
+        "correct": true
+      },
+      {
+        "text": "Only the purchase price",
+        "correct": false
+      },
+      {
+        "text": "Purchase price and subsequent repair costs",
+        "correct": false
+      },
+      {
+        "text": "Purchase price minus any trade discount",
+        "correct": false
+      }
     ],
-    "explanation": "All costs necessary to acquire and prepare an asset for its intended use are capitalized (added to the asset account). This includes purchase price, transportation, installation, testing, and legal fees. Subsequent repairs and maintenance are expensed."
+    "explanation": "資産を取得して意図した用途に準備するために必要なすべての費用が資産計上される（取得原価に加算される）。これには購入価額、運賃、据付、試運転、法律費用が含まれる。事後の修理・保守は費用処理される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "A subsequent expenditure that extends the useful life of an asset should be:",
     "options": [
-      {"text": "Capitalized (added to the asset's cost)", "correct": true},
-      {"text": "Expensed immediately", "correct": false},
-      {"text": "Recorded as a separate asset", "correct": false},
-      {"text": "Treated as a reduction of accumulated depreciation", "correct": false}
+      {
+        "text": "Capitalized (added to the asset's cost)",
+        "correct": true
+      },
+      {
+        "text": "Expensed immediately",
+        "correct": false
+      },
+      {
+        "text": "Recorded as a separate asset",
+        "correct": false
+      },
+      {
+        "text": "Treated as a reduction of accumulated depreciation",
+        "correct": false
+      }
     ],
-    "explanation": "Expenditures that extend useful life, increase capacity, or improve efficiency beyond original estimates are capitalized as 'betterments' or 'additions.' Routine maintenance and repairs are expensed."
+    "explanation": "耐用年数を延長する、能力を増加させる、または当初見積を超える効率改善をする支出は「改良」または「付加」として資産計上される。日常的な保守や修理は費用処理される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Impairment of a fixed asset occurs when:",
     "options": [
-      {"text": "The asset's recoverable amount is less than its book value", "correct": true},
-      {"text": "The asset's market value exceeds its book value", "correct": false},
-      {"text": "The asset becomes fully depreciated", "correct": false},
-      {"text": "Depreciation expense exceeds revenue", "correct": false}
+      {
+        "text": "The asset's recoverable amount is less than its book value",
+        "correct": true
+      },
+      {
+        "text": "The asset's market value exceeds its book value",
+        "correct": false
+      },
+      {
+        "text": "The asset becomes fully depreciated",
+        "correct": false
+      },
+      {
+        "text": "Depreciation expense exceeds revenue",
+        "correct": false
+      }
     ],
-    "explanation": "An asset is impaired when events or changes indicate its carrying amount may not be recoverable. The impairment loss = Book value - Fair value (or value in use). This loss is recognized immediately on the income statement."
+    "explanation": "資産が回収可能価額が帳簿価額を下回る出来事または変化がある場合、減損が発生する。減損損失 = 帳簿価額 - 公正価額（または使用価値）。この損失は直ちに損益計算書に認識される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Land is NOT depreciated because:",
     "options": [
-      {"text": "It has an unlimited useful life", "correct": true},
-      {"text": "It always increases in value", "correct": false},
-      {"text": "It is classified as a current asset", "correct": false},
-      {"text": "Its cost is immaterial", "correct": false}
+      {
+        "text": "It has an unlimited useful life",
+        "correct": true
+      },
+      {
+        "text": "It always increases in value",
+        "correct": false
+      },
+      {
+        "text": "It is classified as a current asset",
+        "correct": false
+      },
+      {
+        "text": "Its cost is immaterial",
+        "correct": false
+      }
     ],
-    "explanation": "Land has an indefinite useful life, so depreciation cannot be systematically allocated. However, land improvements (fences, paving, landscaping) ARE depreciated because they have limited useful lives."
+    "explanation": "土地は耐用年数が無限であるため、減価償却費を体系的に配賦できない。ただし、土地改良（フェンス、舗装、造園）は耐用年数が有限であるため減価償却の対象。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "In Year 2 of DDB depreciation (200% rate, 5-year life), for an asset costing 500,000 yen with no salvage value, book value at start of Year 2 is 300,000. Year 2 depreciation is:",
     "options": [
-      {"text": "120,000 yen", "correct": true},
-      {"text": "200,000 yen", "correct": false},
-      {"text": "100,000 yen", "correct": false},
-      {"text": "60,000 yen", "correct": false}
+      {
+        "text": "120,000 yen",
+        "correct": true
+      },
+      {
+        "text": "200,000 yen",
+        "correct": false
+      },
+      {
+        "text": "100,000 yen",
+        "correct": false
+      },
+      {
+        "text": "60,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Year 2 depreciation = Book value at start of Year 2 (300,000) x DDB rate (40%) = 120,000 yen. New book value = 300,000 - 120,000 = 180,000. Each year, the rate is applied to the declining book value."
+    "explanation": "第2年減価償却費 = 第2年始帳簿価額（300,000）x DDBレート（40%）= 120,000 円。新帳簿価額 = 300,000 - 120,000 = 180,000。毎年、減少する帳簿価額にレートが適用される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "The journal entry to record annual depreciation is:",
     "options": [
-      {"text": "(Debit) Depreciation Expense / (Credit) Accumulated Depreciation", "correct": true},
-      {"text": "(Debit) Accumulated Depreciation / (Credit) Depreciation Expense", "correct": false},
-      {"text": "(Debit) Depreciation Expense / (Credit) Asset Account", "correct": false},
-      {"text": "(Debit) Asset Account / (Credit) Accumulated Depreciation", "correct": false}
+      {
+        "text": "(Debit) Depreciation Expense / (Credit) Accumulated Depreciation",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accumulated Depreciation / (Credit) Depreciation Expense",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Depreciation Expense / (Credit) Asset Account",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Asset Account / (Credit) Accumulated Depreciation",
+        "correct": false
+      }
     ],
-    "explanation": "Depreciation Expense is debited (increases expense) and Accumulated Depreciation is credited (increases contra asset). The asset account itself is NOT directly reduced; instead, accumulated depreciation accumulates as a deduction."
+    "explanation": "減価償却費は借方（費用の増加）、減価償却累計額は貸方（対資産の増加）に記録される。資産勘定は直接減額されない。減価償却累計額が控除項目として蓄積する。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "A company exchanges an old asset (cost 300,000, accumulated depreciation 200,000) for a new asset with a fair value of 150,000, paying 30,000 cash. The gain/loss on the exchange (having commercial substance) is:",
     "options": [
-      {"text": "Gain of 20,000 yen", "correct": true},
-      {"text": "Loss of 20,000 yen", "correct": false},
-      {"text": "No gain or loss", "correct": false},
-      {"text": "Gain of 50,000 yen", "correct": false}
+      {
+        "text": "Gain of 20,000 yen",
+        "correct": true
+      },
+      {
+        "text": "Loss of 20,000 yen",
+        "correct": false
+      },
+      {
+        "text": "No gain or loss",
+        "correct": false
+      },
+      {
+        "text": "Gain of 50,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Old asset book value = 300,000 - 200,000 = 100,000. Gain = Fair value of old (150,000 - 30,000 = 120,000) - Book value (100,000) = 20,000 gain. The new asset is recorded at 150,000 (fair value of consideration given = 100,000 book value + 30,000 cash + 20,000 gain)."
+    "explanation": "旧資産帳簿価額 = 300,000 - 200,000 = 100,000。交換益 = 旧資産公正価額（150,000 - 30,000 = 120,000）- 帳簿価額（100,000）= 20,000 の利益。新資産は公正価額 150,000 で記録される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "The half-year convention in depreciation assumes that:",
     "options": [
-      {"text": "All assets acquired or disposed of during the year are depreciated for half a year", "correct": true},
-      {"text": "Depreciation is calculated for the full year regardless of purchase date", "correct": false},
-      {"text": "Only half the asset's cost is depreciated", "correct": false},
-      {"text": "Depreciation is zero in the year of acquisition", "correct": false}
+      {
+        "text": "All assets acquired or disposed of during the year are depreciated for half a year",
+        "correct": true
+      },
+      {
+        "text": "Depreciation is calculated for the full year regardless of purchase date",
+        "correct": false
+      },
+      {
+        "text": "Only half the asset's cost is depreciated",
+        "correct": false
+      },
+      {
+        "text": "Depreciation is zero in the year of acquisition",
+        "correct": false
+      }
     ],
-    "explanation": "The half-year convention simplifies record-keeping by assuming all acquisitions occur at mid-year, regardless of actual purchase date. This means half a year's depreciation in the first and last year of the asset's life."
+    "explanation": "半期規約は、実際の購入日に関係なくすべての取得が年度半ばに行われたと仮定し、記帳を簡素化する。資産の耐用年数の最初と最後の年に半年分の減価償却を行う。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Natural resources are depleted using a method similar to:",
     "options": [
-      {"text": "Units of production (depletion based on units extracted)", "correct": true},
-      {"text": "Straight-line depreciation", "correct": false},
-      {"text": "Declining balance method", "correct": false},
-      {"text": "Sum-of-the-years'-digits", "correct": false}
+      {
+        "text": "Units of production (depletion based on units extracted)",
+        "correct": true
+      },
+      {
+        "text": "Straight-line depreciation",
+        "correct": false
+      },
+      {
+        "text": "Declining balance method",
+        "correct": false
+      },
+      {
+        "text": "Sum-of-the-years'-digits",
+        "correct": false
+      }
     ],
-    "explanation": "Depletion of natural resources (minerals, timber, oil) follows the same principle as units of production: Depletion per unit = (Cost - Residual Value) / Total estimated recoverable units. Period depletion = Rate x Units extracted."
+    "explanation": "天然資源の減耗は生産高比例法と同じ原理に従う：単位当たり減耗費 =（原価 - 残存価額）/ 総推定採掘可能量。期間減耗費 = レート x 採掘量。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Intangible assets with finite lives are amortized using:",
     "options": [
-      {"text": "Straight-line method over their useful life", "correct": true},
-      {"text": "Declining balance method", "correct": false},
-      {"text": "They are not amortized", "correct": false},
-      {"text": "Units of production method", "correct": false}
+      {
+        "text": "Straight-line method over their useful life",
+        "correct": true
+      },
+      {
+        "text": "Declining balance method",
+        "correct": false
+      },
+      {
+        "text": "They are not amortized",
+        "correct": false
+      },
+      {
+        "text": "Units of production method",
+        "correct": false
+      }
     ],
-    "explanation": "Intangible assets with finite lives (patents, copyrights, franchises) are amortized on a straight-line basis over their legal or useful life, whichever is shorter. Intangible assets with indefinite lives (goodwill, some trademarks) are NOT amortized but tested for impairment."
+    "explanation": "有限耐用年数の無形資産（特許権、著作権、フランチャイズ）は法定または耐用年数のいずれか短い方にわたり定額法で償却する。無限耐用年数の無形資産（のれん、一部の商標権）は償却せず減損テストを行う。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Book value of an asset equals:",
     "options": [
-      {"text": "Cost - Accumulated Depreciation", "correct": true},
-      {"text": "Cost - Salvage Value", "correct": false},
-      {"text": "Original purchase price", "correct": false},
-      {"text": "Market value at the balance sheet date", "correct": false}
+      {
+        "text": "Cost - Accumulated Depreciation",
+        "correct": true
+      },
+      {
+        "text": "Cost - Salvage Value",
+        "correct": false
+      },
+      {
+        "text": "Original purchase price",
+        "correct": false
+      },
+      {
+        "text": "Market value at the balance sheet date",
+        "correct": false
+      }
     ],
-    "explanation": "Book value (carrying amount) = Historical Cost - Accumulated Depreciation. It represents the unexpired cost of the asset. Book value is NOT market value and may be significantly different from what the asset could be sold for."
+    "explanation": "帳簿価額（持分価額）= 取得原価 - 減価償却累計額。資産の未消費原価を表す。帳簿価額は時価ではなく、資産を売却できる金額と大きく異なる場合がある。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "An asset is retired (discarded, not sold) with a cost of 200,000 and accumulated depreciation of 180,000. The entry is:",
     "options": [
-      {"text": "(Debit) Accumulated Depreciation 180,000 / (Debit) Loss on Disposal 20,000 / (Credit) Asset 200,000", "correct": true},
-      {"text": "(Debit) Accumulated Depreciation 200,000 / (Credit) Asset 200,000", "correct": false},
-      {"text": "(Debit) Loss on Disposal 200,000 / (Credit) Asset 200,000", "correct": false},
-      {"text": "No entry needed", "correct": false}
+      {
+        "text": "(Debit) Accumulated Depreciation 180,000 / (Debit) Loss on Disposal 20,000 / (Credit) Asset 200,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Accumulated Depreciation 200,000 / (Credit) Asset 200,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Loss on Disposal 200,000 / (Credit) Asset 200,000",
+        "correct": false
+      },
+      {
+        "text": "No entry needed",
+        "correct": false
+      }
     ],
-    "explanation": "When an asset is discarded, the asset account and accumulated depreciation are removed from the books. Any remaining book value (200,000 - 180,000 = 20,000) is recognized as a loss on disposal."
+    "explanation": "資産が廃棄される場合、資産勘定と減価償却累計額を帳簿から除去する。残存帳簿価額（200,000 - 180,000 = 20,000）は固定資産廃棄損として認識される。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Which depreciation method results in the highest depreciation expense in Year 1?",
     "options": [
-      {"text": "Double declining balance (200% DB)", "correct": true},
-      {"text": "Straight-line", "correct": false},
-      {"text": "Sum-of-the-years'-digits", "correct": false},
-      {"text": "Units of production (assuming moderate usage)", "correct": false}
+      {
+        "text": "Double declining balance (200% DB)",
+        "correct": true
+      },
+      {
+        "text": "Straight-line",
+        "correct": false
+      },
+      {
+        "text": "Sum-of-the-years'-digits",
+        "correct": false
+      },
+      {
+        "text": "Units of production (assuming moderate usage)",
+        "correct": false
+      }
     ],
-    "explanation": "DDB typically produces the highest first-year depreciation because it applies a double rate to the full cost (not cost minus salvage). SYD is also accelerated but usually lower than DDB in Year 1. Straight-line is uniform. Units of production depends on actual usage."
+    "explanation": "DDBは通常、第1年の減価償却費が最も高い。全額（残存価額を差し引かない原価）に倍率を適用するため。SYDも加速的だが通常DDBより第1年は低い。定額法は均等。生産高比例法は実際使用量に依存。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Component depreciation means:",
     "options": [
-      {"text": "Each significant part of an asset with a different useful life is depreciated separately", "correct": true},
-      {"text": "All parts of an asset are depreciated as a single unit", "correct": false},
-      {"text": "Only the most expensive component is depreciated", "correct": false},
-      {"text": "Depreciation is calculated on a monthly basis", "correct": false}
+      {
+        "text": "Each significant part of an asset with a different useful life is depreciated separately",
+        "correct": true
+      },
+      {
+        "text": "All parts of an asset are depreciated as a single unit",
+        "correct": false
+      },
+      {
+        "text": "Only the most expensive component is depreciated",
+        "correct": false
+      },
+      {
+        "text": "Depreciation is calculated on a monthly basis",
+        "correct": false
+      }
     ],
-    "explanation": "Under IFRS, component depreciation requires splitting an asset into its significant components (e.g., an airplane into the airframe, engines, and interior) and depreciating each over its own useful life. This provides more accurate depreciation."
+    "explanation": "IFRSでは、コンポーネント減価償却は資産をその重要な構成要素（例：航空機を機体、エンジン、内装に）に分割し、それぞれ独自の耐用年数で減価償却することを要求する。これによりより正確な減価償却が可能。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "A change in the estimated useful life of a depreciable asset is treated as:",
     "options": [
-      {"text": "A change in accounting estimate, applied prospectively", "correct": true},
-      {"text": "A change in accounting principle requiring retrospective adjustment", "correct": false},
-      {"text": "An error requiring prior period adjustment", "correct": false},
-      {"text": "An extraordinary item", "correct": false}
+      {
+        "text": "A change in accounting estimate, applied prospectively",
+        "correct": true
+      },
+      {
+        "text": "A change in accounting principle requiring retrospective adjustment",
+        "correct": false
+      },
+      {
+        "text": "An error requiring prior period adjustment",
+        "correct": false
+      },
+      {
+        "text": "An extraordinary item",
+        "correct": false
+      }
     ],
-    "explanation": "Changes in estimates (useful life, salvage value) are applied prospectively from the current and future periods. The remaining book value is depreciated over the revised remaining useful life. No restatement of prior periods is required."
+    "explanation": "見積耐用年数の変更は、当期および将来の期間に向けて适用的される会計上の見積変更として処理される。残存帳簿価額を修正後の残存耐用年数にわたり減価償却する。過去期間の修正は不要。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "Depreciable cost equals:",
     "options": [
-      {"text": "Asset cost minus salvage (residual) value", "correct": true},
-      {"text": "Asset cost only", "correct": false},
-      {"text": "Market value minus salvage value", "correct": false},
-      {"text": "Accumulated depreciation minus salvage value", "correct": false}
+      {
+        "text": "Asset cost minus salvage (residual) value",
+        "correct": true
+      },
+      {
+        "text": "Asset cost only",
+        "correct": false
+      },
+      {
+        "text": "Market value minus salvage value",
+        "correct": false
+      },
+      {
+        "text": "Accumulated depreciation minus salvage value",
+        "correct": false
+      }
     ],
-    "explanation": "Depreciable cost (depreciable base) is the total amount to be depreciated over the asset's life. It equals the cost of the asset minus its estimated salvage value. Depreciation expense per period is calculated based on this depreciable cost."
+    "explanation": "減価償却対象原価（減価償却基礎額）は資産の耐用年数にわたって減価償却される合計額である。資産の原価から見積残存価額を差し引いた額に等しい。"
   },
   {
     "category": "Depreciation & Fixed Assets",
     "question": "A machine costs 2,000,000 yen, salvage value 200,000, useful life 8 years. Under SYD (sum of digits = 36), Year 3 depreciation is:",
     "options": [
-      {"text": "300,000 yen", "correct": true},
-      {"text": "225,000 yen", "correct": false},
-      {"text": "375,000 yen", "correct": false},
-      {"text": "450,000 yen", "correct": false}
+      {
+        "text": "300,000 yen",
+        "correct": true
+      },
+      {
+        "text": "225,000 yen",
+        "correct": false
+      },
+      {
+        "text": "375,000 yen",
+        "correct": false
+      },
+      {
+        "text": "450,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "SYD = 8+7+6+5+4+3+2+1 = 36. Year 3 uses the fraction 6/36. Depreciation = (2,000,000 - 200,000) x 6/36 = 1,800,000 x 6/36 = 300,000 yen."
+    "explanation": "SYD = 8+7+6+5+4+3+2+1 = 36。第3年は分数 6/36 を使用。減価償却費 =（2,000,000 - 200,000）x 6/36 = 1,800,000 x 6/36 = 300,000 円。"
   }
 ]

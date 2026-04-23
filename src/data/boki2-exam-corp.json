@@ -3,363 +3,759 @@
     "category": "Corporation Accounting",
     "question": "A corporation issues 1,000 shares of common stock with a par value of 500 yen at an issue price of 600 yen. The journal entry is:",
     "options": [
-      {"text": "(Debit) Cash 600,000 / (Credit) Common Stock 500,000 / (Credit) Additional Paid-in Capital 100,000", "correct": true},
-      {"text": "(Debit) Cash 600,000 / (Credit) Common Stock 600,000", "correct": false},
-      {"text": "(Debit) Cash 500,000 / (Credit) Common Stock 500,000", "correct": false},
-      {"text": "(Debit) Cash 600,000 / (Credit) Common Stock 500,000 / (Credit) Gain on Stock Issuance 100,000", "correct": false}
+      {
+        "text": "(Debit) Cash 600,000 / (Credit) Common Stock 500,000 / (Credit) Additional Paid-in Capital 100,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 600,000 / (Credit) Common Stock 600,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 500,000 / (Credit) Common Stock 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 600,000 / (Credit) Common Stock 500,000 / (Credit) Gain on Stock Issuance 100,000",
+        "correct": false
+      }
     ],
-    "explanation": "When stock is issued above par, the par value (1,000 x 500 = 500,000) is credited to Common Stock, and the excess (1,000 x 100 = 100,000) is credited to Additional Paid-in Capital (APIC). Stock issuance is a capital transaction, NOT a revenue transaction."
+    "explanation": "株式が額面超で発行された場合、額面（1,000 x 500 = 500,000）を普通株式に貸方記録し、超過額（1,000 x 100 = 100,000）を株式払込剰余金（APIC）に貸方記録する。株式発行は資本取引であり、収益取引ではない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues 2,000 shares of no-par common stock for 800 yen per share. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 1,600,000", "correct": true},
-      {"text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 1,000,000 / (Credit) APIC 600,000", "correct": false},
-      {"text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000", "correct": false},
-      {"text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 2,000,000 / (Debit) Discount on Stock 400,000", "correct": false}
+      {
+        "text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 1,600,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 1,000,000 / (Credit) APIC 600,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 1,600,000 / (Credit) Common Stock 2,000,000 / (Debit) Discount on Stock 400,000",
+        "correct": false
+      }
     ],
-    "explanation": "With no-par stock, the entire proceeds are credited to Common Stock. There is no par value to separate, so Additional Paid-in Capital is not needed (unless stated value is assigned)."
+    "explanation": "無額面株式の場合、発行価額の全額が普通株式に貸方記録される。分離すべき額面がないため、株式払込剰余金は不要（ただし、設定価額が指定されている場合を除く）。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues 500 shares of common stock with a par value of 500 yen at 400 yen per share. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 200,000 / (Debit) Discount on Common Stock 50,000 / (Credit) Common Stock 250,000", "correct": true},
-      {"text": "(Debit) Cash 200,000 / (Credit) Common Stock 200,000", "correct": false},
-      {"text": "(Debit) Cash 250,000 / (Credit) Common Stock 250,000", "correct": false},
-      {"text": "(Debit) Cash 200,000 / (Credit) Common Stock 200,000 / (Credit) Discount on Common Stock 50,000", "correct": false}
+      {
+        "text": "(Debit) Cash 200,000 / (Debit) Discount on Common Stock 50,000 / (Credit) Common Stock 250,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 200,000 / (Credit) Common Stock 200,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 250,000 / (Credit) Common Stock 250,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 200,000 / (Credit) Common Stock 200,000 / (Credit) Discount on Common Stock 50,000",
+        "correct": false
+      }
     ],
-    "explanation": "When stock is issued below par, Cash is debited for proceeds (500 x 400 = 200,000). Common Stock is credited at par (500 x 500 = 250,000). The difference of 50,000 is debited to Discount on Common Stock (a contra-equity account)."
+    "explanation": "株式が額面以下で発行された場合、現金は発行価額（500 x 400 = 200,000）を借方記録。普通株式は額面（500 x 500 = 250,000）を貸方記録。差額 50,000 は株式割引（対資本勘定）に借方記録される。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation purchases 100 shares of its own common stock (par value 500 yen) at 600 yen per share. The entry is:",
     "options": [
-      {"text": "(Debit) Treasury Stock 60,000 / (Credit) Cash 60,000", "correct": true},
-      {"text": "(Debit) Treasury Stock 50,000 / (Credit) Cash 50,000", "correct": false},
-      {"text": "(Debit) Investment in Stock 60,000 / (Credit) Cash 60,000", "correct": false},
-      {"text": "(Debit) Common Stock 50,000 / (Credit) Cash 60,000 / (Credit) Gain 10,000", "correct": false}
+      {
+        "text": "(Debit) Treasury Stock 60,000 / (Credit) Cash 60,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Treasury Stock 50,000 / (Credit) Cash 50,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Investment in Stock 60,000 / (Credit) Cash 60,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Common Stock 50,000 / (Credit) Cash 60,000 / (Credit) Gain 10,000",
+        "correct": false
+      }
     ],
-    "explanation": "Treasury stock is recorded at cost (100 x 600 = 60,000). Under the cost method, treasury stock is a contra-equity account. It is NOT an asset. The par value is irrelevant for recording under the cost method."
+    "explanation": "自己株式は原価（100 x 600 = 60,000）で記録される。原価法では、自己株式は対資本勘定である。資産ではない。原価法では額面は記録に無関係。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation reissues 50 shares of treasury stock (cost 600 yen per share) at 700 yen per share. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 30,000 / (Credit) APIC from Treasury Stock 5,000", "correct": true},
-      {"text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 35,000", "correct": false},
-      {"text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 30,000 / (Credit) Gain on Sale of Treasury Stock 5,000", "correct": false},
-      {"text": "(Debit) Cash 35,000 / (Credit) Common Stock 30,000 / (Credit) APIC 5,000", "correct": false}
+      {
+        "text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 30,000 / (Credit) APIC from Treasury Stock 5,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 35,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 35,000 / (Credit) Treasury Stock 30,000 / (Credit) Gain on Sale of Treasury Stock 5,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 35,000 / (Credit) Common Stock 30,000 / (Credit) APIC 5,000",
+        "correct": false
+      }
     ],
-    "explanation": "Treasury Stock is credited at cost (50 x 600 = 30,000). Cash is debited for proceeds (50 x 700 = 35,000). The excess of 5,000 goes to APIC from Treasury Stock (NOT gain). Treasury stock transactions are capital transactions."
+    "explanation": "自己株式は原価（50 x 600 = 30,000）で貸方記録。現金は発行価額（50 x 700 = 35,000）を借方記録。超過額 5,000 は自己株式取引による株式払込剰余金（利益ではない）に貸方記録。自己株式取引は資本取引である。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation reissues 50 shares of treasury stock (cost 600 yen per share) at 500 yen per share. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 25,000 / (Debit) APIC from Treasury Stock 5,000 / (Credit) Treasury Stock 30,000", "correct": true},
-      {"text": "(Debit) Cash 25,000 / (Debit) Loss on Treasury Stock 5,000 / (Credit) Treasury Stock 30,000", "correct": false},
-      {"text": "(Debit) Cash 25,000 / (Credit) Treasury Stock 25,000", "correct": false},
-      {"text": "(Debit) Cash 30,000 / (Credit) Treasury Stock 25,000 / (Credit) Gain 5,000", "correct": false}
+      {
+        "text": "(Debit) Cash 25,000 / (Debit) APIC from Treasury Stock 5,000 / (Credit) Treasury Stock 30,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 25,000 / (Debit) Loss on Treasury Stock 5,000 / (Credit) Treasury Stock 30,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 25,000 / (Credit) Treasury Stock 25,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 30,000 / (Credit) Treasury Stock 25,000 / (Credit) Gain 5,000",
+        "correct": false
+      }
     ],
-    "explanation": "When treasury stock is sold below cost, the loss is first absorbed by any existing APIC from treasury stock transactions. If insufficient APIC exists, the remainder is debited to Retained Earnings. A loss is NEVER recorded for treasury stock transactions."
+    "explanation": "自己株式が原価以下で売却された場合、損失はまず既存の自己株式取引による株式払込剰余金で吸収される。APICが不足する場合、残りは繰越利益剰余金に借方記録される。自己株式取引では損失は記録しない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation declares a cash dividend of 50 yen per share on 10,000 outstanding shares. The entry at declaration date is:",
     "options": [
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Dividends Payable 500,000", "correct": true},
-      {"text": "(Debit) Dividends 500,000 / (Credit) Cash 500,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Cash 500,000", "correct": false},
-      {"text": "(Debit) Dividend Expense 500,000 / (Credit) Dividends Payable 500,000", "correct": false}
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Dividends Payable 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Dividends 500,000 / (Credit) Cash 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Cash 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Dividend Expense 500,000 / (Credit) Dividends Payable 500,000",
+        "correct": false
+      }
     ],
-    "explanation": "At declaration, Retained Earnings is reduced (debited) and Dividends Payable (a current liability) is credited. The actual cash payment occurs on the payment date, not the declaration date."
+    "explanation": "宣言時に繰越利益剰余金が減額（借方記述）され、配当金未払（流動負債）が貸方記述される。実際の現金支払は支払日に行われ、宣言日ではない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation's board appropriates 1,000,000 yen of retained earnings for future plant expansion. The journal entry is:",
     "options": [
-      {"text": "(Debit) Retained Earnings 1,000,000 / (Credit) Appropriation for Plant Expansion 1,000,000", "correct": true},
-      {"text": "(Debit) Cash 1,000,000 / (Credit) Reserve for Plant Expansion 1,000,000", "correct": false},
-      {"text": "(Debit) Plant Expansion Expense 1,000,000 / (Credit) Retained Earnings 1,000,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 1,000,000 / (Credit) Cash 1,000,000", "correct": false}
+      {
+        "text": "(Debit) Retained Earnings 1,000,000 / (Credit) Appropriation for Plant Expansion 1,000,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 1,000,000 / (Credit) Reserve for Plant Expansion 1,000,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Plant Expansion Expense 1,000,000 / (Credit) Retained Earnings 1,000,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 1,000,000 / (Credit) Cash 1,000,000",
+        "correct": false
+      }
     ],
-    "explanation": "An appropriation of retained earnings is a reclassification within stockholders' equity. Total retained earnings doesn't change - it's split into appropriated (restricted) and unappropriated (free) portions. Cash is NOT set aside."
+    "explanation": "利益準備金の積立は株主資本内の再分類である。繰越利益剰余金の合計は変化しない - 積立（制限）済みと未処分（自由）部分に分割される。現金は積み立てられない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation declares a 10% stock dividend on 10,000 shares of 500 yen par stock when the market price is 800 yen. The entry is:",
     "options": [
-      {"text": "(Debit) Retained Earnings 800,000 / (Credit) Common Stock Distributable 500,000 / (Credit) APIC 300,000", "correct": true},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Common Stock Distributable 500,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 800,000 / (Credit) Common Stock 800,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Common Stock 500,000", "correct": false}
+      {
+        "text": "(Debit) Retained Earnings 800,000 / (Credit) Common Stock Distributable 500,000 / (Credit) APIC 300,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Common Stock Distributable 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 800,000 / (Credit) Common Stock 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Common Stock 500,000",
+        "correct": false
+      }
     ],
-    "explanation": "For a small stock dividend (typically under 20-25%), the market value is used: 1,000 shares x 800 = 800,000 debited to Retained Earnings. Common Stock is credited at par (1,000 x 500 = 500,000), and APIC receives the excess (300,000)."
+    "explanation": "小規模株式配当（通常20-25%未満）では時価を使用：1,000株 x 800 = 800,000 を繰越利益剰余金に借方記述。普通株式は額面（1,000 x 500 = 500,000）を貸方記述、APICに超過額（300,000）を貸方記述。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation effects a 2-for-1 stock split. Which of the following statements is correct?",
     "options": [
-      {"text": "Par value per share is halved and the number of shares doubles; no journal entry is required", "correct": true},
-      {"text": "A journal entry transfers amounts from Retained Earnings to Common Stock", "correct": false},
-      {"text": "Total stockholders' equity increases", "correct": false},
-      {"text": "APIC increases proportionally", "correct": false}
+      {
+        "text": "Par value per share is halved and the number of shares doubles; no journal entry is required",
+        "correct": true
+      },
+      {
+        "text": "A journal entry transfers amounts from Retained Earnings to Common Stock",
+        "correct": false
+      },
+      {
+        "text": "Total stockholders' equity increases",
+        "correct": false
+      },
+      {
+        "text": "APIC increases proportionally",
+        "correct": false
+      }
     ],
-    "explanation": "A stock split increases the number of shares and proportionally decreases the par value per share. No journal entry is required because total par value (and total stockholders' equity) remains unchanged. Only a memo entry is made."
+    "explanation": "株式分割は発行済株式数を増やし、1株当たり額面を比例的に減額する。仕訳は不要。総額面（および総株主資本）は不変。メモ記入のみ行う。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues 1,000 shares of common stock in exchange for land with a fair market value of 700,000 yen. The par value is 500 yen. The entry is:",
     "options": [
-      {"text": "(Debit) Land 700,000 / (Credit) Common Stock 500,000 / (Credit) APIC 200,000", "correct": true},
-      {"text": "(Debit) Land 500,000 / (Credit) Common Stock 500,000", "correct": false},
-      {"text": "(Debit) Land 700,000 / (Credit) Common Stock 700,000", "correct": false},
-      {"text": "(Debit) Land 500,000 / (Credit) Common Stock 500,000 / (Debit) Goodwill 200,000", "correct": false}
+      {
+        "text": "(Debit) Land 700,000 / (Credit) Common Stock 500,000 / (Credit) APIC 200,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Land 500,000 / (Credit) Common Stock 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Land 700,000 / (Credit) Common Stock 700,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Land 500,000 / (Credit) Common Stock 500,000 / (Debit) Goodwill 200,000",
+        "correct": false
+      }
     ],
-    "explanation": "Non-cash asset acquisitions are recorded at the fair value of the asset given or received (whichever is more reliably measurable). The land is debited at its fair value (700,000), with common stock at par and the excess to APIC."
+    "explanation": "非現金資産取得は、提供または受領した資産の公正価値（より信頼性の高い方）で記録する。土地は公正価値（700,000）で借方、普通株式は額面、超過額はAPICに記録する。"
   },
   {
     "category": "Corporation Accounting",
     "question": "The date of record for a cash dividend is the date:",
     "options": [
-      {"text": "On which the company determines which shareholders will receive the dividend", "correct": true},
-      {"text": "On which the dividend is actually paid", "correct": false},
-      {"text": "On which the board of directors declares the dividend", "correct": false},
-      {"text": "On which the stock begins trading ex-dividend", "correct": false}
+      {
+        "text": "On which the company determines which shareholders will receive the dividend",
+        "correct": true
+      },
+      {
+        "text": "On which the dividend is actually paid",
+        "correct": false
+      },
+      {
+        "text": "On which the board of directors declares the dividend",
+        "correct": false
+      },
+      {
+        "text": "On which the stock begins trading ex-dividend",
+        "correct": false
+      }
     ],
-    "explanation": "The date of record establishes who owns the shares and therefore who will receive the dividend. No journal entry is required on the record date. The key dates are: declaration (liability recognized), record (no entry), payment (cash disbursed)."
+    "explanation": "基準日は株式を所有し、配当を受ける株主を確定する日。基準日に仕訳は不要。重要な日付は：宣言日（負債認識）、基準日（仕訳なし）、支払日（現金支払）。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Prior period adjustments are reported on the:",
     "options": [
-      {"text": "Statement of Retained Earnings as an adjustment to the beginning balance", "correct": true},
-      {"text": "Income Statement as an extraordinary item", "correct": false},
-      {"text": "Balance Sheet as a separate line item", "correct": false},
-      {"text": "Statement of Cash Flows in the financing section", "correct": false}
+      {
+        "text": "Statement of Retained Earnings as an adjustment to the beginning balance",
+        "correct": true
+      },
+      {
+        "text": "Income Statement as an extraordinary item",
+        "correct": false
+      },
+      {
+        "text": "Balance Sheet as a separate line item",
+        "correct": false
+      },
+      {
+        "text": "Statement of Cash Flows in the financing section",
+        "correct": false
+      }
     ],
-    "explanation": "Prior period adjustments correct material errors from previous periods. They are reported net of tax as an adjustment to the beginning balance of retained earnings on the Statement of Retained Earnings. They do NOT appear on the income statement."
+    "explanation": "前期修正は前期の重要な誤りを修正する。税引後純額で繰越利益剰余金期首残高に対する修正として繰越利益剰余金計算書に記載される。損益計算書には記載されない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation has the following: Common Stock 5,000,000, APIC 2,000,000, Retained Earnings 3,000,000, Treasury Stock (500,000). Total stockholders' equity is:",
     "options": [
-      {"text": "9,500,000 yen", "correct": true},
-      {"text": "10,000,000 yen", "correct": false},
-      {"text": "10,500,000 yen", "correct": false},
-      {"text": "9,000,000 yen", "correct": false}
+      {
+        "text": "9,500,000 yen",
+        "correct": true
+      },
+      {
+        "text": "10,000,000 yen",
+        "correct": false
+      },
+      {
+        "text": "10,500,000 yen",
+        "correct": false
+      },
+      {
+        "text": "9,000,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Total stockholders' equity = Common Stock (5,000,000) + APIC (2,000,000) + Retained Earnings (3,000,000) - Treasury Stock (500,000) = 9,500,000 yen. Treasury stock reduces total equity as a contra-equity account."
+    "explanation": "総株主資本 = 普通株式（5,000,000）+ APIC（2,000,000）+ 繰越利益剰余金（3,000,000）- 自己株式（500,000）= 9,500,000 円。自己株式は対資本勘定として総資本を減額する。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues preferred stock with a par value of 1,000 yen, 8% cumulative, for 1,050 yen per share. 500 shares are issued. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 500,000 / (Credit) APIC - Preferred 25,000", "correct": true},
-      {"text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 525,000", "correct": false},
-      {"text": "(Debit) Cash 500,000 / (Credit) Preferred Stock 500,000", "correct": false},
-      {"text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 500,000 / (Credit) Dividend Revenue 25,000", "correct": false}
+      {
+        "text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 500,000 / (Credit) APIC - Preferred 25,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 525,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 500,000 / (Credit) Preferred Stock 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 525,000 / (Credit) Preferred Stock 500,000 / (Credit) Dividend Revenue 25,000",
+        "correct": false
+      }
     ],
-    "explanation": "Same principle as common stock: Cash at proceeds (500 x 1,050 = 525,000), Preferred Stock at par (500 x 1,000 = 500,000), excess (25,000) to APIC. The 8% cumulative feature affects dividend calculations, not the issuance entry."
+    "explanation": "普通株式と同じ原則：現金は発行価額（500 x 1,050 = 525,000）、優先株式は額面（500 x 1,000 = 500,000）、超過額（25,000）をAPICに記録。8%累積の特徴は配当計算に影響し、発行仕訳には影響しない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "If preferred stock is cumulative and dividends are in arrears for 2 years, the preferred shareholders must be paid:",
     "options": [
-      {"text": "All accumulated (arrearage) dividends before any dividends can be paid to common shareholders", "correct": true},
-      {"text": "Only the current year's dividend before common shareholders", "correct": false},
-      {"text": "Equal dividends with common shareholders", "correct": false},
-      {"text": "The arrearage plus a penalty interest rate", "correct": false}
+      {
+        "text": "All accumulated (arrearage) dividends before any dividends can be paid to common shareholders",
+        "correct": true
+      },
+      {
+        "text": "Only the current year's dividend before common shareholders",
+        "correct": false
+      },
+      {
+        "text": "Equal dividends with common shareholders",
+        "correct": false
+      },
+      {
+        "text": "The arrearage plus a penalty interest rate",
+        "correct": false
+      }
     ],
-    "explanation": "Cumulative preferred stock means that if preferred dividends are not declared in a given year, they accumulate and must be paid in full before any common dividends can be declared. Dividends in arrears are disclosed but not a liability until declared."
+    "explanation": "累積優先株式とは、配当が宣言されなかった場合、累積され、普通株主への配当が宣言される前に全額支払わなければならないことを意味する。未払配当は開示されるが、宣言されるまで負債ではない。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues common stock with a stated value of 300 yen (no-par stock) at 400 yen per share. 2,000 shares are issued. The entry is:",
     "options": [
-      {"text": "(Debit) Cash 800,000 / (Credit) Common Stock 600,000 / (Credit) APIC 200,000", "correct": true},
-      {"text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000", "correct": false},
-      {"text": "(Debit) Cash 800,000 / (Credit) Common Stock 400,000 / (Credit) APIC 400,000", "correct": false},
-      {"text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000 / (Debit) Stated Value 600,000", "correct": false}
+      {
+        "text": "(Debit) Cash 800,000 / (Credit) Common Stock 600,000 / (Credit) APIC 200,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 800,000 / (Credit) Common Stock 400,000 / (Credit) APIC 400,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 800,000 / (Credit) Common Stock 800,000 / (Debit) Stated Value 600,000",
+        "correct": false
+      }
     ],
-    "explanation": "With stated value no-par stock, Common Stock is credited at stated value (2,000 x 300 = 600,000), and the excess (2,000 x 100 = 200,000) goes to APIC. This treatment is essentially the same as par value stock."
+    "explanation": "設定価額付き無額面株式の場合、普通株式は設定価額（2,000 x 300 = 600,000）を貸方記述、超過額（2,000 x 100 = 200,000）をAPICに貸方記述。この処理は額面株式と本質的に同じ。"
   },
   {
     "category": "Corporation Accounting",
     "question": "The payment date for a cash dividend of 500,000 yen requires which entry?",
     "options": [
-      {"text": "(Debit) Dividends Payable 500,000 / (Credit) Cash 500,000", "correct": true},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Cash 500,000", "correct": false},
-      {"text": "(Debit) Dividends 500,000 / (Credit) Cash 500,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 500,000 / (Credit) Dividends Payable 500,000", "correct": false}
+      {
+        "text": "(Debit) Dividends Payable 500,000 / (Credit) Cash 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Cash 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Dividends 500,000 / (Credit) Cash 500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 500,000 / (Credit) Dividends Payable 500,000",
+        "correct": false
+      }
     ],
-    "explanation": "On the payment date, the liability (Dividends Payable) established at the declaration date is debited, and Cash is credited. Retained Earnings was already reduced at the declaration date."
+    "explanation": "支払日に、宣言日で計上された負債（配当金未払）を借方記述し、現金を貸方記述する。繰越利益剰余金は宣言時に既に減額済みである。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A large stock dividend (40%) on 5,000 shares of 500 yen par stock is declared. The entry uses:",
     "options": [
-      {"text": "Par value to debit Retained Earnings and credit Common Stock Distributable", "correct": true},
-      {"text": "Market value to debit Retained Earnings and credit Common Stock Distributable", "correct": false},
-      {"text": "Book value per share for the transfer", "correct": false},
-      {"text": "No entry is required for any stock dividend", "correct": false}
+      {
+        "text": "Par value to debit Retained Earnings and credit Common Stock Distributable",
+        "correct": true
+      },
+      {
+        "text": "Market value to debit Retained Earnings and credit Common Stock Distributable",
+        "correct": false
+      },
+      {
+        "text": "Book value per share for the transfer",
+        "correct": false
+      },
+      {
+        "text": "No entry is required for any stock dividend",
+        "correct": false
+      }
     ],
-    "explanation": "For large stock dividends (typically 25% or more), accounting uses par value instead of market value. 2,000 new shares x 500 par = 1,000,000. (Dr) Retained Earnings 1,000,000 / (Cr) Common Stock Distributable 1,000,000."
+    "explanation": "大規模株式配当（通常25%以上）では、会計上額面ではなく額面を使用する。2,000新株 x 500額面 = 1,000,000。（借方）繰越利益剰余金 1,000,000 /（貸方）株式配当未払 1,000,000。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation has 8% cumulative preferred stock with 10,000 shares outstanding (par 1,000 yen) and 50,000 shares of common stock. If dividends of 3,000,000 yen are declared, the amount available for common shareholders is:",
     "options": [
-      {"text": "2,200,000 yen", "correct": true},
-      {"text": "3,000,000 yen", "correct": false},
-      {"text": "2,000,000 yen", "correct": false},
-      {"text": "2,400,000 yen", "correct": false}
+      {
+        "text": "2,200,000 yen",
+        "correct": true
+      },
+      {
+        "text": "3,000,000 yen",
+        "correct": false
+      },
+      {
+        "text": "2,000,000 yen",
+        "correct": false
+      },
+      {
+        "text": "2,400,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Assuming no dividends in arrears: Preferred dividend = 10,000 x 1,000 x 8% = 800,000 yen. Available for common = 3,000,000 - 800,000 = 2,200,000 yen. If there were arrearages, those would be deducted first."
+    "explanation": "未払配当がないと仮定：優先配当 = 10,000 x 1,000 x 8% = 800,000 円。普通株主への配当可能額 = 3,000,000 - 800,000 = 2,200,000 円。未払配当がある場合は先に控除される。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation liquidates treasury stock by formally retiring it. The stock was purchased at 600 yen per share (500 yen par). The entry to retire 100 shares is:",
     "options": [
-      {"text": "(Debit) Common Stock 50,000 / (Debit) APIC 10,000 / (Credit) Treasury Stock 60,000", "correct": true},
-      {"text": "(Debit) Common Stock 60,000 / (Credit) Treasury Stock 60,000", "correct": false},
-      {"text": "(Debit) Treasury Stock 60,000 / (Credit) Common Stock 60,000", "correct": false},
-      {"text": "(Debit) Common Stock 50,000 / (Credit) Treasury Stock 50,000", "correct": false}
+      {
+        "text": "(Debit) Common Stock 50,000 / (Debit) APIC 10,000 / (Credit) Treasury Stock 60,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Common Stock 60,000 / (Credit) Treasury Stock 60,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Treasury Stock 60,000 / (Credit) Common Stock 60,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Common Stock 50,000 / (Credit) Treasury Stock 50,000",
+        "correct": false
+      }
     ],
-    "explanation": "When treasury stock is retired: Common Stock is debited at par (100 x 500 = 50,000), and Treasury Stock is credited at cost (100 x 600 = 60,000). The difference of 10,000 is debited to APIC (if original APIC from issuance exists)."
+    "explanation": "自己株式を廃棄する場合：普通株式は額面（100 x 500 = 50,000）を借方、自己株式は原価（100 x 600 = 60,000）を貸方記述。差額 10,000 はAPIC（発行時のAPICが存在する場合）に借方記述。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Participating preferred stock entitles preferred shareholders to:",
     "options": [
-      {"text": "The stated preferred dividend plus a share of additional dividends after common receives an equal rate", "correct": true},
-      {"text": "Only the stated preferred dividend rate, regardless of additional dividends", "correct": false},
-      {"text": "A fixed dividend plus voting rights equal to common shareholders", "correct": false},
-      {"text": "Double the stated dividend rate automatically each year", "correct": false}
+      {
+        "text": "The stated preferred dividend plus a share of additional dividends after common receives an equal rate",
+        "correct": true
+      },
+      {
+        "text": "Only the stated preferred dividend rate, regardless of additional dividends",
+        "correct": false
+      },
+      {
+        "text": "A fixed dividend plus voting rights equal to common shareholders",
+        "correct": false
+      },
+      {
+        "text": "Double the stated dividend rate automatically each year",
+        "correct": false
+      }
     ],
-    "explanation": "Participating preferred stock receives its regular dividend, then participates in additional dividends after common shareholders receive a dividend at an equivalent rate. This makes participating preferred stock more attractive to investors."
+    "explanation": "参加的優先株式は、通常の優先配当を受けた後、普通株主が同等の率で配当を受けた後の追加配当に参加する権利を有する。参加的優先株式は投資家にとってより魅力的。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues common stock for services received. The services are valued at 2,000,000 yen. Par value is 500 yen per share. Shares issued: 3,000. The entry is:",
     "options": [
-      {"text": "(Debit) Organization Expense 2,000,000 / (Credit) Common Stock 1,500,000 / (Credit) APIC 500,000", "correct": true},
-      {"text": "(Debit) Organization Expense 1,500,000 / (Credit) Common Stock 1,500,000", "correct": false},
-      {"text": "(Debit) Service Revenue 2,000,000 / (Credit) Common Stock 2,000,000", "correct": false},
-      {"text": "(Debit) Cash 2,000,000 / (Credit) Common Stock 2,000,000", "correct": false}
+      {
+        "text": "(Debit) Organization Expense 2,000,000 / (Credit) Common Stock 1,500,000 / (Credit) APIC 500,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Organization Expense 1,500,000 / (Credit) Common Stock 1,500,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Service Revenue 2,000,000 / (Credit) Common Stock 2,000,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 2,000,000 / (Credit) Common Stock 2,000,000",
+        "correct": false
+      }
     ],
-    "explanation": "Stock issued for services is recorded at the fair value of the services received (or the stock issued, whichever is more reliable). The service is debited as an expense, Common Stock at par (3,000 x 500 = 1,500,000), and the excess to APIC."
+    "explanation": "役務の対価として株式を発行する場合、受領した役務の公正価値（または株式の公正価値、より信頼性の高い方）で記録する。役務を費用として借方、普通株式を額面（3,000 x 500 = 1,500,000）、超過額をAPICに記録。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Which of the following is NOT a characteristic of a corporation?",
     "options": [
-      {"text": "Mutual agency among shareholders", "correct": true},
-      {"text": "Limited liability of shareholders", "correct": false},
-      {"text": "Continuous life regardless of ownership changes", "correct": false},
-      {"text": "Separate legal entity from its owners", "correct": false}
+      {
+        "text": "Mutual agency among shareholders",
+        "correct": true
+      },
+      {
+        "text": "Limited liability of shareholders",
+        "correct": false
+      },
+      {
+        "text": "Continuous life regardless of ownership changes",
+        "correct": false
+      },
+      {
+        "text": "Separate legal entity from its owners",
+        "correct": false
+      }
     ],
-    "explanation": "Corporations do NOT have mutual agency - shareholders cannot bind the corporation to contracts. This is a key difference from partnerships. Limited liability, continuous life, and legal separation are all corporate characteristics."
+    "explanation": "法人には相互代理がない - 株主は法人を契約に拘束できない。これは組合との重要な違いである。有限責任、永続的生命、法的独立性はすべて法人の特徴である。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation's retained earnings statement shows: Beginning R/E 4,000,000, Net Income 1,200,000, Dividends (300,000), Prior Period Adjustment (80,000) credit. Ending R/E is:",
     "options": [
-      {"text": "4,820,000 yen", "correct": true},
-      {"text": "4,900,000 yen", "correct": false},
-      {"text": "4,740,000 yen", "correct": false},
-      {"text": "5,180,000 yen", "correct": false}
+      {
+        "text": "4,820,000 yen",
+        "correct": true
+      },
+      {
+        "text": "4,900,000 yen",
+        "correct": false
+      },
+      {
+        "text": "4,740,000 yen",
+        "correct": false
+      },
+      {
+        "text": "5,180,000 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Adjusted beginning R/E = 4,000,000 + 80,000 (prior period adj, credit) = 4,080,000. Then: 4,080,000 + 1,200,000 (net income) - 300,000 (dividends) = 4,980,000. Wait - let me recalculate: 4,000,000 + 80,000 + 1,200,000 - 300,000 = 4,980,000. The answer 4,820,000 assumes the prior period adjustment is a debit (error correction reducing R/E). Ending R/E = 4,000,000 - 80,000 + 1,200,000 - 300,000 = 4,820,000."
+    "explanation": "調整後期首R/E = 4,000,000 + 80,000（前期修正、貸方）= 4,080,000。次に：4,080,000 + 1,200,000（当期純利益）- 300,000（配当）= 4,980,000。ただし回答4,820,000は前期修正が借方（誤り修正でR/Eを減額）であることを前提としている。期末R/E = 4,000,000 - 80,000 + 1,200,000 - 300,000 = 4,820,000。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Callable preferred stock allows the corporation to:",
     "options": [
-      {"text": "Repurchase the preferred shares at a predetermined call price", "correct": true},
-      {"text": "Force preferred shareholders to sell their shares to common shareholders", "correct": false},
-      {"text": "Convert preferred shares to common shares at any time", "correct": false},
-      {"text": "Cancel accumulated dividends without paying them", "correct": false}
+      {
+        "text": "Repurchase the preferred shares at a predetermined call price",
+        "correct": true
+      },
+      {
+        "text": "Force preferred shareholders to sell their shares to common shareholders",
+        "correct": false
+      },
+      {
+        "text": "Convert preferred shares to common shares at any time",
+        "correct": false
+      },
+      {
+        "text": "Cancel accumulated dividends without paying them",
+        "correct": false
+      }
     ],
-    "explanation": "Callable (redeemable) preferred stock gives the corporation the right to buy back the shares at a specified call price (usually above par). This feature benefits the corporation, not the shareholder. The call price typically includes any dividends in arrears."
+    "explanation": "償還優先株式は法人に指定された償還価格（通常額面以上）で優先株式を買い戻す権利を与える。この特徴は法人に有利であり、株主には有利ではない。償還価格には通常未払配当が含まれる。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Convertible preferred stock with a conversion ratio of 5:1 means each preferred share can be converted into:",
     "options": [
-      {"text": "5 shares of common stock", "correct": true},
-      {"text": "0.2 shares of common stock", "correct": false},
-      {"text": "5 shares of another class of preferred stock", "correct": false},
-      {"text": "Common stock with a total value 5 times the preferred par value", "correct": false}
+      {
+        "text": "5 shares of common stock",
+        "correct": true
+      },
+      {
+        "text": "0.2 shares of common stock",
+        "correct": false
+      },
+      {
+        "text": "5 shares of another class of preferred stock",
+        "correct": false
+      },
+      {
+        "text": "Common stock with a total value 5 times the preferred par value",
+        "correct": false
+      }
     ],
-    "explanation": "A conversion ratio of 5:1 means one preferred share converts into 5 common shares. This feature benefits the preferred shareholder if the common stock price rises above the effective conversion price."
+    "explanation": "転換比率5:1は、1株の優先株式が5株の普通株式に転換できることを意味する。普通株式価格が実効転換価格を上回る場合、この特徴は優先株主に有利。"
   },
   {
     "category": "Corporation Accounting",
     "question": "When treasury stock is purchased, what is the effect on the accounting equation?",
     "options": [
-      {"text": "Assets decrease and stockholders' equity decreases by the same amount", "correct": true},
-      {"text": "Assets decrease and liabilities increase", "correct": false},
-      {"text": "Total stockholders' equity remains unchanged", "correct": false},
-      {"text": "Assets increase and stockholders' equity decreases", "correct": false}
+      {
+        "text": "Assets decrease and stockholders' equity decreases by the same amount",
+        "correct": true
+      },
+      {
+        "text": "Assets decrease and liabilities increase",
+        "correct": false
+      },
+      {
+        "text": "Total stockholders' equity remains unchanged",
+        "correct": false
+      },
+      {
+        "text": "Assets increase and stockholders' equity decreases",
+        "correct": false
+      }
     ],
-    "explanation": "Purchasing treasury stock uses cash (decreasing assets) and creates a contra-equity account (decreasing stockholders' equity). Both decrease by the cost of the treasury shares. The number of outstanding shares also decreases."
+    "explanation": "自己株式の購入は現金（資産の減少）を使用し、対資本勘定（株主資本の減少）を作成する。両方が自己株式の原価分だけ減少する。発行済株式数も減少する。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation issues stock with a subscription agreement. Investors agree to buy 1,000 shares at 600 yen each (par 500 yen) and pay 50% now. The entry for the partial payment is:",
     "options": [
-      {"text": "(Debit) Cash 300,000 / (Debit) Subscriptions Receivable 300,000 / (Credit) Common Stock Subscribed 500,000 / (Credit) APIC 100,000", "correct": true},
-      {"text": "(Debit) Cash 300,000 / (Credit) Common Stock Subscribed 300,000", "correct": false},
-      {"text": "(Debit) Cash 600,000 / (Credit) Common Stock Subscribed 500,000 / (Credit) APIC 100,000", "correct": false},
-      {"text": "(Debit) Subscriptions Receivable 600,000 / (Credit) Common Stock Subscribed 600,000", "correct": false}
+      {
+        "text": "(Debit) Cash 300,000 / (Debit) Subscriptions Receivable 300,000 / (Credit) Common Stock Subscribed 500,000 / (Credit) APIC 100,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Cash 300,000 / (Credit) Common Stock Subscribed 300,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Cash 600,000 / (Credit) Common Stock Subscribed 500,000 / (Credit) APIC 100,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Subscriptions Receivable 600,000 / (Credit) Common Stock Subscribed 600,000",
+        "correct": false
+      }
     ],
-    "explanation": "The full subscription is recorded: Common Stock Subscribed at par (1,000 x 500 = 500,000), APIC at excess (100,000). Cash received (50% x 600,000 = 300,000) and Subscriptions Receivable for the balance (300,000) are debited."
+    "explanation": "引受けの全額が記録される：普通株式引受済は額面（1,000 x 500 = 500,000）、APICは超過額（100,000）。受取現金（50% x 600,000 = 300,000）と株式引受金（300,000）を借方記述。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation declares a property dividend (distributing investments valued at 400,000 yen with a book value of 350,000 yen). The entry at declaration is:",
     "options": [
-      {"text": "(Debit) Retained Earnings 400,000 / (Credit) Property Dividends Payable 400,000", "correct": true},
-      {"text": "(Debit) Retained Earnings 350,000 / (Credit) Property Dividends Payable 350,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 400,000 / (Credit) Investments 400,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 350,000 / (Credit) Investments 350,000", "correct": false}
+      {
+        "text": "(Debit) Retained Earnings 400,000 / (Credit) Property Dividends Payable 400,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Retained Earnings 350,000 / (Credit) Property Dividends Payable 350,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 400,000 / (Credit) Investments 400,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 350,000 / (Credit) Investments 350,000",
+        "correct": false
+      }
     ],
-    "explanation": "Property dividends are recorded at the fair value of the assets distributed. At declaration: Retained Earnings is debited at fair value (400,000). At distribution, the investment is removed at book value and any difference is recognized as a gain or loss."
+    "explanation": "現物配当は配布する資産の公正価値で記録される。宣言時：繰越利益剰余金を公正価値（400,000）で借方記述。配布時に投資を帳簿価額で除去し、差額を損益として認識する。"
   },
   {
     "category": "Corporation Accounting",
     "question": "Which of the following best describes 'legal capital'?",
     "options": [
-      {"text": "The par value or stated value of issued shares, which cannot be distributed as dividends", "correct": true},
-      {"text": "The total market value of all outstanding shares", "correct": false},
-      {"text": "The amount of retained earnings available for dividends", "correct": false},
-      {"text": "The sum of common stock and preferred stock at market value", "correct": false}
+      {
+        "text": "The par value or stated value of issued shares, which cannot be distributed as dividends",
+        "correct": true
+      },
+      {
+        "text": "The total market value of all outstanding shares",
+        "correct": false
+      },
+      {
+        "text": "The amount of retained earnings available for dividends",
+        "correct": false
+      },
+      {
+        "text": "The sum of common stock and preferred stock at market value",
+        "correct": false
+      }
     ],
-    "explanation": "Legal capital generally equals the par value (or stated value for no-par stock) of all issued shares. It represents a buffer of capital that cannot be distributed to shareholders as dividends, protecting creditors."
+    "explanation": "法定資本は通常、発行済株式の額面（または無額面株式の設定価額）に等しい。これは債権者を保護するため、配当として分配できない資本の緩衝材を表す。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation has net income of 2,000,000 yen and 100,000 weighted-average common shares outstanding. It also has 10,000 shares of 8% cumulative preferred stock (par 1,000 yen). EPS is:",
     "options": [
-      {"text": "12 yen", "correct": true},
-      {"text": "20 yen", "correct": false},
-      {"text": "11.20 yen", "correct": false},
-      {"text": "18 yen", "correct": false}
+      {
+        "text": "12 yen",
+        "correct": true
+      },
+      {
+        "text": "20 yen",
+        "correct": false
+      },
+      {
+        "text": "11.20 yen",
+        "correct": false
+      },
+      {
+        "text": "18 yen",
+        "correct": false
+      }
     ],
-    "explanation": "Preferred dividends = 10,000 x 1,000 x 8% = 800,000. EPS = (Net Income - Preferred Dividends) / Weighted Average Shares = (2,000,000 - 800,000) / 100,000 = 12 yen per share."
+    "explanation": "優先配当 = 10,000 x 1,000 x 8% = 800,000。1株当たり利益 =（当期純利益 - 優先配当）/ 加重平均株式数 =（2,000,000 - 800,000）/ 100,000 = 12円/株。"
   },
   {
     "category": "Corporation Accounting",
     "question": "A corporation donates treasury stock to employees as a bonus. The stock cost 600 yen per share and the market value is 800 yen. The appropriate entry is:",
     "options": [
-      {"text": "(Debit) Compensation Expense 800,000 / (Credit) Treasury Stock 600,000 / (Credit) APIC 200,000", "correct": true},
-      {"text": "(Debit) Compensation Expense 600,000 / (Credit) Treasury Stock 600,000", "correct": false},
-      {"text": "(Debit) Retained Earnings 800,000 / (Credit) Treasury Stock 800,000", "correct": false},
-      {"text": "(Debit) Compensation Expense 800,000 / (Credit) Common Stock 800,000", "correct": false}
+      {
+        "text": "(Debit) Compensation Expense 800,000 / (Credit) Treasury Stock 600,000 / (Credit) APIC 200,000",
+        "correct": true
+      },
+      {
+        "text": "(Debit) Compensation Expense 600,000 / (Credit) Treasury Stock 600,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Retained Earnings 800,000 / (Credit) Treasury Stock 800,000",
+        "correct": false
+      },
+      {
+        "text": "(Debit) Compensation Expense 800,000 / (Credit) Common Stock 800,000",
+        "correct": false
+      }
     ],
-    "explanation": "Donated treasury stock is recorded at fair market value as compensation expense. Treasury Stock is credited at cost, and the difference goes to APIC. The market value reflects the true cost of the compensation to the company."
+    "explanation": "寄贈された自己株式は公正時価で報酬費用として記録される。自己株式は原価で貸方記述し、差額はAPICに貸方記述。時価は会社にとっての報酬の真のコストを反映する。"
   }
 ]
